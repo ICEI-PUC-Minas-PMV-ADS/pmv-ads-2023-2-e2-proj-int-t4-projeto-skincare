@@ -1,6 +1,6 @@
 # TÍTULO DO PROJETO
 
-``Análise e Desenvolvimento de Sistemas `
+`Análise e Desenvolvimento de Sistemas `
 
 `DISCIPLINA`
 
