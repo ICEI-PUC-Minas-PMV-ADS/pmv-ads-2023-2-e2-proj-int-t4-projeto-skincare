@@ -29,7 +29,7 @@ Objetivos específicos:
 A indústria de beleza e skincare tem demonstrado um notável crescimento, refletindo um aumento significativo no interesse e na conscientização dos consumidores em relação aos cuidados com a pele. 
 De acordo com a Associação Brasileira da Indústria, Higiene Pessoal, Perfumaria e Cosméticos (ABIHPEC), somente nos últimos cinco anos (2018-2022), o crescimento desse setor foi de 560% em relação aos períodos anteriores.
 
-Diante desse contexto, criar um aplicativo de cuidados com a pele nos coloca em uma posição favorável para atender à crescente demanda por esses serviços. Iremos proporcionar acesso instantâneo a rotinas personalizadas e sugestões de produtos. Com essa abordagem, estamos efetivamente tornando o processo de conquistar uma pele saudável e bem-cuidada muito mais acessível e eficaz.
+Diante desse contexto, criar uma aplicação de cuidados com a pele nos coloca em uma posição favorável para atender à crescente demanda por esses serviços. Iremos proporcionar acesso instantâneo a rotinas personalizadas e sugestões de produtos. Com essa abordagem, estamos efetivamente tornando o processo de conquistar uma pele saudável e bem-cuidada muito mais acessível e eficaz.
 
 ## Público-Alvo
 
