@@ -16,21 +16,20 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo desse projeto é desenvolver uma aplicação que simplifique  o acesso a rotinas de cuidados com a pele altamente personalizadas, baseadas em informações específicas fornecidas pelos usuários, como tipo de pele, preocupações individuais e preferências pessoais.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Objetivos específicos:
+- Explicar as funções de cada componente presente nos produtos, capacitando os usuários a reconhecer e compreender os ingredientes específicos que são benéficos e compatíveis com suas necessidades individuais;
+- Oferecer recomendações de produtos de cuidados com a pele, garantindo que essas sugestões abranjam uma diversidade de tipos de pele e suas preferências.
+
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A indústria de beleza e skincare tem demonstrado um notável crescimento, refletindo um aumento significativo no interesse e na conscientização dos consumidores em relação aos cuidados com a pele. 
+De acordo com a Associação Brasileira da Indústria, Higiene Pessoal, Perfumaria e Cosméticos (ABIHPEC), somente nos últimos cinco anos (2018-2022), o crescimento desse setor foi de 560% em relação aos períodos anteriores.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Diante desse contexto, criar um aplicativo de cuidados com a pele nos coloca em uma posição favorável para atender à crescente demanda por esses serviços. Iremos proporcionar acesso instantâneo a rotinas personalizadas e sugestões de produtos. Com essa abordagem, estamos efetivamente tornando o processo de conquistar uma pele saudável e bem-cuidada muito mais acessível e eficaz.
 
 ## Público-Alvo
 
