@@ -1,6 +1,6 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+``Análise e Desenvolvimento de Sistemas `
 
 `DISCIPLINA`
 
@@ -10,14 +10,16 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
 
+* [Alissa Nishihara](https://github.com/alissacn)
+* [Fernanda Bandeira](https://github.com/NandaPinheiro)
+* [Igor Carvalho](https://github.com/igorcximenes)
+* [Maria Teresa Abreu](https://github.com/teresoumaria)
+
+  
 ## Orientador
 
-* Nome completo do professor 1
+* * Carlos Alberto Marques Pietrobon
 
 ## Instruções de utilização
 
