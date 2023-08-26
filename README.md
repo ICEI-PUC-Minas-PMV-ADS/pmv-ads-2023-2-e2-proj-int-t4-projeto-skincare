@@ -19,7 +19,7 @@
   
 ## Orientador
 
-* * Carlos Alberto Marques Pietrobon
+* Carlos Alberto Marques Pietrobon
 
 ## Instruções de utilização
 
