@@ -19,9 +19,11 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 O objetivo desse projeto é desenvolver uma aplicação que simplifique  o acesso a rotinas de cuidados com a pele altamente personalizadas, baseadas em informações específicas fornecidas pelos usuários, como tipo de pele, preocupações individuais e preferências pessoais.
 
 Objetivos específicos:
-- Explicar as funções de cada componente presente nos produtos, capacitando os usuários a reconhecer e compreender os ingredientes específicos que são benéficos e compatíveis com suas necessidades individuais;
-- Oferecer recomendações de produtos de cuidados com a pele, garantindo que essas sugestões abranjam uma diversidade de tipos de pele e suas preferências.
 
+- Disponibilizar um questionário para determinar recomendações de cuidados ajustadas ao tipo de pele e às necessidades individuais do usuário;
+- Permitir que os usuários salvem suas rotinas e produtos favoritos, facilitando o acesso a essas informações;
+- Fornecer recursos educativos para capacitação dos usuários na identificação e compreensão de ingredientes compatíveis com suas necessidades pessoais;
+- Apresentar sugestões de produtos para cuidados com a pele.
  
 
 ## Justificativa
@@ -29,7 +31,7 @@ Objetivos específicos:
 A indústria de beleza e skincare tem demonstrado um notável crescimento, refletindo um aumento significativo no interesse e na conscientização dos consumidores em relação aos cuidados com a pele. 
 De acordo com a Associação Brasileira da Indústria, Higiene Pessoal, Perfumaria e Cosméticos (ABIHPEC), somente nos últimos cinco anos (2018-2022), o crescimento desse setor foi de 560% em relação aos períodos anteriores.
 
-Diante desse contexto, criar uma aplicação de cuidados com a pele nos coloca em uma posição favorável para atender à crescente demanda por esses serviços. Iremos proporcionar acesso instantâneo a rotinas personalizadas e sugestões de produtos. Com essa abordagem, estamos efetivamente tornando o processo de conquistar uma pele saudável e bem-cuidada muito mais acessível e eficaz.
+Diante desse contexto, criar uma aplicação de cuidados com a pele nos coloca em uma posição favorável para atender à crescente demanda por esses serviços. Iremos proporcionar acesso instantâneo a rotinas personalizadas e sugestões de produtos, tornando o processo de conquistar uma pele saudável e bem-cuidada muito mais acessível e eficaz.
 
 ## Público-Alvo
 
