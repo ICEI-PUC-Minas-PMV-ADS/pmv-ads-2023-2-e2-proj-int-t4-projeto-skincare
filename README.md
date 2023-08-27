@@ -6,7 +6,7 @@
 
 `2º SEMESTRE`
 
-O objetivo deste projeto é criar um site de skincare que sirva como um guia confiável e informativo para cuidados com a pele. Nosso site oferecerá informações detalhadas sobre ativos e produtos específicos para cada tipo de pele, problemas comuns e rotinas personalizadas. Buscamos simplificar o mundo dos cuidados com a pele, fornecendo recomendações embasadas e dicas práticas, garantindo que todos possam alcançar uma pele saudável por meio de escolhas informadas.
+O objetivo deste projeto é criar um site de skincare que sirva como um guia confiável e informativo para cuidados com a pele. Nosso site oferecerá informações detalhadas sobre ativos, produtos específicos para cada tipo de pele e rotinas personalizadas. Buscamos simplificar o mundo dos cuidados com a pele, fornecendo recomendações embasadas e dicas práticas, garantindo que todos possam alcançar uma pele saudável por meio de escolhas informadas.
 
 
 
