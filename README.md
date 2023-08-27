@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# SOFT CARE PROGRAM
 
 `Análise e Desenvolvimento de Sistemas `
 
@@ -10,7 +10,8 @@ O objetivo deste projeto é criar um site de skincare que sirva como um guia con
 
 
 
-## Integrantes
+## Integrantes![Captura_de_tela_2023-08-27_172432-removebg-preview](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/9f7be196-d67b-4c20-a454-faa0bdd52d8d)
+
 
 
 * [Alissa Nishihara](https://github.com/alissacn)
