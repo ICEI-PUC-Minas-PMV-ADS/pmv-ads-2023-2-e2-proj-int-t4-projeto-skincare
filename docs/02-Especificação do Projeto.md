@@ -6,9 +6,12 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+|Nome persona  | Informações:                          |                                      |
+|--------------------|----------------------------------|--------------------------------------|
+| <img width="346" alt="Capture" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/6211ff70-c9c9-4008-84a8-63dc3a145ba1"> | **Idade:**  <br> **Ocupação:**  |**Tipo de pele:** <br>●   |
+|**Frustações:** <br>●	 |**Dificuldades:** <br>●	Dificuldades que as pessoas enfrentam ao cuidar da pele: |**Hobbies, História:** <br>●  |
+
 
 
 ## Histórias de Usuários
