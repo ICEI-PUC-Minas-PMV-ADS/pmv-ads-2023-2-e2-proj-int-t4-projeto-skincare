@@ -1,16 +1,17 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+As pesquisas para embasamento e desenvolvimento da historias que dão origem ao projeto, foram retiradas da internet, onde analisamos e obtivemos os resultados a cerca do assunto a ser tratado. 
+Para criação das personas/publico-alvo, foram decididos os detalhes através de debates com os membros da equipe e as pesquisas que foram feitas. 
+
 
 ## Personas
 
 
-|Nome persona  | Informações:                          | **Tipo de pele:**                                    |
+|Nome persona  | Informações:                          | **Tipo de pele:**                          |     
 |--------------------|----------------------------------|--------------------------------------|
-| <img width="346" alt="Capture" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/6211ff70-c9c9-4008-84a8-63dc3a145ba1"> | **Idade:**  <br> **Ocupação:**  |<br>●   |
-|**Frustações:** <br>●	 |**Dificuldades:** <br>●	Dificuldades que as pessoas enfrentam ao cuidar da pele: |**Hobbies, História:** <br>●  |
+| <img width="346" alt="Capture" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/6211ff70-c9c9-4008-84a8-63dc3a145ba1"> | **Idade:** 26 <br> **Ocupação:** Estudante e estagiária. Atualmente cursando psicologia e estagiando em uma empresa privada.  |<br>● Eudemica a seca      |
+|**Motivação:** <br>●	Preocupação com envelhecimento <br>●Manchas na pele |**Dificuldades:** <br>●	Dificuldades que as pessoas enfrentam ao cuidar da pele: |**Hobbies,História:** <br>● Jéssica, uma jovem adulta de 26 anos, possui uma rotina cheia, com uso intenso de maquiagem e com pouco tempo livre para cuidados consigo mesma. Devido a isso, a mesma busca uma forma de iniciar seus cuidados com a pele visto que isso a incomoda.  |
 
 
 
