@@ -1,4 +1,4 @@
-**Especificação do Projeto**
+## Especificação do Projeto
 
 As pesquisas para embasamento e desenvolvimento da historias que dão origem ao projeto, foram retiradas da internet, onde analisamos e obtivemos os resultados a cerca do assunto a ser tratado. 
 Para criação das personas/publico-alvo, foram decididos os detalhes através de debates com os membros da equipe e as pesquisas que foram feitas. 
