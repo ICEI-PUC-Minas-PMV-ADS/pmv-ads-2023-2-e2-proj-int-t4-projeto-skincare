@@ -1,5 +1,4 @@
-![mulher-jovem-e-bonita-com-acne](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/aa41a457-550c-4d8a-aaf4-ed0a1a02c6aa)# Especificações do Projeto
-
+**Especificação do Projeto**
 
 As pesquisas para embasamento e desenvolvimento da historias que dão origem ao projeto, foram retiradas da internet, onde analisamos e obtivemos os resultados a cerca do assunto a ser tratado. 
 Para criação das personas/publico-alvo, foram decididos os detalhes através de debates com os membros da equipe e as pesquisas que foram feitas. 
