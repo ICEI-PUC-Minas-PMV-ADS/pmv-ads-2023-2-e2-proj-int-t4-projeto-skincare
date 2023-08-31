@@ -84,6 +84,17 @@ Lembre-se que cada requisito deve corresponder à uma e somente uma
 característica alvo da sua solução. Além disso, certifique-se de que
 todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
+
+## Regras de negócio
+A tabela a seguir apresenta as regras de negócio desse projeto.
+|ID| Regras                                            |
+|--|-------------------------------------------------------|
+|01| O cadastro de novos usuários será finalizado somente após o preenchimento de todos os campos obrigatórios, e a confirmação de que o usuário possui no mínimo 16 anos de idade.|
+|02| Cada usuário terá a capacidade de criar até 3 rotinas por mês. Após a criação das 3 rotinas, será necessário aguardar até o próximo mês para gerar mais.       |
+|03| Os usuários podem incluir até 5 produtos na lista de favoritos. Para adicionar mais produtos, será preciso remover um item da lista, criando espaço para novas adições.  |
+
+
+
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
