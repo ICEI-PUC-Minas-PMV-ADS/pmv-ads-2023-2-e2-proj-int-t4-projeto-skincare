@@ -29,7 +29,7 @@ Objetivos específicos:
 
 ## Justificativa
 
-Com inúmeras opções de produtos e informações disponíveis, as pessoas frequentemente se sentem perdidas ao montar suas rotinas de skincare. Além disso, a falta de conhecimento sobre quais ingredientes e produtos são mais adequados para diferentes tipos de pele pode levar a escolhas inadequadas e insatisfatórias. Nesse contexto, a criação da nossa aplicação se torna essencial, pois visa preencher essa lacuna ao fornecer orientações personalizadas e confiáveis. Ao simplificar a seleção de produtos e oferecer informações claras sobre os melhores ingredientes para cada necessidade, nossa plataforma se propõe a tornar os cuidados com a pele acessíveis e eficazes para todos, melhorando a saúde e a confiança na aparência da pele.
+Com inúmeras opções de produtos e informações disponíveis no mercado, as pessoas frequentemente se sentem perdidas ao montar suas rotinas de skincare. Além disso, a falta de conhecimento sobre quais ingredientes e produtos são mais adequados para diferentes tipos de pele pode levar a escolhas inadequadas e insatisfatórias. Nesse contexto, a criação da nossa aplicação se torna essencial, pois visa preencher essa lacuna ao fornecer orientações personalizadas e confiáveis. Ao simplificar a seleção de produtos e oferecer informações claras sobre os melhores ingredientes para cada necessidade, nossa plataforma se propõe a tornar os cuidados com a pele acessíveis e eficazes para todos, melhorando a saúde e a confiança na aparência da pele.
 
 ## Público-Alvo
 
