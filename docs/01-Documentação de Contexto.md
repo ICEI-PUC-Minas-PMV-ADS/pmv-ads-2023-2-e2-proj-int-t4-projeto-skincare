@@ -23,8 +23,7 @@ Objetivos específicos:
 
 - Disponibilizar um questionário para determinar recomendações de cuidados ajustadas ao tipo de pele e às necessidades individuais do usuário;
 - Permitir que os usuários salvem suas rotinas e produtos favoritos, facilitando o acesso a essas informações;
-- Fornecer recursos educativos para capacitação dos usuários na identificação e compreensão de ingredientes compatíveis com suas necessidades pessoais;
-- Apresentar sugestões de produtos para cuidados com a pele.
+- Fornecer recursos educativos para capacitação dos usuários na identificação e compreensão de ingredientes compatíveis com suas necessidades pessoais.
  
 
 ## Justificativa
