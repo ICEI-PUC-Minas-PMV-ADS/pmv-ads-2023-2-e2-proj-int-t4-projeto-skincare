@@ -27,7 +27,7 @@ Objetivos específicos:
  
 
 ## Justificativa
-De acordo com a Associação Brasileira da Indústria, Higiene Pessoal, Perfumaria e Cosméticos (ABIHPEC), somente nos últimos cinco anos (2018-2022), o crescimento desse setor foi de 560% em relação aos períodos anteriores. 
+De acordo com a Associação Brasileira da Indústria, Higiene Pessoal, Perfumaria e Cosméticos [(ABIHPEC)](https://mercadoeconsumo.com.br/30/04/2023/economia/brasil-ja-e-o-quarto-maior-mercado-de-beleza-no-mundo/), somente nos últimos cinco anos (2018-2022), o crescimento desse setor foi de 560% em relação aos períodos anteriores. 
 
 Diante desse contexto, nosso site surge para suprir a necessidade de orientação personalizada em cuidados com a pele. Ao oferecer informações educativas sobre princípios e ingredientes, juntamente com um questionário direcionado, ajudaremos os usuários a tomar decisões informadas e adaptadas às suas necessidades.
 
