@@ -27,8 +27,9 @@ Objetivos específicos:
  
 
 ## Justificativa
+De acordo com a Associação Brasileira da Indústria, Higiene Pessoal, Perfumaria e Cosméticos (ABIHPEC), somente nos últimos cinco anos (2018-2022), o crescimento desse setor foi de 560% em relação aos períodos anteriores. 
 
-Com inúmeras opções de produtos e informações disponíveis no mercado, as pessoas frequentemente se sentem perdidas ao montar suas rotinas de skincare. Além disso, a falta de conhecimento sobre quais ingredientes e produtos são mais adequados para diferentes tipos de pele pode levar a escolhas inadequadas e insatisfatórias. Nesse contexto, a criação da nossa aplicação se torna essencial, pois visa preencher essa lacuna ao fornecer orientações personalizadas e confiáveis. Ao simplificar a seleção de produtos e oferecer informações claras sobre os melhores ingredientes para cada necessidade, nossa plataforma se propõe a tornar os cuidados com a pele acessíveis e eficazes para todos, melhorando a saúde e a confiança na aparência da pele.
+Diante desse contexto, nosso site surge para suprir a necessidade de orientação personalizada em cuidados com a pele. Ao oferecer informações educativas sobre princípios e ingredientes, juntamente com um questionário direcionado, ajudaremos os usuários a tomar decisões informadas e adaptadas às suas necessidades.
 
 ## Público-Alvo
 
