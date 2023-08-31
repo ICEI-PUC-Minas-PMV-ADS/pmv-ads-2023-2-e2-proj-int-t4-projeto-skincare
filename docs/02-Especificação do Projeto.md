@@ -10,7 +10,7 @@ Para criação das personas/publico-alvo, foram decididos os detalhes através d
 
 |Jéssica Rodrigues  | Informações:                          | **Tipo de pele:**                          |     
 |--------------------|----------------------------------|--------------------------------------|
-| <img width="346" alt="Capture" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/6211ff70-c9c9-4008-84a8-63dc3a145ba1"> | **Idade:** 26 <br> **Ocupação:** Estudante e estagiária. Atualmente cursando psicologia e estagiando em uma empresa privada.  |<br>● Eudemica a seca      |
+| <img width="346" alt="Capture" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/6211ff70-c9c9-4008-84a8-63dc3a145ba1"> | **Idade:** 26 <br> **Ocupação:** Estudante e estagiária. Atualmente cursando psicologia e estagiando em uma empresa privada.  |<br>● Eudérmica a seca      |
 |**Frustações:** <br>●	Preocupação com envelhecimento <br>●Manchas na pele |**Desafios:** <br>●	Orçamento limitado e falta de tempo. |**Hobbies,História:** <br>● Jéssica, uma jovem adulta de 26 anos, possui uma rotina cheia, com uso intenso de maquiagem e com pouco tempo livre para cuidados consigo mesma. Devido a isso, a mesma busca uma forma de iniciar seus cuidados com a pele visto que isso a incomoda.  |
 
 
