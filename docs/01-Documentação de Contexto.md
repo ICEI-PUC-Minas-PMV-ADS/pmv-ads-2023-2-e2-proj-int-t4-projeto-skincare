@@ -18,7 +18,7 @@ Nossa aplicação tem como objetivo orientar o público a quais produtos usar e 
 
 ## Objetivos
 
-O objetivo desse projeto é desenvolver uma aplicação que simplifique  o acesso a rotinas de cuidados com a pele altamente personalizadas, baseadas em informações específicas fornecidas pelos usuários, como tipo de pele, preocupações individuais e preferências pessoais.
+O objetivo deste projeto é criar uma  aplicação que forneça rotinas de cuidados com a pele personalizadas para cada usuário. Ao simplificar a escolha de produtos e etapas, nosso objetivo é dar orientações claras para que os usuários obtenham melhores resultados nos cuidados com a pele.
 
 Objetivos específicos:
 
