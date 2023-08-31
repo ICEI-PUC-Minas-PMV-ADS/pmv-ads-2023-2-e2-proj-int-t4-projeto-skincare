@@ -17,7 +17,7 @@ Adotar uma rotina de skincare, apesar de seus inúmeros benefícios, pode se rev
 Nossa aplicação tem como objetivo orientar o público a quais produtos usar e a criar a sua rotina personalizada de skincare
 
 ## Objetivos
-O propósito deste projeto é desenvolver uma solução que simplifique os cuidados com a pele. Buscamos fornecer aos usuários orientações práticas e personalizadas para construir rotinas eficazes, superando os desafios de escolha de produtos e assegurando uma pele saudável e bem cuidada, adaptada às necessidades individuais de cada pessoa.
+O propósito deste projeto é desenvolver uma solução que simplifique os cuidados com a pele. Buscamos fornecer aos usuários orientações práticas e personalizadas para construir rotinas eficazes, assegurando uma pele saudável e bem cuidada, adaptada às necessidades individuais de cada pessoa.
 
 Objetivos específicos:
 
