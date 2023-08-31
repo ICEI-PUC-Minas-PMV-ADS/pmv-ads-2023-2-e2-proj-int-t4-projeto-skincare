@@ -29,10 +29,7 @@ Objetivos específicos:
 
 ## Justificativa
 
-A indústria de beleza e skincare tem demonstrado um notável crescimento, refletindo um aumento significativo no interesse e na conscientização dos consumidores em relação aos cuidados com a pele. 
-De acordo com a Associação Brasileira da Indústria, Higiene Pessoal, Perfumaria e Cosméticos (ABIHPEC), somente nos últimos cinco anos (2018-2022), o crescimento desse setor foi de 560% em relação aos períodos anteriores.
-
-Diante desse contexto, criar uma aplicação de cuidados com a pele nos coloca em uma posição favorável para atender à crescente demanda por esses serviços. Iremos proporcionar acesso instantâneo a rotinas personalizadas e sugestões de produtos, tornando o processo de conquistar uma pele saudável e bem-cuidada muito mais acessível e eficaz.
+Com inúmeras opções de produtos e informações disponíveis, as pessoas frequentemente se sentem perdidas ao montar suas rotinas de skincare. Além disso, a falta de conhecimento sobre quais ingredientes e produtos são mais adequados para diferentes tipos de pele pode levar a escolhas inadequadas e insatisfatórias. Nesse contexto, a criação da nossa aplicação se torna essencial, pois visa preencher essa lacuna ao fornecer orientações personalizadas e confiáveis. Ao simplificar a seleção de produtos e oferecer informações claras sobre os melhores ingredientes para cada necessidade, nossa plataforma se propõe a tornar os cuidados com a pele acessíveis e eficazes para todos, melhorando a saúde e a confiança na aparência da pele.
 
 ## Público-Alvo
 
