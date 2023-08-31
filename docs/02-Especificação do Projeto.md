@@ -77,12 +77,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet ([Repl.it](http://repl.it/), GitHub Pages, Heroku). | MÉDIA | 
 |RNF-002| O site deve ser responsivo, adaptando-se automaticamente a diferentes tamanhos de tela e dispositivos móveis. |  ALTA | 
-|RNF-002| O sistema deve ser multiplataforma – Windows, Linux e macOS. |  ALTA | 
-|RNF-002| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). |  ALTA | 
-|RNF-002| O sistema deve funcionar 24h por dia, todos os dias da semana. |  MÉDIA | 
-|RNF-002| A aplicação deve implementar protocolos de segurança para proteger os dados pessoais dos usuários. |  ALTA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-002| A interface do usuário deve ser intuitiva e de fácil navegação, que permita aos usuários encontrarem facilmente os tópicos de interesse. |  ALTA | 
+|RNF-003| O sistema deve ser multiplataforma – Windows, Linux e macOS. |  ALTA | 
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). |  ALTA | 
+|RNF-005| O sistema deve funcionar 24h por dia, todos os dias da semana. |  MÉDIA | 
+|RNF-006| A aplicação deve implementar protocolos de segurança para proteger os dados pessoais dos usuários. |  ALTA | 
+|RNF-007| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-008| A interface do usuário deve ser intuitiva e de fácil navegação, que permita aos usuários encontrarem facilmente os tópicos de interesse. |  ALTA | 
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
