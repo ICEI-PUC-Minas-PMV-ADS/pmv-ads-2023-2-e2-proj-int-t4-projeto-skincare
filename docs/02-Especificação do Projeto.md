@@ -59,15 +59,31 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve incluir uma página de login | ALTA | 
+|RF-002| O site deve conter uma área para fazer cadastro de novos usuários   | ALTA |
+|RF-003| O site deve conter um questionário com perguntas sobre o tipo de pele do usuário e suas preferencias   | ALTA |
+|RF-004| O site deve gerar uma rotina de skincare de acordo com as informações obtidas no questionário   | ALTA |
+|RF-005| A aplicação deve permitir que o usuário favorite os produtos de sua escolha   | MÉDIA |
+|RF-006| A aplicação deve incluir do perfil do usuário uma lista de produtos marcados como favorito   | MÉDIA |
+|RF-007| A aplicação deve possibilitar ao usuário excluir a própria conta   | MÉDIA |
+|RF-008| A aplicação deve permitir que o usuário desfavorite seus produtos   | MÉDIA |
+|RF-009| A aplicação deve incluir no perfil do usuário todas as rotinas geradas   | MÉDIA |
+|RF-010| A aplicação deve permitir que o usuário delete suas rotinas   | MÉDIA |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet ([Repl.it](http://repl.it/), GitHub Pages, Heroku). | MÉDIA | 
+|RNF-002| O site deve ser responsivo, adaptando-se automaticamente a diferentes tamanhos de tela e dispositivos móveis. |  ALTA | 
+|RNF-002| O sistema deve ser multiplataforma – Windows, Linux e macOS. |  ALTA | 
+|RNF-002| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). |  ALTA | 
+|RNF-002| O sistema deve funcionar 24h por dia, todos os dias da semana. |  MÉDIA | 
+|RNF-002| A aplicação deve implementar protocolos de segurança para proteger os dados pessoais dos usuários. |  ALTA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-002| A interface do usuário deve ser intuitiva e de fácil navegação, que permita aos usuários encontrarem facilmente os tópicos de interesse. |  ALTA | 
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -103,6 +119,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
+|02| A equipe não deve subcontratar o desenvolvimento do trabalho.      |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
