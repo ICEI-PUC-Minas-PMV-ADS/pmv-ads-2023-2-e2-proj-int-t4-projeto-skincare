@@ -19,17 +19,16 @@ Nossa aplicação tem como objetivo orientar o público a quais produtos usar e 
 ## Objetivos
 O objetivo desse projeto é desenvolver uma solução que simplifique os cuidados com a pele, fornecendo aos usuários orientações práticas e personalizadas para construir rotinas eficazes, adaptada às necessidades individuais de cada pessoa.
 
-Destacamos que nosso site não se destina a fornecer tratamento médico, e em situações que demandam esses cuidados, recomendamos consultar um profissional de saúde qualificado.
-
 Objetivos específicos:
 
 - Disponibilizar um questionário para determinar recomendações de cuidados ajustadas ao tipo de pele do usuário;
+- Fornecer informações sobre os ingredientes benéficos para a pele;
 - Permitir que os usuários salvem suas rotinas e produtos favoritos;
-- Fornecer recursos educativos que capacitam os usuários a compreender os fundamentos dos cuidados com a pele, e os componentes ativos presentes nos produtos.
+- Fornecer recursos educativos que capacitam os usuários a compreender os fundamentos dos cuidados com a pele.
  
 
 ## Justificativa
-Diante do crescimento contínuo na indústria de beleza, nosso site surge para fornecer informações educativas sobre cuidados com a pele, atendendo à demanda por personalização. Com um questionário adaptado, buscamos oferecer recomendações sob medida para o tipo de pele e necessidades individuais dos usuários, aproveitando o dinamismo desse setor em expansão.
+Diante do crescimento contínuo na indústria de beleza, nosso site surge para fornecer informações educativas sobre cuidados com a pele, atendendo à uma crescente demanda por personalização e a busca por produtos de beleza e pele. Com um questionário adaptado, buscamos oferecer recomendações sob medida para o tipo de pele e necessidades individuais dos usuários, aproveitando o dinamismo desse setor em expansão.
 
 ## Público-Alvo
 
