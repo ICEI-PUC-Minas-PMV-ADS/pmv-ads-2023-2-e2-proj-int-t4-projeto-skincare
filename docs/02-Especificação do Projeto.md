@@ -46,8 +46,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|ANNE   | Guardar as minhas rotinas de cuidados com a pele         | Para acessá-las a qualquer momento e facilitar a minha rotina  |
-ANNE        |Cuidados com a pele recomendados para fumantes      | Para tratar os danos na pele decorrentes do consumo de cigarros |
+|ANNE   | Guardar as minhas rotinas de cuidados com a pele         | Para acessá-las a qualquer momento e facilitar a minha rotina.  |
+ANNE        |Cuidados com a pele recomendados para fumantes      | Para tratar os danos na pele decorrentes do consumo de cigarros. |
 |Chris   | Conseguir salvar produtos recomendados       | Para criar uma lista personalizada de produtos que  desejo experimentar ou comprar no futuro. |
 Chris        | Sugestões de cuidados eficazes para o melasma  | Para minimizar essas machas e tomar os devidos cuidados no dia a dia. |
 |Jéssica Pereira  | Rotinas de cuidados para a pele com rugas e linhas de expressão       | Para reduzir os primeiros sinais do envelhecimento. |
@@ -106,7 +106,7 @@ A tabela a seguir apresenta as regras de negócio desse projeto.
 |01| O cadastro de novos usuários será finalizado somente após o preenchimento de todos os campos obrigatórios, e a confirmação de que o usuário possui no mínimo 16 anos de idade.|
 |02| Cada usuário terá a capacidade de criar até 3 rotinas por mês. Após a criação das 3 rotinas, será necessário aguardar até o próximo mês para gerar mais.       |
 |03| Os usuários podem incluir até 5 produtos na lista de favoritos. Para adicionar mais produtos, será preciso remover um item da lista, criando espaço para novas adições. |
-|04| A rotina gerada não recomendará marcas de produtos específicos para o usuário, uma vez que a escolha é altamente personalizada e influenciada por uma ampla variedade de fatores, incluindo orçamento e preferências individuais. |
+|04| A rotina gerada não incluirá recomendações de marcas de produtos específicos para o usuário, visto que a escolha é altamente personalizada e influenciada pelo orçamento e pelas preferências individuais. |
 |05| Esta plataforma não substitui, em hipótese alguma, a consulta médica adequada quando se trata de problemas dermatológicos mais complexos ou condições médicas específicas. |
 
 
