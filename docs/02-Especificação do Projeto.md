@@ -70,7 +70,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| O site deve incluir uma página de login | ALTA | 
 |RF-002| O site deve conter uma área para fazer cadastro de novos usuários   | ALTA |
-|RF-003| O site deve conter um questionário com perguntas sobre o tipo de pele do usuário e suas preferencias   | ALTA |
+|RF-003| O site deve conter no questionário perguntas sobre o tipo de pele do usuário e suas preferencias   | ALTA |
 |RF-004| O site deve gerar uma rotina de skincare e  permitir que o usuário delete as mesmas (CRUD) | ALTA |
 |RF-005| A aplicação deve permitir que o usuário favorite e desfavorite os produtos de sua escolha   | MÉDIA |
 |RF-006| A aplicação deve incluir no perfil do usuário todas as rotinas geradas| MÉDIA |
