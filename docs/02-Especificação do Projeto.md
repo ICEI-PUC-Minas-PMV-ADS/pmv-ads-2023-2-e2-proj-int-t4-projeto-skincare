@@ -46,16 +46,15 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|ANNE   | Registrar os cuidados para seu tipo de pele         | Para garantir o tratamento da mesma           |
-ANNE        |produtos e procedimentos para quem tem problemas com tabagismo         | saber como tratar os danos causados pelo consumo do cigarro |
-|Chris   | Vitaminas e produtos para pele seca          | Para diminuir os sinais da idade e hidratar sua pele              |
-Chris        | Tratamento para manchas de melasma            | Eliminar manchas causadas pelo sol e tomar os devidos cuidados no dia a dia. |
-|Jéssica Pereira  | Gerar rotina de skin care e limpeza de pele         | Praticidade nos cuidados do dia a dia              |
-Jéssica Pereira        | Saber o seu tipo de pele                  |  Para saber quais produtos especificos são para seu tipo de pele|
-|Raquel   | Rotinas intensivas e produtos para inflamações e acnes no rosto        | para eliminar as agressões e dores causadas pelo surgimento das acnes              |
-Raquel       | Contato com profissional               | |Para melhor auxilio no tratamento e suporte posterior  |
-Samuel  | saber remover manchas da pele        | para menor incômodo ou piora no caso            |
-Samuel     | procedimentos para Diminuir oleosidade da pele               | para mais conforto e diminuição das espinhas  |
+|ANNE   | Guardar as minhas rotinas de cuidados com a pele         | Para acessá-las a qualquer momento e facilitar a minha rotina  |
+ANNE        |Cuidados com a pele recomendados para fumantes      | Para tratar os danos na pele decorrentes do consumo de cigarros |
+|Chris   | Conseguir salvar produtos recomendados       | Para criar uma lista personalizada de produtos que  desejo experimentar ou comprar no futuro. |
+Chris        | Sugestões de cuidados eficazes para o melasma  | Para minimizar essas machas e tomar os devidos cuidados no dia a dia. |
+|Jéssica Pereira  | Rotinas de cuidados para a pele com rugas e linhas de expressão       | Para reduzir os primeiros sinais do envelhecimento. |
+Jéssica Pereira        | Descobrir o meu tipo de pele  |  Para identificar com facilidade os produtos adequados às minhas necessidades específicas.|
+|Raquel   | Uma Rotina para reduzir inflamações e acne no rosto  |Para eliminar desconfortos e dores causados pelo aparecimento das espinhas.|
+Samuel  |Entender melhor o papel de cada ativo nos produtos de skincare |Para compreender a maneira apropriada e o momento adequado de aplicar produtos, bem como identificar quais produtos não devem ser usados em conjunto. |
+Samuel     | Cuidados para reduzir a oleosidade da pele | Para reduzir o aparecimento de espinhas e controlar o excesso de brilho na minha pele  |
 
 
 
@@ -68,16 +67,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O site deve incluir uma página de login | ALTA | 
-|RF-002| O site deve conter uma área para fazer cadastro de novos usuários   | ALTA |
-|RF-003| O site deve conter no questionário perguntas sobre o tipo de pele do usuário e suas preferencias   | ALTA |
-|RF-004| O site deve gerar uma rotina de skincare e  permitir que o usuário delete as mesmas (CRUD) | ALTA |
-|RF-005| A aplicação deve permitir que o usuário favorite e desfavorite os produtos de sua escolha   | MÉDIA |
-|RF-006| A aplicação deve incluir no perfil do usuário todas as rotinas geradas| MÉDIA |
-|RF-007| | MÉDIA |
-|RF-008|   | MÉDIA |
-|RF-009|  | MÉDIA |
-|RF-010|   | MÉDIA |
+|RF-001| O site deve incluir uma página de login.| ALTA | 
+|RF-002| O site deve conter uma área para fazer cadastro de novos usuários.   | ALTA |
+|RF-003| O sistema deve ser capaz de criar rotinas personalizadas com base nas características da pele do usuário e suas preocupações específicas.| ALTA |
+|RF-004| Os usuários devem poder acessar e modificar suas rotinas salvas a qualquer momento. | MÉDIA |
+|RF-005| A aplicação deve permitir que os usuários favoritem e desfavoritem produtos de sua escolha.| MÉDIA |
+|RF-006| A aplicação deve possibilitar o armazenamento seguro das rotinas geradas pelos usuários, associando-as às contas dos mesmos.| MÉDIA |
+|RF-007| O sistema deve possuir um questionário com perguntas específicas para identificar o tipo de pele dos usuários.|ALTA |
+|RF-008|  A aplicação deve gerar rotinas voltadas para a pele com rugas e linhas de expressão.| MÉDIA |
+|RF-009| O sistema deve fornecer recomendações de rotinas específicas para tratar os danos na pele decorrentes do consumo de cigarros.| MÉDIA |
+|RF-010|  O sistema deve recomendar uma rotina de cuidados para uma pele com  melasma.| MÉDIA |
+|RF-011| A aplicação deve fornecer rotinas eficazes para minimizar o desconforto e a dor associados ao surgimento de espinhas.| MÉDIA |
+|RF-012| A aplicação deve incluir um guia completo que detalhe as funções e benefícios de cada ativo, fornecendo informações detalhadas sobre como usá-los de forma eficaz.|ALTA |
+|RF-013| O sistema deve gerar automaticamente uma mensagem no final do questionário, recomendando ao usuário procurar um especialista, caso identifique que seu problema requer cuidados médicos.|ALTA|
+
 
 
 ### Requisitos não Funcionais
