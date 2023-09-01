@@ -47,7 +47,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |ANNE   | Guardar as minhas rotinas de cuidados com a pele         | Para acessá-las a qualquer momento e facilitar a minha rotina.  |
-ANNE        |Cuidados com a pele recomendados para fumantes      | Para tratar os danos na pele decorrentes do consumo de cigarros. |
+ANNE        |Cuidados com a pele recomendados para fumantes      | Para tratar os danos decorrentes do consumo de cigarros. |
 |Chris   | Conseguir salvar produtos recomendados       | Para criar uma lista personalizada de produtos que  desejo experimentar ou comprar no futuro. |
 Chris        | Sugestões de cuidados eficazes para o melasma  | Para minimizar essas machas e tomar os devidos cuidados no dia a dia. |
 |Jéssica Pereira  | Rotinas de cuidados para a pele com rugas e linhas de expressão       | Para reduzir os primeiros sinais do envelhecimento. |
