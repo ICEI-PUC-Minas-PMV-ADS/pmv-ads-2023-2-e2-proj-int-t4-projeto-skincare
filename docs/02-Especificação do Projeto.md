@@ -72,7 +72,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| O site deve conter uma área para fazer cadastro de novos usuários.   | ALTA |
 |RF-003| O sistema deve ser capaz de criar rotinas personalizadas com base nas características da pele do usuário e suas preocupações específicas.| ALTA |
 |RF-004| A aplicação deve permitir que os usuários acessem e modifiquem suas rotinas salvas a qualquer momento (CRUD). | MÉDIA |
-|RF-005| O sistema deve incluir uma mensagem automática no final do questionário, recomendando que o usuário procure um profissional de saúde caso identifique que seu problema de pele requer cuidados médicos.| ALTA |
+|RF-005| O sistema deve incluir uma mensagem automática no final do questionário, recomendando que o usuário procure um profissional de saúde, caso identifique que seu problema de pele requer cuidados médicos.| ALTA |
 |RF-006| A aplicação deve possibilitar o armazenamento seguro das rotinas geradas pelos usuários, associando-as às contas dos mesmos.| MÉDIA |
 |RF-007| O sistema deve possuir em seu questionário perguntas específicas para identificar o tipo de pele dos usuários.|ALTA |
 |RF-008|  A aplicação deve gerar rotinas voltadas para a pele com rugas e linhas de expressão.| MÉDIA |
