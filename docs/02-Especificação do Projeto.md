@@ -1,3 +1,5 @@
+
+
 ## Especificação do Projeto
 
 As pesquisas para embasamento e desenvolvimento da historias que dão origem ao projeto, foram retiradas da internet, onde analisamos e obtivemos os resultados a cerca do assunto a ser tratado. 
