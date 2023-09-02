@@ -25,7 +25,7 @@ O objetivo desse projeto é desenvolver uma solução que simplifique os cuidado
 Objetivos específicos:
 
 - Disponibilizar um questionário para determinar uma rotina de cuidados personalizada com base nas necessidades do usuário;
-- Fornecer informações e recomendar os ativos apropriados para a sua pele;
+- Fornecer informações e recomendar os ingredientes ativos apropriados para a sua pele;
 - Permitir que os usuários salvem suas rotinas;
 - Fornecer recursos educativos que capacitam os usuários a compreender os fundamentos dos cuidados com a pele.
  
