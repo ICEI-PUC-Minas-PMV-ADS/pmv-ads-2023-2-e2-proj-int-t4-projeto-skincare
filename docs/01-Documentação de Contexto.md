@@ -4,7 +4,7 @@ Nos últimos anos, o universo do skincare no Brasil tem conquistado um destaque 
 
 Skincare, também conhecido como cuidados com a pele, é o conjunto de práticas e produtos destinados a manter, melhorar e proteger a saúde e a aparência da pele humana. Essas práticas englobam uma série de ações, como limpeza, hidratação, proteção solar e uso de produtos específicos, como cremes, loções e soros, com o objetivo de promover uma pele saudável.
  
-O povo brasileiro tem demonstrado um interesse cada vez mais fervoroso em adotar rotinas de skincare que sejam não apenas eficazes, mas também personalizadas. A motivação vai além de tratar apenas problemas pontuais de pele, estendendo-se a uma abordagem preventiva que visa manter a saúde e a vitalidade da pele a longo prazo. Adicionalmente, a influência das redes sociais e a disponibilidade de informações online desempenham um papel crucial na disseminação do conhecimento sobre ingredientes, técnicas e produtos inovadores.
+O povo brasileiro tem demonstrado cada vez mais interesse em adotar rotinas de skincare que sejam não apenas eficazes, mas também personalizadas. A motivação vai além de tratar apenas problemas pontuais de pele, estendendo-se a uma abordagem preventiva que visa manter a saúde e a vitalidade da pele a longo prazo. Adicionalmente, a influência das redes sociais e a disponibilidade de informações online desempenham um papel crucial na disseminação do conhecimento sobre ingredientes, técnicas e produtos inovadores.
 
 De acordo com estatísticas divulgadas pela Associação Brasileira da Indústria de Higiene Pessoal, Perfumaria e Cosméticos (Abihpec), o setor de cuidados com a pele registrou um notável aumento de 161,7% nas vendas durante o período entre janeiro e outubro de 2020, em comparação com o mesmo período no ano anterior. Esse crescimento expressivo demonstra um interesse crescente dos consumidores por produtos de skincare no Brasil.
  
@@ -12,11 +12,11 @@ Outro aspecto de fundamental importância é a rica diversidade que permeia o Br
  
 Em síntese, o skincare no Brasil evoluiu de uma mera rotina de beleza para um movimento que entrelaça cultura, natureza e ciência. A busca incansável pela saúde da pele e pela expressão genuína tem atuado como motor propulsor da indústria, conduzindo-a a inovações contínuas e ao oferecimento de opções cada vez mais personalizadas e eficazes.
 
-Diante disso, entende-se a necessidade de uma aplicação onde auxilie os usuários que criarem sua rotina com orientações de produtos e modo de uso.
+Diante disso, entende-se a necessidade de uma aplicação que auxilie os usuários a criarem sua rotina de cuidados com a pele, oferecendo  orientações sobre  produtos e simplificando o processo de cuidado.
 
 
 ## Problema
-Adotar uma rotina de skincare, apesar de seus inúmeros benefícios, pode se revelar uma tarefa desafiadora para muitos. As dificuldades encontradas no caminho para uma pele saudável muitas vezes surgem de uma combinação de fatores pessoais, influências externas e a vastidão de informações disponíveis.
+Adotar uma rotina de skincare, apesar de seus inúmeros benefícios, pode se revelar uma tarefa desafiadora para muitos. As dificuldades encontradas no caminho para uma pele saudável muitas vezes surgem devido a inúmeras opções de produtos e informações disponíveis no mercado. Além disso, a falta de conhecimento sobre quais ingredientes e produtos são mais adequados para diferentes tipos de pele pode levar a escolhas inadequadas e insatisfatórias.
 
 
 ## Objetivos
@@ -24,8 +24,8 @@ O objetivo desse projeto é desenvolver uma solução que simplifique os cuidado
 
 Objetivos específicos:
 
-- Disponibilizar um questionário para determinar uma rotina de cuidados personalizada com base nas necessidades do usuário, recomendando os ativos apropriados para a sua pele;
-- Fornecer informações sobre os ingredientes benéficos para a pele;
+- Disponibilizar um questionário para determinar uma rotina de cuidados personalizada com base nas necessidades do usuário;
+- Fornecer informações e recomendar os ativos apropriados para a sua pele;
 - Permitir que os usuários salvem suas rotinas;
 - Fornecer recursos educativos que capacitam os usuários a compreender os fundamentos dos cuidados com a pele.
  
