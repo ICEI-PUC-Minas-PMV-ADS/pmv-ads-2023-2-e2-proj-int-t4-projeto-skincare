@@ -16,8 +16,7 @@ Diante disso, entende-se a necessidade de uma aplicação que auxilie os usuári
 
 
 ## Problema
-Adotar uma rotina de skincare, apesar de seus inúmeros benefícios, pode se revelar uma tarefa desafiadora para muitos. As dificuldades encontradas no caminho para uma pele saudável muitas vezes surgem devido a inúmeras opções de produtos e informações disponíveis no mercado. Além disso, a falta de conhecimento sobre quais ingredientes e produtos são mais adequados para diferentes tipos de pele pode levar a escolhas inadequadas e insatisfatórias.
-
+Adotar uma rotina de skincare, apesar de seus inúmeros benefícios, pode se revelar uma tarefa desafiadora para muitos. As dificuldades encontradas no caminho para uma pele saudável muitas vezes surgem devido a inúmeras opções de produtos e informações disponíveis no mercado. Além disso, a falta de conhecimento sobre quais ingredientes ativos são mais adequados para diferentes tipos de pele, pode resultar em escolhas inadequadas e insatisfatórias.
 
 ## Objetivos
 O objetivo desse projeto é desenvolver uma solução que simplifique os cuidados com a pele, fornecendo aos usuários orientações práticas e personalizadas para construir rotinas eficazes, adaptada às necessidades individuais de cada pessoa.
