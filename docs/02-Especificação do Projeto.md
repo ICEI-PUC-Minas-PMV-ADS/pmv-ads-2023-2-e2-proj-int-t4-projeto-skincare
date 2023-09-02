@@ -48,7 +48,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |ANNE   | Guardar as minhas rotinas de cuidados com a pele         | Para acessá-las a qualquer momento e facilitar a minha rotina.  |
 ANNE        |Cuidados com a pele recomendados para fumantes      | Para tratar os danos decorrentes do consumo de cigarros. |
-|Chris   | Conseguir salvar produtos recomendados       | Para criar uma lista personalizada de produtos que  desejo experimentar ou comprar no futuro. |
 Chris        | Sugestões de cuidados eficazes para o melasma  | Para minimizar essas machas e tomar os devidos cuidados no dia a dia. |
 |Jéssica Pereira  | Rotinas de cuidados para a pele com rugas e linhas de expressão       | Para reduzir os primeiros sinais do envelhecimento. |
 Jéssica Pereira        | Descobrir o meu tipo de pele  |  Para identificar com facilidade os produtos adequados às minhas necessidades específicas.|
@@ -70,16 +69,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| O site deve incluir uma página de login.| ALTA | 
 |RF-002| O site deve conter uma área para fazer cadastro de novos usuários.   | ALTA |
 |RF-003| O sistema deve ser capaz de criar rotinas personalizadas com base nas características da pele do usuário e suas preocupações específicas.| ALTA |
-|RF-004| Os usuários devem poder acessar e modificar suas rotinas salvas a qualquer momento. | MÉDIA |
-|RF-005| A aplicação deve permitir que os usuários favoritem e desfavoritem produtos de sua escolha.| MÉDIA |
+|RF-004| A aplicação deve permitir que os usuários acessem e modifiquem suas rotinas salvas a qualquer momento (CRUD). | MÉDIA |
+|RF-005| O sistema deve incluir uma mensagem automática no final do questionário, recomendando que o usuário procure um profissional de saúde caso identifique que seu problema de pele requer cuidados médicos.| ALTA |
 |RF-006| A aplicação deve possibilitar o armazenamento seguro das rotinas geradas pelos usuários, associando-as às contas dos mesmos.| MÉDIA |
-|RF-007| O sistema deve possuir um questionário com perguntas específicas para identificar o tipo de pele dos usuários.|ALTA |
+|RF-007| O sistema deve possuir em seu questionário perguntas específicas para identificar o tipo de pele dos usuários.|ALTA |
 |RF-008|  A aplicação deve gerar rotinas voltadas para a pele com rugas e linhas de expressão.| MÉDIA |
-|RF-009| O sistema deve fornecer recomendações de rotinas específicas para tratar os danos na pele decorrentes do consumo de cigarros.| MÉDIA |
-|RF-010|  O sistema deve recomendar uma rotina de cuidados para uma pele com  melasma.| MÉDIA |
-|RF-011| A aplicação deve fornecer rotinas eficazes para minimizar o desconforto e a dor associados ao surgimento de espinhas.| MÉDIA |
-|RF-012| A aplicação deve incluir um guia completo que detalhe as funções e benefícios de cada ativo, fornecendo informações detalhadas sobre como usá-los de forma eficaz.|ALTA |
-|RF-013| O sistema deve gerar automaticamente uma mensagem no final do questionário, recomendando ao usuário procurar um especialista, caso identifique que seu problema requer cuidados médicos.|ALTA|
+|RF-009| O sistema deve fornecer recomendações de rotinas  para tratar os danos na pele decorrentes do consumo de cigarros.| MÉDIA |
+|RF-010|  O sistema deve recomendar uma rotina de cuidados específica para pele com melasma.| MÉDIA |
+|RF-011| A aplicação deve disponibilizar rotinas eficazes para minimizar o desconforto associado ao surgimento de espinhas.| MÉDIA |
+|RF-012| A aplicação deve incluir um guia completo que detalhe as funções e benefícios de cada ativo, fornecendo informações sobre como usá-los de forma eficaz.|ALTA |
+
 
 
 
@@ -105,9 +104,8 @@ A tabela a seguir apresenta as regras de negócio desse projeto.
 |--|-------------------------------------------------------|
 |01| O cadastro de novos usuários será finalizado somente após o preenchimento de todos os campos obrigatórios, e a confirmação de que o usuário possui no mínimo 16 anos de idade.|
 |02| Cada usuário terá a capacidade de criar até 3 rotinas por mês. Após a criação das 3 rotinas, será necessário aguardar até o próximo mês para gerar mais.       |
-|03| Os usuários podem incluir até 5 produtos na lista de favoritos. Para adicionar mais produtos, será preciso remover um item da lista, criando espaço para novas adições. |
+|03| Esta plataforma não substitui, em hipótese alguma, a consulta médica adequada quando se trata de problemas dermatológicos mais complexos ou condições médicas específicas. |
 |04| A rotina gerada não incluirá recomendações de marcas de produtos específicos para o usuário, visto que a escolha é altamente personalizada e influenciada pelo orçamento e pelas preferências individuais. |
-|05| Esta plataforma não substitui, em hipótese alguma, a consulta médica adequada quando se trata de problemas dermatológicos mais complexos ou condições médicas específicas. |
 
 
 
@@ -125,7 +123,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/1398c350-3fc6-4531-a3fc-448fa52bc364)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/ed633244-4fd6-4ec5-92ee-5f40732d1c2a)
+
 
 
 
