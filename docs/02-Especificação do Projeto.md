@@ -74,7 +74,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004| A aplicação deve permitir que os usuários acessem e modifiquem suas rotinas salvas a qualquer momento (CRUD). | MÉDIA |
 |RF-005| O sistema deve incluir uma mensagem automática no final do questionário, recomendando que o usuário procure um profissional de saúde, caso identifique que seu problema de pele requer cuidados médicos.| ALTA |
 |RF-006| A aplicação deve possibilitar o armazenamento seguro das rotinas geradas pelos usuários, associando-as às contas dos mesmos.| MÉDIA |
-|RF-007| O sistema deve possuir em seu questionário perguntas específicas para identificar o tipo de pele dos usuários.|ALTA |
+|RF-007| O sistema deve identificar o tipo de pele dos usuários.|ALTA |
 |RF-008|  A aplicação deve gerar rotinas voltadas para a pele com rugas e linhas de expressão.| MÉDIA |
 |RF-009| O sistema deve fornecer recomendações de rotinas  para tratar os danos na pele decorrentes do consumo de cigarros.| MÉDIA |
 |RF-010|  O sistema deve recomendar uma rotina de cuidados específica para pele com melasma.| MÉDIA |
