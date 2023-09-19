@@ -18,7 +18,7 @@ Para cada voluntário do teste, é fundamental coletar e apresentar todos os dad
 | **Caso de Teste** 	| CT-02 – Responsividade	|
 |Requisito Associado | RF-002	- O site deve ser responsivo, adaptando-se a diferentes tamanhos de tela e dispositivos móveis.  |
 | Objetivo do Teste 	| Avaliar a capacidade do software de se adaptar a diferentes tamanhos de tela e dispositivos. |
-| Passos 	| - Acessar a URL em dispositivos de diversos tamanhos. <br> - Navegar na plataforma e analisar o desempenho da aplicação. <br> - |
+| Passos 	| - Acessar a URL em dispositivos de diversos tamanhos. <br> - Navegar na plataforma e analisar o desempenho da aplicação.|
 |Critério de Êxito | Adaptação e responsividade do site para diferentes tamanhos de tela. |
 |  	|  	|
 | **Caso de Teste** 	| CT-03 – Multiplataforma	|
@@ -27,32 +27,32 @@ Para cada voluntário do teste, é fundamental coletar e apresentar todos os dad
 | Passos 	| - Acessar a URL em diferentes sistemas operacionais.  <br> - Verificar o funcionamento da aplicação. |
 |Critério de Êxito | A aplicação deve funcionar corretamente. |
 |  	|  	|
-| **Caso de Teste** 	| CT-02 – 	|
-|Requisito Associado | RF-002	-  |
+| **Caso de Teste** 	| CT-04 – Compatibilidade	|
+|Requisito Associado | RF-004	-  |
 | Objetivo do Teste 	|  |
 | Passos 	| -  <br> - <br> - |
 |Critério de Êxito | - |
 |  	|  	|
-| **Caso de Teste** 	| CT-02 – 	|
-|Requisito Associado | RF-002	-  |
+| **Caso de Teste** 	| CT-05 – Funcionabilidade	|
+|Requisito Associado | RF-005	-  |
 | Objetivo do Teste 	|  |
 | Passos 	| -  <br> - <br> - |
 |Critério de Êxito | - |
 |  	|  	|
-| **Caso de Teste** 	| CT-02 – 	|
-|Requisito Associado | RF-002	-  |
+| **Caso de Teste** 	| CT-06 – Protocolos	|
+|Requisito Associado | RF-006	-  |
 | Objetivo do Teste 	|  |
 | Passos 	| -  <br> - <br> - |
 |Critério de Êxito | - |
 |  	|  	|
-| **Caso de Teste** 	| CT-02 – 	|
-|Requisito Associado | RF-002	-  |
+| **Caso de Teste** 	| CT-07 – Processamento	|
+|Requisito Associado | RF-007	-  |
 | Objetivo do Teste 	|  |
 | Passos 	| -  <br> - <br> - |
 |Critério de Êxito | - |
 |  	|  	|
-| **Caso de Teste** 	| CT-02 – 	|
-|Requisito Associado | RF-002	-  |
+| **Caso de Teste** 	| CT-08 – Interface intuitiva	|
+|Requisito Associado | RF-008	-  |
 | Objetivo do Teste 	|  |
 | Passos 	| -  <br> - <br> - |
 |Critério de Êxito | - |
