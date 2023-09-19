@@ -56,7 +56,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 - `In Progress`: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
 - `In Review`: Contém as tarefas que foram concluídas e serão checadas, de forma a se controlar a qualidade do desenvolvimento;
 - `Done`: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário.
-- 
+  
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
