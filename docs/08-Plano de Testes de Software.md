@@ -58,7 +58,7 @@ Os testes serão baseados na metodologia a seguir
 | Caso de Teste 	| CT-08 – Identificação do tipo de pele	|
 |Requisito Associado | RF-007	- O sistema deve ajudar o usuário a identificar o seu tipo de pele. |
 | Objetivo do Teste 	| Verificar e identificar o tipo de pele do usuário pelo questionário. |
-| Passos 	| -	Acessar o navegador <br> - Informar o endereço do site. <br> -	Fazer ‘login’ no site <br> - 	Acessar a ‘Area do usuário’ <br> - Responder ao ‘Questionário’ <br> - Responder a questão sobre o tipo de pele. |
+| Passos 	| -	Acessar o navegador <br> - Informar o endereço do site. <br> -	Fazer ‘login’ no site <br> - Acessar a ‘Area do usuário’ <br> - Responder ao ‘Questionário’. |
 |Critério de Êxito | - Visualizar e responder a questão sobre o tipo de pele no questionário. |
 |  	|  	|
 | Caso de Teste 	| CT-09 – Identificação de doenças	|
