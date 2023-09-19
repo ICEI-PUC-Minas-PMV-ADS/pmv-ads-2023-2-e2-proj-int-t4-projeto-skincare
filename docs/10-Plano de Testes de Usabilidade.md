@@ -7,3 +7,9 @@ Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (e
 Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
 
 ## Segue abaixo cada plano de testes de usuabilidade 
+
+| Caso de Teste 	| CT-01 – Ambiente acessível	|
+|Requisito Associado | RNF-001	- O site deve ser publicado em um ambiente acessível publicamente na internet ( Replit, Github pages, Heroku.) |
+| Objetivo do Teste 	| Verificar se a aplicação está publicada em um ambiente acessível |
+| Passos 	| - Acessar o navegador com a URL do site <br> - Verificar o funcionamento da aplicação publicada em um ambiente acessível.|
+|Critério de Êxito | - Conseguir visualizar o site a partir da URL. |
