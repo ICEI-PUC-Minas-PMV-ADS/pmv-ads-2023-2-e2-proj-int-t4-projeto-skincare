@@ -4,7 +4,7 @@ Plano de teste de software (caso de testes)
 Os requisitos para os testes de softwares são: 
 - Site publicado na Internet
 - Navegador da internet – Chrome, Firefox ou Edge.
-- Conectividade com a internet para acesso as plataformas API’S -
+- Conectividade com a internet para acesso as plataformas API’S 
 
 Os testes serão baseados na metodologia a seguir
 
