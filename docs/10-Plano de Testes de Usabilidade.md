@@ -6,7 +6,7 @@ Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (e
 
 Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
 
-## Segue abaixo cada plano de testes de usuabilidade 
+## Segue abaixo cada plano de testes de usabilidade 
 
 | **Caso de Teste** 	| CT-01 – Ambiente acessível	|
 |:---:	|:---:	|
