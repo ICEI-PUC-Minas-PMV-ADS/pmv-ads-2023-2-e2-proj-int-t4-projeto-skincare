@@ -29,14 +29,7 @@ Os testes serão baseados na metodologia a seguir
 |Requisito Associado | RF-004	- O site deve permitir o usuário a acessar a sua rotina salva. |
 | Objetivo do Teste 	| Verificar se o usuário pode acessar a rotina salva no seu painel do usuário. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer 'login' no site <br> - Acessar a ‘Area do usuário' <br>  - Clicar em ‘Acessar rotina’ |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|Critério de Êxito | - Rotina visualizada com sucesso. |
 
 
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
