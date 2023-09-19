@@ -15,17 +15,17 @@ Para cada voluntário do teste, é fundamental coletar e apresentar todos os dad
 | Passos 	| - Acessar o navegador com a URL do site <br> - Verificar o funcionamento da aplicação publicada em um ambiente acessível.|
 |Critério de Êxito | - Conseguir visualizar o site a partir da URL. |
 |  	|  	|
-| **Caso de Teste** 	| CT-02 – 	|
-|Requisito Associado | RF-002	-  |
-| Objetivo do Teste 	|  |
-| Passos 	| -  <br> - <br> - |
-|Critério de Êxito | - |
+| **Caso de Teste** 	| CT-02 – Responsividade	|
+|Requisito Associado | RF-002	- O site deve ser responsivo, adaptando-se a diferentes tamanhos de tela e dispositivos móveis.  |
+| Objetivo do Teste 	| Avaliar a capacidade do software de se adaptar a diferentes tamanhos de tela e dispositivos. |
+| Passos 	| - Acessar a URL em dispositivos de diversos tamanhos. <br> - Navegar na plataforma e analisar o desempenho da aplicação. <br> - |
+|Critério de Êxito | Adaptação e responsividade do site para diferentes tamanhos de tela. |
 |  	|  	|
-| **Caso de Teste** 	| CT-03 – 	|
-|Requisito Associado | RF-003	-  |
-| Objetivo do Teste 	|  |
-| Passos 	| -  <br> - <br> - |
-|Critério de Êxito | - |
+| **Caso de Teste** 	| CT-03 – Multiplataforma	|
+|Requisito Associado | RF-003	- O site deve ser multiplataforma |
+| Objetivo do Teste 	| Verificar se a aplicação é compativel com 2 ou mais sistemas operacionais |
+| Passos 	| - Acessar a URL em diferentes sistemas operacionais.  <br> - Verificar o funcionamento da aplicação. |
+|Critério de Êxito | A aplicação deve funcionar corretamente. |
 |  	|  	|
 | **Caso de Teste** 	| CT-02 – 	|
 |Requisito Associado | RF-002	-  |
