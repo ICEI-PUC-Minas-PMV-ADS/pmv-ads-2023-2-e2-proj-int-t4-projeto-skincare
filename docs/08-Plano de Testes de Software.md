@@ -4,8 +4,10 @@ Plano de teste de software (caso de testes)
 Os requisitos para os testes de softwares são: 
 - Site publicado na Internet
 - Navegador da internet – Chrome, Firefox ou Edge.
-- Conectividade com a internet para acesso as plataformas API’S
+- Conectividade com a internet para acesso as plataformas API’S -
+
 Os testes serão baseados na metodologia a seguir
+
 - Teste de unidade – o principal objetivo do teste de uniade é verificar se pequenas partes do código, as unidades, funcionam como o esperado.
 - Teste de integração – o principal objetivo do teste de integração é garantir que os diferentes componenentes, módulos ou unidades do software possam ser combinados e operar juntos de maneira eficiente e sem problemas.
 
