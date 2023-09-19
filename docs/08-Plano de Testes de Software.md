@@ -8,7 +8,7 @@ Os requisitos para os testes de softwares são:
 
 Os testes serão baseados na metodologia a seguir
 
-- Teste de unidade – o principal objetivo do teste de uniade é verificar se pequenas partes do código, as unidades, funcionam como o esperado.
+- Teste de unidade – o principal objetivo do teste de unidade é verificar se pequenas partes do código, as unidades, funcionam como o esperado.
 - Teste de integração – o principal objetivo do teste de integração é garantir que os diferentes componenentes, módulos ou unidades do software possam ser combinados e operar juntos de maneira eficiente e sem problemas.
 
 
