@@ -30,6 +30,23 @@ Os testes serão baseados na metodologia a seguir
 | Objetivo do Teste 	| Verificar se o usuário pode acessar a rotina salva no seu painel do usuário. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer 'login' no site <br> - Acessar a ‘Area do usuário' <br>  - Clicar em ‘Acessar rotina’ |
 |Critério de Êxito | - Rotina visualizada com sucesso. |
-
+|  	|  	|
+| Caso de Teste 	| CT-04 – Excluir e criar rotina	|
+|Requisito Associado | RF-004	- O site deve permitir o usuário a excluir e a criar uma nova rotina. |
+| Objetivo do Teste 	| Verificar se o usuário pode alterar as rotinas salvas no seu painel. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer 'login' no site <br> - Acessar a ‘Area do usuário' <br>  - 	Clicar em ‘Excluir rotina’ <br>	Clicar em ‘Criar uma nova rotina’ |
+|Critério de Êxito | - Rotina criada com sucesso |
+|  	|  	|
+| Caso de Teste 	| CT-05 – Excluir e criar rotina	|
+|Requisito Associado | RF-005	- O sistema deve incluir uma mensagem automática no final do questionário, recomendando que o usuário procure um profissional de saúde, caso identifique que seu problema de pele requer cuidados médicos . |
+| Objetivo do Teste 	| Verificar e identificar se o usuário necessita procurar ajuda médica. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer 'login' no site <br> - Acessar a ‘Area do usuário' <br>  - Responder ao ‘Questionário’ |
+|Critério de Êxito | - É recomendado que procure ajuda médica. |
+|  	|  	|
+| Caso de Teste 	| CT-06 – Excluir e criar rotina	|
+|Requisito Associado | RF-006	- Associação correta com a conta do usuário |
+| Objetivo do Teste 	| Garantir que a rotina seja corretamente associada à conta do usuário que a gerou. |
+| Passos 	| -	O usuário gera uma rotina na aplicação. <br> - A rotina é salva na conta do usuário.<br> - Verificar se a rotina está associada corretamente à conta do usuário. |
+|Critério de Êxito | - A rotina está associada à conta do usuário que a gerou. |
 
  
