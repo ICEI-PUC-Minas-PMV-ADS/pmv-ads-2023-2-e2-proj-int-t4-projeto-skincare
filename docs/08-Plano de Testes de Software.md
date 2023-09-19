@@ -48,5 +48,24 @@ Os testes serão baseados na metodologia a seguir
 | Objetivo do Teste 	| Garantir que a rotina seja corretamente associada à conta do usuário que a gerou. |
 | Passos 	| -	O usuário gera uma rotina na aplicação. <br> - A rotina é salva na conta do usuário.<br> - Verificar se a rotina está associada corretamente à conta do usuário. |
 |Critério de Êxito | - A rotina está associada à conta do usuário que a gerou. |
+|  	|  	|
+| Caso de Teste 	| CT-07 – Armazenamento	|
+|Requisito Associado | RF-006	- Associação correta com a conta do usuário |
+| Objetivo do Teste 	| Verificar se os dados da rotina são armazenados de forma segura e protegida. |
+| Passos 	| -	O usuário gera uma rotina na aplicação <br> - A rotina é salva na conta do usuário.<br> -	Tentativa de acesso não autorizado aos dados da rotina. |
+|Critério de Êxito | - O acesso não autorizado é bloqueado, garantindo a segurança do armazenamento da rotina. |
+|  	|  	|
+| Caso de Teste 	| CT-08 – Armazenamento	|
+|Requisito Associado | RF-007	- O sistema deve ajudar o usuário a identificar o seu tipo de pele. |
+| Objetivo do Teste 	| Verificar e identificar o tipo de pele do usuário pelo questionário. |
+| Passos 	| -	Acessar o navegador <br> - Informar o endereço do site. <br> -	Fazer ‘login’ no site <br> - 	Acessar a ‘Area do usuário’ <br> - Responder ao ‘Questionário’ <br> 
+ - Responder a questão sobre o tipo de pele|
+|Critério de Êxito | - Visualizar e responder a questão sobre o tipo de pele no questionário. |
+|  	|  	|
+| Caso de Teste 	| CT-09 – Identificação de doenças	|
+|Requisito Associado | RF-008, RF-009, RF-010, RF-011 - O sistema deve gerar rotinas voltadas para peles com rugas, marcas de expressoes, danos por consumo de cigarro e pele com melasma |
+| Objetivo do Teste 	| Verificar que a aplicação forneça rotinas para problemas especificos de pele. |
+| Passos 	| -	Acessar o navegador <br> - Informar o endereço do site. <br> -	Fazer ‘login’ no site <br> - 	Acessar a ‘Area do usuário’ <br> - Responder ao ‘Questionário’ <br> 
+ - Responder as questões relacionada ao seu problema de pele.|
+|Critério de Êxito | - Visualizar e responder as questões sobre o tipo de problemas no questionário. |
 
- 
