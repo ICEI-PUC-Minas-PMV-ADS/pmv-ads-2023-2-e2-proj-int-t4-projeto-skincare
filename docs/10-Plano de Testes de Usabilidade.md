@@ -14,3 +14,9 @@ Para cada voluntário do teste, é fundamental coletar e apresentar todos os dad
 | Objetivo do Teste 	| Verificar se a aplicação está publicada em um ambiente acessível |
 | Passos 	| - Acessar o navegador com a URL do site <br> - Verificar o funcionamento da aplicação publicada em um ambiente acessível.|
 |Critério de Êxito | - Conseguir visualizar o site a partir da URL. |
+|  	|  	|
+| **Caso de Teste** 	| CT-02 – 	|
+|Requisito Associado | RF-002	-  |
+| Objetivo do Teste 	|  |
+| Passos 	| -  <br> - <br> - |
+|Critério de Êxito | - |
