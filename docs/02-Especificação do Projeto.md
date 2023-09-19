@@ -80,6 +80,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-010|  O sistema deve recomendar uma rotina de cuidados específica para pele com melasma.| MÉDIA |
 |RF-011| A aplicação deve disponibilizar rotinas eficazes para minimizar o desconforto associado ao surgimento de espinhas.| MÉDIA |
 |RF-012| A aplicação deve incluir um guia completo que detalhe as funções e benefícios de cada ativo, fornecendo informações sobre como usá-los de forma eficaz.|ALTA |
+|RF-013| O sistema deve conter um questionário com perguntas detalhadas para entender as necessidades dos usuários.|ALTA |
 
 
 
