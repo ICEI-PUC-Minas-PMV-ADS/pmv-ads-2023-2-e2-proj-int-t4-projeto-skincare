@@ -14,16 +14,23 @@ Os testes serão baseados na metodologia a seguir
  
 | **Caso de Teste** 	| **CT-01 – Efetuar login** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-001 - AO site deve conter uma pagina de login. |
-| Objetivo do Teste 	| Verificar se o usuário consegue logar na aplicação. |
+|	Requisito Associado 	| RF-001 - O site deve conter uma pagina de login. |
+| Objetivo do Teste 	| Verificar se o usuário consegue se logar na aplicação |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Login " <br> - Preencher os campos obrigatórios. <br> - Clicar em "Entrar" |
 |Critério de Êxito | - O login foi realizado com sucesso. |
 |  	|  	|
-| Caso de Teste 	| CT-02 – Efetuar login	|
-|Requisito Associado | RF-00Y	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
+| Caso de Teste 	| CT-02 – Efetuar cadastro	|
+|Requisito Associado | RF-002	- O site deve conter uma area para cadastrar novos usuários. |
+| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação, com campo de preenchimento de nome, sobrenome, email e senha. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Clicar em ‘Cadastrar’ <br> - Preencher os campos obrigatórios (Nome, sobrenome, data de nascimento, email e senha) <br>  - Clicar em ‘Cadastrar’ |
+|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|  	|  	|
+| Caso de Teste 	| CT-03 – Acessar rotina salva	|
+|Requisito Associado | RF-004	- O site deve permitir o usuário a acessar a sua rotina salva. |
+| Objetivo do Teste 	| Verificar se o usuário pode acessar a rotina salva no seu painel do usuário. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer 'login' no site <br> - Acessar a ‘Area do usuário' <br>  - Clicar em ‘Acessar rotina’ |
+|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+
 
  
 > **Links Úteis**:
