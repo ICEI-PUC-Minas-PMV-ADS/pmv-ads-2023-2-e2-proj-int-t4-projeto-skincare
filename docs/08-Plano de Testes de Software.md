@@ -37,13 +37,13 @@ Os testes serão baseados na metodologia a seguir
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer 'login' no site <br> - Acessar a ‘Area do usuário' <br>  - 	Clicar em ‘Excluir rotina’ <br>	Clicar em ‘Criar uma nova rotina’ |
 |Critério de Êxito | - Rotina criada com sucesso |
 |  	|  	|
-| Caso de Teste 	| CT-05 – Excluir e criar rotina	|
+| Caso de Teste 	| CT-05 – Recomendação médica	|
 |Requisito Associado | RF-005	- O sistema deve incluir uma mensagem automática no final do questionário, recomendando que o usuário procure um profissional de saúde, caso identifique que seu problema de pele requer cuidados médicos . |
 | Objetivo do Teste 	| Verificar e identificar se o usuário necessita procurar ajuda médica. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer 'login' no site <br> - Acessar a ‘Area do usuário' <br>  - Responder ao ‘Questionário’ |
 |Critério de Êxito | - É recomendado que procure ajuda médica. |
 |  	|  	|
-| Caso de Teste 	| CT-06 – Excluir e criar rotina	|
+| Caso de Teste 	| CT-06 – Associar a conta do usuário	|
 |Requisito Associado | RF-006	- Associação correta com a conta do usuário |
 | Objetivo do Teste 	| Garantir que a rotina seja corretamente associada à conta do usuário que a gerou. |
 | Passos 	| -	O usuário gera uma rotina na aplicação. <br> - A rotina é salva na conta do usuário.<br> - Verificar se a rotina está associada corretamente à conta do usuário. |
