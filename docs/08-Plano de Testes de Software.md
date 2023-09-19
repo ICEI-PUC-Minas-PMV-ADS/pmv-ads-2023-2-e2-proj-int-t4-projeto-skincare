@@ -1,10 +1,14 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Plano de teste de software (caso de testes)
+Os requisitos para os testes de softwares são: 
+- Site publicado na Internet
+- Navegador da internet – Chrome, Firefox ou Edge.
+- Conectividade com a internet para acesso as plataformas API’S
+Os testes serão baseados na metodologia a seguir
+- Teste de unidade – o principal objetivo do teste de uniade é verificar se pequenas partes do código, as unidades, funcionam como o esperado.
+- Teste de integração – o principal objetivo do teste de integração é garantir que os diferentes componenentes, módulos ou unidades do software possam ser combinados e operar juntos de maneira eficiente e sem problemas.
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
-
-Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o(s) requisito(s) associado(s) a cada um deles está(ão) correto(s) - de acordo com o que foi definido na seção "2 - Especificação do Projeto". 
 
 Por exemplo:
  
