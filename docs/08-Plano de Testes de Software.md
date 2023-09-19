@@ -55,7 +55,7 @@ Os testes serão baseados na metodologia a seguir
 | Passos 	| -	O usuário gera uma rotina na aplicação <br> - A rotina é salva na conta do usuário.<br> -	Tentativa de acesso não autorizado aos dados da rotina. |
 |Critério de Êxito | - O acesso não autorizado é bloqueado, garantindo a segurança do armazenamento da rotina. |
 |  	|  	|
-| Caso de Teste 	| CT-08 – Armazenamento	|
+| Caso de Teste 	| CT-08 – Identificação do tipo de pele	|
 |Requisito Associado | RF-007	- O sistema deve ajudar o usuário a identificar o seu tipo de pele. |
 | Objetivo do Teste 	| Verificar e identificar o tipo de pele do usuário pelo questionário. |
 | Passos 	| -	Acessar o navegador <br> - Informar o endereço do site. <br> -	Fazer ‘login’ no site <br> - 	Acessar a ‘Area do usuário’ <br> - Responder ao ‘Questionário’ <br> 
@@ -63,9 +63,21 @@ Os testes serão baseados na metodologia a seguir
 |Critério de Êxito | - Visualizar e responder a questão sobre o tipo de pele no questionário. |
 |  	|  	|
 | Caso de Teste 	| CT-09 – Identificação de doenças	|
-|Requisito Associado | RF-008, RF-009, RF-010, RF-011 - O sistema deve gerar rotinas voltadas para peles com rugas, marcas de expressoes, danos por consumo de cigarro e pele com melasma |
+|Requisito Associado | RF-008, RF-009, RF-010, RF-011 - O sistema deve gerar rotinas voltadas para peles com rugas, marcas de expressoes, danos por consumo de cigarro e pele com melasma. |
 | Objetivo do Teste 	| Verificar que a aplicação forneça rotinas para problemas especificos de pele. |
 | Passos 	| -	Acessar o navegador <br> - Informar o endereço do site. <br> -	Fazer ‘login’ no site <br> - 	Acessar a ‘Area do usuário’ <br> - Responder ao ‘Questionário’ <br> 
  - Responder as questões relacionada ao seu problema de pele.|
 |Critério de Êxito | - Visualizar e responder as questões sobre o tipo de problemas no questionário. |
+|  	|  	|
+| Caso de Teste 	| CT-10 – Guia de skincare	|
+|Requisito Associado | RF-012 - A aplicação deve incluir um guia completo que detalhe as funções e benefícios de cada ativo, fornecendo informações sobre como usá-los de forma eficaz. |
+| Objetivo do Teste 	| Verificar na aplicação o guia sobre skincare. |
+| Passos 	| -	Acessar o navegador <br> - Informar o endereço do site. <br> -	Acessar a barra de navegação ‘Guia de skincare’ |
+|Critério de Êxito | - Identificar e visualizar a barra de navegação com o guia completo de skincare. |
+|  	|  	|
+| Caso de Teste 	| CT-11 – Questionário	|
+|Requisito Associado | RF-013 - O sistema deve conter um questionário com perguntas detalhadas para entender a necessidade dos usuários. |
+| Objetivo do Teste 	| Verificar na aplicação o questionário com perguntas sobre problemas de pele. |
+| Passos 	| -	Acessar o navegador <br> - Informar o endereço do site. <br> -	Fazer ‘login’ no site. <br> -	Acessar a ‘Area do usuário’  <br> - Acessar a tela de ‘Questionário’.|
+|Critério de Êxito | - Identificar e visualizar a tela de questionário. |
 
