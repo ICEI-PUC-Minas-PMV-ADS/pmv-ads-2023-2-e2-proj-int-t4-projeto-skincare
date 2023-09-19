@@ -20,3 +20,39 @@ Para cada voluntário do teste, é fundamental coletar e apresentar todos os dad
 | Objetivo do Teste 	|  |
 | Passos 	| -  <br> - <br> - |
 |Critério de Êxito | - |
+|  	|  	|
+| **Caso de Teste** 	| CT-03 – 	|
+|Requisito Associado | RF-003	-  |
+| Objetivo do Teste 	|  |
+| Passos 	| -  <br> - <br> - |
+|Critério de Êxito | - |
+|  	|  	|
+| **Caso de Teste** 	| CT-02 – 	|
+|Requisito Associado | RF-002	-  |
+| Objetivo do Teste 	|  |
+| Passos 	| -  <br> - <br> - |
+|Critério de Êxito | - |
+|  	|  	|
+| **Caso de Teste** 	| CT-02 – 	|
+|Requisito Associado | RF-002	-  |
+| Objetivo do Teste 	|  |
+| Passos 	| -  <br> - <br> - |
+|Critério de Êxito | - |
+|  	|  	|
+| **Caso de Teste** 	| CT-02 – 	|
+|Requisito Associado | RF-002	-  |
+| Objetivo do Teste 	|  |
+| Passos 	| -  <br> - <br> - |
+|Critério de Êxito | - |
+|  	|  	|
+| **Caso de Teste** 	| CT-02 – 	|
+|Requisito Associado | RF-002	-  |
+| Objetivo do Teste 	|  |
+| Passos 	| -  <br> - <br> - |
+|Critério de Êxito | - |
+|  	|  	|
+| **Caso de Teste** 	| CT-02 – 	|
+|Requisito Associado | RF-002	-  |
+| Objetivo do Teste 	|  |
+| Passos 	| -  <br> - <br> - |
+|Critério de Êxito | - |
