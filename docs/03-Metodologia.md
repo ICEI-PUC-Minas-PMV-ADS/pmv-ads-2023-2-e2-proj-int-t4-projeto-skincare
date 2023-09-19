@@ -30,7 +30,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 |Ambiente               | Plataforma                       |Links de Acesso              |
 |--------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------- |
-|Repositório de código fonte      |GitHub  | [Repositório]([https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/tree/main))          |
+|Repositório de código fonte      |GitHub  | [Repositório](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare)          |
 |Documentos do projeto   |Google Docs|[Google Docs]( https://docs.google.com/document/d/1nbzajftkpqVVF9J-lLGfIkXE8_k9pDqo/edit) |
 |Gerenciamento do Projeto |GitHub Project |[GitHub Project](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/498) |
 |Projeto de Interface e  Wireframes |Canvas e Figma  |[Figma] -  [Canva]|
