@@ -58,13 +58,13 @@ Os testes serão baseados na metodologia a seguir
 | Caso de Teste 	| CT-08 – Identificação do tipo de pele	|
 |Requisito Associado | RF-007	- O sistema deve ajudar o usuário a identificar o seu tipo de pele. |
 | Objetivo do Teste 	| Verificar e identificar o tipo de pele do usuário pelo questionário. |
-| Passos 	| -	Acessar o navegador <br> - Informar o endereço do site. <br> -	Fazer ‘login’ no site <br> - Acessar a ‘Area do usuário’ <br> - Responder ao ‘Questionário’. |
+| Passos 	| -	Acessar o navegador <br> - Informar o endereço do site. <br> -	Fazer ‘login’ no site <br> - Acessar a ‘Area do usuário’ <br> - Responder ao ‘Questionário’. <br> - Responder a questão sobre o tipo de pele. |
 |Critério de Êxito | Visualizar e responder a questão sobre o tipo de pele no questionário. |
 |  	|  	|
 | Caso de Teste 	| CT-09 – Identificação de doenças	|
 |Requisito Associado | RF-008, RF-009, RF-010, RF-011 - O sistema deve gerar rotinas voltadas para peles com rugas, marcas de expressoes, danos por consumo de cigarro e pele com melasma. |
 | Objetivo do Teste 	| Verificar que a aplicação forneça rotinas para problemas especificos de pele. |
-| Passos 	| -	Acessar o navegador <br> - Informar o endereço do site. <br> -	Fazer ‘login’ no site <br> - 	Acessar a ‘Area do usuário’ <br> - Responder ao ‘Questionário’.|
+| Passos 	| -	Acessar o navegador <br> - Informar o endereço do site. <br> -	Fazer ‘login’ no site <br> - 	Acessar a ‘Area do usuário’ <br> - Responder ao ‘Questionário’. <br> - Responder a questão relacionada ao problema de pele.|
 |Critério de Êxito | - Visualizar e responder as questões sobre o tipo de problemas no questionário. |
 |  	|  	|
 | Caso de Teste 	| CT-10 – Guia de skincare	|
