@@ -19,12 +19,22 @@ Tela que contém todas as informações principais do site.
 
 *Figura  - Home page*
 
+
 ### Tela- Login
 Tela que contém os elementos necessários para que um usuário acesse sua conta.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/e2159572-c8a9-4355-96f5-5fa669df8ed4)
+
+*Figura  - Login*
 
 
 ### Tela- Cadastro
 Tela que permite que novos usuários criem uma conta no site. 
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/50e00a75-7f61-4d90-a476-818bf1f7becd)
+
+*Figura  - Cadastro*
+
 
 
 ### Tela- Área do Usuário
