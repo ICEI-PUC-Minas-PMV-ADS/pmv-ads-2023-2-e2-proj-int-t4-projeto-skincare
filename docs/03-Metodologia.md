@@ -31,10 +31,9 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |Ambiente               | Plataforma                       |Links de Acesso              |
 |--------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------- |
 |Repositório de código fonte      |GitHub  | [Repositório](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare)          |
-|Documentos do projeto   |Google Docs|[Google Docs]( https://docs.google.com/document/d/1nbzajftkpqVVF9J-lLGfIkXE8_k9pDqo/edit) |
 |Gerenciamento do Projeto |GitHub Project |[GitHub Project](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/498) |
-|Projeto de Interface e  Wireframes |Canvas e Figma  |[Figma] -  [Canva]|
-|Comunicação  e reuniões |Microsoft Teams e Discord | [Teams]- [Discord]( https://discord.com/channels/1080497334154166423/1080497334640721993) |
+|Projeto de Interface e  Wireframes |Canvas e Figma  |[Figma](https://www.figma.com/file/dGmH0L3NjxdVOVR9PdTH7J/Projeto-SkinCare?type=design&node-id=3-22&mode=design&t=GsdtsX0W1wCE6PlK-0) -  [Canva](https://www.canva.com/design/DAFucknHdLA/q4DkTofO2JbWFgaWpLSZhg/view?utm_content=DAFucknHdLA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)|
+|Comunicação  e reuniões |Microsoft Teams e Discord | Teams - [Discord]( https://discord.com/channels/1080497334154166423/1080497334640721993) |
 
 ## Gerenciamento de Projeto
 
@@ -56,6 +55,11 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 - `In Progress`: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
 - `In Review`: Contém as tarefas que foram concluídas e serão checadas, de forma a se controlar a qualidade do desenvolvimento;
 - `Done`: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário.
+
+O quadro completo pode ser visualizado através do link [aqui](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/498), e é representado na figura a seguir:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/7a796a9b-283e-4440-84e9-266ded1e57fc)
+
   
 ### Ferramentas
 
@@ -63,9 +67,10 @@ As ferramentas empregadas no projeto são:
 - GitHub
 - Git
 - VS Code
+- Visual Studio
 - Figma
 - Microsoft Teams e Discord
 - Canva
 
-O VS Code foi escolhido porque ele possui integração com o Git e o GitHub. 
+O VS Code e Visual Studio foram  escolhidos porque possuem integração com o Git e o GitHub. 
 O Microsoft Teams  e Discord por ser prático para reuniões online, comunicação entre equipe de forma ágil e fácil compartilhamento de arquivos, e por fim, para criar diagramas utilizamos o Figma e Canva que permitem edição em tempo real de todos os participantes do grupo, e possuem versões gratuitas.
