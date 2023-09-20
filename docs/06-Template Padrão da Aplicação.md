@@ -15,7 +15,8 @@ O template criado está disponível no Canva, e é composto pelos seguintes layo
 ### Tela- Home-Page
 Tela que contém todas as informações principais do site.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/ba857419-b8e5-43f5-aec3-b98ade863713)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/b5768263-d685-4475-8f21-02e278267120)
+
 
 *Figura  - Home page*
 
@@ -23,7 +24,8 @@ Tela que contém todas as informações principais do site.
 ### Tela- Login
 Tela que contém os elementos necessários para que um usuário acesse sua conta.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/e2159572-c8a9-4355-96f5-5fa669df8ed4)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/3f5021f0-4e47-47c9-9948-ea7cbaed0459)
+
 
 *Figura  - Login*
 
@@ -31,7 +33,8 @@ Tela que contém os elementos necessários para que um usuário acesse sua conta
 ### Tela- Cadastro
 Tela que permite que novos usuários criem uma conta no site. 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/50e00a75-7f61-4d90-a476-818bf1f7becd)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/1367317c-8aa5-4559-bb43-f73502ec3aa9)
+
 
 *Figura  - Cadastro*
 
@@ -47,6 +50,13 @@ Tela que contém perguntas destinadas a identificar as necessidades individuais 
 
 ### Tela- Conteúdo informativo
 Todas as telas que possuem contéudo informativo, apresentam a estrutura abaixo:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/b8decace-bcd7-4f99-9a39-ad77b365e1dc)
+
+
+
+*Figura  - Conteúdo informativo*
+
 
 
 
