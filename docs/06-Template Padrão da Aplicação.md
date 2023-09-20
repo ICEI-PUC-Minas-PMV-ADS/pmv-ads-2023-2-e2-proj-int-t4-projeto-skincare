@@ -40,19 +40,41 @@ Tela que permite que novos usuários criem uma conta no site.
 
 
 
-### Tela- Área do Usuário
-Tela onde o usuário pode visualizar suas rotinas e excluí-las.
-
-
 ### Tela- Questionários
 Tela que contém perguntas destinadas a identificar as necessidades individuais dos usuários em relação à sua pele.
+
+
+
+### Tela- Rotina gerada 
+Tela que contém a rotina de skincare gerada depois de responder o questionário.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/1b9fb63e-ad7e-46f1-8ae2-a3bce31a6fe7)
+
+*Figura  - Tela rotina de skincare*
+
+
+
+### Tela- Área do Usuário
+Tela onde o usuário pode visualizar suas rotinas depois de logar no sistema.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/fb8fc550-e8ee-45cb-8418-9f50e4c0b67c)
+
+
+*Figura  - Área do usuário*
+
+
+Tela visualização da rotina e botão de excluir na área do usuário.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/244c413e-ef98-4c00-99a6-f39967dd7cf9)
+
+*Figura  - Visualização e botão excluir rotina*
+
 
 
 ### Tela- Conteúdo informativo
 Todas as telas que possuem contéudo informativo, apresentam a estrutura abaixo:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/b8decace-bcd7-4f99-9a39-ad77b365e1dc)
-
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/8aec4693-0cfd-4b05-9450-d3c157ec4caf)
 
 
 *Figura  - Conteúdo informativo*
