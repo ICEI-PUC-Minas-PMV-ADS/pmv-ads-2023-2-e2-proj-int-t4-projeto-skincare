@@ -48,10 +48,11 @@ Tela que contém perguntas destinadas a identificar as necessidades individuais 
 ### Tela- Rotina de skincare
 Tela que contém a rotina de skincare gerada e que poderá ser visualizada novamente na área do usuário.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/8b02641a-a948-4f55-a8bd-785d6a0c6b8a)
+<img width="700" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/e5a0bd79-0e60-4644-b114-4359aa7e4972">
 
 
-*Figura  - Tela rotina de skincare*
+
+*Figura  - Tela rotina skincare*
 
 
 
