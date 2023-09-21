@@ -37,13 +37,13 @@ Para cada voluntário do teste, é fundamental coletar e apresentar todos os dad
 |Requisito Associado | RNF-005	- O sistema deve funcionar 24h por dia, todos os dias da semana |
 | Objetivo do Teste 	| Verificar se a aplicação funciona em tempo integral |
 | Passos 	| - Acessar a URL em um navegador <br> - Deixar a aplicação em funcionamento. |
-|Critério de Êxito | Verificar se a aplicação está funcionamento em tempo integral. |
+|Critério de Êxito | A aplicação está funcionamento em tempo integral. |
 |  	|  	|
 | **Caso de Teste** 	| CT-06 – Protocolos	|
 |Requisito Associado | RNF-006	- A aplicação deve implementar protocolos de segurança para proteção de dados. |
 | Objetivo do Teste 	| Testar a capacidade do software de cumprir os protocolos de segurança e privacidade especificados. |
 | Passos 	| - Acessar a URL da aplicação <br> - Verificar se há a um cadeado antes do endereço. |
-|Critério de Êxito | Verificar se o site está seguro. |
+|Critério de Êxito | O site está seguro. |
 |  	|  	|
 | **Caso de Teste** 	| CT-07 – Processamento	|
 |Requisito Associado | RNF-007	- Deve processar requisições do usuário em no máximo 3s |
@@ -55,4 +55,4 @@ Para cada voluntário do teste, é fundamental coletar e apresentar todos os dad
 |Requisito Associado | RNF-008	- A interface do usuário deve ser intuitiva e de fácil navegação, que permita aos usuários encontrarem facilmente os tópicos de interesse. |
 | Objetivo do Teste 	| Avaliar a intuitividade da interface do usuário, incluindo a navegação, o design e a organização dos elementos. |
 | Passos 	| - Acessar o site a partir da URL <br> - Avaliar se a navegação do site está intuitiva e de fácil navegação. |
-|Critério de Êxito | Verificar se a interface é de facil navegação para os usuários. |
+|Critério de Êxito |  A interface é de facil navegação para os usuários. |
