@@ -1,11 +1,7 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada e atrativa em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
 
 ## Diagrama de Fluxo
 
@@ -15,22 +11,39 @@ O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamen
 
 ![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
 
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. 
+As telas do sistema apresentam uma estrutura comum que é apresentada na Figura abaixo, na qual fora criado para o projeto anterior. O layout é composto pelo que se segue:
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+- **Cabeçalho**- Local onde são dispostos elementos fixos de identidade como o logo, e a navegação principal do site (menu da aplicação); 
+- **Conteúdo**-  Apresentará, para cada tela, seu conteúdo personalizado;
+- **Rodapé** -  Contém informações sobre direitos autorais, newsletter e social media.
+
+![estrutua-padrao](https://user-images.githubusercontent.com/93337008/232315869-01305876-2750-4d61-9b16-63a0b154256b.PNG)
+
+*figura - Estrutura padrão do site*
+
+
+### Tela: Home-page 
+
+A tela que se segue compõe as principais funções do site de forma demonstrativa e objetiva para o usuário. 
+A tela contém os campos:
+- **Login** -  Permite que o usuário crie sua conta para acessar suas informações salvas e diretrizes do site. 
+- **Criar Rotina** - A partir da criação da conta do usuário, é disponibilizado o campo para geração de rotina para o seu tratamento individual.
+- **Card de Ativos** - Campo que permite acesso simplificado a página de informações de ativos e tratamentos. 
+
+![Home-page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/fa79aba2-26c0-44e7-b231-c303e1580ae9)
+
+*figura - Home page do site* 
+
+
+### Tela - Questionário
+
+A teka questionário apresenta um quiz, no qual o usuário irá preencher com a as informações sobre sua saúde da pele, para que essas informações sejam salvas e gerada a rotina específica. 
+
+![Quiz-da-pele](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/b87b6b84-c334-4729-beab-703dd713bfa5)
+
+*figura - Tela questionário*
