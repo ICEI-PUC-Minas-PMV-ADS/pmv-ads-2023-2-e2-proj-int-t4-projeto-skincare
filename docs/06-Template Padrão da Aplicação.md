@@ -59,7 +59,7 @@ Tela que contém a rotina de skincare gerada e que poderá ser visualizada novam
 ### Tela- Área do Usuário
 Tela onde o usuário pode visualizar suas rotinas e excluí-las.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/819aa59a-b768-4ac8-8a00-10c457022cdc)
+<img width="700" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/54a0eac5-2715-4b6f-9988-b3106bd7d508">
 
 
 *Figura  - Área do usuário*
@@ -70,7 +70,8 @@ Tela onde o usuário pode visualizar suas rotinas e excluí-las.
 ### Tela- Conteúdo informativo
 Todas as telas que possuem contéudo informativo, apresentam a estrutura abaixo:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/8aec4693-0cfd-4b05-9450-d3c157ec4caf)
+<img width="700" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/344b8e03-d974-4a29-aad5-9e84a51a686f">
+
 
 
 *Figura  - Conteúdo informativo*
