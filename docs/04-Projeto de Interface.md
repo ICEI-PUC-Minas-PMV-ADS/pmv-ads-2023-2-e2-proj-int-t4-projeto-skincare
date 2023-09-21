@@ -47,3 +47,28 @@ A teka questionário apresenta um quiz, no qual o usuário irá preencher com a 
 ![Quiz-da-pele](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/b87b6b84-c334-4729-beab-703dd713bfa5)
 
 *figura - Tela questionário*
+
+
+
+### Tela- Login e cadastro 
+
+A tela de Login, apresenta para o usuario os campos necessários para acessar a sua conta. Caso ainda não a tenha criada, é indicada a mensagem para criação de conta e direcionada para a tela de cadastro. 
+![tela login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/0c59cf81-ec43-4c5b-b3c3-1503e09a051d)
+
+*figura - tela Login* 
+
+Conforme imagem apresentada após a tela de login, a tela de cadastro apresenta os campos:
+
+![Tela cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/1fb459db-8ac3-4736-a028-9c787524f1d4)
+
+*figura - tela cadastro*
+
+- **Email** - É solicitado para o usuário que preencha o canpo com seu email. 
+- **Nome de usuário** - é indicado para o usuário que preencha o campo com seu nome social.
+- **Data de nascimento** - é solicitado para o usuário sua data de nascimento, para que seja verificado se o mesmo possui mais de 16 anos. Conforme solicitado pelos termos de uso do site.
+- **Senha** - é solicitada a criação de uma senha para acesso as suas informações armazenadas no site.
+
+
+
+### Tela 
+
