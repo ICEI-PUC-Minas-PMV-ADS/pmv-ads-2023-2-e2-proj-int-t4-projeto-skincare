@@ -58,7 +58,7 @@ Tela que contém a rotina de skincare gerada e que poderá ser visualizada novam
 ### Tela- Área do Usuário
 Tela onde o usuário pode visualizar suas rotinas e excluí-las.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/1a5833cf-23a9-4900-ae46-20b7d1c9f171)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/819aa59a-b768-4ac8-8a00-10c457022cdc)
 
 
 *Figura  - Área do usuário*
