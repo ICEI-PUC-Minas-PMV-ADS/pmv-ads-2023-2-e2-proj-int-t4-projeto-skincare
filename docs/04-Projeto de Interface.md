@@ -94,6 +94,13 @@ Após a criação da conta e preenchimento do questionário, é exibida uma mens
 *figura 6 - Tela Rotina gerada*
 
 
+## Tela - Informação Ativos
+
+Ao clicar no card de "O que são ativos?', o usuário será direcionado para a página de informações sobre os ativos e demais cuidados com a pele.
+
+
+
+
 
 ## Tela - Minha conta 
 
