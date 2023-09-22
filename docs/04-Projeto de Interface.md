@@ -89,6 +89,7 @@ A tela questionário apresenta um quiz, no qual o usuário irá preencher com a 
 Após a criação da conta e preenchimento do questionário, é exibida uma mensagem de rotina gerada, seguida da rotina personalizada para cada usuário de acordo com seu tipo de pele. 
 
 
+![ROTINA-GERADA_1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/57b33f52-befe-4cd0-86e8-5fc23ad7c65a)
 
 
 
