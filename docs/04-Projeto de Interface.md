@@ -48,7 +48,7 @@ A tela contém os campos:
 
 ![Home-page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/fa79aba2-26c0-44e7-b231-c303e1580ae9)
 
-*figura - Home page do site* 
+*figura 4 - Home page do site* 
 
 
 ### Tela - Questionário
