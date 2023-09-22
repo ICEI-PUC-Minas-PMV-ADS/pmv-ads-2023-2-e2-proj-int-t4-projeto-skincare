@@ -5,9 +5,12 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 
 ## Diagrama de Fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
+No Fluxo que se segue, é mostrado passo a passo como é realizada a navegação e utilização das funcionalidades:
 
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
+ Usuário deverá realizar seu cadastro seguindo os critérios.
+  
+* Caso possua menos de 16 anos, não será autorizada a criação de sua conta, encerrando o processo.
+* Usuário deverá indicar se possui algum problema grave de pele, caso não, é direcionado para o questionário de saúde para geração de rotina. Caso possua, é orientado à ajuda médica para tratamento especializado. 
 
 ![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
 
