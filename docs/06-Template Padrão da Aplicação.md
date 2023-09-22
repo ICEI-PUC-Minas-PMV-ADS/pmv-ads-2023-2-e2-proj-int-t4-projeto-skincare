@@ -43,7 +43,7 @@ Tela que permite que novos usuários criem uma conta no site.
 ### Tela- Questionários
 Tela que contém perguntas destinadas a identificar as necessidades individuais dos usuários em relação à sua pele.
 
-
+*Figura 4 - Área do usuário*
 
 ### Tela- Rotina de skincare
 Tela que contém a rotina de skincare gerada e que poderá ser visualizada novamente na área do usuário.
