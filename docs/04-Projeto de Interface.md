@@ -57,7 +57,7 @@ A teka questionário apresenta um quiz, no qual o usuário irá preencher com a 
 
 ![Quiz-da-pele](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/b87b6b84-c334-4729-beab-703dd713bfa5)
 
-*figura - Tela questionário*
+*figura 5 - Tela questionário*
 
 
 
