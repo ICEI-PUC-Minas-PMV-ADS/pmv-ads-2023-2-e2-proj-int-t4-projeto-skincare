@@ -97,5 +97,6 @@ Após a criação da conta e preenchimento do questionário, é exibida uma mens
 
 ## Tela - Minha conta 
 
-Ao clicar em "Minha conta" e feito login, é exibida o setor de cadastro do usuário, onde exibe suas rotinas geradas e onde é possivel excluir e criar nova rotina. Também é exibido botão de "Sair" onde realiza o Logout da conta. 
+Ao clicar em "Minha conta" e feito login, é exibida o setor de cadastro do usuário, onde exibe suas rotinas geradas e onde é possivel excluir e criar nova rotina. 
+Também é exibido botão de "Sair" onde realiza o Logout da conta. 
 
