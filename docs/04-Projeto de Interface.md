@@ -7,7 +7,7 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 
 No Fluxo que se segue, é mostrado passo a passo como é realizada a navegação e utilização das funcionalidades:
 
- Usuário deverá realizar seu cadastro seguindo os critérios: 
+ Usuário deverá realizar seu cadastro seguindo os critérios para cadastro: 
   
 * Caso possua menos de 16 anos, não será autorizada a criação de sua conta, encerrando o processo.
 * Ao clicar em "Minha Conta" o usuário será direcionado para página de Login, que caso possua, deverá entrar com seu email e senha. Caso ainda não possua, será direcionado para página de cadastro. 
@@ -20,9 +20,6 @@ No Fluxo que se segue, é mostrado passo a passo como é realizada a navegação
 ![Fluxograma 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/4434feac-0a43-4a95-8f39-2a33874cd136)
 
 *figura 2 - Fluxograma cadastro/Questionário
-
-
-
 
 
 
