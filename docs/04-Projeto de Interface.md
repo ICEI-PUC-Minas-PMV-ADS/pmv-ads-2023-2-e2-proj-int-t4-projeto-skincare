@@ -110,4 +110,5 @@ Também é exibido botão de "Sair" onde realiza o Logout da conta.
 
 ![Tela minha conta](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/d40bcec2-2a79-463f-b7b9-c26b8ea96676)
 
+*figura 8 - Minha conta*
 
