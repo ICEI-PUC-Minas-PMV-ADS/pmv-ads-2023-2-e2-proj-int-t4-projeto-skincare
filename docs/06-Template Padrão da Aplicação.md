@@ -27,7 +27,7 @@ Tela que contém os elementos necessários para que um usuário acesse sua conta
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/3f5021f0-4e47-47c9-9948-ea7cbaed0459)
 
 
-*Figura  - Login*
+*Figura 2 - Login*
 
 
 ### Tela- Cadastro
