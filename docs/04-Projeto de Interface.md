@@ -51,15 +51,6 @@ A tela contém os campos:
 *figura 4 - Home page do site* 
 
 
-### Tela - Questionário
-
-A teka questionário apresenta um quiz, no qual o usuário irá preencher com a as informações sobre sua saúde da pele, para que essas informações sejam salvas e gerada a rotina específica. 
-
-![Quiz-da-pele](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/b87b6b84-c334-4729-beab-703dd713bfa5)
-
-*figura 5 - Tela questionário*
-
-
 
 ### Tela- Login e cadastro 
 
@@ -80,6 +71,21 @@ Conforme imagem apresentada após a tela de login, a tela de cadastro apresenta 
 - **Senha** - é solicitada a criação de uma senha para acesso as suas informações armazenadas no site.
 
 
+### Tela - Questionário
 
-### Tela 
+A teka questionário apresenta um quiz, no qual o usuário irá preencher com a as informações sobre sua saúde da pele, para que essas informações sejam salvas e gerada a rotina específica. 
+
+![Quiz-da-pele](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/b87b6b84-c334-4729-beab-703dd713bfa5)
+
+*figura 5 - Tela questionário*
+
+
+
+### Tela - Rotina Gerada
+
+
+
+
+
+
 
