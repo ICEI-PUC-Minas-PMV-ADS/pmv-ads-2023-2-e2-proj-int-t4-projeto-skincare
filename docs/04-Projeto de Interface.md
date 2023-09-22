@@ -100,4 +100,6 @@ Após a criação da conta e preenchimento do questionário, é exibida uma mens
 Ao clicar em "Minha conta" e feito login, é exibida o setor de cadastro do usuário, onde exibe suas rotinas geradas e onde é possivel excluir e criar nova rotina. 
 Também é exibido botão de "Sair" onde realiza o Logout da conta. 
 
-![Tela minha conta](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/436f2cfb-eee8-4e11-87fa-635b091b942b)
+![Tela minha conta](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/d40bcec2-2a79-463f-b7b9-c26b8ea96676)
+
+
