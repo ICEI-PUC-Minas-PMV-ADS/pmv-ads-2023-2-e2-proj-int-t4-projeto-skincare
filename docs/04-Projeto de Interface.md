@@ -12,7 +12,8 @@ No Fluxo que se segue, é mostrado passo a passo como é realizada a navegação
 * Caso possua menos de 16 anos, não será autorizada a criação de sua conta, encerrando o processo.
 * Usuário deverá indicar se possui algum problema grave de pele, caso não, é direcionado para o questionário de saúde para geração de rotina. Caso possua, é orientado à ajuda médica para tratamento especializado. 
 
-![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
+![Fluxograma 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/25b0c5ee-e70c-4896-8b7d-6d04c8a6b1b4)
+
 
 
 
