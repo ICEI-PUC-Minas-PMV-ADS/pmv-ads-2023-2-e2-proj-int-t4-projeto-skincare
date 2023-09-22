@@ -29,27 +29,32 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 ### Cardinalidade
 
-#### Usuário X Rotina de Skincare:
+**Usuário x Rotina de Skincare:**
 
 Cada usuário pode ter uma ou várias rotinas de skincare, indicando uma relação de "um para muitos" (1,N).
 
-#### Rotina de Skincare X Usuário:
+**Rotina de Skincare x Usuário:**
 
 Cada rotina de skincare pertence a apenas um usuário, indicando uma relação de "um para um" (1,1).
+<br>
 
-#### Usuário X Perguntas do Questionário:
+
+
+**Usuário x Perguntas do Questionário**
   
 Cada usuário pode responder a várias perguntas do questionário, indicando uma relação de "um para muitos" (1,N).
 
-#### Perguntas do Questionário X Usuário:
+**Perguntas do Questionário x Usuário**
   
 Cada pergunta do questionário é respondida por vários usuários, indicando uma relação de "um para muitos" (1,N).
+<br>
 
-#### Rotina de Skincare X Perguntas do Questionário:
-  
+
+**Rotina de Skincare x Perguntas do Questionário:**
+
 Cada rotina de skincare possui várias perguntas associadas a ela, indicando uma relação de "um para muitos" (1,N).
 
-#### Perguntas do Questionário X Rotina de Skincare:
+**Perguntas do Questionário x Rotina de Skincare**
 
 Cada pergunta do questionário pertence a várias rotinas de skincare, indicando uma relação de "um para muitos" (1,N).
 
