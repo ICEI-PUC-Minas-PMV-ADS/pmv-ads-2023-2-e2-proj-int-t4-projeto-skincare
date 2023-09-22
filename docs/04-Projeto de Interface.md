@@ -66,7 +66,7 @@ A teka questionário apresenta um quiz, no qual o usuário irá preencher com a 
 A tela de Login, apresenta para o usuario os campos necessários para acessar a sua conta. Caso ainda não a tenha criada, é indicada a mensagem para criação de conta e direcionada para a tela de cadastro. 
 ![tela login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/0c59cf81-ec43-4c5b-b3c3-1503e09a051d)
 
-*figura - tela Login* 
+*figura 6 - tela Login* 
 
 Conforme imagem apresentada após a tela de login, a tela de cadastro apresenta os campos:
 
