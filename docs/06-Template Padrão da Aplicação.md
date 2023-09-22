@@ -62,7 +62,7 @@ Tela onde o usuário pode visualizar suas rotinas e excluí-las.
 <img width="700" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/54a0eac5-2715-4b6f-9988-b3106bd7d508">
 
 
-*Figura  - Área do usuário*
+*Figura 6 - Área do usuário*
 
 
 
