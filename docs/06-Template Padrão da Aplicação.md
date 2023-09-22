@@ -36,7 +36,7 @@ Tela que permite que novos usuários criem uma conta no site.
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/1367317c-8aa5-4559-bb43-f73502ec3aa9)
 
 
-*Figura  - Cadastro*
+*Figura 3 - Cadastro*
 
 
 
