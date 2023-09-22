@@ -52,7 +52,7 @@ Tela que contém a rotina de skincare gerada e que poderá ser visualizada novam
 
 
 
-*Figura  - Tela rotina skincare*
+*Figura 4 - Tela rotina skincare*
 
 
 
