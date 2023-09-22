@@ -18,7 +18,7 @@ Tela que contém todas as informações principais do site.
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/b5768263-d685-4475-8f21-02e278267120)
 
 
-*Figura  - Home page*
+*Figura 1 - Home page*
 
 
 ### Tela- Login
