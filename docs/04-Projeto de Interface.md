@@ -98,7 +98,7 @@ Após a criação da conta e preenchimento do questionário, é exibida uma mens
 
 Ao clicar no card de "O que são ativos?', o usuário será direcionado para a página de informações sobre os ativos e demais cuidados com a pele.
 
-
+![atIVOS](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/c1b1dbad-c4df-486c-bdb5-37dc923760d0)
 
 
 
