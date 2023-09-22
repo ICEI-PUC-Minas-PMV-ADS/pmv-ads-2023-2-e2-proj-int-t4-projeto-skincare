@@ -15,7 +15,7 @@ No Fluxo que se segue, é mostrado passo a passo como é realizada a navegação
 
 ![Fluxograma 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/25b0c5ee-e70c-4896-8b7d-6d04c8a6b1b4)
 
-
+figura 1 - fluxograma cadastro
 
 
 ## Wireframes
