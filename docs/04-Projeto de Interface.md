@@ -23,6 +23,9 @@ No Fluxo que se segue, é mostrado passo a passo como é realizada a navegação
 
 
 
+
+
+
 ## Wireframes
 
 Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. 
