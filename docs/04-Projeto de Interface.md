@@ -7,7 +7,7 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 
 No Fluxo que se segue, é mostrado passo a passo como é realizada a navegação e utilização das funcionalidades:
 
- Usuário deverá realizar seu cadastro seguindo os critérios.
+ Usuário deverá realizar seu cadastro seguindo os critérios: 
   
 * Caso possua menos de 16 anos, não será autorizada a criação de sua conta, encerrando o processo.
 * Usuário deverá indicar se possui algum problema grave de pele, caso não, é direcionado para o questionário de saúde para geração de rotina. Caso possua, é orientado à ajuda médica para tratamento especializado. 
