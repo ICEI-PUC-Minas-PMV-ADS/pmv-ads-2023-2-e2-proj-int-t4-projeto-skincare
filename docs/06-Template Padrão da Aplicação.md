@@ -74,7 +74,7 @@ Todas as telas que possuem contéudo informativo, apresentam a estrutura abaixo:
 
 
 
-*Figura  - Conteúdo informativo*
+*Figura 7 - Conteúdo informativo*
 
 
 
