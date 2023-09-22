@@ -10,7 +10,7 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 <img width="992" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/375eaa1b-69d1-4f3b-92c5-4ba9a76ff5a0">
 
-
+*<span style="font-size: 1px;">Figura 6 - Diagrama de classes</span>*
 
 
 ## Modelo ER (Projeto Conceitual)
@@ -19,6 +19,7 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 <img width="929" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/e29b9674-6980-4a17-bd29-767c6936520b">
 
+*Figura 7 - Modelo ER*
 
 
 ## Projeto da Base de Dados
@@ -26,6 +27,8 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
 
 <img width="683" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/e4d84235-934e-4f09-bf4e-06a65657e78f">
+
+*<font size="2"> Figura 8 - Base de dados </font>*
 
 ### Cardinalidade
 
