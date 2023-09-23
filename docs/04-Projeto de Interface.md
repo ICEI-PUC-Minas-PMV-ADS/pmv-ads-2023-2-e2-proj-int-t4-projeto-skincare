@@ -30,7 +30,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 
 
 ![estrutua-padrao](https://user-images.githubusercontent.com/93337008/232315869-01305876-2750-4d61-9b16-63a0b154256b.PNG)
 
-*figura 3 - Estrutura padrão do site*
+*figura 2 - Estrutura padrão do site*
 
 
 ### Tela: Home-page 
