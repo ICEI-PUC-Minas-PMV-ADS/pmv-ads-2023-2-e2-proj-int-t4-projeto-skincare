@@ -75,7 +75,7 @@ A tela questionário apresenta um quiz, no qual o usuário irá preencher com a 
 
 ![Quiz-da-pele](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/b87b6b84-c334-4729-beab-703dd713bfa5)
 
-*figura 5 - Tela questionário*
+*figura 6 - Tela questionário*
 
 
 
@@ -86,7 +86,7 @@ Após a criação da conta e preenchimento do questionário, é exibida uma mens
 
 ![ROTINA-GERADA_1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/57b33f52-befe-4cd0-86e8-5fc23ad7c65a)
 
-*figura 6 - Tela Rotina gerada*
+*figura 7 - Tela Rotina gerada*
 
 
 ## Tela - Informação Ativos
@@ -95,7 +95,7 @@ Ao clicar no card de "O que são ativos?', o usuário será direcionado para a p
 
 ![atIVOS](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/c1b1dbad-c4df-486c-bdb5-37dc923760d0)
 
-*figura 7 - Informação ativos*
+*figura 8 - Informação ativos*
 
 
 ## Tela - Minha conta 
@@ -105,5 +105,5 @@ Também é exibido botão de "Sair" onde realiza o Logout da conta.
 
 ![Tela minha conta](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/d40bcec2-2a79-463f-b7b9-c26b8ea96676)
 
-*figura 8 - Minha conta*
+*figura 9 - Minha conta*
 
