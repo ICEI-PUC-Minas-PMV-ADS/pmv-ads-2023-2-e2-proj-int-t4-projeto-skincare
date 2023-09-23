@@ -60,7 +60,7 @@ Conforme imagem apresentada após a tela de login, a tela de cadastro apresenta 
 
 ![Tela cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/1fb459db-8ac3-4736-a028-9c787524f1d4)
 
-*figura 7 - Tela cadastro*
+*figura 5 - Tela cadastro*
 
 - **Email** - É solicitado para o usuário que preencha o canpo com seu email. 
 - **Nome de usuário** - é indicado para o usuário que preencha o campo com seu nome social.
