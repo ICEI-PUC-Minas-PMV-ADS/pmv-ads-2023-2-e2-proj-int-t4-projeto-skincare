@@ -14,13 +14,8 @@ No Fluxo que se segue, é mostrado passo a passo como é realizada a navegação
 * Usuário deverá indicar se possui algum problema grave de pele, caso não, é direcionado para o questionário de saúde para geração de rotina. Caso possua, é orientado à ajuda médica para tratamento especializado. 
 * Ao clicar no card de "O que são ativos?', o usuário será direcionado para a página de informações sobre os ativos e demais cuidados com a pele.
 
-![Fluxograma 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/25b0c5ee-e70c-4896-8b7d-6d04c8a6b1b4)
 
-*figura 1 - fluxograma cadastro*
-
-![Fluxograma 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/4434feac-0a43-4a95-8f39-2a33874cd136)
-
-*figura 2 - Fluxograma cadastro/Questionário*
+![Fluxograma 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/182be7ed-c5c8-4b33-9eb4-421e2e429bc7)
 
 
 
