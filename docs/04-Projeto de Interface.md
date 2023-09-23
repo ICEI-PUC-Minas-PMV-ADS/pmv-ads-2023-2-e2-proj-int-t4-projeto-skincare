@@ -53,7 +53,7 @@ A tela de Login, apresenta para o usuario os campos necessários para acessar a 
 
 ![tela login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/0c59cf81-ec43-4c5b-b3c3-1503e09a051d)
 
-*figura 6 - Tela Login* 
+*figura 4 - Tela Login* 
 
 Conforme imagem apresentada após a tela de login, a tela de cadastro apresenta os campos:
 
