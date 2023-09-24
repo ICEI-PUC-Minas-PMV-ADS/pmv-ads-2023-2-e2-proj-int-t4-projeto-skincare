@@ -60,6 +60,8 @@ O quadro completo pode ser visualizado através do link [aqui](https://github.co
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/7a796a9b-283e-4440-84e9-266ded1e57fc)
 
+*Figura 1 - Github projetcs*
+
   
 ### Ferramentas
 
