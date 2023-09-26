@@ -1,1 +1,50 @@
-/* estilos para home page */
+/* Main styles Purple part */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box; /* Change to border-box for proper padding and margin calculations */
+}
+
+* {
+    font-family: serif;
+}
+
+#container-roxo {
+    background-color: #9781AD;
+    height: 25vh; 
+    color: white;
+}
+
+.title-rotina {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+}
+
+#btn-rotina {
+    border-width: 1.5px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.p-rotina {
+    padding-left: 12px;
+}
+
+/* Adjust padding for the columns */
+div.col {
+    padding-right: 0 !important; /* Removed the padding */
+    padding-left: 0 !important;
+}
+
+#div-img {
+    padding: 0; /* Removed padding for the image column */
+}
+
+#retinol-img {
+    width: 100%;
+    height: 25vh; 
+    object-fit: cover; /* Ensure the image covers the column */
+}
