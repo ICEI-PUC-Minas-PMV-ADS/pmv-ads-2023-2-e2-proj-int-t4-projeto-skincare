@@ -1,7 +1,10 @@
 # Introdução
+
 Nos últimos anos, o universo do skincare no Brasil tem conquistado um destaque e uma atenção sem precedentes. A fusão singular entre nossa rica diversidade cultural, recursos naturais em profusão e avanços científicos de ponta tem transformado o país em solo fértil para o florescimento da indústria de cuidados com a pele.
+
+Skincare, também conhecido como cuidados com a pele, é o conjunto de práticas e produtos destinados a manter, melhorar e proteger a saúde e a aparência da pele humana. Essas práticas englobam uma série de ações, como limpeza, hidratação, proteção solar e uso de produtos específicos, como cremes, loções e soros, com o objetivo de promover uma pele saudável.
  
-O povo brasileiro tem demonstrado um interesse cada vez mais fervoroso em adotar rotinas de skincare que sejam não apenas eficazes, mas também personalizadas. A motivação vai além de tratar apenas problemas pontuais de pele, estendendo-se a uma abordagem preventiva que visa manter a saúde e a vitalidade da pele a longo prazo. Adicionalmente, a influência das redes sociais e a disponibilidade de informações online desempenham um papel crucial na disseminação do conhecimento sobre ingredientes, técnicas e produtos inovadores.
+O povo brasileiro tem demonstrado cada vez mais interesse em adotar rotinas de skincare que sejam não apenas eficazes, mas também personalizadas. A motivação vai além de tratar apenas problemas pontuais de pele, estendendo-se a uma abordagem preventiva que visa manter a saúde e a vitalidade da pele a longo prazo. Adicionalmente, a influência das redes sociais e a disponibilidade de informações online desempenham um papel crucial na disseminação do conhecimento sobre ingredientes, técnicas e produtos inovadores.
 
 De acordo com estatísticas divulgadas pela Associação Brasileira da Indústria de Higiene Pessoal, Perfumaria e Cosméticos (Abihpec), o setor de cuidados com a pele registrou um notável aumento de 161,7% nas vendas durante o período entre janeiro e outubro de 2020, em comparação com o mesmo período no ano anterior. Esse crescimento expressivo demonstra um interesse crescente dos consumidores por produtos de skincare no Brasil.
  
@@ -9,34 +12,30 @@ Outro aspecto de fundamental importância é a rica diversidade que permeia o Br
  
 Em síntese, o skincare no Brasil evoluiu de uma mera rotina de beleza para um movimento que entrelaça cultura, natureza e ciência. A busca incansável pela saúde da pele e pela expressão genuína tem atuado como motor propulsor da indústria, conduzindo-a a inovações contínuas e ao oferecimento de opções cada vez mais personalizadas e eficazes.
 
-Diante disso, entende-se a necessidade de uma aplicação onde auxlie os usuários que criarem sua rotina com orientações de produtos e modo de uso.
+Diante disso, entende-se a necessidade de uma aplicação que auxilie os usuários a criarem sua rotina de cuidados com a pele, oferecendo  orientações sobre  produtos e simplificando o processo de cuidado.
 
 
 ## Problema
-Adotar uma rotina de skincare, apesar de seus inúmeros benefícios, pode se revelar uma tarefa desafiadora para muitos. As dificuldades encontradas no caminho para uma pele saudável muitas vezes surgem de uma combinação de fatores pessoais, influências externas e a vastidão de informações disponíveis.
-Nossa aplicação tem como objetivo orientar o público a quais produtos usar e a criar a sua rotina personalizada de skincare
+Adotar uma rotina de skincare, apesar de seus inúmeros benefícios, pode se revelar uma tarefa desafiadora para muitos. As dificuldades encontradas no caminho para uma pele saudável muitas vezes surgem devido a inúmeras opções de produtos e informações disponíveis no mercado. Além disso, a falta de conhecimento sobre quais ingredientes ativos são mais adequados para diferentes tipos de pele, pode resultar em escolhas inadequadas e insatisfatórias.
 
 ## Objetivos
-
-O objetivo desse projeto é desenvolver uma aplicação que simplifique  o acesso a rotinas de cuidados com a pele altamente personalizadas, baseadas em informações específicas fornecidas pelos usuários, como tipo de pele, preocupações individuais e preferências pessoais.
+O objetivo desse projeto é desenvolver uma solução que simplifique os cuidados com a pele, fornecendo aos usuários orientações práticas e personalizadas para construir rotinas eficazes, adaptada às necessidades individuais de cada pessoa.
 
 Objetivos específicos:
 
-- Disponibilizar um questionário para determinar recomendações de cuidados ajustadas ao tipo de pele e às necessidades individuais do usuário;
-- Permitir que os usuários salvem suas rotinas e produtos favoritos, facilitando o acesso a essas informações;
-- Fornecer recursos educativos para capacitação dos usuários na identificação e compreensão de ingredientes compatíveis com suas necessidades pessoais;
-- Apresentar sugestões de produtos para cuidados com a pele.
+- Disponibilizar um questionário para determinar uma rotina de cuidados personalizada com base nas necessidades do usuário;
+- Fornecer informações e recomendar os ingredientes ativos apropriados para a sua pele;
+- Permitir que os usuários salvem suas rotinas;
+- Fornecer recursos educativos que capacitam os usuários a compreender os fundamentos dos cuidados com a pele.
  
 
 ## Justificativa
-
-A indústria de beleza e skincare tem demonstrado um notável crescimento, refletindo um aumento significativo no interesse e na conscientização dos consumidores em relação aos cuidados com a pele. 
-De acordo com a Associação Brasileira da Indústria, Higiene Pessoal, Perfumaria e Cosméticos (ABIHPEC), somente nos últimos cinco anos (2018-2022), o crescimento desse setor foi de 560% em relação aos períodos anteriores.
-
-Diante desse contexto, criar uma aplicação de cuidados com a pele nos coloca em uma posição favorável para atender à crescente demanda por esses serviços. Iremos proporcionar acesso instantâneo a rotinas personalizadas e sugestões de produtos, tornando o processo de conquistar uma pele saudável e bem-cuidada muito mais acessível e eficaz.
+Diante do crescimento contínuo na indústria de beleza, nosso site surge para fornecer informações educativas sobre cuidados com a pele, atendendo à uma crescente demanda por personalização e a busca por produtos de beleza e pele. Com um questionário adaptado, buscamos oferecer recomendações sob medida para o tipo de pele e necessidades individuais dos usuários, aproveitando o dinamismo desse setor em expansão.
 
 ## Público-Alvo
 
-O público-alvo para produtos de skincare abrange uma ampla diversidade, uma vez que pessoas de todas as faixas etárias e tipos de pele podem desfrutar dos benefícios de cuidados adequados.
+O público-alvo para produtos de skincare abrange uma ampla diversidade. Para a nossa aplicação, indicamos o uso a partir dos 16 anos de idade e todos os tipos de pele podem desfrutar dos benefícios de cuidados adequados.
+
+
  
 
