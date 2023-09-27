@@ -6,7 +6,7 @@
 
 `2º SEMESTRE`
 
-Nossa aplicação utilizará inteligência artificial GPT para criar rotinas de cuidados com a pele personalizadas. Através de um questionário, a API GPT analisa suas respostas e gera uma rotina adaptada para você. Nosso objetivo é simplificar esses cuidados, garantindo que todos possam conquistar uma pele saudável por meio de escolhas informadas.
+Nossa aplicação utilizará inteligência artificial GPT para criar rotinas de cuidados com a pele personalizadas. Através de um questionário, a API GPT analisará suas respostas e gerará uma rotina adaptada para você. Nosso objetivo é simplificar esses cuidados, garantindo que todos possam conquistar uma pele saudável por meio de escolhas informadas.
 
 ![Captura_de_tela_2023-08-27_172432-removebg-preview](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/9f7be196-d67b-4c20-a454-faa0bdd52d8d)
 
