@@ -3,7 +3,8 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box; /* Change to border-box for proper padding and margin calculations */
+    box-sizing: border-box;
+    /* Change to border-box for proper padding and margin calculations */
 }
 
 * {
@@ -12,7 +13,7 @@
 
 #container-roxo {
     background-color: #9781AD;
-    height: 25vh; 
+    height: 25vh;
     color: white;
 }
 
@@ -35,16 +36,99 @@
 
 /* Adjust padding for the columns */
 div.col {
-    padding-right: 0 !important; /* Removed the padding */
+    padding-right: 0 !important;
+    /* Removed the padding */
     padding-left: 0 !important;
 }
 
 #div-img {
-    padding: 0; /* Removed padding for the image column */
+    padding: 0;
+    /* Removed padding for the image column */
 }
 
 #retinol-img {
     width: 100%;
-    height: 25vh; 
-    object-fit: cover; /* Ensure the image covers the column */
+    height: 25vh;
+    object-fit: cover;
+    /* Ensure the image covers the column */
+}
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+section {
+    padding: 40px 0;
+
+
+}
+
+
+
+#footer {
+    background: #333333 !important;
+}
+
+
+#footer a {
+    color: white;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+#footer p {
+    padding: 3px 0;
+}
+
+
+
+#footer p a,
+#footer p a {
+    color: white;
+}
+
+
+
+#footer-text {
+    margin-top: 30px;
+    margin: auto;
+}
+
+.fa {
+    color: white !important;
+}
+
+.social a i {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social {
+    margin-top: -150px;
+}
+
+
+
+/* Media query for smaller screens */
+@media (max-width:767px) {
+    #footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+
+    .social {
+        text-align: center;
+        margin-top: -25px;
+    }
+
+    .social a i {
+        margin-top: 20px;
+        align-items: center;
+        display: inline-block;
+        margin-right: 10px;
+    }
 }
