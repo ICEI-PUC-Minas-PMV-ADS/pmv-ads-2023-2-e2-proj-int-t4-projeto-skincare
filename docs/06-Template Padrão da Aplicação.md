@@ -40,19 +40,34 @@ Tela que permite que novos usuários criem uma conta no site.
 
 
 
-### Tela- Questionários
-Tela que contém perguntas destinadas a identificar as necessidades individuais dos usuários em relação à sua pele.
+### Questionário
+Telas com perguntas destinadas a identificar as necessidades individuais dos usuários em relação à sua pele.
 
-*Figura 17 - Área do usuário*
+<img width="530" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/483dfdc2-801c-45b7-af0f-357e7e8194d0">
+
+*Figura 17 - Pergunta 1*
+
+<img width="533" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/3bb16e5b-91a5-48e9-a311-8ed2ec4064f0">
+
+*Figura 18 - Pergunta 2*
+
+<img width="537" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/6f0ade27-6f63-4518-b082-6acb1764417f">
+
+*Figura 19 - Pergunta 3*
+
+
+<img width="534" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/acafde8e-559a-49a9-bfd3-5b40ca64f718">
+
+*Figura 20 - Pergunta 4*
+
+
 
 ### Tela- Rotina de skincare
 Tela que contém a rotina de skincare gerada e que poderá ser visualizada novamente na área do usuário.
 
 <img width="700" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/e5a0bd79-0e60-4644-b114-4359aa7e4972">
 
-
-
-*Figura 18 - Tela rotina skincare*
+*Figura 21 - Tela rotina skincare*
 
 
 
@@ -61,10 +76,7 @@ Tela onde o usuário pode visualizar suas rotinas e excluí-las.
 
 <img width="700" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/54a0eac5-2715-4b6f-9988-b3106bd7d508">
 
-
-*Figura 19 - Área do usuário*
-
-
+*Figura 22 - Área do usuário*
 
 
 ### Tela- Conteúdo informativo
@@ -72,9 +84,7 @@ Todas as telas que possuem contéudo informativo, apresentam a estrutura abaixo:
 
 <img width="700" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/344b8e03-d974-4a29-aad5-9e84a51a686f">
 
-
-
-*Figura 20 - Conteúdo informativo*
+*Figura 23 - Conteúdo informativo*
 
 
 
