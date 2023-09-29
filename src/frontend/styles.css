@@ -1,5 +1,13 @@
 * {
     font-family: serif;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
 }
 
 /*NAV*/
@@ -13,17 +21,22 @@
 
 .nav-item {
     margin-right: 100px;
-    color: #333333;
 }
 
 .navbar {
-    padding-top: 20px; 
-    padding-bottom: 20px; 
-  }
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
-  .nav-link {
-    padding: 10px 20px; /* Adjust the padding for navbar links */
-  }
+.nav-link {
+    padding: 10px 20px;
+    /* Adjust the padding for navbar links */
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
 
 /* MAIN- PARTE ROXA*/
 *,
@@ -45,11 +58,24 @@
     padding-left: 12px;
 }
 
-#btn-rotina {
-    border-width: 1.5px;
+
+.btn-routine {
+    color: white;
+    background-color: #9781AD;
+    border-color: white;
     border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-top: 10px;
     margin-left: 12px;
+}
+
+.btn-routine:hover {
+    background-color: white;
+    /* Cor de fundo ao passar o mouse */
+    border-color: #9781AD;
+    color: #9781AD;
+    /* Cor da borda ao passar o mouse (se necessário) */
 }
 
 .p-rotina {
@@ -98,6 +124,65 @@ div.col {
 
 }
 
+
+/*MAIN- IMAGES-CARD*/
+#hr {
+    width: 200px;
+    border-bottom: 1px solid #9781AD;
+    margin-top: 8px;
+}
+
+.div-ativos {
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.div-pele-masculina {
+    margin-top: 60px !important;
+}
+
+
+.img-ativos {
+    border-radius: 20px;
+}
+
+.img-tipo-pele {
+    border-radius: 20px;
+}
+
+.img-masculina {
+    border-radius: 20px;
+}
+
+.div-tipo-pele {
+
+    width: 100% !important;
+}
+
+.div-pele-masculina {
+    margin-bottom: 40px;
+}
+
+.btn-custom {
+    color: #9781AD;
+    /* Cor do texto */
+    background-color: white;
+    /* Cor de fundo */
+    border-color: #9781AD;
+    /* Cor da borda (se necessário) */
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.btn-custom:hover {
+    background-color: #9781AD;
+    /* Cor de fundo ao passar o mouse */
+    border-color: #9781AD;
+    color: white;
+    /* Cor da borda ao passar o mouse (se necessário) */
+}
 
 
 
@@ -167,3 +252,69 @@ section {
         margin-right: 10px;
     }
 }
+
+
+/*CARDS
+.content {
+  margin-left: 90px;
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  width: 80%;
+}
+
+
+.row img {
+  margin-right: 40px;
+  width: 450px;
+  height: 325px;
+  border-radius: 10px;
+}  
+
+.row .img {
+  width: 1000px;
+  margin-top: 50px;
+}
+
+
+.text-content {
+  width: 450px;
+}
+
+#btn-readmore {
+  padding: 5px 20px;
+  border: 2px solid #9781ad;
+  color: #9781ad;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.text-content h3 {
+  font-family: serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#hr {
+  width: 250px;
+  color: #52495b;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+button a {
+  text-decoration: none;
+  color: #9781ad;
+}
+
+div .item2 {
+  background-color: red;
+  background: #fafafa;
+  border-radius: 20px;
+}*/
