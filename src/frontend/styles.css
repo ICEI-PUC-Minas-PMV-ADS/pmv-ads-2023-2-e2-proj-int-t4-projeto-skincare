@@ -2,10 +2,28 @@
     font-family: serif;
 }
 
-.favicon {
-    width:12px;
-    height: 12px;
+/*NAV*/
+.website-logo {
+    margin-left: 12px;
 }
+
+.user-icon {
+    margin-right: 12px;
+}
+
+.nav-item {
+    margin-right: 100px;
+    color: #333333;
+}
+
+.navbar {
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+  }
+
+  .nav-link {
+    padding: 10px 20px; /* Adjust the padding for navbar links */
+  }
 
 /* MAIN- PARTE ROXA*/
 *,
@@ -69,7 +87,7 @@ div.col {
     }
 
     #btn-rotina {
-      margin-left: 80px;
+        margin-left: 80px;
     }
 
     .p-rotina {
