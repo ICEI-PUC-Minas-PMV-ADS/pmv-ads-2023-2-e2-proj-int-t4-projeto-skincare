@@ -134,7 +134,7 @@ div.col {
 
 .div-ativos {
     margin-bottom: 60px;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .div-pele-masculina {
@@ -154,22 +154,20 @@ div.col {
     border-radius: 20px;
 }
 
-.div-tipo-pele {
-
-    width: 100% !important;
-}
 
 .div-pele-masculina {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
+}
+
+.text-card {
+    display: inline-block;
+    vertical-align: top; /* Alinha com a parte superior do elemento inline-block */
 }
 
 .btn-custom {
     color: #9781AD;
-    /* Cor do texto */
     background-color: white;
-    /* Cor de fundo */
     border-color: #9781AD;
-    /* Cor da borda (se necessário) */
     border-radius: 20px;
     padding-left: 25px;
     padding-right: 25px;
@@ -178,10 +176,8 @@ div.col {
 
 .btn-custom:hover {
     background-color: #9781AD;
-    /* Cor de fundo ao passar o mouse */
     border-color: #9781AD;
     color: white;
-    /* Cor da borda ao passar o mouse (se necessário) */
 }
 
 
@@ -194,6 +190,7 @@ section {
 
 #footer {
     background: #333333 !important;
+    padding-bottom: 10px;
 }
 
 #footer a {
