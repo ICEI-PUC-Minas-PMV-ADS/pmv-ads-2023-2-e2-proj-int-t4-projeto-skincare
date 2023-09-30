@@ -1,11 +1,257 @@
-/* estilos para home page */
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    font-family: serif;
+    margin: 0;
+    padding: 0;
 }
 
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+/*NAV*/
+.website-logo {
+    margin-left: 12px;
+}
+
+.user-icon {
+    margin-right: 12px;
+}
+
+.nav-item {
+    margin-right: 100px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-link {
+    padding: 10px 20px;
+    /* Adjust the padding for navbar links */
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+
+/* MAIN- PARTE ROXA*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    /* Change to border-box for proper padding and margin calculations */
+}
+
+#container-roxo {
+    background-color: #9781AD;
+    height: 25vh;
+    color: white;
+}
+
+.title-rotina {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+}
+
+
+.btn-routine {
+    color: white;
+    background-color: #9781AD;
+    border-color: white;
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.btn-routine:hover {
+    background-color: white;
+    /* Cor de fundo ao passar o mouse */
+    border-color: #9781AD;
+    color: #9781AD;
+    /* Cor da borda ao passar o mouse (se necessário) */
+}
+
+.p-rotina {
+    padding-left: 12px;
+}
+
+
+div.col {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+#div-img {
+    padding: 0;
+}
+
+#retinol-img {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}
+
+@media (max-width:767px) {
+    #div-img {
+        display: none;
+    }
+
+    .title-rotina {
+        padding-top: 18px;
+        margin-bottom: 5px;
+    }
+
+    #container-roxo {
+        padding-left: 55px;
+    }
+
+    #btn-rotina {
+        margin-left: 80px;
+    }
+
+    .p-rotina {
+        margin-top: 2px;
+        margin-bottom: 7px;
+    }
+
+
+}
+
+
+/*MAIN- IMAGES-CARD*/
+#hr {
+    width: 200px;
+    border-bottom: 1px solid #9781AD;
+    margin-top: 8px;
+}
+
+.div-ativos {
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.div-pele-masculina {
+    margin-top: 60px !important;
+}
+
+
+.img-ativos {
+    border-radius: 20px;
+}
+
+.img-tipo-pele {
+    border-radius: 20px;
+}
+
+.img-masculina {
+    border-radius: 20px;
+}
+
+
+.div-pele-masculina {
+    margin-bottom: 80px;
+}
+
+.text-card {
+    display: inline-block;
+    vertical-align: top; /* Alinha com a parte superior do elemento inline-block */
+}
+
+.btn-custom {
+    color: #9781AD;
+    background-color: white;
+    border-color: #9781AD;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.btn-custom:hover {
+    background-color: #9781AD;
+    border-color: #9781AD;
+    color: white;
+}
+
+
+
+/* FOOTER */
+section {
+    padding: 40px 0;
+
+}
+
+#footer {
+    background: #333333 !important;
+    padding-bottom: 10px;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+#footer p {
+    padding: 3px 0;
+}
+
+#footer p a,
+#footer p a {
+    color: white;
+}
+
+#footer-text {
+    margin-top: 30px;
+    margin: auto;
+}
+
+.fa {
+    color: white !important;
+}
+
+.social a i {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social {
+    margin-top: -150px;
+}
+
+/* Media query for smaller screens */
+@media (max-width:767px) {
+    #footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+
+    .social {
+        text-align: center;
+        margin-top: -25px;
+    }
+
+    .social a i {
+        margin-top: 20px;
+        align-items: center;
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+
+/*CARDS
 .content {
   margin-left: 90px;
   width: 100%;
@@ -13,27 +259,27 @@
 }
 
 .row {
-  /* margin-top: 100px; */
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: start;
   flex-direction: column;
   width: 80%;
-  /* height: 100vh; */
 }
+
 
 .row img {
   margin-right: 40px;
   width: 450px;
   height: 325px;
   border-radius: 10px;
-}
+}  
 
 .row .img {
   width: 1000px;
   margin-top: 50px;
 }
+
 
 .text-content {
   width: 450px;
@@ -68,9 +314,4 @@ div .item2 {
   background-color: red;
   background: #fafafa;
   border-radius: 20px;
-}
-/* #img-2 {
-  background: #fafafa;
-  width: 100%;
-  height: 100%;
-} */
+}*/
