@@ -18,7 +18,7 @@
   <header class="header">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <img src="./assets/images/logo.png" class="website-logo" width="76" alt="">
+        <img src="./assets/images/logo.png" class="website-logo" width="96" alt="" href="./index.html">
         <button class="navbar-toggler order-first" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -27,17 +27,17 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Quem somos</a>
+              <a class="nav-link active" href="./pages/quem-somos/quem-somos.html">Quem somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Guia da pele</a>
+              <a class="nav-link active" href="./pages/guia-pele/guia-pele.html">Guia da pele</a>
             </li>
           </ul>
         </div>
-        <a href="" class="ml-auto user-icon"><img src="./assets/images/user.png" width="16"></a>
+        <a href="./pages/login/login.html" class="ml-auto user-icon"><img src="./assets/images/user.png" width="16"></a>
       </div>
     </nav>
   </header>
@@ -66,7 +66,7 @@
         <div class="div-ativos">
           <div class="row dest-card ">
             <div class="col-md-4">
-              <a href=""> <img class="img-fluid img-ativos" src="./assets/images/Woman_Applying_Skincare_Cosmetics.jpg"
+              <a href="./pages/info-pages/ativos/ativos.html"> <img class="img-fluid img-ativos" src="./assets/images/Woman_Applying_Skincare_Cosmetics.jpg"
                   alt="Woman_Applying_Skincare_Cosmetics" /></a>
             </div>
             <div class="col-md-8">
@@ -77,7 +77,7 @@
                   os poderosos ativos que impulsionam resultados visíveis,
                   dando a sua pele o cuidado que merece.
                 </p>
-                <button type="button" class="btn btn-custom">Ler mais</button>
+                <button type="button" class="btn btn-custom" onclick="navigateToAtivos()">Ler mais</button>
             </div>
           </div>
         </div>
@@ -85,7 +85,7 @@
           <div class="div-tipo-pele">
             <div class="row dest-card ">
               <div class="col-md-4">
-                <a href=""><img class="img-fluid img-tipo-pele" src="./assets/images/skintype-1.png" alt="" /></a>
+                <a href="./pages/info-pages/tipo-pele/tipo-pele.html"><img class="img-fluid img-tipo-pele" src="./assets/images/skintype-1.png" alt="" /></a>
               </div>
               <div class="col-md-8">
                   <h3 class="title-cards">Saiba identificar o seu tipo de pele</h3>
@@ -95,7 +95,7 @@
                     escolher os produtos e tratamentos mais adequados. Veja como
                     identificar seu tipo de pele.
                   </p>
-                  <button type="button" class="btn btn-custom">Ler mais</button>
+                  <button type="button" class="btn btn-custom" onclick="navigateToTipoPele()">Ler mais</button>
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@
         <div class="div-pele-masculina">
           <div class="row dest-card ">
             <div class="col-md-4">
-              <a href=""> <img class="img-fluid img-masculina" src="./assets/images/pele-masculina.jpg"
+              <a href="./pages/info-pages/pele-masculina/pele-masculina.html"> <img class="img-fluid img-masculina" src="./assets/images/pele-masculina.jpg"
                   alt="Homem fazendo skincare" />
               </a>
             </div>
@@ -115,7 +115,7 @@
                   os poderosos ativos que impulsionam resultados visíveis,
                   dando a sua pele o cuidado que merece.
                 </p>
-                <button type="button" class="btn btn-custom">Ler mais</button>
+                <button type="button" class="btn btn-custom" onclick="navigateToPeleMasculina()">Ler mais</button>
             </div>
           </div>
           <span class="line"></span>
@@ -147,7 +147,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"></script>
-    <script src="./utils/navigateToQuiz.js"></script>
+    <script src="./utils/navigateToPages.js"></script>
 </body>
 
 </html>
