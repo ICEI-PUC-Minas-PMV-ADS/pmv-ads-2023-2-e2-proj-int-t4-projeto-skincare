@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = backend_skincare_2023
 build_property.RootNamespace = backend_skincare_2023
-build_property.ProjectDir = c:\Users\ximen\OneDrive\Área de Trabalho\Projeto Skincare\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\backend\backend-skincare-2023\
+build_property.ProjectDir = c:\Users\root\Desktop\projeto-skinCare\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\backend\backend-skincare-2023\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = c:\Users\ximen\OneDrive\Área de Trabalho\Projeto Skincare\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\backend\backend-skincare-2023
+build_property.MSBuildProjectDirectory = c:\Users\root\Desktop\projeto-skinCare\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\backend\backend-skincare-2023
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/ximen/OneDrive/Área de Trabalho/Projeto Skincare/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Home/Index.cshtml]
+[c:/Users/root/Desktop/projeto-skinCare/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ximen/OneDrive/Área de Trabalho/Projeto Skincare/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Home/Privacy.cshtml]
+[c:/Users/root/Desktop/projeto-skinCare/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ximen/OneDrive/Área de Trabalho/Projeto Skincare/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Shared/Error.cshtml]
+[c:/Users/root/Desktop/projeto-skinCare/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ximen/OneDrive/Área de Trabalho/Projeto Skincare/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/root/Desktop/projeto-skinCare/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ximen/OneDrive/Área de Trabalho/Projeto Skincare/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/_ViewImports.cshtml]
+[c:/Users/root/Desktop/projeto-skinCare/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ximen/OneDrive/Área de Trabalho/Projeto Skincare/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/_ViewStart.cshtml]
+[c:/Users/root/Desktop/projeto-skinCare/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ximen/OneDrive/Área de Trabalho/Projeto Skincare/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Shared/_Layout.cshtml]
+[c:/Users/root/Desktop/projeto-skinCare/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6v7hlf41df
