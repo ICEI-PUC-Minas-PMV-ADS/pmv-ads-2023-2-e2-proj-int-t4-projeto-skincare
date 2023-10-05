@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ximen\\OneDrive\\Área de Trabalho\\Projeto Skincare\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\backend-skincare-2023.csproj": {}
+    "C:\\Users\\root\\Desktop\\projeto-skinCare\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\backend-skincare-2023.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ximen\\OneDrive\\Área de Trabalho\\Projeto Skincare\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\backend-skincare-2023.csproj": {
+    "C:\\Users\\root\\Desktop\\projeto-skinCare\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\backend-skincare-2023.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ximen\\OneDrive\\Área de Trabalho\\Projeto Skincare\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\backend-skincare-2023.csproj",
+        "projectUniqueName": "C:\\Users\\root\\Desktop\\projeto-skinCare\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\backend-skincare-2023.csproj",
         "projectName": "backend-skincare-2023",
-        "projectPath": "C:\\Users\\ximen\\OneDrive\\Área de Trabalho\\Projeto Skincare\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\backend-skincare-2023.csproj",
-        "packagesPath": "C:\\Users\\ximen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ximen\\OneDrive\\Área de Trabalho\\Projeto Skincare\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\obj\\",
+        "projectPath": "C:\\Users\\root\\Desktop\\projeto-skinCare\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\backend-skincare-2023.csproj",
+        "packagesPath": "C:\\Users\\root\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\root\\Desktop\\projeto-skinCare\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ximen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\root\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "c:\\program files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,6 +60,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.21, 6.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.21, 6.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.21, 6.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.21, 6.0.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -73,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
