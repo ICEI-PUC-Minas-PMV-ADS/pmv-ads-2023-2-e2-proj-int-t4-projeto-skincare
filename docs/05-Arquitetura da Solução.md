@@ -17,7 +17,8 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-<img width="929" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/e29b9674-6980-4a17-bd29-767c6936520b">
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/b0da5469-1e90-464e-8393-b4e5f4652223)
+
 
 *Figura 12 - Modelo ER*
 
@@ -34,7 +35,7 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 **Usuário x Rotina de Skincare:**
 
-Cada usuário pode ter uma ou várias rotinas de skincare, indicando uma relação de "um para muitos" (1,N).
+Cada usuário pode ter uma ou várias rotinas de skincare (relação "um para muitos" - 1,N).
 
 **Rotina de Skincare x Usuário:**
 
@@ -42,27 +43,33 @@ Cada rotina de skincare pertence a apenas um usuário, indicando uma relação d
 <br>
 
 
-
-**Usuário x Perguntas do Questionário**
+**Usuário x  Questionário(perguntas)**
   
-Cada usuário pode responder a várias perguntas do questionário, indicando uma relação de "um para muitos" (1,N).
+Cada usuário pode responder a um questionário de perguntas, indicando uma relação de "um para um" (1,1).
 
-**Perguntas do Questionário x Usuário**
+
+**Questionário x Usuário**
   
-Cada pergunta do questionário é respondida por vários usuários, indicando uma relação de "um para muitos" (1,N).
+O questionário de perguntas  é respondido por vários usuários, indicando uma relação de "um para muitos" (1,N).
 <br>
 
 
-**Rotina de Skincare x Perguntas do Questionário:**
+**Rotina de Skincare x Questionário(Perguntas):**
 
-Cada rotina de skincare possui várias perguntas associadas a ela, indicando uma relação de "um para muitos" (1,N).
+Cada rotina de skincare está ligada a um questionário de perguntas (relação "um para um" - 1,1).
+
 
 **Perguntas do Questionário x Rotina de Skincare**
 
-Cada pergunta do questionário pertence a várias rotinas de skincare, indicando uma relação de "um para muitos" (1,N).
+O questionário de perguntas  pertence a várias rotinas de skincare (relação "um para muitos" - 1,N).
 
 
- 
+
+
+
+
+
+
 
 ## Tecnologias Utilizadas
 
