@@ -8,27 +8,41 @@ Para cada voluntário do teste, é fundamental coletar e apresentar todos os dad
 
 ## Segue abaixo cada plano de testes de usabilidade 
 
-| **Caso de Teste** 	| CT-01 – Responsibidade	|
-|:---:	|:---:	|
-|Requisito Associado | RNF-002	- O site deve ser responsivo, adaptando-se a diferentes tamanhos de tela e dispositivos móveis.  |
-| Objetivo do Teste 	| Avaliar a capacidade do software de se adaptar a diferentes tamanhos de tela e dispositivos. |
-| Passos 	| - Acessar a URL em dispositivos de diversos tamanhos. <br> - Navegar na plataforma e analisar o desempenho da aplicação.|
-|Critério de Êxito | Adaptação e responsividade do site para diferentes tamanhos de tela. |
-|  	|  	|
-| **Caso de Teste** 	| CT-02 – Multiplataforma	|
-|Requisito Associado | RNF-003	- O site deve ser multiplataforma |
-| Objetivo do Teste 	| Verificar se a aplicação é compativel com 2 ou mais sistemas operacionais |
-| Passos 	| - Acessar a URL em diferentes sistemas operacionais.  <br> - Verificar o funcionamento da aplicação. |
-|Critério de Êxito | A aplicação deve funcionar corretamente. |
-|  	|  	|
-| **Caso de Teste** 	| CT-03 – Compatibilidade	|
-|Requisito Associado | RNF-004	- O site deve ser compativel com diversos navegadores do mercado. |
-| Objetivo do Teste 	| Verificar a compatibilidade do software com navegadores da web populares (Chrome, Firefox, Safari, etc.). |
-| Passos 	| - Acessar a URL em diferentes navegadores <br> - Verificar o funcionamento da aplicação|
-|Critério de Êxito | A aplicação deve funcionar corretamente em diferentes navegadores. |
-|  	|  	|
-| **Caso de Teste** 	| CT-04 – Interface intuitiva	|
-|Requisito Associado | RNF-008	- A interface do usuário deve ser intuitiva e de fácil navegação, que permita aos usuários encontrarem facilmente os tópicos de interesse. |
-| Objetivo do Teste 	| Avaliar a intuitividade da interface do usuário, incluindo a navegação, o design e a organização dos elementos. |
-| Passos 	| - Acessar o site a partir da URL <br> - Avaliar se a navegação do site está intuitiva e de fácil navegação. |
-|Critério de Êxito |  A interface é de facil navegação para os usuários. |
+|  Id  | 01 – Visibilidade de qual estado estamos no sistema                                           |  Sim/Não      |  Comentários                                           |
+|------|-----------------------------------------------------------------------------------------------|---------------|--------------------------------------------------------|
+| 1.1  | O questionário  está visível e acessível ao clicar em "Quiz da pele"?                         |               |                                                        |
+| 1.2  | As opções de resposta são  funcionais e permitem  uma seleção adequada?                       |               |                                                        |
+| 1.3  | As telas do sistema iniciam com um título que descreve seu conteúdo?                          |               |                                                        |
+
+<br><br>
+
+|  Id  | 02 –  Correspondência entre o sistema e o mundo real                                          |  Sim/Não      |  Comentários                                           |
+|------|-----------------------------------------------------------------------------------------------|---------------|--------------------------------------------------------|
+| 2.1  | Os termos e conceitos utilizados no questionário são familiares e compreensíveis?             |               |                                                        |
+| 2.2  | A rotina de skincare gerada é compreendida de forma clara, sem jargões técnicos ?             |               |                                                        |
+| 2.2  | Os ícones e ilustracões são concretos e familiares?                                           |               |                                                        |
+
+<br><br>
+
+|  Id  | 03 – Consistência e padrões                                                                   |  Sim/Não      |  Comentários                                           |
+|------|-----------------------------------------------------------------------------------------------|---------------|--------------------------------------------------------|
+| 3.1  |Os elementos de interface (cores, botões, campos, etc.) possuem consistência visual e de design?|              |                                                        |
+| 3.1  |O sistema evita o uso constante de letras maiúsculas?                                           |              |                                                        |
+| 3.1  |Os campos obrigatórios e opcionais são corretamente sinalizados?                                |              |                                                        |
+
+<br><br>
+
+
+|  Id  | 04 – Prevenção de erros:                                                                      |  Sim/Não      |  Comentários                                           |
+|------|-----------------------------------------------------------------------------------------------|---------------|--------------------------------------------------------|
+| 4.1  |Foi possível criar uma rotina sem responder todas ás perguntas do questionário?                |               |                                                        |
+| 4.1  | O sistema apresenta uma mensagem de erro indicando que selecionar uma resposta é obrigatório? |               |                                                        |
+
+
+
+
+
+
+
+
+
