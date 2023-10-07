@@ -37,7 +37,7 @@ Tela que contém os elementos necessários para que um usuário acesse sua conta
 ### Tela- Cadastro
 Tela que permite que novos usuários criem uma conta no site. 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/1367317c-8aa5-4559-bb43-f73502ec3aa9)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/3af4e514-db1f-4edf-b8b2-e18b276ae705)
 
 *Figura 16 - Cadastro*
 
