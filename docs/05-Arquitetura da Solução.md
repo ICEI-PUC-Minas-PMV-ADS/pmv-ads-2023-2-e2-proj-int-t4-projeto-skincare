@@ -64,10 +64,9 @@ Cada rotina de skincare está ligada a um questionário de perguntas (relação 
 O questionário de perguntas  pertence a várias rotinas de skincare (relação "um para muitos" - 1,N).
 
 
+## Modelo físico
 
-
-
-
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/b35a923f-6a24-4730-9271-cecebe59423d)
 
 
 
