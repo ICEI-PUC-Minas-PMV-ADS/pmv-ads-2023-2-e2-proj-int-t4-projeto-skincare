@@ -123,14 +123,14 @@ c. Os campos obrigatórios e opcionais são corretamente sinalizados?
 ### 05 - Feedback                   
 Os participantes irao compartilhar suas opinoes sobre a usablidade do sistema repondendo o questionário pelo site [UsabilityHub](https://usabi.li/do/665cf57dd970/9152), e poderão pontuar numa escala de 1 a 5 seu grau de dificuldade e eficiência da plataforma em dez questões.
 
+
 1: Muito Insatisfatório <br>
 2: Insatisfatório <br>
 3: Neutro <br>
 4: Satisfatório <br>
 5: Muito Satisfatório <br>
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/c4945628-f41a-46b4-9dc2-94b9a272940f)
-
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/f3ea3092-b4cb-4c7c-bb4e-32d5aa62efd4)
 
 
 <br><br>
