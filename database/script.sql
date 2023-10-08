@@ -7,7 +7,8 @@ CREATE TABLE IF NOT EXISTS users (
     first_name VARCHAR(40) NOT NULL,
     last_name VARCHAR(40) NOT NULL,
     birth_date DATE NOT NULL,
-    email VARCHAR(255) NOT NULL
+    email VARCHAR(255) NOT NULL,
+    password_key VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS routines ( 
@@ -32,3 +33,6 @@ CREATE TABLE IF NOT EXISTS questions (
 CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
 
 GRANT SELECT, CREATE, DELETE ON softcaredb.routines TO 'username'@'localhost';
+
+
+

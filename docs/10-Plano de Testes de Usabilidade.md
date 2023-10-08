@@ -2,33 +2,150 @@
 
 Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+Os participantes realizarão uma série de tarefas que incluem identificar problemas na interface, criar, acessar e fazer o logout da conta, responder ao questionário e, criar, visualizar e deletar uma rotina gerada.
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
 
-## Segue abaixo cada plano de testes de usabilidade 
+### 01 – Criar e Acessar uma Conta                                                                   
 
-| **Caso de Teste** 	| CT-01 – Responsibidade	|
-|:---:	|:---:	|
-|Requisito Associado | RNF-002	- O site deve ser responsivo, adaptando-se a diferentes tamanhos de tela e dispositivos móveis.  |
-| Objetivo do Teste 	| Avaliar a capacidade do software de se adaptar a diferentes tamanhos de tela e dispositivos. |
-| Passos 	| - Acessar a URL em dispositivos de diversos tamanhos. <br> - Navegar na plataforma e analisar o desempenho da aplicação.|
-|Critério de Êxito | Adaptação e responsividade do site para diferentes tamanhos de tela. |
-|  	|  	|
-| **Caso de Teste** 	| CT-02 – Multiplataforma	|
-|Requisito Associado | RNF-003	- O site deve ser multiplataforma |
-| Objetivo do Teste 	| Verificar se a aplicação é compativel com 2 ou mais sistemas operacionais |
-| Passos 	| - Acessar a URL em diferentes sistemas operacionais.  <br> - Verificar o funcionamento da aplicação. |
-|Critério de Êxito | A aplicação deve funcionar corretamente. |
-|  	|  	|
-| **Caso de Teste** 	| CT-03 – Compatibilidade	|
-|Requisito Associado | RNF-004	- O site deve ser compativel com diversos navegadores do mercado. |
-| Objetivo do Teste 	| Verificar a compatibilidade do software com navegadores da web populares (Chrome, Firefox, Safari, etc.). |
-| Passos 	| - Acessar a URL em diferentes navegadores <br> - Verificar o funcionamento da aplicação|
-|Critério de Êxito | A aplicação deve funcionar corretamente em diferentes navegadores. |
-|  	|  	|
-| **Caso de Teste** 	| CT-04 – Interface intuitiva	|
-|Requisito Associado | RNF-008	- A interface do usuário deve ser intuitiva e de fácil navegação, que permita aos usuários encontrarem facilmente os tópicos de interesse. |
-| Objetivo do Teste 	| Avaliar a intuitividade da interface do usuário, incluindo a navegação, o design e a organização dos elementos. |
-| Passos 	| - Acessar o site a partir da URL <br> - Avaliar se a navegação do site está intuitiva e de fácil navegação. |
-|Critério de Êxito |  A interface é de facil navegação para os usuários. |
+Avaliar a eficiência e a usabilidade do processo de criação e acesso a uma conta no sistema.
+
+**Criação de Conta:**
+
+a. Acesse a página de cadastro. <br>
+b. Tente criar uma conta, inserindo as informações solicitadas.<br>
+c. Verifique se o processo é intuitivo e se as orientações são claras.<br>
+d. Avalie a facilidade de preenchimento dos campos e a fluidez da criação de conta.<br>
+e. Verifique se os campos obrigatórios e opcionais são corretamente sinalizados. <br>
+e. Registre o tempo necessário para criar a conta. <br>
+
+**Acesso à Conta:**
+
+a. Acesse a página de login.
+b. Tente fazer o login na conta que acabou de criar. <br>
+c. Verifique se o processo de login é direto e claro. <br>
+d. Avalie a facilidade de inserção de credenciais (e-mail/senha). <br>
+e. Registre o tempo necessário para acessar a conta. <br>
+f. Avalie a eficiência e fluidez do processo de logout. <br>
+
+**Logout da Conta:**
+
+a. Após estar logado, encontre a opção de logout. <br>
+b. Tente fazer o logout da conta. <br>
+c. Verifique se o processo de logout é claro e de fácil acesso. <br>
+d. Avalie a eficiência e fluidez do processo de logout. <br>
+
+**Critérios de Avaliação:**
+
+A eficiência e fluidez dos processos de criação, acesso e logout da conta. <br>
+A clareza das orientações e a facilidade de encontrar as opções necessárias. <br>
+O tempo necessário para concluir cada etapa. <br>
+
+<br><br>
+
+
+###  02 – Responder ao questionário
+ 
+Avaliar a usabilidade e a eficiência do processo de responder ao questionário.
+
+**Acesso ao Questionário:**
+
+a. Acesse a página onde o questionário de skincare está disponível. <br>
+b. Verifique se a navegação até o questionário é clara e intuitiva. <br>
+c. Avalie a forma como o usuário é direcionado para iniciar o questionário. <br>
+
+**Resposta ao Questionário:**
+
+a. Inicie o questionário e responda as perguntas apresentadas. <br>
+b. Observe a clareza das perguntas e a facilidade de seleção das respostas. <br>
+c. Avalie se as opções de resposta são claras e compreensíveis. <br>
+d. Registre o tempo necessário para completar o questionário. <br>
+
+**Submissão do Questionário:**
+
+a. Após responder todas as perguntas, tente submeter suas respostas. <br>
+b. Verifique se o processo de submissão é claro e fácil de encontrar. <br>
+
+
+**Critérios de Avaliação:**
+
+A clareza e a facilidade de responder às perguntas do questionário. <br>
+A eficiência do processo, incluindo a navegação até o questionário e a submissão das respostas. <br>
+O tempo necessário para concluir o questionário. <br>                                                                
+
+<br><br>
+
+
+
+###  03 – Criar, visualizar e deletar a rotina gerada
+
+Avaliar a eficiência e a usabilidade dos processos de criação, visualização e exclusão da rotina de skincare gerada pelo sistema.
+
+**Criação da Rotina:**
+
+a. Acesse a funcionalidade para criar uma rotina de skincare. <br>
+b. Preencha as informações necessárias para a criação da rotina. <br>
+c. Verifique a clareza das opções e a facilidade de inserção das informações. <br>
+d. Registre o tempo necessário para criar a rotina. <br>
+
+**Visualização da Rotina:**
+
+a. Após criar a rotina, acesse a área do usuário para visualizá-la. <br>
+b. Verifique se o botão para visualizar a rotina funciona corretamente. <br>
+c. Avalie a apresentação das informações da rotina, e a facilidade de compreensão dos termos utilizados. <br>
+d. Registre o tempo necessário para visualizar a rotina. <br>
+
+**Deleção da Rotina:**
+
+a. Acesse a área do usuário para deletar a rotina gerada. <br>
+b. Tente deletar a rotina. <br>
+c. Verifique se o processo de exclusão é claro e se há confirmação para a ação. <br>
+d. Registre o tempo necessário para deletar a rotina. <br>
+
+**Critérios de Avaliação:**
+
+A eficiência e a fluidez dos processos de criação, visualização e deleção da rotina gerada. <br>
+A clareza das opções e a facilidade de inserção e apresentação das informações. <br>
+O tempo necessário para concluir cada etapa. <br>
+                 
+<br><br>
+
+
+
+###  04 – Consistência e padrões                                               
+
+a. Os elementos de interface (cores, botões, campos, etc.) possuem consistência visual e de design? <br>
+b. O sistema evita o uso constante de letras maiúsculas? <br>               
+c. Os campos obrigatórios e opcionais são corretamente sinalizados? 
+
+<br><br>
+
+
+### 05 - Feedback                   
+Os participantes irao compartilhar suas opinoes sobre a usablidade do sistema repondendo o questionário pelo site [UsabilityHub](https://usabi.li/do/665cf57dd970/9152), e poderão pontuar numa escala de 1 a 5 seu grau de dificuldade e eficiência da plataforma em dez questões.
+
+
+1: Muito Insatisfatório <br>
+2: Insatisfatório <br>
+3: Neutro <br>
+4: Satisfatório <br>
+5: Muito Satisfatório <br>
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/f3ea3092-b4cb-4c7c-bb4e-32d5aa62efd4)
+
+
+<br><br>
+
+## Seleção dos participantes
+
+Nossa pesquisa incluirá alunos e familiares, visando avaliar a usabilidade do nosso site de skincare. 
+
+Buscamos uma variedade de idades, gêneros e origens para garantir uma representação diversificada dos usuários, e uma visão completa e abrangente da usabilidade de nossa plataforma.
+
+<br><br>
+
+## Local e Ambiente de Avaliação
+
+Todos os procedimentos relativos aos testes de usabilidade serão realizados de forma online, garantindo comodidade e praticidade para todos os envolvidos. 
+
+ As respostas dos testes de usabilidade fornecerão uma compreensão valiosa do comportamento, percepções e necessidades dos usuários, permitindo tomar decisões informadas e orientadas pela experiência do usuário para melhorar o nosso site de skincare. 
+
