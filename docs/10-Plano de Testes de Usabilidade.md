@@ -24,7 +24,7 @@ a. Acesse a página de login. <br>
 b. Tente fazer o login na conta que acabou de criar. <br>
 c. Verifique se o processo de login é direto e claro. <br>
 d. Avalie a facilidade de inserção de credenciais (e-mail/senha). <br>
-e. Avalie a eficiência e fluidez do processo de logout. <br>
+
 
 **Logout da Conta:**
 
@@ -118,7 +118,7 @@ c. Os campos obrigatórios e opcionais são corretamente sinalizados?
 
 
 ### 05 - Feedback                   
-Os participantes irao compartilhar suas opinoes sobre a usablidade do sistema repondendo o questionário pelo site [UsabilityHub](https://usabi.li/do/665cf57dd970/9152), e poderão pontuar numa escala de 1 a 5 seu grau de dificuldade e eficiência da plataforma em dez questões.
+Os participantes irao compartilhar suas opinoes sobre a usablidade do sistema repondendo o questionário pelo site [UsabilityHub](https://usabi.li/do/8aed4173069/1032), e poderão pontuar numa escala de 1 a 5 seu grau de dificuldade e eficiência da plataforma em dez questões.
 
 
 1: Muito Insatisfatório <br>
