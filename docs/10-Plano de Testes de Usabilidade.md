@@ -16,16 +16,15 @@ b. Tente criar uma conta, inserindo as informações solicitadas.<br>
 c. Verifique se o processo é intuitivo e se as orientações são claras.<br>
 d. Avalie a facilidade de preenchimento dos campos e a fluidez da criação de conta.<br>
 e. Verifique se os campos obrigatórios e opcionais são corretamente sinalizados. <br>
-e. Registre o tempo necessário para criar a conta. <br>
+
 
 **Acesso à Conta:**
 
-a. Acesse a página de login.
+a. Acesse a página de login. <br>
 b. Tente fazer o login na conta que acabou de criar. <br>
 c. Verifique se o processo de login é direto e claro. <br>
 d. Avalie a facilidade de inserção de credenciais (e-mail/senha). <br>
-e. Registre o tempo necessário para acessar a conta. <br>
-f. Avalie a eficiência e fluidez do processo de logout. <br>
+e. Avalie a eficiência e fluidez do processo de logout. <br>
 
 **Logout da Conta:**
 
@@ -38,7 +37,6 @@ d. Avalie a eficiência e fluidez do processo de logout. <br>
 
 A eficiência e fluidez dos processos de criação, acesso e logout da conta. <br>
 A clareza das orientações e a facilidade de encontrar as opções necessárias. <br>
-O tempo necessário para concluir cada etapa. <br>
 
 <br><br>
 
@@ -58,7 +56,7 @@ c. Avalie a forma como o usuário é direcionado para iniciar o questionário. <
 a. Inicie o questionário e responda as perguntas apresentadas. <br>
 b. Observe a clareza das perguntas e a facilidade de seleção das respostas. <br>
 c. Avalie se as opções de resposta são claras e compreensíveis. <br>
-d. Registre o tempo necessário para completar o questionário. <br>
+
 
 **Submissão do Questionário:**
 
@@ -70,7 +68,6 @@ b. Verifique se o processo de submissão é claro e fácil de encontrar. <br>
 
 A clareza e a facilidade de responder às perguntas do questionário. <br>
 A eficiência do processo, incluindo a navegação até o questionário e a submissão das respostas. <br>
-O tempo necessário para concluir o questionário. <br>                                                                
 
 <br><br>
 
