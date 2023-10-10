@@ -111,8 +111,7 @@ O tempo necessário para concluir cada etapa. <br>
 ###  04 – Consistência e padrões                                               
 
 a. Os elementos de interface (cores, botões, campos, etc.) possuem consistência visual e de design? <br>
-b. O sistema evita o uso constante de letras maiúsculas? <br>               
-c. Os campos obrigatórios e opcionais são corretamente sinalizados? 
+b. Os campos obrigatórios e opcionais são corretamente sinalizados? 
 
 <br><br>
 
