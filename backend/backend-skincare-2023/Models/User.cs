@@ -7,27 +7,30 @@ namespace backend_skincare_2023.Models
     public class User
     {
         [Key]
+
+        // Propriedade para exibição formatada da data de nascimento
+        public string FormattedBirthDate => BirthDate.ToShortDateString();
         public int UserId { get; set; }
 
-        [Required(ErrorMessage = "Name field is required")]
+        [Required(ErrorMessage = "Obrigatório informar o nome.")]
         [StringLength(40)]
         public string FirstName { get; set; }
 
 
-        [Required(ErrorMessage = "Last name field is required")]        
+        [Required(ErrorMessage = "Obrigatório informar o sobrenome")]        
         [StringLength(40)]
         public string LastName { get; set; }
 
 
-        [Required(ErrorMessage = "Email field is required")]
+        [Required(ErrorMessage = "Obrigatório informar o email")]
         [StringLength(25)]
         public string Email { get; set; }
 
 
-        [Required(ErrorMessage = "Birth date is required")]
+        [Required(ErrorMessage = "Obrigatório informar a data de nascimento")]
         public DateTime BirthDate { get; set; }
 
-        [Required(ErrorMessage = "Password is required")]
+        [Required(ErrorMessage = "Obrigatório informar uma senha")]
         public string PasswordKey { get; set; }
 
 

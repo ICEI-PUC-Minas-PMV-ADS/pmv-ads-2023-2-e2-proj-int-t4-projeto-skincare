@@ -1,13 +1,14 @@
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Options;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
-
 
 
 //Configurar a aplicacao para usar mysql database
@@ -18,9 +19,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 });
 
 
-
-
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -35,33 +35,13 @@ else
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();
 
 
-// Adiciona uma rota para imprimir "Hello, World!"
-app.MapGet("/", async context =>
-{
-    await context.Response.WriteAsync("Hello, World!");
-});
 
-
-
-// Add a route to display user names
-app.MapGet("/usernames", async context =>
-{
-    using (var scope = app.Services.CreateScope())
-    {
-        var dbContext = scope.ServiceProvider.GetService<ApplicationDbContext>();
-        var users = await dbContext.Users.ToListAsync();
-        foreach (var user in users)
-        {
-            await context.Response.WriteAsync($"User Name: {user.FirstName} {user.LastName}\n");
-        }
-    }
-});
-
-
+//Rota padrao
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
