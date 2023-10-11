@@ -1,0 +1,46 @@
+﻿@model backend_skincare_2023.Models.User
+
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<h1>Detalhes</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            <label asp-for="FirstName">Nome:</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt class="col-sm-2">
+            <label asp-for="LastName">Sobrenome:</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt class="col-sm-2">
+            <label asp-for="Email">E-mail:</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            <label asp-for="BirthDate">Data de Nascimento:</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FormattedBirthDate)
+        </dd>
+        <dt class="col-sm-2">
+            <label asp-for="PasswordKey">Senha:</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PasswordKey)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" class="btn btn-custom">Voltar</a>
+</div>

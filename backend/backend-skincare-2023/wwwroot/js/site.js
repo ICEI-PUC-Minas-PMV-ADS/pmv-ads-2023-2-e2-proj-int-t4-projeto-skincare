@@ -1,4 +1,16 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿function navigateToQuiz() {
+    window.location.href = "./pages/questionario/pergunta1/pergunta1.html";
+}
 
-// Write your JavaScript code.
+
+function navigateToAtivos() {
+    window.location.href = "./pages/info-pages/ativos/ativos.html";
+}
+
+function navigateToTipoPele() {
+    window.location.href = "./pages/info-pages/tipo-pele/tipo-pele.html";
+}
+
+function navigateToPeleMasculina() {
+    window.location.href = "./pages/info-pages/pele-masculina/pele-masculina.html";
+}

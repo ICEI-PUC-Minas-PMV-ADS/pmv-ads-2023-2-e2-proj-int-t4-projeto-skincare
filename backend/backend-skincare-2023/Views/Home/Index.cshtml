@@ -2,7 +2,118 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Projeto backend Skincare</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soft Care</title>
+    <link rel="icon" href="~/images/favicon-32x32.png" type="image/x-icon" class="favicon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/site.css">
+</head>
+
+<body>   
+    <!-- PURPLE IMG -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="container content-div" id="container-roxo">
+                    <h1 class="title-rotina">Descubra a sua rotina de skincare perfeita.</h1>
+                    <p class="p-rotina">Crie sua rotina personalizada agora!</p>
+                    <button type="button" class="btn btn-routine" id="btn-rotina" onclick="navigateToQuiz()">
+                        Quiz da
+                        pele
+                    </button>
+                </div>
+            </div>
+            <div class="col" id="div-img">
+                <img src="~/images/wk47_retinol_hero.jpg" class="img-fluid" id="retinol-img" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <!-- CARDS IMG -->
+    <main class="main-content">
+
+        <div class="div-ativos">
+            <div class="row dest-card ">
+                <div class="col-md-4">
+                    <a href="./pages/info-pages/ativos/ativos.html">
+                        <img class="img-fluid img-ativos"
+                             src="~/images/Woman_Applying_Skincare_Cosmetics.jpg"
+                             alt="Woman_Applying_Skincare_Cosmetics" />
+                    </a>
+                </div>
+                <div class="col-md-8">
+                    <h3 class="title-cards">O que são os princípios ativos?</h3>
+                    <hr id="hr" />
+                    <p class="text-cards">
+                        Descubra como potencializar sua rotina de skincare. Conheça
+                        os poderosos ativos que impulsionam resultados visíveis,
+                        dando a sua pele o cuidado que merece.
+                    </p>
+                    <button type="button" class="btn btn-custom" onclick="navigateToAtivos()">Ler mais</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="div-tipo-pele">
+            <div class="row dest-card ">
+                <div class="col-md-4">
+                    <a href="./pages/info-pages/tipo-pele/tipo-pele.html">
+                        <img class="img-fluid img-tipo-pele"
+                             src="~/images/skintype-1.png" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-8">
+                    <h3 class="title-cards">Saiba identificar o seu tipo de pele</h3>
+                    <hr id="hr" />
+                    <p class="text-cards">
+                        Compreender suas características específicas ajuda a
+                        escolher os produtos e tratamentos mais adequados. Veja como
+                        identificar seu tipo de pele.
+                    </p>
+                    <button type="button" class="btn btn-custom" onclick="navigateToTipoPele()">Ler mais</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="div-pele-masculina">
+            <div class="row dest-card ">
+                <div class="col-md-4">
+                    <a href="./pages/info-pages/pele-masculina/pele-masculina.html">
+                        <img class="img-fluid img-masculina"
+                             src="~/images/shutterstock_618438461.jpg" alt="Homem fazendo skincare" />
+                    </a>
+                </div>
+                <div class="col-md-8">
+                    <h3 class="title-cards">Cuidados com a pele masculina</h3>
+                    <hr id="hr" />
+                    <p class="text-cards">
+                        Descubra como potencializar sua rotina de skincare. Conheça
+                        os poderosos ativos que impulsionam resultados visíveis,
+                        dando a sua pele o cuidado que merece.
+                    </p>
+                    <button type="button" class="btn btn-custom" onclick="navigateToPeleMasculina()">Ler mais</button>
+                </div>
+            </div>
+            <span class="line"></span>
+        </div>
+ 
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    <script src="./utils/navigateToPages.js"></script>
+</body>
+
+</html>
