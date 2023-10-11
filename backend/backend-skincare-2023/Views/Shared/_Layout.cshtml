@@ -3,7 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - backend_skincare_2023</title>
+    <link rel="icon" href="~/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="~/images/favicon-32x32.png" type="image/x-icon">
+    <title>@ViewData["title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/backend_skincare_2023.styles.css" asp-append-version="true" />
@@ -13,7 +15,7 @@
    <header class="header">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-                <img src="~/images/logo.png" class="website-logo" width="96" alt="" href="./index.html">
+                <img src="~/images/logo.png" class="website-logo" width="96" alt="" href="">
         <button class="navbar-toggler order-first" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -22,13 +24,13 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./pages/quem-somos/quem-somos.html">Quem somos</a>
+              <a class="nav-link active" href="">Quem somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./pages/guia-pele/guia-pele.html">Guia da pele</a>
+              <a class="nav-link active" href="">Guia da pele</a>
             </li>
           </ul>
         </div>
@@ -37,8 +39,8 @@
     </nav>
   </header>
 
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div >
+        <main role="main">
             @RenderBody()
         </main>
     </div>
