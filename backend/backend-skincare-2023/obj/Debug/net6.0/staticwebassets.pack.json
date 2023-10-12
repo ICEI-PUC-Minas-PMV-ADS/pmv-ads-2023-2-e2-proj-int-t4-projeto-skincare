@@ -13,6 +13,38 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\html\\ativos.html",
+      "PackagePath": "staticwebassets\\html\\ativos.html"
+    },
+    {
+      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\html\\guiapele.html",
+      "PackagePath": "staticwebassets\\html\\guiapele.html"
+    },
+    {
+      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\html\\hidratacao.html",
+      "PackagePath": "staticwebassets\\html\\hidratacao.html"
+    },
+    {
+      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\html\\olheiras.html",
+      "PackagePath": "staticwebassets\\html\\olheiras.html"
+    },
+    {
+      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\html\\pelemadura.html",
+      "PackagePath": "staticwebassets\\html\\pelemadura.html"
+    },
+    {
+      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\html\\pelemasculina.html",
+      "PackagePath": "staticwebassets\\html\\pelemasculina.html"
+    },
+    {
+      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\html\\quemsomos.html",
+      "PackagePath": "staticwebassets\\html\\quemsomos.html"
+    },
+    {
+      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\html\\tipopele.html",
+      "PackagePath": "staticwebassets\\html\\tipopele.html"
+    },
+    {
       "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\1_Cosméticos_naturais.jpg",
       "PackagePath": "staticwebassets\\images\\1_Cosméticos_naturais.jpg"
     },

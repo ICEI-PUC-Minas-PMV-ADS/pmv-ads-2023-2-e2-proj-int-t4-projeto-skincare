@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
-using backend_skincare_2023.Models;  // Assuming you have a User model
+using backend_skincare_2023.Models;  
 
 namespace backend_skincare_2023.Controllers
 {

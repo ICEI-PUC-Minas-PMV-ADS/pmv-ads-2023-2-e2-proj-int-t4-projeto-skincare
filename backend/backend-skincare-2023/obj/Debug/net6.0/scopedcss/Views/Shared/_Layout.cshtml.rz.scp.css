@@ -1,48 +1,96 @@
-/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand[b-6v7hlf41df] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+
+/*NAV*/
+.website-logo[b-6v7hlf41df] {
+    margin-left: 12px;
 }
 
-a[b-6v7hlf41df] {
-  color: #0077cc;
+.user-icon[b-6v7hlf41df] {
+    margin-right: 12px;
 }
 
-.btn-primary[b-6v7hlf41df] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.nav-item[b-6v7hlf41df] {
+    margin-right: 100px;
 }
 
-.nav-pills .nav-link.active[b-6v7hlf41df], .nav-pills .show > .nav-link[b-6v7hlf41df] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.navbar[b-6v7hlf41df] {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.border-top[b-6v7hlf41df] {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom[b-6v7hlf41df] {
-  border-bottom: 1px solid #e5e5e5;
+.nav-link[b-6v7hlf41df] {
+    padding: 10px 30px;
+    font-weight: normal;
 }
 
-.box-shadow[b-6v7hlf41df] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    .nav-link:hover[b-6v7hlf41df] {
+        color: #9781AD !important;
+        font-weight: 500;
+    }
+
+/* FOOTER */
+section[b-6v7hlf41df] {
+    padding: 40px 0;
 }
 
-button.accept-policy[b-6v7hlf41df] {
-  font-size: 1rem;
-  line-height: inherit;
+#footer[b-6v7hlf41df] {
+    background: #333333 !important;
+    padding-bottom: 10px;
 }
 
-.footer[b-6v7hlf41df] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+    #footer a[b-6v7hlf41df] {
+        color: white;
+        text-decoration: none !important;
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects;
+    }
+
+    #footer p[b-6v7hlf41df] {
+        padding: 3px 0;
+    }
+
+        #footer p a[b-6v7hlf41df],
+        #footer p a[b-6v7hlf41df] {
+            color: white;
+        }
+
+#footer-text[b-6v7hlf41df] {
+    margin-top: 30px;
+    margin: auto;
+}
+
+.fa[b-6v7hlf41df] {
+    color: white !important;
+}
+
+.social a i[b-6v7hlf41df] {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social[b-6v7hlf41df] {
+    margin-top: -150px;
+}
+
+/* Media query for smaller screens */
+@media (max-width:767px) {
+    #footer h5[b-6v7hlf41df] {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+
+    .social[b-6v7hlf41df] {
+        text-align: center;
+        margin-top: -25px;
+    }
+
+        .social a i[b-6v7hlf41df] {
+            margin-top: 20px;
+            align-items: center;
+            display: inline-block;
+            margin-right: 10px;
+        }
 }
