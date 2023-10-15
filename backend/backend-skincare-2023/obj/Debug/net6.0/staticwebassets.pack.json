@@ -1,367 +1,367 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\backend-skincare-2023.bundle.scp.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\backend-skincare-2023.bundle.scp.css",
       "PackagePath": "staticwebassets\\backend-skincare-2023.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\1_Cosméticos_naturais.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\1_Cosméticos_naturais.jpg",
       "PackagePath": "staticwebassets\\images\\1_Cosméticos_naturais.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\2022_wk37_IPC_Blog Hero_Desktop.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\2022_wk37_IPC_Blog Hero_Desktop.jpg",
       "PackagePath": "staticwebassets\\images\\2022_wk37_IPC_Blog Hero_Desktop.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\2022_wk4_skinbarriers_Blog Hero_Desktop.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\2022_wk4_skinbarriers_Blog Hero_Desktop.jpg",
       "PackagePath": "staticwebassets\\images\\2022_wk4_skinbarriers_Blog Hero_Desktop.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\300x200_thumbnail_HK-Connect_Vitamins-for-acne.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\300x200_thumbnail_HK-Connect_Vitamins-for-acne.jpg",
       "PackagePath": "staticwebassets\\images\\300x200_thumbnail_HK-Connect_Vitamins-for-acne.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\360_F_422501065_iKBL7qoOhaXqjxONodvSnGmuuwkt7pbf.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\360_F_422501065_iKBL7qoOhaXqjxONodvSnGmuuwkt7pbf.jpg",
       "PackagePath": "staticwebassets\\images\\360_F_422501065_iKBL7qoOhaXqjxONodvSnGmuuwkt7pbf.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\960x540-skintype-1.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\960x540-skintype-1.jpg",
       "PackagePath": "staticwebassets\\images\\960x540-skintype-1.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\Ask-New-Skincare_H.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\Ask-New-Skincare_H.jpg",
       "PackagePath": "staticwebassets\\images\\Ask-New-Skincare_H.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\Dermatologist-skincare-tips.webp",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\Dermatologist-skincare-tips.webp",
       "PackagePath": "staticwebassets\\images\\Dermatologist-skincare-tips.webp"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\Manfaat_menggunakan_skincare.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\Manfaat_menggunakan_skincare.jpg",
       "PackagePath": "staticwebassets\\images\\Manfaat_menggunakan_skincare.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\Skincare_products.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\Skincare_products.jpg",
       "PackagePath": "staticwebassets\\images\\Skincare_products.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\THECLINIC_APRILCONTENT-59-(2)-v1685526942465.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\THECLINIC_APRILCONTENT-59-(2)-v1685526942465.jpg",
       "PackagePath": "staticwebassets\\images\\THECLINIC_APRILCONTENT-59-(2)-v1685526942465.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\Woman_Applying_Skincare_Cosmetics.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\Woman_Applying_Skincare_Cosmetics.jpg",
       "PackagePath": "staticwebassets\\images\\Woman_Applying_Skincare_Cosmetics.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\cadastro.png",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\cadastro.png",
       "PackagePath": "staticwebassets\\images\\cadastro.png"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\cosmeticos-principios-ativos.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\cosmeticos-principios-ativos.jpg",
       "PackagePath": "staticwebassets\\images\\cosmeticos-principios-ativos.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\curology-RKwaj2g6OOU-unsplash.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\curology-RKwaj2g6OOU-unsplash.jpg",
       "PackagePath": "staticwebassets\\images\\curology-RKwaj2g6OOU-unsplash.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\ebc3467f-dia-noite-cosmeticos.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\ebc3467f-dia-noite-cosmeticos.jpg",
       "PackagePath": "staticwebassets\\images\\ebc3467f-dia-noite-cosmeticos.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\favicon-32x32.png",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\favicon-32x32.png",
       "PackagePath": "staticwebassets\\images\\favicon-32x32.png"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\globencer-DiJKOYIiNmQ-unsplash.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\globencer-DiJKOYIiNmQ-unsplash.jpg",
       "PackagePath": "staticwebassets\\images\\globencer-DiJKOYIiNmQ-unsplash.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\globencer-OlRckR3Cfxo-unsplash.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\globencer-OlRckR3Cfxo-unsplash.jpg",
       "PackagePath": "staticwebassets\\images\\globencer-OlRckR3Cfxo-unsplash.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\guia-do-retinol.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\guia-do-retinol.jpg",
       "PackagePath": "staticwebassets\\images\\guia-do-retinol.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\image-main.png",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\image-main.png",
       "PackagePath": "staticwebassets\\images\\image-main.png"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\logo.png",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\pele-hidradata.png",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\pele-hidradata.png",
       "PackagePath": "staticwebassets\\images\\pele-hidradata.png"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\profile.png",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\profile.png",
       "PackagePath": "staticwebassets\\images\\profile.png"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\rotina-de-skincare-2-.png",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\rotina-de-skincare-2-.png",
       "PackagePath": "staticwebassets\\images\\rotina-de-skincare-2-.png"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\shutterstock_618438461.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\shutterstock_618438461.jpg",
       "PackagePath": "staticwebassets\\images\\shutterstock_618438461.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\skincare-ordem.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\skincare-ordem.jpg",
       "PackagePath": "staticwebassets\\images\\skincare-ordem.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\skincare.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\skincare.jpg",
       "PackagePath": "staticwebassets\\images\\skincare.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\skintype-1.png",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\skintype-1.png",
       "PackagePath": "staticwebassets\\images\\skintype-1.png"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\images\\wk47_retinol_hero.jpg",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\images\\wk47_retinol_hero.jpg",
       "PackagePath": "staticwebassets\\images\\wk47_retinol_hero.jpg"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Snovio\\Documents\\teste db\\backend\\backend-skincare-2023\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
