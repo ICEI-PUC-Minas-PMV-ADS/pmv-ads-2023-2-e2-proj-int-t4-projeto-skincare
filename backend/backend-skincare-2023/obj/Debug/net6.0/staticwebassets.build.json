@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TD+xnWT6m1TQxXKM/LGRO132eUp+v5ZkCJ5BjVIAcnw=",
+  "Hash": "kGoWjnUewb5P/k3q0aT2t6vdzl9DccWBQ0Vg8n8YVC0=",
   "Source": "backend-skincare-2023",
   "BasePath": "_content/backend-skincare-2023",
   "Mode": "Default",
@@ -185,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\pelemasculina.html"
+    },
+    {
+      "Identity": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\html\\privacidade.html",
+      "SourceId": "backend-skincare-2023",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\",
+      "BasePath": "_content/backend-skincare-2023",
+      "RelativePath": "html/privacidade.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\privacidade.html"
     },
     {
       "Identity": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\html\\quemsomos.html",
