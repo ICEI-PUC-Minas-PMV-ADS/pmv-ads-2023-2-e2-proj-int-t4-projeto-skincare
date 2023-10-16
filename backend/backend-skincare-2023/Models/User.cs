@@ -39,19 +39,6 @@ namespace backend_skincare_2023.Models
 
 
 
-        // Método para criar um hash seguro da senha usando BCrypt
-        public void SetPassword(string password)
-        {
-            PasswordKey = BCrypt.Net.BCrypt.HashPassword(password);
-
-        }
-
-        // Método para verificar se a senha fornecida corresponde ao hash
-        public bool VerifyPassword(string password)
-        {
-            return BCrypt.Net.BCrypt.Verify(password, PasswordKey);
-        }
-
 
 
     }

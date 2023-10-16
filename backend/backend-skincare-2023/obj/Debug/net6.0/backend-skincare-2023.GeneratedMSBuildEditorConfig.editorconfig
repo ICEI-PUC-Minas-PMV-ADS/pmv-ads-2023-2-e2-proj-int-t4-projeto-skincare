@@ -20,24 +20,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/root/Source/Repos/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Routines/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGluZXNcQ3JlYXRlLmNzaHRtbA==
+[C:/Users/root/Source/Repos/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Questions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/root/Source/Repos/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Routines/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGluZXNcRGVsZXRlLmNzaHRtbA==
+[C:/Users/root/Source/Repos/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Questions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/root/Source/Repos/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Routines/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGluZXNcRGV0YWlscy5jc2h0bWw=
+[C:/Users/root/Source/Repos/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Questions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/root/Source/Repos/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Routines/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGluZXNcRWRpdC5jc2h0bWw=
+[C:/Users/root/Source/Repos/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Questions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/root/Source/Repos/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Routines/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGluZXNcSW5kZXguY3NodG1s
+[C:/Users/root/Source/Repos/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Questions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/root/Source/Repos/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Shared/Error.cshtml]
@@ -46,18 +46,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/root/Source/Repos/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/root/Source/Repos/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/User/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/root/Source/Repos/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/User/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/root/Source/Repos/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/User/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/root/Source/Repos/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/backend/backend-skincare-2023/Views/_ViewImports.cshtml]
