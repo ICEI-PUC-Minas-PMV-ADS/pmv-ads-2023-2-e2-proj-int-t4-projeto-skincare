@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using backend_skincare_2023.Models;  // Assuming you have a User model
+using System.Net;
 
 namespace backend_skincare_2023.Controllers
 {
@@ -26,15 +27,27 @@ namespace backend_skincare_2023.Controllers
             return View(dados);
         }
 
+        [HttpGet("Create")]
+        public IActionResult Create()
+        {
+            return View();
+        }
 
 
+        [HttpPost("Create")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(User user) {
 
-        //CREATE USER -criar a view em branco, para colocar o html pronto,
-        //e enviar os dados do cadastro para o banco de dados.
+            if (ModelState.IsValid)
+            {
+                _context.Users.Add(user);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Index");       
+            }
 
-
-
-
+            return View(user);
+        }
+            
 
 
         //DELETE USER
