@@ -11,6 +11,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\html\guiapele.html" />
+    <Content Remove="wwwroot\html\hidratacao.html" />
+    <Content Remove="wwwroot\html\olheiras.html" />
+    <Content Remove="wwwroot\html\pelemadura.html" />
+    <Content Remove="wwwroot\html\pelemasculina.html" />
+    <Content Remove="wwwroot\html\privacidade.html" />
+    <Content Remove="wwwroot\html\quemsomos.html" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.22" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
