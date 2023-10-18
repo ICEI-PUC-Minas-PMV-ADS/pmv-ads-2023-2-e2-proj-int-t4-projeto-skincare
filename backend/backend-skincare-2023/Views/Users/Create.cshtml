@@ -3,49 +3,53 @@
 @{
     ViewData["Title"] = "Create";
 }
+<hr class="hr" />
 
-<div>
-    <a asp-action="Index">Voltar</a>
-</div>
-
-<h1 class="mt-4">Cadastro</h1>
-<p>Utilize seu email para se cadastrar.</p>
-
-<div class="row mt-4">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="FirstName" class="control-label">Nome</label>
-                <input asp-for="FirstName" class="form-control" />
-                <span asp-validation-for="FirstName" class="text-danger"></span>
-            </div>
-            <div class="form-group mt-4">
-                <label asp-for="LastName" class="control-label">Sobrenome</label>
-                <input asp-for="LastName" class="form-control" />
-                <span asp-validation-for="LastName" class="text-danger"></span>
-            </div>
-            <div class="form-group mt-4">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group mt-4">
-                <label asp-for="BirthDate" class="control-label">Data nascimento</label>
-                <input asp-for="BirthDate" type="date"  class="form-control" />
-                <span asp-validation-for="BirthDate" class="text-danger"></span>
-            </div>
-            <div class="form-group mt-4">
-                <label asp-for="PasswordKey" class="control-label">Senha</label>
-                <input asp-for="PasswordKey" class="form-control" />
-                <span asp-validation-for="PasswordKey" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Cadastrar" class="btn btn-purple form-control mt-4 mb-4" />
-            </div>
-        </form>
+<div class="main-part">
+    <div>
+        <a asp-action="Index">Voltar</a>
     </div>
+
+    <h1 class="mt-4">Cadastro</h1>
+    <p>Utilize seu email para se cadastrar.</p>
+
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="FirstName" class="control-label">Nome</label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-4">
+                    <label asp-for="LastName" class="control-label">Sobrenome</label>
+                    <input asp-for="LastName" class="form-control" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-4">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-4">
+                    <label asp-for="BirthDate" class="control-label">Data nascimento</label>
+                    <input asp-for="BirthDate" type="date" class="form-control" />
+                    <span asp-validation-for="BirthDate" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-4">
+                    <label asp-for="PasswordKey" class="control-label">Senha</label>
+                    <input asp-for="PasswordKey" class="form-control" />
+                    <span asp-validation-for="PasswordKey" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Cadastrar" class="btn btn-purple form-control mt-4 mb-4" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
 </div>
-
-
-

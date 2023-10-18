@@ -11,11 +11,14 @@ body {
     width: 100%;
 }
 
-main{
-    margin: 20px;
+.main-part{
+    padding: 20px;
 }
 
-
+.hr {
+    color: #9781AD;
+    margin-top: 0px;
+}
 
 .btn-custom {
     color: #9781AD;
