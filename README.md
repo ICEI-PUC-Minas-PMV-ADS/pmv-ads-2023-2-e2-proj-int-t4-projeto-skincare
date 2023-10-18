@@ -8,8 +8,6 @@
 
 Nossa aplicação utilizará inteligência artificial GPT para criar rotinas de cuidados com a pele personalizadas. Através de um questionário, a API GPT analisará as respostas e gerará uma rotina adaptada para o usuário. 
 
-Nosso objetivo é simplificar esses cuidados, garantindo que todos possam conquistar uma pele saudável por meio de escolhas informadas.
-
 
 ## Integrantes
 
