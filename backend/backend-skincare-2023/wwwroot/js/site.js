@@ -1,16 +1,16 @@
 ﻿function navigateToQuiz() {
-    window.location.href = "./pages/questionario/pergunta1/pergunta1.html";
+    window.location.href = "";
 }
 
 
 function navigateToAtivos() {
-    window.location.href = "./pages/info-pages/ativos/ativos.html";
+    window.location.href = "html/ativos.html";
 }
 
 function navigateToTipoPele() {
-    window.location.href = "./pages/info-pages/tipo-pele/tipo-pele.html";
+    window.location.href = "html/tipopele.html";
 }
 
 function navigateToPeleMasculina() {
-    window.location.href = "./pages/info-pages/pele-masculina/pele-masculina.html";
+    window.location.href = "html/pelemasculina.html";
 }

@@ -1,0 +1,154 @@
+﻿html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0;
+    width: 100%;
+}
+
+main{
+    margin: 20px;
+}
+
+
+
+.btn-custom {
+    color: #9781AD;
+    background-color: white;
+    border-color: #9781AD;
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+ .btn-custom:hover {
+        background-color: #9781AD;
+        border-color: #9781AD;
+        color: white;
+ }
+
+
+.btn-excluir {
+    color: white;
+    background-color: red;
+    border-color: white;
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 12px;
+}
+
+.btn-purple {
+    background-color: #9781AD;
+    color: white;
+}
+
+.trash {
+    margin-left: 50px;
+}
+
+
+/*NAV*/
+.website-logo {
+    margin-left: 12px;
+}
+
+.user-icon {
+    margin-right: 12px;
+}
+
+.nav-item {
+    margin-right: 100px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-link {
+    padding: 10px 30px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.nav-link:hover {
+     color: #9781AD !important;
+     font-weight: 500;
+}
+
+
+
+/* FOOTER */
+section {
+    padding: 40px 0;
+}
+
+#footer {
+    background: #333333 !important;
+    padding-bottom: 10px;
+}
+
+    #footer a {
+        color: white;
+        text-decoration: none !important;
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects;
+    }
+
+    #footer p {
+        padding: 3px 0;
+    }
+
+        #footer p a,
+        #footer p a {
+            color: white;
+        }
+
+#footer-text {
+    margin-top: 30px;
+    margin: auto;
+}
+
+.fa {
+    color: white !important;
+}
+
+.social a i {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social {
+    margin-top: -150px;
+}
+
+/* Media query for smaller screens */
+@media (max-width:767px) {
+    #footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+
+    .social {
+        text-align: center;
+        margin-top: -25px;
+    }
+
+        .social a i {
+            margin-top: 20px;
+            align-items: center;
+            display: inline-block;
+            margin-right: 10px;
+        }
+}
