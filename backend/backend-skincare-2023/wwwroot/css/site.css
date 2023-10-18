@@ -18,19 +18,6 @@ main {
     margin: 0;
 }
 
-.btn-excluir {
-    color: white;
-    background-color: red;
-    border-color: white;
-    border-radius: 20px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: 12px;
-}
-
-.trash {
-   margin-left: 50px;
-}
 
 /*NAV*/
 .website-logo {

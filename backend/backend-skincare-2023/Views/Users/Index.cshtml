@@ -4,28 +4,28 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Usuários cadastrados</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-purple">Criar usuário</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.FirstName)
+               Nome
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.LastName)
+                Sobrenome
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Email)
+               Email
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.BirthDate)
+                Data Nascimento
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PasswordKey)
+                Senha
             </th>
             <th></th>
         </tr>
@@ -43,15 +43,16 @@
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.BirthDate)
+                @Html.DisplayFor(modelItem => item.FormattedBirthDate)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.PasswordKey)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.UserId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.UserId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.UserId">Delete</a>
+                    <a asp-action="Details" asp-route-id="@item.UserId" class="btn btn-custom mr-2">Detalhes</a>
+                    <a asp-action="Delete" asp-route-id="@item.UserId" class="text-danger trash" style="text-decoration: none;">
+                         <i class="fas fa-trash" style="font-size: 20px;"></i>
+                    </a>
             </td>
         </tr>
 }

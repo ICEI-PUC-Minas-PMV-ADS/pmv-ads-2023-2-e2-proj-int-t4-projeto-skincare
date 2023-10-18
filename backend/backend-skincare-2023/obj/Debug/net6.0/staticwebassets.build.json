@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kGoWjnUewb5P/k3q0aT2t6vdzl9DccWBQ0Vg8n8YVC0=",
+  "Hash": "yA8J463Gd4b6JWCPvm/lKxzq9G0a62VahkLj4c2pIds=",
   "Source": "backend-skincare-2023",
   "BasePath": "_content/backend-skincare-2023",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\backend-skincare-2023.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\css\\Layout.css",
+      "SourceId": "backend-skincare-2023",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\",
+      "BasePath": "_content/backend-skincare-2023",
+      "RelativePath": "css/Layout.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Layout.css"
     },
     {
       "Identity": "C:\\Users\\root\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare\\backend\\backend-skincare-2023\\wwwroot\\css\\site.css",
