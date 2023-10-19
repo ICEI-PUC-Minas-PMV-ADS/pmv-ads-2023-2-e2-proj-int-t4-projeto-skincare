@@ -13,7 +13,6 @@ Nossa aplicação utilizará inteligência artificial GPT para criar rotinas de 
 
 * [Alissa Nishihara](https://github.com/alissacn)
 * [Fernanda Bandeira](https://github.com/NandaPinheiro)
-* [Igor Carvalho](https://github.com/igorcximenes)
 * [Maria Teresa Abreu](https://github.com/teresoumaria)
 
   
