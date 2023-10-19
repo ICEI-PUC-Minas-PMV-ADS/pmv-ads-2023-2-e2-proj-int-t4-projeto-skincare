@@ -56,6 +56,7 @@ namespace backend_skincare_2023.Controllers
         {
             if (ModelState.IsValid)
             {
+                user.PasswordKey = BCrypt.Net.BCrypt.HashPassword(user.PasswordKey);
                 _context.Add(user);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -93,6 +94,7 @@ namespace backend_skincare_2023.Controllers
             {
                 try
                 {
+                    user.PasswordKey = BCrypt.Net.BCrypt.HashPassword(user.PasswordKey);
                     _context.Update(user);
                     await _context.SaveChangesAsync();
                 }
