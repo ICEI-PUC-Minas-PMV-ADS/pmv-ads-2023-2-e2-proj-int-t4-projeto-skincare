@@ -21,10 +21,12 @@
 |   Objetivo do Teste   | Verificar se o usuário consegue se cadastrar na aplicação, com campo de preenchimento de nome, sobrenome, email e senha.                                                                                                                           |
 |        Passos         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site:  <br> 3) Clicar em ‘Cadastrar’ <br> 4) Preencher os campos obrigatórios  <br> 5)  Clicar em ‘Cadastrar’ <br> |
 | Dados de entrada	|  Nome, sobrenome, data de nascimento, email e senha |
-| Resultado esperado	|  O cadastro foi realizado com sucesso.
-|Resultado obtido	|  
-| Avaliação (pegou / não pegou erro)	| 
-|Evidência (print screen) |  
+| Resultado esperado	|  Dados armazenados no banco de dados.
+|Resultado obtido	|   Os campos nome, sobrenome, data nascimento, e-mail e senha, foram armazenados com precisão no banco de dados. 
+| Avaliação (pegou / não pegou erro)	| Nao possui erros
+|Evidência (print screen) | Lista de usuários cadastrados frontend ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/55cd5d8c-1dce-41ec-b7c9-8cca5e03a105) <br><br> Tabela usuários cadastrados banco de dados ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/4528b550-3279-4797-b715-a9b803b7bfdf) |
+
+
 
 <br><br>
 
