@@ -3,7 +3,7 @@
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| 	O site deve incluir uma página de login | ex : tarefas.shtml / tarefas.cs / controllertarefas.cs | 
+|RF-001| 	O site deve incluir uma página de login | ex : | 
 |RF-002|  O site deve conter uma área para fazer cadastro de novos usuários. |     |
 |RF-003|	O sistema deve ser capaz de criar rotinas personalizadas utilizando a API do Chat GPT. |     |
 |RF-004|	A aplicação deve permitir que os usuários acessem e modifiquem suas rotinas salvas a qualquer momento (CRUD).|  |
