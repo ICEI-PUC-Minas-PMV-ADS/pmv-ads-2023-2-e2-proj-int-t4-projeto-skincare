@@ -31,7 +31,7 @@ Foram impletados as funcionalidades referentes aos requisitos RF-002 - Para cada
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
 |RF-001| 	O site deve incluir uma página de login | | 
-|RF-002|  O site deve conter uma área para fazer cadastro de novos usuários. |     |
+|RF-002|  O site deve conter uma área para fazer cadastro de novos usuários. | Create.cshtml,   UserContoller.cs  |
 |RF-003|	O sistema deve ser capaz de criar rotinas personalizadas utilizando a API do Chat GPT. |     |
 |RF-004|	A aplicação deve permitir que os usuários acessem e modifiquem suas rotinas salvas a qualquer momento (CRUD).|  |
 |RF-005|	O sistema deve incluir uma mensagem automática no final do questionário, recomendando que o usuário procure um profissional de saúde, caso identifique que seu problema de pele requer cuidados médicos.|  |
