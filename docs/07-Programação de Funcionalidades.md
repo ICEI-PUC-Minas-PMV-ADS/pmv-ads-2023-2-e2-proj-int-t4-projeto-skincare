@@ -14,6 +14,9 @@ Foram impletados as funcionalidades referentes aos requisitos RF-002 - Para cada
 *Visualização e Exclusão de rotina*
 
 
+
+
+
 >> (RF-002)
 
 ![Captura de tela 2023-10-22 173937](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/cdc5ae8b-4651-4ff7-80fe-32cb44f132e6)
