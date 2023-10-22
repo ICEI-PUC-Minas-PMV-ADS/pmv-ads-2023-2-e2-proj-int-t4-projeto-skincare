@@ -1,0 +1,68 @@
+﻿body {
+}
+
+/*TEXTO*/
+.c-item {
+    height: 250px;
+}
+
+.h1-about-us {
+    font-size: 25px;
+    margin-top: 100px;
+    letter-spacing: unset;
+    color: #0035a0;
+}
+
+.link-integracao {
+    color: #212529;
+}
+
+
+
+.home-text {
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+    .home-text a {
+        text-decoration: none;
+        color: #0035a0;
+        font-size: 14px;
+    }
+
+.h1-text {
+    font-size: 25px;
+    margin-top: 100px;
+    letter-spacing: unset;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 200px;
+}
+
+.text-container h2 {
+    color: #0035a0;
+    margin-bottom: 30px;
+    font-size: 33px;
+    font-size: 33px;
+}
+
+.text-container h3 {
+    font-size: 22px;
+    color: #555;
+}
+
+.text-container p,
+ul,
+ol,
+li {
+    color: #555555;
+}
+
+.lista a {
+    color: #0035a0;
+}
