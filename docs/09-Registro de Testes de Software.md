@@ -8,7 +8,7 @@
 |        Passos         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site:  <br> 3)  Clicar em "Login " <br> 4) Preencher os campos obrigatórios  <br> 5) Clicar em "Entrar" <br> |
 | Dados de entrada	|  Email: teste@gmail.com,  senha: 1234
 | Resultado esperado	|  Login realizado com sucesso.
-|Resultado obtido	|  O usu'ario nao consegui logar sua conta.
+|Resultado obtido	|  O usuário nao conseguiu logar sua conta.
 | Avaliação (pegou / não pegou erro) | <br> Erro de Usuário e/ou senha Inválidos|
 |Evidência (print screen) |   ![Captura de tela 2023-10-22 180107](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/35872e53-c4d9-404f-a2c3-5d296795a540)   |
 
