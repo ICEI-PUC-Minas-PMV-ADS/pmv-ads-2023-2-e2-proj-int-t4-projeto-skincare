@@ -3,6 +3,10 @@
 ![Metodo de construção do software](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/00c14831-1d37-4d43-8393-ea2c2724636a)
 
 
+![Captura de tela 2023-10-22 170022](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/5bcd0f7b-1506-4e42-86b5-3cf2da3f6458)
+
+
+
 ## Diagrama de Classes
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
