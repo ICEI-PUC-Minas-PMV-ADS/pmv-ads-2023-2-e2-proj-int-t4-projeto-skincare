@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using backend_skincare_2023.Data;
 using backend_skincare_2023.Models;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using System.Diagnostics.CodeAnalysis;
 
 namespace backend_skincare_2023.Controllers
 {
@@ -48,6 +51,69 @@ namespace backend_skincare_2023.Controllers
         {
             return View();
         }
+
+
+        //login
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task <IActionResult> Login(User User)
+        {
+           
+            var dados = await _context.Users
+                .FindAsync(User.UserId);
+
+           
+            if (dados == null)
+            {
+                ViewBag.Message = "usuario invalido";
+                
+               return View();
+            }
+            bool senhaOk = BCrypt.Net.BCrypt.Verify(User.PasswordKey, dados.PasswordKey);
+          
+            if (senhaOk)
+            {
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, dados.FirstName),
+                     new Claim(ClaimTypes.NameIdentifier, dados.UserId.ToString()),
+                      new Claim(ClaimTypes.Role, dados.UserId.ToString())
+                };
+
+                var usuarioIdentity = new ClaimsIdentity(claims, "login");
+                ClaimsPrincipal principal = new ClaimsPrincipal(usuarioIdentity);
+
+                var props = new AuthenticationProperties
+                {
+                    AllowRefresh = true,
+                    ExpiresUtc = DateTime.UtcNow.ToLocalTime().AddHours(8),
+                    IsPersistent = true,
+                };
+
+                await HttpContext.SignInAsync(principal, props);
+
+               return RedirectToAction("/");
+            }
+            else
+            {
+                ViewBag.Message = "senha invalida";
+            }
+
+            return View();
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+
+
+           return RedirectToAction("Login", "Users");
+        }
+
 
         // POST: Users/Create
         [HttpPost]
