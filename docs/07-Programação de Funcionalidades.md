@@ -1,5 +1,22 @@
 # Programação de Funcionalidades
 
+Foram impletados as funcionalidades referentes aos requisitos RF-002 - Para cadastro do novo usuário ao site e RF-004 - Que permitem a modificação e exclusão das rotinas criadas para o usuário, assim como a visualização ou edição. 
+
+>> (RF-004)
+
+![teste](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/141384d8-8aa7-43e2-86d6-bbe076af4f3f)
+
+
+![Teste 2 ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/e38c344c-7214-45f5-beb3-33bfd8ea3c62)
+
+
+![Teste 3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/eac579f5-73a5-49c9-b61e-0c9b78ac3aca)
+
+
+
+
+
+
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
