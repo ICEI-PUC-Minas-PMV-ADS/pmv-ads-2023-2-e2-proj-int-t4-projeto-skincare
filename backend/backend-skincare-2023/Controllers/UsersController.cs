@@ -10,6 +10,7 @@ using backend_skincare_2023.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using System.Diagnostics.CodeAnalysis;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace backend_skincare_2023.Controllers
 {
@@ -69,7 +70,7 @@ namespace backend_skincare_2023.Controllers
            
             if (dados == null)
             {
-                ViewBag.Message = "usuario invalido";
+                ViewBag.Message = "Usuário e/ou senha inválido";
                 
                return View();
             }
@@ -100,7 +101,7 @@ namespace backend_skincare_2023.Controllers
             }
             else
             {
-                ViewBag.Message = "senha invalida";
+                ViewBag.Message = "Usuário e/ou senha inválido";
             }
 
             return View();
