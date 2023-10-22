@@ -15,7 +15,7 @@ Os testes serão baseados na metodologia a seguir
 
 | **Caso de Teste** 	| **CT-01 – Efetuar login** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-001 - O site deve conter uma pagina de login. <br> <br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/9cd2b113-fdbd-4728-8f00-2eda4f2dfe39)|
+|	Requisito Associado 	| RF-001 - O site deve conter uma pagina de login. |
 | Objetivo do Teste 	| Verificar se o usuário consegue se logar na aplicação |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Login " <br> - Preencher os campos obrigatórios. <br> - Clicar em "Entrar" |
 |Critério de Êxito | - O login foi realizado com sucesso. |
