@@ -21,10 +21,10 @@ Os testes serão baseados na metodologia a seguir
 |Critério de Êxito | - O login foi realizado com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| CT-02 – Efetuar cadastro	|
-|Requisito Associado | RF-002	- O site deve conter uma area para cadastrar novos usuários. |
+|Requisito Associado | RF-002	- O site deve conter uma area para cadastrar novos usuários. <br><br> ![Captura de tela 2023-10-22 175200](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/ba1148e2-2ecf-45d2-85fe-a2197ab4c2dd)|
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação|
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Clicar em ‘Cadastrar’ <br> - Preencher os campos obrigatórios (Nome, sobrenome, data de nascimento, email e senha) <br>  - Clicar em ‘Cadastrar’ |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|Critério de Êxito | - O cadastro foi realizado com sucesso. <br> <br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/f7bae03b-6214-4e43-800f-38b71de1f8ae)|
 |  	|  	|
 | **Caso de Teste** 	| CT-04 – Criar rotina	|
 |Requisito Associado | RF-004	- O site deve permitir o usuário  a criar uma  rotina. |
