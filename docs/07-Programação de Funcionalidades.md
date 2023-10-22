@@ -16,6 +16,7 @@ Foram impletados as funcionalidades referentes aos requisitos RF-002 - Para cada
 
 >> (RF-002)
 
+![Captura de tela 2023-10-22 173937](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/cdc5ae8b-4651-4ff7-80fe-32cb44f132e6)
 ![Captura de tela 2023-10-22 173634](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/aaab5cac-c4a8-49dd-a21c-d1d3fe577bf6)
 ![Captura de tela 2023-10-22 173643](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/ba89b3e0-02a5-4df1-84a2-bda50f7ba725)
 
