@@ -21,10 +21,10 @@ Os testes serão baseados na metodologia a seguir
 |Critério de Êxito | - O login foi realizado com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| CT-02 – Efetuar cadastro	|
-|Requisito Associado | RF-002	- O site deve conter uma area para cadastrar novos usuários. <br><br> ![Captura de tela 2023-10-22 175200](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/ba1148e2-2ecf-45d2-85fe-a2197ab4c2dd)|
+|Requisito Associado | RF-002	- O site deve conter uma area para cadastrar novos usuários. <br><br>
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação|
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Clicar em ‘Cadastrar’ <br> - Preencher os campos obrigatórios (Nome, sobrenome, data de nascimento, email e senha) <br>  - Clicar em ‘Cadastrar’ |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. <br> <br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/f7bae03b-6214-4e43-800f-38b71de1f8ae)|
+|Critério de Êxito | - O cadastro foi realizado com sucesso. <br> <br>|
 |  	|  	|
 | **Caso de Teste** 	| CT-04 – Criar rotina	|
 |Requisito Associado | RF-004	- O site deve permitir o usuário  a criar uma  rotina. |
@@ -32,13 +32,13 @@ Os testes serão baseados na metodologia a seguir
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer 'login' no site <br> - Clicar em Quiz da pele na  ‘home page' <br>  - 	Responder ás perguntas do questionário <br> ' Clicar en Enviar|
 |Critério de Êxito | - Rotina criada com sucesso|
 |  	|  	|
-| **Caso de Teste** 	| CT-03 – Excluir rotina salva <br> <br> ![dcd41121-eb26-42b8-bdd4-fb65867b342f](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/203d1a8a-3292-467d-97da-bbf9e05fa41b)|
+| **Caso de Teste** 	| CT-03 – Excluir rotina salva <br> <br> 
 |Requisito Associado | RF-004	- O site deve permitir o usuário excluir a sua rotina salva. |
 | Objetivo do Teste 	| Verificar se o usuário pode excluir a rotina salva no seu painel do usuário. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer 'login' no site <br> - Acessar a ‘Area do usuário' <br>  - Clicar em ‘Excluir rotina’ |
-|Critério de Êxito | - Rotina excluida com sucesso. <br> <br>![Captura de tela 2023-10-22 181452](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/2a364d86-68df-42ef-900a-243e39e61144) |
+|Critério de Êxito | - Rotina excluida com sucesso. <br> <br> |
 |  	|  	|
-| **Caso de Teste** 	| CT-04 – Acessar rotina salva <br> <br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/c5eac8d7-4f52-48ec-81ed-76c8886b7534)|
+| **Caso de Teste** 	| CT-04 – Acessar rotina salva <br> <br> |
 |Requisito Associado | RF-004	- O site deve permitir o usuário acessar a sua rotina salva. |
 | Objetivo do Teste 	| Verificar se o usuário pode acessar a rotina salva no seu painel do usuário. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer 'login' no site <br> - Acessar a ‘Area do usuário' <br>  - Clicar em ‘Visualizar rotina’ |
