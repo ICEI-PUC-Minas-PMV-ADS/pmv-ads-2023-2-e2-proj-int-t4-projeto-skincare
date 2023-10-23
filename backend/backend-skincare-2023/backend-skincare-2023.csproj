@@ -11,6 +11,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Controllers\Component.razor" />
+    <Content Remove="Views\Component.razor" />
     <Content Remove="wwwroot\html\guiapele.html" />
     <Content Remove="wwwroot\html\hidratacao.html" />
     <Content Remove="wwwroot\html\olheiras.html" />
