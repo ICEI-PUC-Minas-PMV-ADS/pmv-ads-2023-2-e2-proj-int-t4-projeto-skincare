@@ -4,7 +4,6 @@ Abaixo segue o relatório que contém as evidências dos testes e relatos dos us
 
 <br> <br>
 
-# Tabela de Avaliação da Usabilidade Funcional
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/8b421488-c20c-4c7c-8560-3e3400f0c171)
 
