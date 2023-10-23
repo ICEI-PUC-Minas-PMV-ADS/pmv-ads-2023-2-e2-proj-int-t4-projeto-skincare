@@ -8,9 +8,9 @@
 |        Passos         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site:  <br> 3)  Clicar em "Login " <br> 4) Preencher os campos obrigatórios  <br> 5) Clicar em "Entrar" <br> |
 | Dados de entrada	|  Email: teste@gmail.com,  senha: 1234
 | Resultado esperado	|  Login realizado com sucesso.
-|Resultado obtido	|  
-| Avaliação (pegou / não pegou erro)	| 
-|Evidência (print screen) |  
+|Resultado obtido	|  O usuário nao conseguiu logar sua conta.
+| Avaliação (pegou / não pegou erro) | <br> Erro de Usuário e/ou senha Inválidos|
+|Evidência (print screen) |   ![Captura de tela 2023-10-22 180107](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/35872e53-c4d9-404f-a2c3-5d296795a540)   |
 
 <br><br>
 
@@ -21,10 +21,12 @@
 |   Objetivo do Teste   | Verificar se o usuário consegue se cadastrar na aplicação, com campo de preenchimento de nome, sobrenome, email e senha.                                                                                                                           |
 |        Passos         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site:  <br> 3) Clicar em ‘Cadastrar’ <br> 4) Preencher os campos obrigatórios  <br> 5)  Clicar em ‘Cadastrar’ <br> |
 | Dados de entrada	|  Nome, sobrenome, data de nascimento, email e senha |
-| Resultado esperado	|  O cadastro foi realizado com sucesso.
-|Resultado obtido	|  
-| Avaliação (pegou / não pegou erro)	| 
-|Evidência (print screen) |  
+| Resultado esperado	|  Dados armazenados no banco de dados.
+|Resultado obtido	|   Os campos nome, sobrenome, data nascimento, e-mail e senha, foram armazenados com precisão no banco de dados. 
+| Avaliação (pegou / não pegou erro)	| Nao possui erros
+|Evidência (print screen) | Lista de usuários cadastrados frontend ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/55cd5d8c-1dce-41ec-b7c9-8cca5e03a105) <br><br> Tabela usuários cadastrados banco de dados ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/4528b550-3279-4797-b715-a9b803b7bfdf) |
+
+
 
 <br><br>
 
@@ -36,9 +38,10 @@
 |   Objetivo do Teste   |                                                                                                                       |
 | Passos 	| 1- Acessar o navegador <br> 2- Informar o endereço do site.<br> 3- Fazer 'login' no site  <br>  4- Clicar em ‘Quiz da pele’  <br>  4- Responder questionário  <br> 5- Clicar em ver minha rotina |
 | Resultado esperado	| Rotina personalizada é mostrada na tela para o usuário
-|Resultado obtido	|  
-| Avaliação (pegou / não pegou erro)	| 
-|Evidência (print screen) |  
+|Resultado obtido	|  Criada rotina com sucesso. 
+| Avaliação (pegou / não pegou erro)	| Não possui erros. 
+|Evidência (print screen) |  ![Captura de tela 2023-10-22 171647](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/e4e4de13-c066-466e-8b20-7305e4d678ee) |
+
 
 <br><br>
 
@@ -50,9 +53,10 @@
 |   Objetivo do Teste   | Verificar se o usuário pode excluir a rotina salva no seu painel do usuário.                                                                                                                           |
 |        Passos         | - Acessar o navegador <br>  - Informar o endereço do site <br>  - Fazer 'login' no site <br>  - Acessar a ‘Area do usuário' <br> - Clicar em ‘Excluir rotina’|
 | Resultado esperado	| Rotina excluida com sucesso. 
-|Resultado obtido	|  
-| Avaliação (pegou / não pegou erro)	| 
-|Evidência (print screen) |  
+|Resultado obtido	|  Rotina excluida com sucesso.
+| Avaliação (pegou / não pegou erro)	| não possui erros. 
+|Evidência (print screen) |  ![Captura de tela 2023-10-22 171724](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/ea8cb593-0f2f-4709-bf79-2b084972b432) |
+
 
 <br><br>
 
@@ -63,9 +67,9 @@
 | Objetivo do Teste 	| Verificar se o usuário pode acessar a rotina salva no seu painel do usuário. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer 'login' no site <br> - Acessar a ‘Area do usuário' <br>  - Clicar em ‘Visualizar rotina’ | 
 | Resultado esperado	| Rotina visualizada com sucesso. 
-|Resultado obtido	|  
-| Avaliação (pegou / não pegou erro)	| 
-|Evidência (print screen) |  
+|Resultado obtido	|  Rotina salva com sucesso 
+| Avaliação (pegou / não pegou erro)	| Não possui erros 
+|Evidência (print screen) |  <br> <br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/c5eac8d7-4f52-48ec-81ed-76c8886b7534)  |
 
 <br><br>
 

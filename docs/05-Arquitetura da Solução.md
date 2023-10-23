@@ -1,8 +1,9 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação
+![Captura de tela 2023-10-22 170022](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/5bcd0f7b-1506-4e42-86b5-3cf2da3f6458)
+
+
 
 ## Diagrama de Classes
 

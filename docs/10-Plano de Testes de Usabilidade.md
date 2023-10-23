@@ -16,7 +16,7 @@ b. Tente criar uma conta, inserindo as informações solicitadas.<br>
 c. Verifique se o processo é intuitivo e se as orientações são claras.<br>
 d. Avalie a facilidade de preenchimento dos campos e a fluidez da criação de conta.<br>
 e. Verifique se os campos obrigatórios e opcionais são corretamente sinalizados. <br>
-e. Registre o tempo necessário para criar a conta. <br>
+
 
 **Acesso à Conta:**
 
@@ -24,8 +24,8 @@ a. Acesse a página de login.
 b. Tente fazer o login na conta que acabou de criar. <br>
 c. Verifique se o processo de login é direto e claro. <br>
 d. Avalie a facilidade de inserção de credenciais (e-mail/senha). <br>
-e. Registre o tempo necessário para acessar a conta. <br>
-f. Avalie a eficiência e fluidez do processo de logout. <br>
+
+
 
 **Logout da Conta:**
 
@@ -34,11 +34,12 @@ b. Tente fazer o logout da conta. <br>
 c. Verifique se o processo de logout é claro e de fácil acesso. <br>
 d. Avalie a eficiência e fluidez do processo de logout. <br>
 
+
 **Critérios de Avaliação:**
 
 A eficiência e fluidez dos processos de criação, acesso e logout da conta. <br>
 A clareza das orientações e a facilidade de encontrar as opções necessárias. <br>
-O tempo necessário para concluir cada etapa. <br>
+
 
 <br><br>
 
@@ -58,7 +59,7 @@ c. Avalie a forma como o usuário é direcionado para iniciar o questionário. <
 a. Inicie o questionário e responda as perguntas apresentadas. <br>
 b. Observe a clareza das perguntas e a facilidade de seleção das respostas. <br>
 c. Avalie se as opções de resposta são claras e compreensíveis. <br>
-d. Registre o tempo necessário para completar o questionário. <br>
+
 
 **Submissão do Questionário:**
 
@@ -70,7 +71,6 @@ b. Verifique se o processo de submissão é claro e fácil de encontrar. <br>
 
 A clareza e a facilidade de responder às perguntas do questionário. <br>
 A eficiência do processo, incluindo a navegação até o questionário e a submissão das respostas. <br>
-O tempo necessário para concluir o questionário. <br>                                                                
 
 <br><br>
 
@@ -85,43 +85,41 @@ Avaliar a eficiência e a usabilidade dos processos de criação, visualização
 a. Acesse a funcionalidade para criar uma rotina de skincare. <br>
 b. Preencha as informações necessárias para a criação da rotina. <br>
 c. Verifique a clareza das opções e a facilidade de inserção das informações. <br>
-d. Registre o tempo necessário para criar a rotina. <br>
+
 
 **Visualização da Rotina:**
 
 a. Após criar a rotina, acesse a área do usuário para visualizá-la. <br>
 b. Verifique se o botão para visualizar a rotina funciona corretamente. <br>
 c. Avalie a apresentação das informações da rotina, e a facilidade de compreensão dos termos utilizados. <br>
-d. Registre o tempo necessário para visualizar a rotina. <br>
+
 
 **Deleção da Rotina:**
 
 a. Acesse a área do usuário para deletar a rotina gerada. <br>
 b. Tente deletar a rotina. <br>
 c. Verifique se o processo de exclusão é claro e se há confirmação para a ação. <br>
-d. Registre o tempo necessário para deletar a rotina. <br>
+
 
 **Critérios de Avaliação:**
 
 A eficiência e a fluidez dos processos de criação, visualização e deleção da rotina gerada. <br>
 A clareza das opções e a facilidade de inserção e apresentação das informações. <br>
-O tempo necessário para concluir cada etapa. <br>
-                 
+
 <br><br>
 
 
 
 ###  04 – Consistência e padrões                                               
 
-a. Os elementos de interface (cores, botões, campos, etc.) possuem consistência visual e de design? <br>
-b. O sistema evita o uso constante de letras maiúsculas? <br>               
-c. Os campos obrigatórios e opcionais são corretamente sinalizados? 
+a. Os elementos de interface (cores, botões, campos, etc.) possuem consistência visual e de design? <br>          
+b. Os campos obrigatórios e opcionais são corretamente sinalizados? 
 
 <br><br>
 
 
 ### 05 - Feedback                   
-Os participantes irao compartilhar suas opinoes sobre a usablidade do sistema repondendo o questionário pelo site [UsabilityHub](https://usabi.li/do/665cf57dd970/9152), e poderão pontuar numa escala de 1 a 5 seu grau de dificuldade e eficiência da plataforma em dez questões.
+Os participantes irao compartilhar suas opinoes sobre a usablidade do sistema repondendo o questionário pelo site [UsabilityHub](https://app.lyssna.com/do/8aed4173069/1032), e poderão pontuar numa escala de 1 a 5 seu grau de dificuldade e eficiência da plataforma em dez questões, sendo a última uma pergunta aberta, para o usuários detalharem melhor sua experiencia.
 
 
 1: Muito Insatisfatório <br>
@@ -130,7 +128,16 @@ Os participantes irao compartilhar suas opinoes sobre a usablidade do sistema re
 4: Satisfatório <br>
 5: Muito Satisfatório <br>
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/f3ea3092-b4cb-4c7c-bb4e-32d5aa62efd4)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/5e6d1332-82d5-43c0-be08-47323ae8884d)
+
+<br><br>
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/ea8d8000-ced5-4b95-95c3-ddcbeb453e2d)
+
+
+
+
 
 
 <br><br>
