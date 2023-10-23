@@ -55,9 +55,6 @@
                 @Html.DisplayFor(modelItem => item.PasswordKey)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Perfil)
-            </td>
-            <td>
                     <a asp-action="Details" asp-route-id="@item.UserId" class="btn btn-custom mr-2">Detalhes</a>
                     <a asp-action="Delete" asp-route-id="@item.UserId" class="text-danger trash" style="text-decoration: none;">
                          <i class="fas fa-trash" style="font-size: 20px;"></i>
