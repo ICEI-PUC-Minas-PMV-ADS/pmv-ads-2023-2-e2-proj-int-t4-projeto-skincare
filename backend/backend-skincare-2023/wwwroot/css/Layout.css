@@ -57,6 +57,14 @@ body {
     margin-left: 50px;
 }
 
+#trash {
+   margin-left: 20px;
+}
+
+#btn-rotina{
+    margin-top: 2px;
+}
+
 
 /*NAV*/
 .website-logo {
@@ -67,9 +75,6 @@ body {
     margin-right: 12px;
 }
 
-.nav-item {
-    margin-right: 100px;
-}
 
 .navbar {
     padding-top: 20px;
