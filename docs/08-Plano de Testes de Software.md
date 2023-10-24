@@ -21,24 +21,24 @@ Os testes serão baseados na metodologia a seguir
 |Critério de Êxito | - O login foi realizado com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| CT-02 – Efetuar cadastro	|
-|Requisito Associado | RF-002	- O site deve conter uma area para cadastrar novos usuários. |
+|Requisito Associado | RF-002	- O site deve conter uma area para cadastrar novos usuários. <br><br>
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação|
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Clicar em ‘Cadastrar’ <br> - Preencher os campos obrigatórios (Nome, sobrenome, data de nascimento, email e senha) <br>  - Clicar em ‘Cadastrar’ |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|Critério de Êxito | - O cadastro foi realizado com sucesso. <br> <br>|
 |  	|  	|
 | **Caso de Teste** 	| CT-04 – Criar rotina	|
 |Requisito Associado | RF-004	- O site deve permitir o usuário  a criar uma  rotina. |
 | Objetivo do Teste 	| Verificar se o usuário pode criar uma rotina. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer 'login' no site <br> - Clicar em Quiz da pele na  ‘home page' <br>  - 	Responder ás perguntas do questionário <br> ' Clicar en Enviar|
-|Critério de Êxito | - Rotina criada com sucesso |
+|Critério de Êxito | - Rotina criada com sucesso|
 |  	|  	|
-| **Caso de Teste** 	| CT-03 – Excluir rotina salva	|
+| **Caso de Teste** 	| CT-03 – Excluir rotina salva <br> <br> 
 |Requisito Associado | RF-004	- O site deve permitir o usuário excluir a sua rotina salva. |
 | Objetivo do Teste 	| Verificar se o usuário pode excluir a rotina salva no seu painel do usuário. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer 'login' no site <br> - Acessar a ‘Area do usuário' <br>  - Clicar em ‘Excluir rotina’ |
-|Critério de Êxito | - Rotina excluida com sucesso. |
+|Critério de Êxito | - Rotina excluida com sucesso. <br> <br> |
 |  	|  	|
-| **Caso de Teste** 	| CT-04 – Acessar rotina salva	|
+| **Caso de Teste** 	| CT-04 – Acessar rotina salva <br> <br> |
 |Requisito Associado | RF-004	- O site deve permitir o usuário acessar a sua rotina salva. |
 | Objetivo do Teste 	| Verificar se o usuário pode acessar a rotina salva no seu painel do usuário. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer 'login' no site <br> - Acessar a ‘Area do usuário' <br>  - Clicar em ‘Visualizar rotina’ |

@@ -34,12 +34,7 @@ namespace backend_skincare_2023.Models
         [DataType(DataType.Password)]
         public string PasswordKey { get; set; }
 
-        
         public ICollection<Routine> Routines { get; set; } //Lista todas as rotinas de um determinado usuario na query
-
-
-
-
 
     }
 }

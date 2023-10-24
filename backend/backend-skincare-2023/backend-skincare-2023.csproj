@@ -11,19 +11,30 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\html\guiapele.html" />
-    <Content Remove="wwwroot\html\hidratacao.html" />
-    <Content Remove="wwwroot\html\olheiras.html" />
-    <Content Remove="wwwroot\html\pelemadura.html" />
-    <Content Remove="wwwroot\html\pelemasculina.html" />
-    <Content Remove="wwwroot\html\privacidade.html" />
-    <Content Remove="wwwroot\html\quemsomos.html" />
+    <Compile Remove="Views\StaticPages\NewFolder\**" />
+    <Compile Remove="Views\NewFolder\**" />
+    <Compile Remove="wwwroot\html\**" />
+    <Content Remove="Views\StaticPages\NewFolder\**" />
+    <Content Remove="Views\NewFolder\**" />
+    <Content Remove="wwwroot\html\**" />
+    <EmbeddedResource Remove="Views\StaticPages\NewFolder\**" />
+    <EmbeddedResource Remove="Views\NewFolder\**" />
+    <EmbeddedResource Remove="wwwroot\html\**" />
+    <None Remove="Views\StaticPages\NewFolder\**" />
+    <None Remove="Views\NewFolder\**" />
+    <None Remove="wwwroot\html\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Controllers\Component.razor" />
+    <Content Remove="Views\Component.razor" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.22" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.23" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.11">
       <PrivateAssets>all</PrivateAssets>
@@ -32,6 +43,10 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.2" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\StaticPages\" />
   </ItemGroup>
 
 </Project>

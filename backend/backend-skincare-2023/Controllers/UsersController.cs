@@ -7,6 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using backend_skincare_2023.Data;
 using backend_skincare_2023.Models;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using System.Diagnostics.CodeAnalysis;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Reflection.Metadata.Ecma335;
 
 namespace backend_skincare_2023.Controllers
 {
@@ -49,6 +54,10 @@ namespace backend_skincare_2023.Controllers
             return View();
         }
 
+
+
+       
+
         // POST: Users/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -56,12 +65,80 @@ namespace backend_skincare_2023.Controllers
         {
             if (ModelState.IsValid)
             {
+
+           
+                user.PasswordKey = BCrypt.Net.BCrypt.HashPassword(user.PasswordKey);
+
                 _context.Add(user);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(user);
         }
+
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(User user)
+        {
+            var dados = await _context.Users.FindAsync(user.UserId);
+
+            if (dados == null)
+            {
+                ViewBag.Message = "Usuário ou senha inválidos";
+                return View();
+            }
+
+            bool senhaOk = BCrypt.Net.BCrypt.Verify(user.PasswordKey, dados.PasswordKey);
+
+            if (senhaOk)
+            {
+                var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, dados.FirstName),
+                new Claim(ClaimTypes.NameIdentifier, dados.UserId.ToString())
+            };
+
+                var claimsIdentity = new ClaimsIdentity(claims, "login");
+                var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
+
+                var authProperties = new AuthenticationProperties
+                {
+                    AllowRefresh = true,
+                    ExpiresUtc = DateTime.UtcNow.AddHours(8),
+                    IsPersistent = true
+                };
+
+                await HttpContext.SignInAsync(claimsPrincipal, authProperties);
+
+                return Redirect("/");
+            }
+            else
+            {
+                ViewBag.Message = "Usuário ou senha inválidos";
+            }
+
+            return View();
+        }
+
+
+
+        //Logout
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+
+            return RedirectToAction("Login", "Users");
+        }
+
+
+
 
         // GET: Users/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -93,6 +170,7 @@ namespace backend_skincare_2023.Controllers
             {
                 try
                 {
+                    user.PasswordKey = BCrypt.Net.BCrypt.HashPassword(user.PasswordKey);
                     _context.Update(user);
                     await _context.SaveChangesAsync();
                 }

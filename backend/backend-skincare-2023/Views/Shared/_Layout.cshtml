@@ -35,13 +35,23 @@
             <li class="nav-item">
                  <a class="nav-link active" asp-area="" asp-controller="Users" asp-action="Index">Administrador</a>
             </li>
-
           </ul>
-        </div>
-               <a class="ml-auto user-icon" asp-area="" asp-controller="Users" asp-action="Create"><img src="~/images/profile.png" width="18"></a>
+         </div>
+                <div class="user-icon ml-auto">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <p>Olá, @User.Identity.Name <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Logout">Sair</a></p>
+                    }
+                    else
+                    {
+                        <a class="user-icon" asp-area="" asp-controller="Users" asp-action="Login"><img src="~/images/profile.png" width="18"></a>
+                    }
+                </div>
       </div>
     </nav>
   </header>
+
+
  
 
     <div >
