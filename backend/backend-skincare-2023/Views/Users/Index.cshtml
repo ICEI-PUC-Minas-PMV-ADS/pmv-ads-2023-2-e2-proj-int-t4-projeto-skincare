@@ -25,13 +25,7 @@
                Email
             </th>
             <th>
-                Data Nasciment0
-            </th>
-            <th>
-                Senha
-            </th>
-            <th>
-                Tipo de Usuário
+                Data Nascimento
             </th>
             <th></th>
         </tr>
@@ -50,12 +44,6 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.FormattedBirthDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PasswordKey)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Perfil)
             </td>
             <td>
                     <a asp-action="Details" asp-route-id="@item.UserId" class="btn btn-custom mr-2">Detalhes</a>

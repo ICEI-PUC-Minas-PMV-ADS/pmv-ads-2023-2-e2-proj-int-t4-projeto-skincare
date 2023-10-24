@@ -34,17 +34,8 @@ namespace backend_skincare_2023.Models
         [DataType(DataType.Password)]
         public string PasswordKey { get; set; }
 
-        [Required(ErrorMessage = "Obrigatório informar um tipo de usuário")]
-        public Perfil Perfil { get; set; }
-
-        
         public ICollection<Routine> Routines { get; set; } //Lista todas as rotinas de um determinado usuario na query
 
-    }
-    public enum Perfil
-    {
-        Admin,
-        User
     }
 }
 
