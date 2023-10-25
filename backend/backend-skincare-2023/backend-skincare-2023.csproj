@@ -11,16 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Views\StaticPages\NewFolder\**" />
     <Compile Remove="Views\NewFolder\**" />
     <Compile Remove="wwwroot\html\**" />
-    <Content Remove="Views\StaticPages\NewFolder\**" />
     <Content Remove="Views\NewFolder\**" />
     <Content Remove="wwwroot\html\**" />
-    <EmbeddedResource Remove="Views\StaticPages\NewFolder\**" />
     <EmbeddedResource Remove="Views\NewFolder\**" />
     <EmbeddedResource Remove="wwwroot\html\**" />
-    <None Remove="Views\StaticPages\NewFolder\**" />
     <None Remove="Views\NewFolder\**" />
     <None Remove="wwwroot\html\**" />
   </ItemGroup>
@@ -43,10 +39,6 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.2" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Views\StaticPages\" />
   </ItemGroup>
 
 </Project>

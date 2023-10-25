@@ -1,29 +1,45 @@
-﻿@using backend_skincare_2023.Models
-@model User
-
-
+﻿@model User
 @{
     ViewData["Title"] = "Login";
 }
 
+<link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+
+<style>
+    html, body {
+        height: 100%;
+    }
+
+    .full-height {
+        height: 100%;
+    }
+
+    #login-img {
+        height: 100%;
+        object-fit: cover;
+    }
+</style>
+
 <hr class="hr" />
 
-<div class="main-part">
-    <div>
-        <a asp-action="Index">Voltar</a>
-    </div>
+<div class="container-fluid full-height">
+    <div class="row full-height">
+        <div class="col-md-6 p-0 full-height">
+            <img src="~/images/curology-RKwaj2g6OOU-unsplash.jpg" class="img-fluid" id="login-img" alt="Imagem de login">
+        </div>
+        <div class="col-md-6">
+            <div>
+                <a asp-action="Index">Voltar</a>
+            </div>
+            <h1 class="mt-4">Entre com a sua conta</h1>
+            <p>Se você já é cadastrado, entre com o seu email e senha.</p>
 
-    <h1 class="mt-4">Entre com a sua conta</h1>
-    <p>Se você já é cadastrado, faça entre com o seu email e senha.</p>
-
-    <div class="row">
-        <div class="col-md-4 mt-4">
             <form asp-action="Login">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group mt-4">
-                    <label asp-for="UserId" class="control-label">Id</label>
-                    <input asp-for="UserId" class="form-control" />
-                    <span asp-validation-for="UserId" class="text-danger"></span>
+                    <label asp-for="Email" class="control-label">Email</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
                 <div class="form-group mt-4">
                     <label asp-for="PasswordKey" class="control-label">Senha</label>
@@ -34,11 +50,9 @@
                     <input type="submit" value="Entrar" class="btn btn-purple form-control mt-4 mb-4" />
                 </div>
             </form>
-            <p class="align-content-center">Não possui uma conta? <a class="link-cadastro'" asp-area="" asp-controller="Users" asp-action="Create">Cadastre-se aqui</a></p>
+            <p class="align-content-center">Não possui uma conta? <a class="link-cadastro" asp-area="" asp-controller="Users" asp-action="Create">Cadastre-se aqui</a></p>
             <p> @ViewBag.Message</p>
         </div>
     </div>
 </div>
-
-
 

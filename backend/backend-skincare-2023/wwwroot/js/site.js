@@ -4,13 +4,13 @@
 
 
 function navigateToAtivos() {
-    window.location.href = "html/ativos.html";
+    window.location.href = "htmlFiles/ativos.html";
 }
 
 function navigateToTipoPele() {
-    window.location.href = "html/tipopele.html";
+    window.location.href = "htmlFiles/tipopele.html";
 }
 
 function navigateToPeleMasculina() {
-    window.location.href = "html/pelemasculina.html";
+    window.location.href = "htmlFiles/pelemasculina.html";
 }
