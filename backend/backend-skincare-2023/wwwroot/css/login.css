@@ -1,0 +1,19 @@
+﻿body {
+}
+
+/* CSS para o footer */
+#footer {
+    background-color: #f5f5f5; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento de texto */
+}
+
+.social {
+    font-size: 24px; /* Tamanho dos ícones */
+}
+
+    /* Estilos para os ícones */
+    .social i {
+        margin: 0 10px; /* Espaçamento entre os ícones */
+    }
+

@@ -71,7 +71,7 @@ namespace backend_skincare_2023.Controllers
 
                 _context.Add(user);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Login));
             }
             return View(user);
         }
@@ -83,11 +83,14 @@ namespace backend_skincare_2023.Controllers
         }
 
 
+        //Login
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(User user)
         {
-            var dados = await _context.Users.FindAsync(user.UserId);
+            var dados = await _context.Users
+                .Where(u => u.Email == user.Email)
+                .FirstOrDefaultAsync();
 
             if (dados == null)
             {
@@ -100,10 +103,11 @@ namespace backend_skincare_2023.Controllers
             if (senhaOk)
             {
                 var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, dados.FirstName),
-                new Claim(ClaimTypes.NameIdentifier, dados.UserId.ToString())
-            };
+        {
+            new Claim(ClaimTypes.Name, dados.FirstName),
+            new Claim(ClaimTypes.NameIdentifier, dados.UserId.ToString()),
+            new Claim("isAdmin", dados.isAdmin.ToString()) 
+        };
 
                 var claimsIdentity = new ClaimsIdentity(claims, "login");
                 var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
@@ -126,6 +130,7 @@ namespace backend_skincare_2023.Controllers
 
             return View();
         }
+
 
 
 
