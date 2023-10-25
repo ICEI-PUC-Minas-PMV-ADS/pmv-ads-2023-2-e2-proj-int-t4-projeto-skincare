@@ -24,12 +24,9 @@ main {
     margin-left: 12px;
 }
 
-.user-icon {
-    margin-right: 12px;
-}
 
 .nav-item {
-    margin-right: 100px;
+    margin-right: 40px;
 }
 
 .navbar {
@@ -39,13 +36,56 @@ main {
 
 .nav-link {
     padding: 10px 30px;
-    font-weight: normal;  
+    font-weight: normal;
+    color: #333333;
 }
 
 .nav-link:hover {
-  color: #9781AD !important;
-  font-weight: 500;
-    
+        color: #9781AD !important;
+        font-weight: 500;
+}
+
+.align-right {
+    position: absolute !important;
+    right: 0 !important;
+    margin-right: 20px;
+}
+
+./*NAV*/
+.website-logo {
+    margin-left: 12px;
+}
+
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-link {
+    padding: 10px 30px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.nav-link:hover {
+     color: #9781AD !important;
+     font-weight: 500;
+}
+
+.align-right {
+    position: absolute !important;
+    right: 0 !important;
+    margin-right: 20px;
+   
+}
+
+.user-icon{
+    margin-top: -15px;
 }
 
 

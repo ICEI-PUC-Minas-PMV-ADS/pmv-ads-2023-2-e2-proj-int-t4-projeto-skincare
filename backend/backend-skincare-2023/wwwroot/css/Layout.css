@@ -27,6 +27,10 @@ main {
     margin-top: 0px;
 }
 
+
+
+
+
 .btn-custom {
     color: #9781AD;
     background-color: white;
@@ -79,9 +83,6 @@ main {
     margin-left: 12px;
 }
 
-.user-icon {
-    margin-right: 12px;
-}
 
 .nav-item {
     margin-right: 40px;
@@ -101,6 +102,17 @@ main {
 .nav-link:hover {
      color: #9781AD !important;
      font-weight: 500;
+}
+
+.align-right {
+    position: absolute !important;
+    right: 0 !important;
+    margin-right: 20px;
+   
+}
+
+.user-icon {
+    margin-top: -15px;
 }
 
 

@@ -30,35 +30,54 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
+                <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            </li>
+            <li class="nav-item">
                   <a class="nav-link active" href="./htmlFiles/quemsomos.html">Quem somos</a>
             </li>
             <li class="nav-item">
                  <a class="nav-link active" href="./htmlFiles/guiapele.html">Guia da pele</a>
             </li>
           </ul>
+                    <div>
+                        <ul class="navbar-nav ml-auto">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                var isAdminClaim = User.Claims.FirstOrDefault(c => c.Type == "isAdmin");
+                                if (isAdminClaim != null && bool.TryParse(isAdminClaim.Value, out bool isAdmin))
+                                {
+                                    @if (isAdmin)
+                                    {
+                                        <li class="nav-item">
+                                            <a class="nav-link active" asp-area="" asp-controller="Users" asp-action="Index">Administrador</a>
+                                        </li>
+                                        <li class="nav-item ml-auto">
+                                            <a class="nav-link text-dark align-right" id="logout" asp-area="" asp-controller="Users" asp-action="Logout">Sair</a>
+                                        </li>
+                                    }
+                                    else
+                                    {
+                            <li class="nav-item ml-auto">
+                                            <a class="nav-link text-dark" asp-area="" asp-controller="Routines" asp-action="Index">Minha conta</a>
+                                        </li>
+                                        <li class="nav-item ml-auto">
+                                            <a class="nav-link text-dark align-right" id="logout" asp-area="" asp-controller="Users" asp-action="Logout">Sair</a>
+                                        </li>
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                <li class="nav-item">
+                                    <a class="user-icon align-right" asp-area="" asp-controller="Users" asp-action="Login"><img src="~/images/profile.png" width="18"></a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
 
-                  
-                    @if (User.Identity.IsAuthenticated)
-                    {
-                         var isAdminClaim = User.Claims.FirstOrDefault(c => c.Type == "isAdmin");
 
-                        if (isAdminClaim != null && bool.TryParse(isAdminClaim.Value, out bool isAdmin) && isAdmin)
-                        {
-                            <a class="nav-link active" asp-area="" asp-controller="Users" asp-action="Index">Administrador</a>
-                            <a class="nav-link text-dark" id="logout" asp-area="" asp-controller="Users" asp-action="Logout">Sair</a>
-                        } else
-                        {
-                            
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Routines" asp-action="Index">Minha conta</a>
-                            <a class="nav-link text-dark" id="logout" asp-area="" asp-controller="Users" asp-action="Logout">Sair</a>
-                        }
-                    } else
-                    {
-                        <a class="user-icon" asp-area="" asp-controller="Users" asp-action="Login"><img src="~/images/profile.png" width="18"></a>
-                    }                                                             
-                   
-         </div>
-                
+
+        </div>     
       </div>
     </nav>
   </header>
@@ -69,30 +88,8 @@
             @RenderBody()
         </main>
     </div>
+  
 
-     <section id="footer" class=" mt-5">
-      <div class="container">
-        <div class="row text-center text-xs-center text-sm-center text-md-center">
-          <div class="col-xs-12 col-sm-8" id="footer-text">
-            <p class="copy-right"><a href="javascript:void();">2023 SOFT CARE. Todos os direitos reservados.</a>
-            </p>
-            <p class="privacidade"><a href="javascript:void();">Política de privacidade</a>
-            <p class="terms"><a href="javascript:void();">Termos de uso</a>
-            <p>
-          </div>
-        </div>
-        <div class="social">
-                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
-                <a href="https://es-es.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
-                <a href="https://twitter.com/?lang=ES" target="_blank"><i class="bi bi-twitter"></i></a>
-
-        </div>
-      </div>
-    </section>
-   
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
