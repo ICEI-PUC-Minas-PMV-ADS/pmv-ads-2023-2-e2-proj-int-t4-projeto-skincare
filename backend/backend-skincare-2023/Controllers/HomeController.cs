@@ -15,6 +15,7 @@ namespace backend_skincare_2023.Controllers
 
         public IActionResult Index()
         {
+            _logger.LogInformation("Main page");
             return View();
         }
 
