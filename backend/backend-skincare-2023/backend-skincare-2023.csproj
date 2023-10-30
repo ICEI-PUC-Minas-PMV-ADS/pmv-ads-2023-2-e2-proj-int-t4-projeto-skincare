@@ -12,6 +12,11 @@
   <ItemGroup>
     <Content Remove="Controllers\Component.razor" />
     <Content Remove="Views\Component.razor" />
+    <Content Remove="Views\Home\quemsomos.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\quemsomos.cshtml" />
   </ItemGroup>
 
 
@@ -30,6 +35,7 @@
     <PackageReference Include="MySql.Data" Version="8.2.0" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
   </ItemGroup>
+
 
   <PropertyGroup>
         <PreserveCompilationContext>true</PreserveCompilationContext>
