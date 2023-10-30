@@ -22,7 +22,7 @@ Nossa aplicação utilizará inteligência artificial GPT para criar rotinas de 
 
 ## Instruções de utilização
 
-acesse o site clicando  [aqui](https://backend-skincare.azurewebsites.net/Home/Index)
+
 
 # Documentação
 
