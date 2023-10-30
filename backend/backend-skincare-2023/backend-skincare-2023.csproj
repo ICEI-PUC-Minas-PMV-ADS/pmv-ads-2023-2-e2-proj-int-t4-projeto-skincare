@@ -24,6 +24,11 @@
   <ItemGroup>
     <Content Remove="Controllers\Component.razor" />
     <Content Remove="Views\Component.razor" />
+    <Content Remove="Views\Home\quemsomos.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\quemsomos.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

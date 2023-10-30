@@ -24,6 +24,58 @@ namespace backend_skincare_2023.Controllers
             return View();
         }
 
+
+        [Route("Home/tipopele")]
+        public IActionResult TipoPele()
+        {
+            // Ação para uma página personalizada
+            return View();
+        }
+
+
+        [Route("Home/ativos")]
+        public IActionResult Ativos()
+        {
+            
+            return View();
+        }
+
+
+        [Route("Home/masculina")]
+        public IActionResult Masculina()
+        {
+            return View();
+        }
+
+
+
+        [Route("Home/quemsomos")]
+        public IActionResult QuemSomos()
+        {
+            
+            return View();
+        }
+
+
+        [Route("Home/guiapele")]
+        public IActionResult GuiaPele()
+        {
+
+            return View();
+        }
+
+
+        [Route("Home/privacidade")]
+        public IActionResult Privacidade()
+        {
+
+            return View();
+        }
+
+
+
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

@@ -33,10 +33,10 @@
                 <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
             </li>
             <li class="nav-item">
-                  <a class="nav-link active" href="./htmlFiles/quemsomos.html">Quem somos</a>
+                <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="quemsomos">Quem somos</a>
             </li>
             <li class="nav-item">
-                 <a class="nav-link active" href="./htmlFiles/guiapele.html">Guia da pele</a>
+                   <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="guiapele">Guia da pele</a>
             </li>
           </ul>
                     <div>
@@ -89,6 +89,7 @@
         </main>
     </div>
   
+
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
