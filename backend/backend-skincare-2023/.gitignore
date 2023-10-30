@@ -45,7 +45,7 @@ Generated\ Files/
 
 
 #Database connection
-.appsettings.json
+appsettings.json
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
