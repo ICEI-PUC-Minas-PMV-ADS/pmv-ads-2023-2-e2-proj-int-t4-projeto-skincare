@@ -24,6 +24,11 @@
   <ItemGroup>
     <Content Remove="Controllers\Component.razor" />
     <Content Remove="Views\Component.razor" />
+    <Content Remove="Views\Home\quemsomos.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\quemsomos.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -38,7 +43,14 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.2" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="MySql.Data" Version="8.2.0" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Home\Index.cshtml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
