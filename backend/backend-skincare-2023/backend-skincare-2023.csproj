@@ -9,18 +9,6 @@
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="Views\NewFolder\**" />
-    <Compile Remove="wwwroot\html\**" />
-    <Content Remove="Views\NewFolder\**" />
-    <Content Remove="wwwroot\html\**" />
-    <EmbeddedResource Remove="Views\NewFolder\**" />
-    <EmbeddedResource Remove="wwwroot\html\**" />
-    <None Remove="Views\NewFolder\**" />
-    <None Remove="wwwroot\html\**" />
-  </ItemGroup>
-
   <ItemGroup>
     <Content Remove="Controllers\Component.razor" />
     <Content Remove="Views\Component.razor" />
@@ -30,6 +18,7 @@
   <ItemGroup>
     <None Include="Views\Home\quemsomos.cshtml" />
   </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
@@ -47,10 +36,11 @@
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Content Update="Views\Home\Index.cshtml">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
+
+  <PropertyGroup>
+        <PreserveCompilationContext>true</PreserveCompilationContext>
+        <MvcRazorCompileOnPublish>false</MvcRazorCompileOnPublish>
+        <CopyRazorGenerateFilesToPublishDirectory>true</CopyRazorGenerateFilesToPublishDirectory>
+  </PropertyGroup>
 
 </Project>
