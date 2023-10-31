@@ -22,17 +22,15 @@
 
 <hr class="hr" />
 
-<div class="container-fluid full-height">
+<div class="container-fluid container-login">
     <div class="row full-height">
-        <div class="col-md-6 p-0 full-height">
+        <div class="col-md-6 p-0">
             <img src="~/images/curology-RKwaj2g6OOU-unsplash.jpg" class="img-fluid" id="login-img" alt="Imagem de login">
         </div>
-        <div class="col-md-6">
-            <div>
-                <a asp-controller="Home" asp-action="Index">Voltar</a>
-            </div>
+        <div class="col-md-4 div-login">
             <h1 class="mt-4">Entre com a sua conta</h1>
             <p>Se você já é cadastrado, entre com o seu email e senha.</p>
+           
 
             <form asp-action="Login">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -46,12 +44,14 @@
                     <input asp-for="PasswordKey" class="form-control" />
                     <span asp-validation-for="PasswordKey" class="text-danger"></span>
                 </div>
+                <p class="error-message"> @ViewBag.Message</p>
                 <div class="form-group mt-4">
                     <input type="submit" value="Entrar" class="btn btn-purple form-control mt-4 mb-4" />
                 </div>
             </form>
-            <p class="align-content-center">Não possui uma conta? <a class="link-cadastro" asp-area="" asp-controller="Users" asp-action="Create">Cadastre-se aqui</a></p>
-            <p> @ViewBag.Message</p>
+            <div class="div-link-cadastro">
+                <p>Não possui uma conta? <a class="link-cadastro" asp-area="" asp-controller="Users" asp-action="Create">Cadastre-se aqui</a></p>
+            </div>
         </div>
     </div>
 </div>

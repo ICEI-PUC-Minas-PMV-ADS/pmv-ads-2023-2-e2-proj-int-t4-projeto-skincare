@@ -14,73 +14,73 @@
     
 </head>
 
-
-<body>
-  <header class="header">
+<header class="header">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-                <a asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="~/images/logo.png" class="website-logo" width="96" alt="Logo">
-                </a>
-        <button class="navbar-toggler order-first" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="quemsomos">Quem somos</a>
-            </li>
-            <li class="nav-item">
-                   <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="guiapele">Guia da pele</a>
-            </li>
-          </ul>
-                    <div>
-                        <ul class="navbar-nav ml-auto">
-                            @if (User.Identity.IsAuthenticated)
+        <div class="container-fluid">
+            <a asp-area="" asp-controller="Home" asp-action="Index">
+                <img src="~/images/logo.png" class="website-logo" width="96" alt="Logo">
+            </a>
+            <button class="navbar-toggler order-first" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="quemsomos">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="guiapele">Guia da pele</a>
+                    </li>
+                </ul>
+                <div>
+                    <ul class="navbar-nav ml-auto">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            var isAdminClaim = User.Claims.FirstOrDefault(c => c.Type == "isAdmin");
+                            if (isAdminClaim != null && bool.TryParse(isAdminClaim.Value, out bool isAdmin))
                             {
-                                var isAdminClaim = User.Claims.FirstOrDefault(c => c.Type == "isAdmin");
-                                if (isAdminClaim != null && bool.TryParse(isAdminClaim.Value, out bool isAdmin))
+                                @if (isAdmin)
                                 {
-                                    @if (isAdmin)
-                                    {
-                                        <li class="nav-item">
-                                            <a class="nav-link active" asp-area="" asp-controller="Users" asp-action="Index">Administrador</a>
-                                        </li>
-                                        <li class="nav-item ml-auto">
-                                            <a class="nav-link text-dark align-right" id="logout" asp-area="" asp-controller="Users" asp-action="Logout">Sair</a>
-                                        </li>
-                                    }
-                                    else
-                                    {
-                            <li class="nav-item ml-auto">
-                                            <a class="nav-link text-dark" asp-area="" asp-controller="Routines" asp-action="Index">Minha conta</a>
-                                        </li>
-                                        <li class="nav-item ml-auto">
-                                            <a class="nav-link text-dark align-right" id="logout" asp-area="" asp-controller="Users" asp-action="Logout">Sair</a>
-                                        </li>
-                                    }
+                                    <li class="nav-item">
+                                        <a class="nav-link active" asp-area="" asp-controller="Users" asp-action="Index">Administrador</a>
+                                    </li>
+                                    <li class="nav-item ml-auto">
+                                        <a class="nav-link text-dark align-right" id="logout" asp-area="" asp-controller="Users" asp-action="Logout">Sair</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li class="nav-item ml-auto">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Routines" asp-action="Index">Minha conta</a>
+                                    </li>
+                                    <li class="nav-item ml-auto">
+                                        <a class="nav-link text-dark align-right" id="logout" asp-area="" asp-controller="Users" asp-action="Logout">Sair</a>
+                                    </li>
                                 }
                             }
-                            else
-                            {
-                                <li class="nav-item">
-                                    <a class="user-icon align-right" asp-area="" asp-controller="Users" asp-action="Login"><img src="~/images/profile.png" width="18"></a>
-                                </li>
-                            }
-                        </ul>
-                    </div>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="user-icon align-right" asp-area="" asp-controller="Users" asp-action="Login"><img src="~/images/profile.png" width="18"></a>
+                            </li>
+                        }
+                    </ul>
+                </div>
 
 
 
-        </div>     
-      </div>
+            </div>
+        </div>
     </nav>
-  </header>
+</header>
+
+<body>
 
 
     <div >
