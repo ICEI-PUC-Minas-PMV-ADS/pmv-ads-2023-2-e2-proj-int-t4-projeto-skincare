@@ -63,6 +63,17 @@ namespace backend_skincare_2023.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("UserId,FirstName,LastName,Email,BirthDate,PasswordKey")] User user)
         {
+            //Verifica se o user tem menos de 16 anos
+            var age = DateTime.Today.Year - user.BirthDate.Year;
+            var isLessThan16 = age < 16;
+
+            if (isLessThan16)
+            {
+                ViewBag.ShowAgeAlert = true;
+                return View(user);
+            }
+
+
             if (ModelState.IsValid)
             {
 

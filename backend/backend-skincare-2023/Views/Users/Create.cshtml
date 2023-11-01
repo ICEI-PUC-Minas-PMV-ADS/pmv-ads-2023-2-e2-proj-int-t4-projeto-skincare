@@ -46,6 +46,12 @@
                     <input type="submit" value="Cadastrar" class="btn btn-purple form-control mt-4 mb-4" />
                 </div>
             </form>
+            @if (ViewBag.ShowAgeAlert != null && (bool)ViewBag.ShowAgeAlert)
+            {
+                <script>
+                    alert("Você deve ter 16 anos ou mais para se cadastrar.");
+                </script>
+            }
         </div>
     </div>
 
