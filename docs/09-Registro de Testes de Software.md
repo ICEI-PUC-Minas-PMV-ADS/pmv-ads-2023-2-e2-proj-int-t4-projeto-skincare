@@ -6,7 +6,7 @@
 | Requisitos Associados |  RF-001 - O site deve conter uma pagina de login.                                                                                                     |
 |   Objetivo do Teste   |  Verificar se o usuário consegue se logar na aplicação                                                                                                                               |
 |        Passos         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site:  <br> 3)  Clicar em "Login " <br> 4) Preencher os campos obrigatórios  <br> 5) Clicar em "Entrar" <br> |
-| Dados de entrada	|  Email: teste@gmail.com,  senha: 1234
+| Dados de entrada	|  Email e senha
 | Resultado esperado	|  Login realizado com sucesso.
 |Resultado obtido	|  O usuário conseguiu acessar seus dois tipos de contas (user normal e adm).
 | Avaliação (pegou / não pegou erro) | <br> Sem erros|
