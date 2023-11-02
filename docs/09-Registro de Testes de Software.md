@@ -17,7 +17,7 @@
 
 |     Caso de teste     | CT-02 – Efetuar cadastro                                                                                                                                                          
 | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Requisitos Associados | RF-002 - O site deve conter uma area para cadastrar novos usuários.                                                                                                    |
+| Requisitos Associados | RF-002 - O site deve conter uma area para cadastrar novos usuários que tenham a partir de 16 anos.                                                                                                    |
 |   Objetivo do Teste   | Verificar se o usuário consegue se cadastrar na aplicação, com campo de preenchimento de nome, sobrenome, email e senha.                                                                                                                           |
 |        Passos         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site:  <br> 3) Clicar em ‘Cadastrar’ <br> 4) Preencher os campos obrigatórios  <br> 5)  Clicar em ‘Cadastrar’ <br> |
 | Dados de entrada	|  Nome, sobrenome, data de nascimento, email e senha |
