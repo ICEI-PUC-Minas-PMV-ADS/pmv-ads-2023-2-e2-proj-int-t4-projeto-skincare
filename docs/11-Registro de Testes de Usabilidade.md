@@ -10,7 +10,8 @@ Abaixo segue o relatório que contém as evidências dos testes e relatos dos us
 
 Instrução apresentada | Sucesso S/N | Observações
 -----------------------|-------------|------------
-Tente criar uma conta, inserindo as informações solicitadas.| Sim |A página não possui formatação visual
+Tente criar uma conta inserindo no campo data de nascimento a data de hoje, e verifique se a mensagem "Você deve ter 16 anos ou mais para se cadastrar" aparece na tela.| Sim 
+Tente criar uma conta novamento, inserindo as informações verdadeiras.| Sim |A página não possui formatação visual
 Tente fazer o login na conta que acabou de criar.| Sim |
 Tente entrar na área do usuário.| Sim | 
 Tente fazer o logout da conta.| Sim | |
