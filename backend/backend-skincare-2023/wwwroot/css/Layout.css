@@ -12,6 +12,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
@@ -28,6 +30,10 @@ main {
 }
 
 
+.content {
+    flex: 1;
+    /* Adicione estilos específicos da página para ajustar o conteúdo, se necessário */
+}
 
 
 
@@ -116,6 +122,7 @@ main {
 }
 
 
+
 /* FOOTER */
 section {
     padding: 40px 0;
@@ -124,6 +131,7 @@ section {
 #footer {
     background: #333333 !important;
     padding-bottom: 10px;
+    position:  relative;
 }
 
     #footer a {
@@ -160,6 +168,7 @@ section {
 .social {
     margin-top: -150px;
 }
+
 
 /* Media query for smaller screens */
 @media (max-width:767px) {
