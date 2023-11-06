@@ -28,7 +28,7 @@
 | Resultado esperado	|  Dados armazenados no banco de dados.
 |Resultado obtido	|   Os campos nome, sobrenome, data nascimento, e-mail e senha, foram armazenados com precisão no banco de dados. 
 | Avaliação (pegou / não pegou erro)	| Nao possui erros
-|Evidência (print screen) | Lista de usuários cadastrados frontend ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/55cd5d8c-1dce-41ec-b7c9-8cca5e03a105) <br><br> Tabela usuários cadastrados banco de dados ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/4528b550-3279-4797-b715-a9b803b7bfdf) |
+|Evidência (print screen) | Lista de usuários cadastrados frontend ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/0c9a34f4-2aed-41c1-a71f-052bec76dd39) <br><br> Tabela usuários cadastrados banco de dados![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/32d3c50b-90e9-4ee4-b61c-a4d6b0171709) |
 
 
 
