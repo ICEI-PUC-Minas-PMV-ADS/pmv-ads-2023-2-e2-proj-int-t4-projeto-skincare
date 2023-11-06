@@ -11,3 +11,7 @@ function navigateToTipoPele() {
 function navigateToPeleMasculina() {
     window.location.href = "/Home/masculina";
 }
+
+function navigateToQuiz() {
+    window.location.href = "/Questions/QuestionForm";
+}

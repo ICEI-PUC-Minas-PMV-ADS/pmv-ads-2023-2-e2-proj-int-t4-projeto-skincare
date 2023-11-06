@@ -124,16 +124,16 @@ img:focus {
 }
 
 .text-cards {
-    font-family: Lato, sans-serif;
+    font-family: sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.3;
     color: #666;
     width: 60%;
 }
 
 
-#hr {
+.hr {
     width: 200px;
     border-bottom: 1px solid #9781AD;
     margin-top: 8px;
@@ -142,33 +142,63 @@ img:focus {
 .div-ativos {
     margin-bottom: 10px;
     margin-top: 40px;
-    padding-left: 20px;
+    margin-left: 22px !important;
+   
+}
+
+.dest-card {
+   display: flex;
+   justify-content: center !important;
+}
+
+
+
+.content {
+    padding: 20px; /* Adicione margens internas para afastar o conteúdo das bordas do contêiner */
 }
 
 .div-pele-masculina {
     margin-top: 40px !important;
     margin-bottom: 10px;
-    padding-left: 20px;
-}
-
-.div-tipo-pele{
-    background-color: #fafafa;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    margin-bottom: 10px;
-}
-
-.img-ativos {
-    border-radius: 20px;
-    width: 100%; 
-    height: 90%; 
+    align-content: end !important;
+    margin-left: 22px !important;
 }
 
 .img-tipo-pele {
     border-radius: 20px;
     width: 100%;
+    margin-left: 22px !important;
 }
+
+.col-pele {
+    margin-right: 20px;
+}
+
+
+#pele {
+    margin-left: 20px !important;
+}
+
+
+.text-container {
+    margin-top: 20px;
+}
+
+.div-tipo-pele {
+    background-color: #fafafa;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+}
+
+
+.img-ativos {
+    border-radius: 20px;
+    width: 100%;
+    height: 90%;
+    
+}
+
 
 .img-masculina {
     border-radius: 20px;
@@ -192,6 +222,7 @@ img:focus {
     border-radius: 20px;
     padding-left: 25px;
     padding-right: 25px;
+    margin-left: 0px;
 
 }
 
@@ -203,12 +234,58 @@ img:focus {
 
 
 
-/* FOOTER */
-section {
-    padding: 40px 0;
 
+/*CAROUSEL*/
+.carousel {
+    background-color: #EFEFEF;
+    padding-bottom: 60px;
 }
 
+.custom-card {
+    margin-right: 30px;
+    border-radius: 20px !important;
+}
+
+.carousel h4 {
+    margin-bottom: 40px;
+}
+
+.cont-h4{
+   padding-top: 40px;
+}
+
+h5, h4 {
+    font-weight: bold;
+    color: #333333 !important;
+}
+
+h5 {
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.card-text {
+    margin-top: 0px;
+}
+
+.card-title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #666666;
+}
+
+.quero-ler {
+    font-weight: bold !important;
+    text-decoration: none;
+    color: #333333;
+}
+
+
+
+/* FOOTER */
 #footer {
     background: #333333 !important;
     padding-bottom: 10px;
@@ -231,7 +308,6 @@ section {
 }
 
 #footer-text {
-    margin-top: 30px;
     margin: auto;
 }
 
