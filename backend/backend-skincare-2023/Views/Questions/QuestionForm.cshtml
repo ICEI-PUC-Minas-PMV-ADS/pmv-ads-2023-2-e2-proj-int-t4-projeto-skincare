@@ -1,2 +1,23 @@
-﻿<hr class=" hr"/>
-<h1>Questionario</h1>
+﻿@model backend_skincare_2023.Models.Questionario
+
+
+<hr class=" hr" />
+
+<div class="container-fluid justify-content-center">
+<form method="post" action="/Questions/EnviarRespostas">
+    @for (int i = 0; i < Model.Perguntas.Count; i++)
+    {
+            <fieldset>
+                <legend>@Model.Perguntas[i].Pergunta</legend>
+            @for (int j = 0; j < Model.Perguntas[i].Respostas.Count; j++)
+            {
+                        <div class="mb-3">
+                            <input type="radio" id="resposta-@i-@j" name="resposta[question@i]" value="@j">
+                            <label for="resposta-@i-@j">@Model.Perguntas[i].Respostas[j]</label>
+                        </div>
+            }
+            </fieldset>
+    }
+    <input type="submit"  clas="mt-5" value="Enviar">
+</form>  
+</div>

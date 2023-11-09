@@ -134,21 +134,20 @@ section {
     position:  relative;
 }
 
-    #footer a {
-        color: white;
-        text-decoration: none !important;
-        background-color: transparent;
-        -webkit-text-decoration-skip: objects;
-    }
+#footer a {
+     color: white;
+     text-decoration: none !important;
+     background-color: transparent;
+     -webkit-text-decoration-skip: objects;
+}
 
-    #footer p {
-        padding: 3px 0;
-    }
+#footer p {
+      padding: 3px 0;
+}
 
-        #footer p a,
-        #footer p a {
-            color: white;
-        }
+#footer p a {
+       color: white;
+}
 
 #footer-text {
     margin-top: 30px;
@@ -168,6 +167,8 @@ section {
 .social {
     margin-top: -150px;
 }
+
+
 
 
 /* Media query for smaller screens */

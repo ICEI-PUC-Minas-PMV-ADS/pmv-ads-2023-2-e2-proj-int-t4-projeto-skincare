@@ -25,12 +25,25 @@ namespace backend_skincare_2023.Controllers
 
 
 
-
+        //Rota pagina e view questionario
         [Route("Questions/QuestionForm")]
         public IActionResult QuestionForm()
         {
-            return View();
+            Questionario questionario = new Questionario();
+            return View(questionario);
         }
+
+
+        //Ação para processar as respostas submetidas
+        [HttpPost]
+        public IActionResult EnviarRespostas(Questionario questionario)
+        {
+            // processar as respostas do usuário 
+           
+
+            return View("Home", questionario); //Exibir pagina rotina
+        }
+
 
 
 

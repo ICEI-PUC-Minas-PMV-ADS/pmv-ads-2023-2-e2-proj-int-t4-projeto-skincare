@@ -1,14 +1,6 @@
 ﻿
 
-.social {
-    font-size: 24px; /* Tamanho dos ícones */
-}
 
-    /* Estilos para os ícones */
- .social i {
-      margin: 0 10px; /* Espaçamento entre os ícones */
-
- }
 
 .error-message {
     color: red;
