@@ -7,6 +7,10 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using backend_skincare_2023.Data;
 using backend_skincare_2023.Models;
+using Microsoft.AspNetCore.Identity;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Azure;
 
 namespace backend_skincare_2023.Controllers
 {
@@ -18,6 +22,52 @@ namespace backend_skincare_2023.Controllers
         {
             _context = context;
         }
+
+
+
+        //Rota pagina e view questionario
+        [Route("Questions/QuestionForm")]
+        public IActionResult QuestionForm()
+        {
+            Questionario questionario = new Questionario();
+            return View(questionario);
+        }
+
+
+        //Ação para processar as respostas submetidas
+        [HttpPost]
+        public IActionResult EnviarRespostas(Questionario questionario)
+        {
+            // Flag para controlar se já foi adicionada uma mensagem de erro para uma pergunta específica
+            bool mensagemErroAdicionada = false;
+
+            for (int i = 0; i < questionario.Perguntas.Count; i++)
+            {
+                var respostaSelecionada = Request.Form[$"respostas[{i}]"];
+
+                if (string.IsNullOrEmpty(respostaSelecionada) && !mensagemErroAdicionada)
+                {
+                    ModelState.AddModelError($"respostas[{i}]", "Por favor, selecione uma resposta para esta pergunta.");
+                    mensagemErroAdicionada = true; // Definir o flag para true para evitar mensagens adicionais para a mesma pergunta
+                }
+            }
+
+            if (!ModelState.IsValid)
+            {
+                // Se houver erros de validação, retorne para a página com os erros
+                return View("QuestionForm", questionario);
+            }
+
+            // Restante da lógica...
+
+            // Redirecionar para a página inicial ("Home") se não houver erros
+            return RedirectToAction("Index", "Home");
+        }
+
+
+
+
+
 
         // GET: Questions
         public async Task<IActionResult> Index()
@@ -43,12 +93,23 @@ namespace backend_skincare_2023.Controllers
                 return NotFound();
             }
 
+            var questionClaim = new Claim("Question", $"{question.QuestionId}:{question.QuestionText}:{question.AnswerText}"); // Crie uma claim representando a pergunta.
+            var claimsIdentity = new ClaimsIdentity(new List<Claim> { questionClaim }, "QuestionClaim"); // Crie um identificador com a claim.
+
+            ClaimsPrincipal claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
+
+            await HttpContext.SignInAsync(claimsPrincipal); // Adicione a claim ao contexto de autenticação do usuário.
+
             return View(question);
         }
+
+
+
 
         // GET: Questions/Create
         public IActionResult Create()
         {
+
             ViewData["RoutineId"] = new SelectList(_context.Routines, "RoutineId", "RoutineText");
             ViewData["UserId"] = new SelectList(_context.Users, "UserId", "Email");
             return View();

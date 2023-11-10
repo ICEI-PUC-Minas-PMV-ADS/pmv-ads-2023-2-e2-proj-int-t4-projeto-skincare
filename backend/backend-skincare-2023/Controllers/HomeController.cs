@@ -74,6 +74,22 @@ namespace backend_skincare_2023.Controllers
 
 
 
+        [Route("Home/hidratada")]
+        public IActionResult Hidratada()
+        {
+
+            return View();
+        }
+
+        [Route("Home/madura")]
+        public IActionResult Madura()
+        {
+
+            return View();
+        }
+
+
+
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

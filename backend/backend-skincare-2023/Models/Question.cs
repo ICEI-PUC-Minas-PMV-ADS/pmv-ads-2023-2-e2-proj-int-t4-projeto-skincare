@@ -7,13 +7,11 @@
 
         [Required(ErrorMessage = "Question text is required")]
         [StringLength(150)]
-        public string QuestionText { get; set; }
-
+        public string QuestionText { get; set; } 
 
         [Required(ErrorMessage = "Answer text is required")]
         [StringLength(100)]
         public string AnswerText { get; set; }
-
 
         [ForeignKey("User")]
         public int UserId { get; set; }

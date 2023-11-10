@@ -1,11 +1,124 @@
-﻿<!DOCTYPE html>
+
+﻿@{
+    ViewData["Title"] = "Soft Care";
+}
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Soft Care</title>
+     <link rel="stylesheet" href="~/css/tipo-pele.css" asp-append-version="true" />
 </head>
 <body>
     <hr class="hr" />
-    <h1>Tipo de pele</h1>
+    
+
+    <div class="container-fluid container">
+        <div class="justify-content-center">
+
+            <h3 class="text-center mt-5 mb-5"> Saiba identificar o seu tipo de pele </h3>
+           
+            <img src="~/images/Destaque_Skincare_noturno_1100x.webp" class="img-fluid d-block w-100 mb-5 img-tipo-pele" alt="...">
+          
+
+            <div class="text-container" id="info">
+
+                <p class="mb-4">
+                    Descobrir o seu tipo de pele e entender por que isso é tão importante é o passo mais crucial no cuidado com a pele. 
+                    A sua pele é o maior órgão do seu corpo, tão complexo e inteligente quanto o seu coração, pulmões, fígado e outros órgãos vitais.
+                    A má compreensão do seu tipo de pele tem resultados visíveis e reais. 
+                </p>
+                <p class="mb-4">
+                    Por exemplo, o uso de produtos de limpeza e esfoliantes muito agressivos, 
+                    mesmo que recomendados para peles excessivamente oleosas, pode enviar um sinal à sua pele de que mais óleo é necessário. Por outro lado, a aplicação 
+                    de um hidratante facial muito espesso ou pesado pode resultar na diminuição da produção natural de óleo, deixando a pele ainda mais seca. Tomar o tempo 
+                    para conhecer as necessidades específicas da sua pele ajudará você a escolher as opções certas para equilibrar a pele, resultando em uma tez mais saudável e radiante.
+                </p>
+
+                <p class="mb-5">
+                    A pele de cada pessoa é única, mas existem alguns tipos de pele comuns que podem ajudar você a identificar em qual categoria a sua pele se encaixa. Os três principais
+                    tipos de pele comumente referidos são Oleosa, Mista e Seca. Antes de explorarmos cada tipo e como cuidar deles, aqui estão duas maneiras de determinar facilmente o seu tipo de pele em casa.
+                </p>
+                <h4 class="">Como determinar o seu tipo de pele</h4>
+                <p >
+                    Limpe o rosto completamente com um produto de limpeza suave e seque delicadamente. Deixe a pele limpa (e não aplique nenhum hidratante, sérum ou tratamento adicional). 
+                    Após 30 minutos, examine suas bochechas, queixo, nariz e testa em busca de brilho. 
+                </p>
+                <p class="mb-5">
+                    Após mais 30 minutos, avalie se a sua pele está ressecada, especialmente se sorrir ou fazer outras expressões faciais. Se a sua pele estiver seca e repuxando, é provável que seja uma pele seca. 
+                    Se houver um brilho notável no nariz e na testa, sua pele é provavelmente mista. Se houver brilho nas bochechas, além da testa e do nariz, é muito provável que você tenha pele oleosa.
+                </p>
+                <h4 class="mb-4">Tipos de Pele</h4>
+                <h5>Pele seca</h5>
+                <p >
+                    A pele seca pode ficar repuxando ao longo do dia e apresentar descamação visível. A pele seca é em grande parte devida a fatores genéticos, fatores ambientais como estilo de vida e dieta, 
+                    mudanças hormonais e clima. A desidratação também é uma das principais causas da pele seca, portanto, 
+                    beber bastante água e evitar diuréticos como álcool e cafeína pode fazer uma diferença significativa na sensação e aparência da sua pele.
+
+                </p>
+                <p>
+                    
+                    Como cuidar melhor da pele seca? A esfoliação diária com ingredientes suaves e não abrasivos ajuda a promover a renovação das células da pele sem remover os óleos naturais da pele. 
+                    Sem uma camada adicional de pele morta, soros e tratamentos são absorvidos com mais facilidade.
+                </p>
+                <p class="mb-5">
+
+                    Os melhores hidratantes para pele seca são aqueles que contêm ácido hialurônico (geralmente listado como hialuronato de sódio nos ingredientes) e glicerina. Além disso, ativos marinhos,
+                    como algas, são excelentes devido à sua capacidade de atrair água e entregá-la diretamente às células da pele. Além disso, emolientes, como esqualano e óleo de camélia, ajudam a suavizar
+                    e hidratar a pele de maneira uniforme e eficaz.
+                </p>
+                <h5 class="">Pele mista</h5>
+                <p >
+                    As pessoas com pele mista frequentemente experimentam ressecamento nas bochechas, tornando importante encontrar um hidratante que não seja muito pesado, mas substancial 
+                    o suficiente para reter a umidade onde mais é necessário. Aqueles com pele mista não costumam 
+                    ter espinhas nas bochechas e tendem a ter uma zona T bem hidratada (que inclui a testa, o queixo e o nariz).
+
+                </p>
+                <p class="mb-5">
+                    Cuidar da pele mista pode parecer complicado, mas é bastante simples. A esfoliação diária e suave também é importante para manter o equilíbrio das áreas da zona T e das bochechas.
+                    Para a hidratação, os hidratantes com textura em gel são absorvidos mais rapidamente e menos propensos a obstruir os poros e causar espinhas. Comece com uma pequena quantidade e
+                    aumente conforme necessário para evitar uma hidratação excessiva e estresse na pele.
+                </p>
+                <h5 class=""> Pele oleosa</h5>
+                <p >
+                    O excesso de oleosidade pode frequentemente deixar os poros congestionados e obstruídos. A boa notícia é que a pele oleosa parece mais jovem e mais flexível porque tem mais umidade natural e é menos propensa a rugas.
+
+                    A pele oleosa pode parecer desafiadora, mas aqui estão alguns truques para manter o rosto com uma aparência saudável e feliz. A esfoliação enzimática diária é essencial para promover a renovação celular e evitar o acúmulo de sebo nos poros. 
+                    Um esfoliante físico suave (que não utiliza abrasivos como nozes ou sementes esmagadas que podem causar pequenos cortes na derme) também é útil para equilibrar o tom e a textura da pele.
+                </p>
+                <p >
+
+                    A pele mais oleosa também é propensa a hiperpigmentação pós-inflamatória (PIH), uma condição que deixa manchas escuras na pele após uma espinha ter cicatrizado. A esfoliação também ajudará a clarear essas manchas escuras,
+                    polindo as camadas mais superficiais da pele e revelando novas células. 
+                </p>
+                <p class="mb-5">
+                     Aqueles com espinhas moderadas a graves devem considerar o uso de um esfoliante que contenha ingredientes antibacterianos para acelerar a cicatrização e prevenir futuras imperfeições.
+                    E não se esqueça do hidratante! Você pode sentir a tentação de pular o hidratante por completo, mas a hidratação (mesmo com produtos leves) é tão importante para a pele oleosa quanto é para a pele seca.
+                </p>
+                <h5 class="">Pele sensível</h5>
+                <p >
+
+                    Muitas pessoas podem ter pele seca, oleosa ou mista e pele sensível. Cuidar da pele sensível pode ser desafiador, pois leva tempo e esforço consideráveis para determinar quais ingredientes causam inflamação e irritação. 
+                    Para facilitar esse processo, introduza apenas uma nova fórmula ou produto de cada vez. Essa regra se aplica tanto aos cuidados com a pele quanto à maquiagem. Testar a nova fórmula na parte interna do antebraço é uma excelente maneira de minimizar possíveis reações no rosto.  
+                </p>
+                <p class="mb-5">
+                     Se a sua pele não mostrar sinais de irritação, aplique a fórmula na área atrás de uma das orelhas antes de usá-la no rosto.
+
+                    Além disso, procure por rótulos que identifiquem as fórmulas como não irritantes e não sensibilizantes e livres de parabenos, fragrâncias sintéticas, óleo mineral, detergentes à base de sulfatos, ftalatos, ureia, DEA ou TEA, pois esses ingredientes podem resultar em vermelhidão e coceira. 
+                </p>
+                <h5 class="">Pele madura</h5>
+                <p>
+                    Assim como a pele sensível, a pele madura também pode ser oleosa, seca ou mista. No entanto, ao contrário dos outros tipos de pele, a pele madura acontece com todos nós. As proteínas de colágeno e elastina que compõem a nossa pele gradualmente se denaturam com a idade, causando mudanças na aparência (como rugas), 
+                    no tom (devido a capilares quebrados) e na textura (perda de elasticidade). Isso é inevitável e ocorre com todos. Mas também é tratável.
+                </p>
+                <p class="p-madura">
+                    É importante focar na hidratação, utilizando uma rotina de cuidados com a pele que incorpora ingredientes que retêm a água para fortalecer a barreira da sua pele. Existem muitos soros que tratam especificamente linhas finas e rugas, frequentemente usando ingredientes terapêuticos como o retinol ou suas alternativas
+                    para apoiar a produção de colágeno. Com base nos outros elementos da sua pele, como a secura ou oleosidade, sensibilidade ou não,
+                    você pode construir uma rotina de cuidados com a pele para a pele madura que funcione para você.
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
