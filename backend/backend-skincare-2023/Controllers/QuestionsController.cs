@@ -38,11 +38,33 @@ namespace backend_skincare_2023.Controllers
         [HttpPost]
         public IActionResult EnviarRespostas(Questionario questionario)
         {
-            // processar as respostas do usuário 
-           
+            // Flag para controlar se já foi adicionada uma mensagem de erro para uma pergunta específica
+            bool mensagemErroAdicionada = false;
 
-            return View("Home", questionario); //Exibir pagina rotina
+            for (int i = 0; i < questionario.Perguntas.Count; i++)
+            {
+                var respostaSelecionada = Request.Form[$"respostas[{i}]"];
+
+                if (string.IsNullOrEmpty(respostaSelecionada) && !mensagemErroAdicionada)
+                {
+                    ModelState.AddModelError($"respostas[{i}]", "Por favor, selecione uma resposta para esta pergunta.");
+                    mensagemErroAdicionada = true; // Definir o flag para true para evitar mensagens adicionais para a mesma pergunta
+                }
+            }
+
+            if (!ModelState.IsValid)
+            {
+                // Se houver erros de validação, retorne para a página com os erros
+                return View("QuestionForm", questionario);
+            }
+
+            // Restante da lógica...
+
+            // Redirecionar para a página inicial ("Home") se não houver erros
+            return RedirectToAction("Index", "Home");
         }
+
+
 
 
 
