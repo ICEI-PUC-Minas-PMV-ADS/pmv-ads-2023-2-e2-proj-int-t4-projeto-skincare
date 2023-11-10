@@ -119,8 +119,7 @@ b. Os campos obrigatórios e opcionais são corretamente sinalizados?
 
 
 ### 05 - Feedback                   
-Os participantes irao compartilhar suas opinoes sobre a usablidade do sistema repondendo o questionário pelo site [UsabilityHub](https://app.lyssna.com/do/8aed4173069/1032), e poderão pontuar numa escala de 1 a 5 seu grau de dificuldade e eficiência da plataforma em dez questões, sendo a última uma pergunta aberta, para o usuários detalharem melhor sua experiencia.
-
+Os participantes compartilharão suas opiniões sobre a usabilidade do sistema ao responderem um questionário composto por dez questões. Este questionário inclui perguntas abertas, perguntas de resposta sim/não e a atribuição de uma pontuação em uma escala de 1 a 5. 
 
 1: Muito Insatisfatório <br>
 2: Insatisfatório <br>
@@ -129,18 +128,11 @@ Os participantes irao compartilhar suas opinoes sobre a usablidade do sistema re
 5: Muito Satisfatório <br>
 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/5e6d1332-82d5-43c0-be08-47323ae8884d)
-
-<br><br>
-
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/ea8d8000-ced5-4b95-95c3-ddcbeb453e2d)
 
 
-
-
-
-
 <br><br>
+
 
 ## Seleção dos participantes
 

@@ -1,4 +1,3 @@
-﻿
 
 function navigateToAtivos() {
     window.location.href = "/Home/ativos";
