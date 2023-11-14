@@ -1,13 +1,75 @@
-﻿<!DOCTYPE html>
+﻿@{
+    ViewData["Title"] = "Soft Care";
+}
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Soft Care</title>
+    <link rel="stylesheet" href="~/css/tipo-pele.css" asp-append-version="true" />
 </head>
 <body>
     <hr class="hr" />
 
-    <h1>Ativos pele</h1>
 
+    <div class="container-fluid container">
+        <div class="justify-content-center">
+
+            <h3 class="text-center mt-5 mb-5"> O que são os princípios ativos? </h3>
+
+            <img src="~/images/ativos.jpg" class="img-fluid d-block w-100 mb-5 img-tipo-pele" alt="...">
+
+
+            <div class="text-container" id="info">
+
+                <h5>Ácido Hialurônico</h5>
+                <p class="mb-4">
+                    DO ácido hialurônico é uma substância natural encontrada no corpo humano, ele desempenha um papel crucial na hidratação, retenção de água e elasticidade da pele e tem a capacidade única de atrair e reter grandes quantidades de água, o que ajuda a manter a pele hidratada e com aparência mais volumosa.
+                </p>
+
+                <h5>Ácido Salicílico</h5>
+                <p class="mb-4">
+                    O ácido salicílico é um ácido beta-hidroxi(BHA), conhecido por suas propriedades esfoliantes, penetrando nos poros para ajudar a remover células mortas da pele, prevenindo e tratando a acne. O ácido salicílico atua penetrando nos poros e ajudando a desobstruí-los, prevenindo o surgimento de cravos e espinha, além de regular a produção de sebo, sendo eficaz no controle da oleosidade da pele. Além do tratamento da acne, o ácido salicílico pode ajudar a clarear manchas escuras e hiperpigmentação causadas por lesões ou inflamações.
+                </p>
+
+                <h5>Retinol (Vitamina A)</h5>
+                <p class="mb-4">
+                    O retinol é um derivado da vitamina A e promove a renovação celular, ajudando na produção de células novas e saudáveis. Isso contribui para a melhoria da textura da pele e a redução de rugas e linhas finas. Estimula a produção de colágeno, uma proteína essencial para a elasticidade e firmeza da pele e ajuda a uniformizar a tonalidade da pele, diminuindo a aparência de manchas escuras e hiperpigmentação.
+                </p>
+
+                <h5>Vitamina C (Ácido Ascórbico)</h5>
+                <p class="mb-4">
+                    A vitamina C, ou ácido ascórbico, é um poderoso antioxidante,  o que significa que ela ajuda a neutralizar os radicais livres, moléculas instáveis que podem causar danos às células da pele. A vitamina C estimula a produção de colágeno, uma proteína essencial para a firmeza e elasticidade da pele. Isso pode ajudar a reduzir rugas e linhas finas. A vitamina C também é conhecida por seu efeito clareador, ajudando a atenuar manchas escuras e hiperpigmentação, resultando em uma pele mais luminosa e uniforme. Embora não substitua o protetor solar, a vitamina C pode oferecer uma camada adicional de proteção contra os danos causados pelos raios UV.
+                </p>
+
+                <h5>Niacinamida (Vitamina B3)</h5>
+                <p class="mb-4">
+                    A niacinamida é conhecida por fortalecer a barreira cutânea, a camada externa da pele, ajudando a reter a umidade e protegendo contra agressores ambientais. Regula a produção de sebo, tornando-a uma escolha eficaz para quem lida com pele oleosa. Ela pode ajudar a reduzir a produção excessiva de óleo, minimizando a aparência de poros dilatados. Ajuda a suavizar a textura da pele, reduzindo a aparência de linhas finas e rugas. Contribui para diminuir a hiperpigmentação, como manchas escuras e descoloração, resultando em uma tonalidade de pele mais uniforme.Pode ajudar a acalmar a pele sensível e reduzir a vermelhidão.
+                </p>
+
+                <h5>Ceramidas</h5>
+                <p class="mb-4">
+                    As ceramidas são lipídios (gorduras) essenciais e componentes naturais da barreira cutânea da pele. As ceramidas são fundamentais para a formação e manutenção da barreira lipídica da pele. Essa barreira desempenha um papel crucial na retenção de umidade, prevenção da perda de água e proteção contra agressores ambientais. Ao fortalecer a barreira cutânea, as ceramidas ajudam a pele a manter a hidratação, prevenindo a secura e descamação.
+                </p>
+
+                <h5>Resveratrol</h5>
+                <p class="mb-4">
+                    Encontrado nas cascas e sementes de uva vermelhas e pretas, o Resveratrol é um polifenol, ele proporciona inúmeros benefícios, não apenas para a pele, mas para a saúde de forma geral: é cardioprotetor, dermoprotetor, anti-inflamatório, antibactericida, hepatoprotetor. Além de forte ação antioxidante e inibição do estresse oxidativo, protegendo as células contra os radicais livres. Anti-idade que melhora a longevidade celular. Em dermocosméticos é um forte aliado em tratamentos de rejuvenescimento e, associado à outros ativos, tem a ação antioxidante potencializada.
+                </p>
+
+                <h5>Ácido Lático</h5>
+                <p class="mb-4">
+                    O Ácido Láctico é um ativo com alto poder umectante que atua como agente microbiano, regulador de pH, hidratante, rejuvenescedor e clareador. Na pele, além desses benefícios, promove renovação celular e proporciona mais saúde e vitalidade. O Ácido Láctico faz parte do grupo dos alfa-hidroxiácidos, os AHAs, conhecidos por serem esfoliantes químicos que agem na adesão entre as células e promovem renovação celular.
+                </p>
+
+                <h5>Óleo de Rosa Mosqueta</h5>
+                <p class="mb-4">
+                    Destaca-se entre os demais óleos por ser um óleo vegetal de características únicas, possuindo em sua composição quase 80% de ácidos graxos poli-insaturados, os chamados ácidos graxos essenciais: ômegas. Os ômegas são requeridos na formação da estrutura das membranas das células da epiderme, são responsáveis pelo processo de regeneração das células, mecanismo de defesa e processos fisiológicos e bioquímicos relacionados à regeneração dos tecidos. Dentre as inúmeras aplicações e benefícios deste óleo temos: - Ajuda a prevenir e atenuar o envelhecimento da pele, diminuindo as linhas de expressão, tais como o contorno dos olhos e rugas superficiais; - Contribui para a recuperação da barreira cutânea, reduzindo a perda de água transepidérmica (TEWL) e promovendo hidratação à pele; - Regeneração cutânea de cicatrizes pós-cirúrgicas e melhora na nutrição e circulação sanguínea, recuperando sua textura natural, lubrificação e elasticidade; - Redução de hipercromias, minimizando manchas de pele causadas pelo sol ou por envelhecimento; - Proporciona excelentes resultados na cicatrização de peles afetadas por queimaduras ou danificadas pela radioterapia.; - Ajuda na prevenção e atua no tratamento de estrias; - Produz melhora significativa na sintomatologia em pacientes com pele ressecada, xerose, psoríase, hiperqueratose, queratose actínica, etc.
+                </p>
+
+            </div>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,39 @@
+
+
+
+
+.error-message {
+    color: red;
+}
+
+.container-login{
+    margin-top: -16px;
+}
+
+.div-login {
+    margin: auto;
+}
+
+
+.div-link-cadastro a {
+    text-decoration: none !important;
+    color: #9781AD;
+}
+
+.div-link-cadastro{
+    display:flex;
+    justify-content: center;
+}
+
+
+/* Esconder a imagem em telas com largura menor ou igual a 768 pixels */
+@media (max-width: 768px) {
+    #login-img {
+        display: none;
+    }
+
+    .div-login {
+        width: 50%;
+        margin-top: 15px;
+    }
+}
