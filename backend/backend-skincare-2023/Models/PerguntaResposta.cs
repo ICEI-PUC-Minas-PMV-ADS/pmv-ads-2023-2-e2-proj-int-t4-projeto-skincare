@@ -6,13 +6,12 @@
         public string Pergunta { get; set; }
         public List<string> Respostas { get; set; }
 
-        public PerguntaResposta(string pergunta, List<string> respostas)
+        public PerguntaResposta(int id, string pergunta, List<string> respostas)
         {
-                Pergunta = pergunta;
-                Respostas = respostas;
-            
+            Id = id;
+            Pergunta = pergunta;
+            Respostas = respostas;
         }
-
     }
-
 }
+
