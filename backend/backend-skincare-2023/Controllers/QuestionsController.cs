@@ -12,9 +12,12 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Azure;
 using System.Collections.Immutable;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace backend_skincare_2023.Controllers
 {
+   
     public class QuestionsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -26,11 +29,12 @@ namespace backend_skincare_2023.Controllers
 
 
 
-        //Rota pagina e view questionario
+        
         [Route("Questions/QuestionForm")]
         public IActionResult QuestionForm()
-        {
+        {   
             Questionario questionario = new Questionario();
+
             return View(questionario);
         }
 
@@ -39,17 +43,20 @@ namespace backend_skincare_2023.Controllers
         [HttpPost]
         public IActionResult EnviarRespostas(Questionario questionario)
         {
-            
+
+
             bool mensagemErroAdicionada = false;
-           
+
 
             for (int i = 0; i < questionario.Perguntas.Count; i++)
             {
                 var respostaSelecionada = Request.Form[$"respostas[{i}]"];
+
                 if (string.IsNullOrEmpty(respostaSelecionada) && !mensagemErroAdicionada)
                 {
                     ModelState.AddModelError($"respostas[{i}]", "Por favor, selecione uma resposta para esta pergunta.");
-                    mensagemErroAdicionada = true; 
+                    mensagemErroAdicionada = true;
+
                 }
             }
 
@@ -60,6 +67,7 @@ namespace backend_skincare_2023.Controllers
             }
 
 
+
             // Verificar se a pergunta 3 o radio button sim foi checked
 
             var respostaPergunta3 = Request.Form[$"respostas[0]"];
@@ -68,9 +76,10 @@ namespace backend_skincare_2023.Controllers
                 ViewBag.AlertMessage = "Você deve procurar um médico!";
                 return View("QuestionForm", questionario);
             }
-               
-           
+
+
             return RedirectToAction("SkinRoutine", "Routines");
+
         }
 
 
@@ -231,14 +240,14 @@ namespace backend_skincare_2023.Controllers
             {
                 _context.Questions.Remove(question);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool QuestionExists(int id)
         {
-          return _context.Questions.Any(e => e.QuestionId == id);
+            return _context.Questions.Any(e => e.QuestionId == id);
         }
     }
 }

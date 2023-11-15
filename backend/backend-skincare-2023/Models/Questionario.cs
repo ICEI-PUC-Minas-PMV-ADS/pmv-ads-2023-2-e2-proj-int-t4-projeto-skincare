@@ -3,14 +3,17 @@
     public class Questionario
     {
         public List<PerguntaResposta> Perguntas { get; set; }
+
         public bool RespostaPergunta3 { get; set; }
 
         public bool Checked { get; set; }
 
 
+
         public Questionario()
         {
             Perguntas = new List<PerguntaResposta>();
+
 
             Perguntas.Add(new PerguntaResposta(1, "Como você descreveria a sua pele? ", new List<string> { "Pele Mista", "Pele oleosa", "Pele normal", "Pele seca" }));
             Perguntas.Add(new PerguntaResposta(2, "Sua pele é sensível? Fica irritada ou vermelha com facilidade?", new List<string> { "Sim", "Não" }));

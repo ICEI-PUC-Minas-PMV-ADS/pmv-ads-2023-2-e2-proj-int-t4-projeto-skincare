@@ -29,6 +29,7 @@
                         </div>
                     }
 
+
              <div class="text-danger">
                 @Html.ValidationSummary(false, "", new { @class = "text-danger" })
             </div>
@@ -44,12 +45,12 @@
 </div>
 
 
+
     @if (ViewBag.AlertMessage != null)
     {
         <script>
             alert("@ViewBag.AlertMessage");
         </script>
     }
-
 </body>
 </html>
