@@ -12,10 +12,15 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Azure;
 using System.Collections.Immutable;
+<<<<<<< HEAD
+using Microsoft.AspNetCore.Authorization;
+=======
+>>>>>>> af6d2b7e0085919f8745d0167cbcf497b719acd7
 
 
 namespace backend_skincare_2023.Controllers
 {
+   
     public class QuestionsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -27,11 +32,12 @@ namespace backend_skincare_2023.Controllers
 
 
 
-        //Rota pagina e view questionario
+        
         [Route("Questions/QuestionForm")]
         public IActionResult QuestionForm()
-        {
+        {   
             Questionario questionario = new Questionario();
+
             return View(questionario);
         }
 
@@ -41,7 +47,11 @@ namespace backend_skincare_2023.Controllers
         public IActionResult EnviarRespostas(Questionario questionario)
         {
 
+<<<<<<< HEAD
+
+=======
             
+>>>>>>> af6d2b7e0085919f8745d0167cbcf497b719acd7
             bool mensagemErroAdicionada = false;
 
 
@@ -52,7 +62,11 @@ namespace backend_skincare_2023.Controllers
                 if (string.IsNullOrEmpty(respostaSelecionada) && !mensagemErroAdicionada)
                 {
                     ModelState.AddModelError($"respostas[{i}]", "Por favor, selecione uma resposta para esta pergunta.");
+<<<<<<< HEAD
+                    mensagemErroAdicionada = true;
+=======
                     mensagemErroAdicionada = true; 
+>>>>>>> af6d2b7e0085919f8745d0167cbcf497b719acd7
 
                 }
             }
@@ -73,8 +87,8 @@ namespace backend_skincare_2023.Controllers
                 ViewBag.AlertMessage = "Você deve procurar um médico!";
                 return View("QuestionForm", questionario);
             }
-               
-           
+
+
             return RedirectToAction("SkinRoutine", "Routines");
 
         }
@@ -237,14 +251,14 @@ namespace backend_skincare_2023.Controllers
             {
                 _context.Questions.Remove(question);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool QuestionExists(int id)
         {
-          return _context.Questions.Any(e => e.QuestionId == id);
+            return _context.Questions.Any(e => e.QuestionId == id);
         }
     }
 }
