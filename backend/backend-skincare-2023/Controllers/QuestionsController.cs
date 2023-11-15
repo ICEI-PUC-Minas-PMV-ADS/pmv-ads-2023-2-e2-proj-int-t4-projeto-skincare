@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.Authentication;
 using Azure;
 using System.Collections.Immutable;
 
+
 namespace backend_skincare_2023.Controllers
 {
     public class QuestionsController : Controller
@@ -39,17 +40,20 @@ namespace backend_skincare_2023.Controllers
         [HttpPost]
         public IActionResult EnviarRespostas(Questionario questionario)
         {
+
             
             bool mensagemErroAdicionada = false;
-           
+
 
             for (int i = 0; i < questionario.Perguntas.Count; i++)
             {
                 var respostaSelecionada = Request.Form[$"respostas[{i}]"];
+
                 if (string.IsNullOrEmpty(respostaSelecionada) && !mensagemErroAdicionada)
                 {
                     ModelState.AddModelError($"respostas[{i}]", "Por favor, selecione uma resposta para esta pergunta.");
                     mensagemErroAdicionada = true; 
+
                 }
             }
 
@@ -58,6 +62,7 @@ namespace backend_skincare_2023.Controllers
                 // Se houver erros de validação, retorne para a página com os erros
                 return View("QuestionForm", questionario);
             }
+
 
 
             // Verificar se a pergunta 3 o radio button sim foi checked
@@ -71,6 +76,7 @@ namespace backend_skincare_2023.Controllers
                
            
             return RedirectToAction("SkinRoutine", "Routines");
+
         }
 
 
