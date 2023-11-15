@@ -20,6 +20,10 @@
     @for (int i = 0; i < Model.Perguntas.Count; i++)
     {
         <fieldset>
+<<<<<<< HEAD
+=======
+
+>>>>>>> af6d2b7e0085919f8745d0167cbcf497b719acd7
                     <legend class="mb-3 mt-4 pergunta">@Model.Perguntas[i].Id: @Model.Perguntas[i].Pergunta</legend>
                     @for (int j = 0; j < Model.Perguntas[i].Respostas.Count; j++)
                     {
@@ -29,7 +33,10 @@
                         </div>
                     }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> af6d2b7e0085919f8745d0167cbcf497b719acd7
              <div class="text-danger">
                 @Html.ValidationSummary(false, "", new { @class = "text-danger" })
             </div>
@@ -44,7 +51,10 @@
 
 </div>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> af6d2b7e0085919f8745d0167cbcf497b719acd7
 
     @if (ViewBag.AlertMessage != null)
     {
@@ -52,5 +62,9 @@
             alert("@ViewBag.AlertMessage");
         </script>
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> af6d2b7e0085919f8745d0167cbcf497b719acd7
 </body>
 </html>

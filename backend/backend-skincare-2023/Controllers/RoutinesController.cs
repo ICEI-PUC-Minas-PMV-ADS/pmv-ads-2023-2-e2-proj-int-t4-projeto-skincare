@@ -20,6 +20,7 @@ namespace backend_skincare_2023.Controllers
         }
 
 
+
         //Rota pagina rotina gerada com api
         [Route("Routines/SkinRoutine")]
         public IActionResult SkinRoutine()
@@ -31,6 +32,7 @@ namespace backend_skincare_2023.Controllers
 
             return View(viewModel);
         }
+
 
 
         // GET: Routines
@@ -81,6 +83,7 @@ namespace backend_skincare_2023.Controllers
             ViewData["UserId"] = new SelectList(_context.Users, "UserId", "Email", routine.UserId);
             return View(routine);
         }
+
 
 
         // GET: Routines/Edit/5
@@ -136,7 +139,6 @@ namespace backend_skincare_2023.Controllers
         }
 
 
-
         // GET: Routines/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
@@ -155,7 +157,6 @@ namespace backend_skincare_2023.Controllers
 
             return View(routine);
         }
-
 
 
         // POST: Routines/Delete/5

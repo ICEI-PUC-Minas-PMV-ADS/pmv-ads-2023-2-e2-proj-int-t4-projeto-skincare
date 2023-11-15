@@ -12,7 +12,10 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Azure;
 using System.Collections.Immutable;
+<<<<<<< HEAD
 using Microsoft.AspNetCore.Authorization;
+=======
+>>>>>>> af6d2b7e0085919f8745d0167cbcf497b719acd7
 
 
 namespace backend_skincare_2023.Controllers
@@ -44,7 +47,11 @@ namespace backend_skincare_2023.Controllers
         public IActionResult EnviarRespostas(Questionario questionario)
         {
 
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> af6d2b7e0085919f8745d0167cbcf497b719acd7
             bool mensagemErroAdicionada = false;
 
 
@@ -55,7 +62,11 @@ namespace backend_skincare_2023.Controllers
                 if (string.IsNullOrEmpty(respostaSelecionada) && !mensagemErroAdicionada)
                 {
                     ModelState.AddModelError($"respostas[{i}]", "Por favor, selecione uma resposta para esta pergunta.");
+<<<<<<< HEAD
                     mensagemErroAdicionada = true;
+=======
+                    mensagemErroAdicionada = true; 
+>>>>>>> af6d2b7e0085919f8745d0167cbcf497b719acd7
 
                 }
             }
