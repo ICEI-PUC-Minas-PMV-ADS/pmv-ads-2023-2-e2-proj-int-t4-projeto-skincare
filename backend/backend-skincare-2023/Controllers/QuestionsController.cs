@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Azure;
+using System.Collections.Immutable;
 
 namespace backend_skincare_2023.Controllers
 {
@@ -38,17 +39,17 @@ namespace backend_skincare_2023.Controllers
         [HttpPost]
         public IActionResult EnviarRespostas(Questionario questionario)
         {
-            // Flag para controlar se já foi adicionada uma mensagem de erro para uma pergunta específica
+            
             bool mensagemErroAdicionada = false;
+           
 
             for (int i = 0; i < questionario.Perguntas.Count; i++)
             {
                 var respostaSelecionada = Request.Form[$"respostas[{i}]"];
-
                 if (string.IsNullOrEmpty(respostaSelecionada) && !mensagemErroAdicionada)
                 {
                     ModelState.AddModelError($"respostas[{i}]", "Por favor, selecione uma resposta para esta pergunta.");
-                    mensagemErroAdicionada = true; // Definir o flag para true para evitar mensagens adicionais para a mesma pergunta
+                    mensagemErroAdicionada = true; 
                 }
             }
 
@@ -58,10 +59,18 @@ namespace backend_skincare_2023.Controllers
                 return View("QuestionForm", questionario);
             }
 
-            // Restante da lógica...
 
-            // Redirecionar para a página inicial ("Home") se não houver erros
-            return RedirectToAction("Index", "Home");
+            // Verificar se a pergunta 3 o radio button sim foi checked
+
+            var respostaPergunta3 = Request.Form[$"respostas[0]"];
+            if (respostaPergunta3 == "Sim")
+            {
+                ViewBag.AlertMessage = "Você deve procurar um médico!";
+                return View("QuestionForm", questionario);
+            }
+               
+           
+            return RedirectToAction("SkinRoutine", "Routines");
         }
 
 

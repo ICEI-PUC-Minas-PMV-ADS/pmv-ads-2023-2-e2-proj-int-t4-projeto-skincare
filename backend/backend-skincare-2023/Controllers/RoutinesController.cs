@@ -19,6 +19,20 @@ namespace backend_skincare_2023.Controllers
             _context = context;
         }
 
+
+        //Rota pagina rotina gerada com api
+        [Route("Routines/SkinRoutine")]
+        public IActionResult SkinRoutine()
+        {
+            var viewModel = new RoutineText
+            {
+                Text = "Limpeza Matinal:\nUse um limpador facial suave formulado para pele oleosa. Evite sabonetes que podem ressecar a pele, pois isso pode estimular ainda mais a produção de óleo.\n\nTônico:\nAplique um tônico adstringente para ajudar a equilibrar o pH da pele e reduzir a oleosidade. Procure por ingredientes como ácido salicílico para combater a acne e controlar a produção de óleo.\n\nHidratação:\nOpte por um hidratante oil-free e não comedogênico. Gel ou loções leves são boas opções para manter a pele hidratada sem adicionar excesso de oleosidade.\n\nProteção Solar:\nUse um protetor solar de amplo espectro com FPS 30 ou superior. Escolha uma fórmula livre de óleo para evitar o excesso de brilho.\n\nLimpeza Noturna:\nRemova a maquiagem e limpe a pele com um limpador suave. Considere o uso de produtos de limpeza que contenham ácidos suaves para esfoliação suave.\n\nTratamento Específico:\nSe necessário, adicione um tratamento específico para pele oleosa, como um sérum com ácido salicílico para controlar a acne. Lembre-se de que a consistência é fundamental em qualquer rotina de skincare. Adapte os produtos com base na resposta da sua pele e, se possível, consulte um dermatologista para obter recomendações personalizadas v Limpeza Matinal:\nUse um limpador facial suave formulado para pele oleosa. Evite sabonetes que podem ressecar a pele, pois iss Limpeza Matinal:\nUse um limpador facial suave formulado para pele oleosa. Evite sabonetes que podem ressecar a pele, pois iss Limpeza Matinal:\nUse um limpador facial suave formulado para pele oleosa. Evite sabonetes que podem ressecar a pele, pois iss Limpeza Matinal:\nUse um limpador facial suave formulado para pele oleosa. Evite sabonetes que podem ressecar a pele, pois iss Limpeza Matinal:\nUse um limpador facial suave formulado para pele oleosa. Evite sabonetes que podem ressecar a pele, pois iss ."
+            };
+
+            return View(viewModel);
+        }
+
+
         // GET: Routines
         public async Task<IActionResult> Index()
         {
@@ -52,9 +66,8 @@ namespace backend_skincare_2023.Controllers
             return View();
         }
 
+
         // POST: Routines/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("RoutineId,RoutineText,CreatedAt,UserId")] Routine routine)
@@ -68,6 +81,7 @@ namespace backend_skincare_2023.Controllers
             ViewData["UserId"] = new SelectList(_context.Users, "UserId", "Email", routine.UserId);
             return View(routine);
         }
+
 
         // GET: Routines/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -86,9 +100,8 @@ namespace backend_skincare_2023.Controllers
             return View(routine);
         }
 
+
         // POST: Routines/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("RoutineId,RoutineText,CreatedAt,UserId")] Routine routine)
@@ -122,6 +135,8 @@ namespace backend_skincare_2023.Controllers
             return View(routine);
         }
 
+
+
         // GET: Routines/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
@@ -140,6 +155,8 @@ namespace backend_skincare_2023.Controllers
 
             return View(routine);
         }
+
+
 
         // POST: Routines/Delete/5
         [HttpPost, ActionName("Delete")]
