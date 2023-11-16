@@ -246,6 +246,12 @@ img:focus {
     border-radius: 20px !important;
 }
 
+.custom-card .col-md-4 img {
+     border-top-left-radius: 20px;
+     border-bottom-left-radius: 20px;
+}
+
+
 .carousel h4 {
     margin-bottom: 40px;
 }
