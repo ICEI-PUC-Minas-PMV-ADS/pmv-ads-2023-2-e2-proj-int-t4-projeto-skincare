@@ -4,8 +4,8 @@
     align-items: center;
     height: 100vh; /* Define a altura total da viewport */
     box-sizing: border-box;
-    margin-top: -70px !important;
-    margin-bottom: -40px;
+    margin-top: -50px !important;
+    margin-bottom: -30px;
    
    
 }
@@ -15,6 +15,7 @@
     background-color: #EDE7FE;
     width: 100%;
     padding: 20px; /* Adiciona algum espaço interno ao redor do formulário */
+    border-radius: 10px;
 }
 
 #btn-questionario {
