@@ -66,6 +66,7 @@ namespace backend_skincare_2023.Controllers
             //Verifica se o user tem menos de 16 anos
             var age = DateTime.Today.Year - user.BirthDate.Year;
             var isLessThan16 = age < 16;
+            var isAdmin = User.Claims.FirstOrDefault(c => c.Type == "isAdmin");
 
             if (isLessThan16)
             {
@@ -76,14 +77,27 @@ namespace backend_skincare_2023.Controllers
 
             if (ModelState.IsValid)
             {
-
-           
                 user.PasswordKey = BCrypt.Net.BCrypt.HashPassword(user.PasswordKey);
 
                 _context.Add(user);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Login));
+
+                
+                var isAdminClaim = User.Claims.FirstOrDefault(c => c.Type == "isAdmin");
+
+                if (isAdminClaim != null && isAdminClaim.Value == "True")
+                {
+                    
+                    return RedirectToAction("Index", "Users");
+                }
+                else
+                {
+                    
+                    return RedirectToAction(nameof(Login));
+                }
             }
+
+
             return View(user);
         }
 
