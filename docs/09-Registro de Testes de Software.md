@@ -34,9 +34,9 @@
 
 
 
-|     Caso de teste     | CT-03 – Criar rotina                                                                                                                                                        
+|     Caso de teste     | CT- 03 e 13 – Criar rotina ao responder um questionário                                                                                                                                                       
 | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Requisitos Associados | RF-003	O sistema deve ser capaz de criar rotinas personalizadas ao responder um questionário.                                                                                                |
+| Requisitos Associados | RF-003	O sistema deve ser capaz de criar rotinas personalizadas de skincare ao responder um questionário. <br>  RF-013 O sistema deve conter um questionário com perguntas detalhadas para entender as necessidades dos usuários.                                                                                               |
 |   Objetivo do Teste   |                                                                                                                       |
 | Passos 	| 1- Acessar o navegador <br> 2- Informar o endereço do site.<br> 3- Fazer 'login' no site  <br>  4- Clicar em ‘Quiz da pele’  <br>  4- Responder questionário  <br> 5- Clicar em ver minha rotina |
 | Resultado esperado	| Rotina personalizada é mostrada na tela para o usuário
