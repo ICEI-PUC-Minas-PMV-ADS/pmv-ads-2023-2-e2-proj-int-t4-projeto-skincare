@@ -12,9 +12,7 @@
 | Avaliação (pegou / não pegou erro) | <br> Sem erros|
 |Evidência (print screen) |  Ao se logar com conta nromal "Minha conta" aparece na barra de navegação. ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/d74463b4-ef91-479d-ac4b-cf6b2cd23f3d) ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/628b7c01-cf1e-424a-8965-eca913b0df36) <br><br>  Login conta administrador aparece "Administrador na barra de navegação. ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/c5ebc660-a390-4e12-8c1f-4fd2e486d8a9) ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/4f2d69af-d57e-4f1b-9776-8159f9077c87)
 
-
-
-   |
+ 
 
 <br><br>
 
@@ -38,13 +36,13 @@
 
 |     Caso de teste     | CT-03 – Criar rotina                                                                                                                                                        
 | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Requisitos Associados | RF-003	O sistema deve ser capaz de criar rotinas personalizadas utilizando a API do Chat GPT.                                                                                                |
+| Requisitos Associados | RF-003	O sistema deve ser capaz de criar rotinas personalizadas ao responder um questionário.                                                                                                |
 |   Objetivo do Teste   |                                                                                                                       |
 | Passos 	| 1- Acessar o navegador <br> 2- Informar o endereço do site.<br> 3- Fazer 'login' no site  <br>  4- Clicar em ‘Quiz da pele’  <br>  4- Responder questionário  <br> 5- Clicar em ver minha rotina |
 | Resultado esperado	| Rotina personalizada é mostrada na tela para o usuário
-|Resultado obtido	|  Criada rotina com sucesso. 
+|Resultado obtido	|  Rotina criada com sucesso. 
 | Avaliação (pegou / não pegou erro)	| Não possui erros. 
-|Evidência (print screen) |  ![Captura de tela 2023-10-22 171647](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/e4e4de13-c066-466e-8b20-7305e4d678ee) |
+|Evidência (print screen) |  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/dfd30391-c61c-4b23-9b2e-a96ee7625153)|
 
 
 <br><br>
@@ -113,9 +111,10 @@
 | Objetivo do Teste 	| Verificar e identificar o tipo de pele do usuário pelo questionário. |
 | Passos 	| 1-	Acessar o navegador <br> 2- Informar o endereço do site. <br> 3-Clicar em "Saiba como identificar seu tipo de pele" na ‘Home page’ <br> | 
 | Resultado esperado	|  O usuário conseguirá indetificar o seu tipo de pele com as informações disponibilizadas.
-|Resultado obtido	|  
-| Avaliação (pegou / não pegou erro)	| 
-|Evidência (print screen) |  
+|Resultado obtido	|  Página tipo de pele visualizada com sucesso
+| Avaliação (pegou / não pegou erro)	| Sem erros
+|Evidência (print screen) |  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/35f2946c-024c-463c-af77-6b9f2a5a1c02)
+
 
 <br><br>
 
@@ -140,27 +139,12 @@
 | Objetivo do Teste 	| Garantir que  aplicação disponiblize um guia explicativo sobre ativos de skincare. |
 | Passos 	| 1-	Acessar o navegador <br> 2- Informar o endereço do site. <br> 3-	Clicar em "O que sao os princípios ativos" na Home page |
 | Resultado esperado	| Guia de princípios ativos visualizados com sucesso.
-|Resultado obtido	|  
-| Avaliação (pegou / não pegou erro)	| 
-|Evidência (print screen) |  
+|Resultado obtido	|  Página de ativos visualizada com sucesso.
+| Avaliação (pegou / não pegou erro)	| Sem erros
+|Evidência (print screen) |  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/2dadb75a-8061-4f25-bd83-691273ccb72d)
+
 
 <br><br>
-
-
-
-
-|     Caso de teste     |   CT-11 –  Questionário                                                                                                      
-| :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|Requisito Associado | RF-013 - O sistema deve conter um questionário com perguntas detalhadas para entender a necessidade dos usuários. |
-| Objetivo do Teste 	| Verificar se o usuário consegue responder o questinário . |
-| Passos 	| 1-	Acessar o navegador <br> 2- Informar o endereço do site. <br> 3-	Fazer ‘login’ no site. <br> 4-	clicar em "Quiz da pele" na Home page <br> 5- Responder ao Questionário.|
-| Resultado esperado	| Questionário foi respondido com sucesso.
-|Resultado obtido	|  
-| Avaliação (pegou / não pegou erro)	| 
-|Evidência (print screen) |  
-
-<br><br>
-
 
 
 # Registro de Testes Regras de negócio
