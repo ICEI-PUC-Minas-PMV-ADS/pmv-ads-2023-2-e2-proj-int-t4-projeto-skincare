@@ -71,7 +71,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| O site deve incluir uma página de login.| ALTA | 
 |RF-002| O site deve conter uma área para fazer cadastro de novos usuários a partir de 16 anos.   | ALTA |
 |RF-003| O sistema deve ser capaz de criar rotinas personalizadas utilizando a API do Chat GPT.| ALTA |
-|RF-004| A aplicação deve permitir que os usuários acessem e modifiquem suas rotinas salvas a qualquer momento (CRUD). | MÉDIA |
+|RF-004| A aplicação deve permitir que os usuários acessem e modifiquem suas rotinas salvas a qualquer momento. | MÉDIA |
 |RF-005| O sistema deve incluir uma mensagem automática no final do questionário, recomendando que o usuário procure um profissional de saúde, caso identifique que seu problema de pele requer cuidados médicos.| ALTA |
 |RF-006| A aplicação deve possibilitar o armazenamento seguro das rotinas geradas pelos usuários, associando-as às contas dos mesmos.| MÉDIA |
 |RF-007| O sistema deve ajudar o usuário a identificar o seu tipo de pele.|ALTA |
@@ -90,13 +90,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet ([Replit](http://repl.it/), GitHub Pages, Heroku). | MÉDIA | 
-|RNF-002| O site deve ser responsivo, adaptando-se automaticamente a diferentes tamanhos de tela e dispositivos móveis. |  ALTA | 
-|RNF-003| O sistema deve ser multiplataforma – Windows, Linux e macOS. |  ALTA | 
-|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). |  ALTA | 
-|RNF-005| O sistema deve funcionar 24h por dia, todos os dias da semana. |  MÉDIA | 
-|RNF-006| A aplicação deve implementar protocolos de segurança para proteger os dados pessoais dos usuários. |  ALTA | 
-|RNF-007| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-008| A interface do usuário deve ser intuitiva e de fácil navegação, que permita aos usuários encontrarem facilmente os tópicos de interesse. |  ALTA | 
+|RNF-002| O sistema deve ser multiplataforma – Windows, Linux e macOS. |  ALTA | 
+|RNF-003| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). |  ALTA | 
+|RNF-004| O sistema deve funcionar 24h por dia, todos os dias da semana. |  MÉDIA | 
+|RNF-005| A aplicação deve implementar protocolos de segurança para proteger os dados pessoais dos usuários. |  ALTA | 
+|RNF-006| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-007| A interface do usuário deve ser intuitiva e de fácil navegação, que permita aos usuários encontrarem facilmente os tópicos de interesse. |  ALTA | 
 
 
 
@@ -106,9 +105,8 @@ A tabela a seguir apresenta as regras de negócio desse projeto.
 |ID| Regras                                            |
 |--|-------------------------------------------------------|
 |01| O cadastro de novos usuários será finalizado somente após o preenchimento de todos os campos obrigatórios, e a confirmação de que o usuário possui no mínimo 16 anos de idade.|
-|02| Cada usuário terá a capacidade de criar até 3 rotinas por mês. Após a criação das 3 rotinas, será necessário aguardar até o próximo mês para gerar mais.       |
-|03| Esta plataforma não substitui, em hipótese alguma, a consulta médica adequada quando se trata de problemas dermatológicos mais complexos ou condições médicas específicas. |
-|04| A rotina gerada não incluirá recomendações de marcas de produtos específicos para o usuário, visto que a escolha é altamente personalizada e influenciada pelo orçamento e pelas preferências individuais. |
+|02| Esta plataforma não substitui, em hipótese alguma, a consulta médica adequada quando se trata de problemas dermatológicos mais complexos ou condições médicas específicas. |
+|03| A rotina gerada não incluirá recomendações de marcas de produtos específicos para o usuário, visto que a escolha é altamente personalizada e influenciada pelo orçamento e pelas preferências individuais. |
 
 
 
