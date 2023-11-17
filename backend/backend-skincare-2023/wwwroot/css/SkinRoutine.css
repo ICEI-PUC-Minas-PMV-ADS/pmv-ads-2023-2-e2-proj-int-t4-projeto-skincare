@@ -9,7 +9,7 @@ p {
    text-align: center;
 }
 
-#h3 {
+.h3 {
     font-size: 25px;
     background-color: #9F77FF;
     color: white;
@@ -26,5 +26,6 @@ main{
     background-color: #EFEFEF !important;
    
 }
+
 
 
