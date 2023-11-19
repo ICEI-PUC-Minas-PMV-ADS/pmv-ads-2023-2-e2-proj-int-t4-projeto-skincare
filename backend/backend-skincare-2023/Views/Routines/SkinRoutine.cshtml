@@ -23,9 +23,17 @@
             </div>
             <p id="p">Aqui está o tratamento ideal para a sua pele.</p>
 
-            <div class="text-container">
+                @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+                {
+                  <p style="color: red;">@Model.ErrorMessage</p>
+                }
+                else
+                {
+                   <div class="text-container">
                     @Html.DisplayFor(model => model.Text)
-            </div>
+                   </div>
+                }
+            
         </div>
     </div>
 </div>
