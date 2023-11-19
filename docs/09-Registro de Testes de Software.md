@@ -33,10 +33,9 @@
 <br><br>
 
 
-
-|     Caso de teste     | CT- 03 e 13 – Criar rotina ao responder um questionário                                                                                                                                                       
+|     Caso de teste     | CT- 03  – Criar rotina ao responder um questionário                                                                                                                                                       
 | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Requisitos Associados | RF-003	O sistema deve ser capaz de criar rotinas personalizadas de skincare ao responder um questionário. <br>  RF-013 O sistema deve conter um questionário com perguntas detalhadas para entender as necessidades dos usuários.                                                                                               |
+| Requisitos Associados | RF-003, RF-011: 	O sistema deve ser capaz de criar rotinas personalizadas de skincare ao responder um questionário. <br>  RF-013 O sistema deve conter um questionário com perguntas detalhadas para entender as necessidades dos usuários.                                                                                               |
 |   Objetivo do Teste   |                                                                                                                       |
 | Passos 	| 1- Acessar o navegador <br> 2- Informar o endereço do site.<br> 3- Fazer 'login' no site  <br>  4- Clicar em ‘Quiz da pele’  <br>  4- Responder questionário  <br> 5- Clicar em ver minha rotina |
 | Resultado esperado	| Rotina personalizada é mostrada na tela para o usuário
@@ -49,37 +48,9 @@
 
 
 
-|     Caso de teste     | CT-04 – Excluir rotina salva                                                                                                                                                        
+|     Caso de teste     | CT-04 – Recomendação médica	                                                                                                                                                 
 | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Requisitos Associados | RF-004 - O site deve permitir o usuário excluir a sua rotina salva.                                                                                                    |
-|   Objetivo do Teste   | Verificar se o usuário pode excluir a rotina salva no seu painel do usuário.                                                                                                                           |
-|        Passos         | - Acessar o navegador <br>  - Informar o endereço do site <br>  - Fazer 'login' no site <br>  - Acessar a ‘Area do usuário' <br> - Clicar em ‘Excluir rotina’|
-| Resultado esperado	| Rotina excluida com sucesso. 
-|Resultado obtido	|  Rotina excluida com sucesso.
-| Avaliação (pegou / não pegou erro)	| não possui erros. 
-|Evidência (print screen) |  ![Captura de tela 2023-10-22 171724](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/ea8cb593-0f2f-4709-bf79-2b084972b432) |
-
-
-<br><br>
-
-
-|     Caso de teste     | CT-05 – Acessar rotina salva                                                                                                                                                      
-| :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|Requisito Associado | RF-004	- O site deve permitir o usuário acessar a sua rotina salva. |
-| Objetivo do Teste 	| Verificar se o usuário pode acessar a rotina salva no seu painel do usuário. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer 'login' no site <br> - Acessar a ‘Area do usuário' <br>  - Clicar em ‘Visualizar rotina’ | 
-| Resultado esperado	| Rotina visualizada com sucesso. 
-|Resultado obtido	|  Rotina salva com sucesso 
-| Avaliação (pegou / não pegou erro)	| Não possui erros 
-|Evidência (print screen) |  <br> <br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/c5eac8d7-4f52-48ec-81ed-76c8886b7534)  |
-
-<br><br>
-
-
-
-|     Caso de teste     | CT-06 – Recomendação médica	                                                                                                                                                 
-| :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|Requisito Associado | RF-005	- O sistema deve incluir uma mensagem automática no final do questionário, recomendando que o usuário procure um profissional de saúde, caso identifique que seu problema de pele requer cuidados médicos . |
+|Requisito Associado | RF-004	- O sistema deve incluir uma mensagem automática no final do questionário, recomendando que o usuário procure um profissional de saúde, caso identifique que seu problema de pele requer cuidados médicos . |
 | Objetivo do Teste 	| Verificar e identificar se o usuário necessita procurar ajuda médica. |
 | Passos 	| 1- Acessar o navegador <br> 2 - Informar o endereço do site.<br> 3 - Clicar em  Quiz da pele na 'Home page'<br>  4 - Responder ao ‘Questionário’ <br>  4 -Responder "Sim" para a pergunta número 3 |
 | Resultado esperado	|  É recomendado que procure ajuda médica. 
@@ -91,23 +62,9 @@
 
 
 
-|     Caso de teste     |  CT-07 – Associar a rotina com a conta do usuário                                                                                                                                              
+|     Caso de teste     |  CT-05 – Identificação do tipo de pele                                                                                                                                  
 | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|Requisito Associado | RF-006	- Associação correta e segura com a conta do usuário |
-| Objetivo do Teste 	| Garantir que a rotina seja corretamente associada à conta do usuário que a gerou. |
-| Passos 	| 1-	O usuário gera uma rotina na aplicação. <br> 2- A rotina é salva na conta do usuário.<br> 3- Verificar se a rotina está associada corretamente à conta do usuário em ´Minha conta´. |
-| Resultado esperado	| A rotina gerada se encontra associada à conta do usuário.  
-|Resultado obtido	|  
-| Avaliação (pegou / não pegou erro)	| 
-|Evidência (print screen) |  
-
-<br><br>
-
-
-
-|     Caso de teste     |  CT-08 – Identificação do tipo de pele                                                                                                                                  
-| :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|Requisito Associado | RF-007	- O sistema deve ajudar o usuário a identificar o seu tipo de pele. |
+|Requisito Associado | RF-005	- O sistema deve ajudar o usuário a identificar o seu tipo de pele. |
 | Objetivo do Teste 	| Verificar e identificar o tipo de pele do usuário pelo questionário. |
 | Passos 	| 1-	Acessar o navegador <br> 2- Informar o endereço do site. <br> 3-Clicar em "Saiba como identificar seu tipo de pele" na ‘Home page’ <br> | 
 | Resultado esperado	|  O usuário conseguirá indetificar o seu tipo de pele com as informações disponibilizadas.
@@ -119,9 +76,9 @@
 <br><br>
 
 
-|     Caso de teste     |  CT-09 – Gerar rotinas para problemas específico                                                                                                                       
+|     Caso de teste     |  CT-06 – Gerar rotinas para problemas específico                                                                                                                       
 | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|Requisito Associado | RF-008, RF-009, RF-010, RF-011 - O sistema deve gerar rotinas voltadas para peles com rugas, marcas de expressoes, danos por consumo de cigarro e pele com melasma. |
+|Requisito Associado | RF-006, RF-007, RF-008, RF-009 - O sistema deve gerar rotinas voltadas para peles com rugas, marcas de expressoes, danos por consumo de cigarro e pele com melasma. |
 | Objetivo do Teste 	| Verificar se a aplicação fornece rotinas para problemas especificos de pele. |
 | Passos 	| 1-	Acessar o navegador <br> 2- Informar o endereço do site. <br> 3-Clicar em "Quiz da pele" na ‘Home page’ <br> 4- Responder questionário |
 | Resultado esperado	|  A rotina para cada problema específico de pele será gerada com sucesso. 
@@ -133,9 +90,9 @@
 
 
 
-|     Caso de teste     |   CT-10 – Guia sobre princípios ativos                                                                                                                  
+|     Caso de teste     |   CT-07 – Guia sobre princípios ativos                                                                                                                  
 | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|Requisito Associado | RF-012 - A aplicação deve incluir um guia completo que detalhe as funções e benefícios de cada ativo, fornecendo informações sobre como usá-los de forma eficaz. |
+|Requisito Associado | RF-010 - A aplicação deve incluir um guia completo que detalhe as funções e benefícios de cada ativo, fornecendo informações sobre como usá-los de forma eficaz. |
 | Objetivo do Teste 	| Garantir que  aplicação disponiblize um guia explicativo sobre ativos de skincare. |
 | Passos 	| 1-	Acessar o navegador <br> 2- Informar o endereço do site. <br> 3-	Clicar em "O que sao os princípios ativos" na Home page |
 | Resultado esperado	| Guia de princípios ativos visualizados com sucesso.
@@ -158,7 +115,7 @@
 | Resultado esperado	|Um alerta aparece na tela, informando que o usuário deve ter 16 anos ou mais para se cadastrar no site..
 |Resultado obtido	|  Uma mensagem aparece na tela, e o usuário nao consegue efeturar o cadastreo sendo menor de 16 anos.
 | Avaliação (pegou / não pegou erro)	| Sem erros
-|Evidência (print screen) |  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/c61bd744-8ba3-4b79-a78c-662caf059b19)
+|Evidência (print screen) | ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/9a8ab76f-fd20-45f4-b8fb-b693a33751c3)
 
 
 <br><br>
