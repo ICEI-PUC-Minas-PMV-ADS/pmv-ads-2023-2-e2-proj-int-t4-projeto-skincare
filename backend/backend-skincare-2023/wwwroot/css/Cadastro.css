@@ -1,25 +1,41 @@
 
 
+html, body {
+    height: 100%;
+}
 
+.full-height {
+    height: 100%;
+}
+
+#cadastro-img {
+    height: 1000px;
+    width: 1000px;
+    object-fit: cover;
+}
 
 .error-message {
     color: red;
 }
 
+.container-cadastro {
+    margin-top: -16px;
+}
 
-.div-login {
+.div-cadastro {
     margin: auto;
+    margin-top: 230px;
 }
 
 
-.div-link-cadastro a {
-    text-decoration: none !important;
-    color: #9781AD;
+/* Esconder a imagem em telas com largura menor ou igual a 768 pixels */
+@media (max-width: 768px) {
+    #cadastro-img {
+        display: none;
+    }
+
+    .div-cadastro {
+        width: 50%;
+        margin-top: 15px;
+    }
 }
-
-.div-link-cadastro{
-    display:flex;
-    justify-content: center;
-}
-
-
