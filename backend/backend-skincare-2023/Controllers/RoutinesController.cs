@@ -1,36 +1,53 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using ChatGPT.Net;
+using ChatGPT.Net.DTO.ChatGPT;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using backend_skincare_2023.Data;
-using backend_skincare_2023.Models;
+
 
 namespace backend_skincare_2023.Controllers
 {
     public class RoutinesController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly ILogger<RoutinesController> _logger;
+        private readonly string _apiKey;
 
-        public RoutinesController(ApplicationDbContext context)
+       
+        public RoutinesController(ApplicationDbContext context, ILogger<RoutinesController> logger, IConfiguration configuration)
         {
             _context = context;
+            _logger = logger;
+            _apiKey = configuration.GetSection("ApiSettings:ApiKey").Value;
         }
 
 
-
-        //Rota pagina rotina gerada com api
         [Route("Routines/SkinRoutine")]
-        public IActionResult SkinRoutine()
+        public async Task<IActionResult> SkinRoutine()
         {
-            var viewModel = new RoutineText
+            var viewModel = new RoutineText();
+
+            try
             {
-                Text = "Limpeza Matinal:\nUse um limpador facial suave formulado para pele oleosa. Evite sabonetes que podem ressecar a pele, pois isso pode estimular ainda mais a produção de óleo.\n\nTônico:\nAplique um tônico adstringente para ajudar a equilibrar o pH da pele e reduzir a oleosidade. Procure por ingredientes como ácido salicílico para combater a acne e controlar a produção de óleo.\n\nHidratação:\nOpte por um hidratante oil-free e não comedogênico. Gel ou loções leves são boas opções para manter a pele hidratada sem adicionar excesso de oleosidade.\n\nProteção Solar:\nUse um protetor solar de amplo espectro com FPS 30 ou superior. Escolha uma fórmula livre de óleo para evitar o excesso de brilho.\n\nLimpeza Noturna:\nRemova a maquiagem e limpe a pele com um limpador suave. Considere o uso de produtos de limpeza que contenham ácidos suaves para esfoliação suave.\n\nTratamento Específico:\nSe necessário, adicione um tratamento específico para pele oleosa, como um sérum com ácido salicílico para controlar a acne. Lembre-se de que a consistência é fundamental em qualquer rotina de skincare. Adapte os produtos com base na resposta da sua pele e, se possível, consulte um dermatologista para obter recomendações personalizadas v Limpeza Matinal:\nUse um limpador facial suave formulado para pele oleosa. Evite sabonetes que podem ressecar a pele, pois iss Limpeza Matinal:\nUse um limpador facial suave formulado para pele oleosa. Evite sabonetes que podem ressecar a pele, pois iss Limpeza Matinal:\nUse um limpador facial suave formulado para pele oleosa. Evite sabonetes que podem ressecar a pele, pois iss Limpeza Matinal:\nUse um limpador facial suave formulado para pele oleosa. Evite sabonetes que podem ressecar a pele, pois iss Limpeza Matinal:\nUse um limpador facial suave formulado para pele oleosa. Evite sabonetes que podem ressecar a pele, pois iss ."
-            };
+                var bot = new ChatGpt(_apiKey, new ChatGptOptions { 
+                  Model = "gpt-3.5-turbo"
+                });
+                viewModel.Text = await bot.Ask("Descreva uma rotina para pele oleosa com acne.");
+                return View(viewModel);
+
+            }
+            catch (Exception e)
+            {
+                LogError(e, "Error");
+                viewModel.ErrorMessage = "Ocorreu um erro ao obter a rotina. Por favor, tente novamente mais tarde.";
+            }
 
             return View(viewModel);
+        }
+
+        private void LogError(Exception e, string message)
+        {
+            
+             _logger.LogError(e, message);
         }
 
 
