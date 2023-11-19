@@ -70,17 +70,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| O site deve incluir uma página de login.| ALTA | 
 |RF-002| O site deve conter uma área para fazer cadastro de novos usuários a partir de 16 anos.   | ALTA |
-|RF-003| O sistema deve ser capaz de criar rotinas personalizadas utilizando a API do Chat GPT.| ALTA |
-|RF-004| A aplicação deve permitir que os usuários acessem e modifiquem suas rotinas salvas a qualquer momento. | MÉDIA |
-|RF-005| O sistema deve incluir uma mensagem automática no final do questionário, recomendando que o usuário procure um profissional de saúde, caso identifique que seu problema de pele requer cuidados médicos.| ALTA |
-|RF-006| A aplicação deve possibilitar o armazenamento seguro das rotinas geradas pelos usuários, associando-as às contas dos mesmos.| MÉDIA |
-|RF-007| O sistema deve ajudar o usuário a identificar o seu tipo de pele.|ALTA |
-|RF-008|  A aplicação deve gerar rotinas voltadas para a pele com rugas e linhas de expressão.| MÉDIA |
-|RF-009| O sistema deve fornecer recomendações de rotinas  para tratar os danos na pele decorrentes do consumo de cigarros.| MÉDIA |
-|RF-010|  O sistema deve recomendar uma rotina de cuidados específica para pele com melasma.| MÉDIA |
-|RF-011| A aplicação deve disponibilizar rotinas eficazes para minimizar o desconforto associado ao surgimento de espinhas.| MÉDIA |
-|RF-012| A aplicação deve incluir um guia completo que detalhe as funções e benefícios de cada ativo, fornecendo informações sobre como usá-los de forma eficaz.|ALTA |
-|RF-013| O sistema deve conter um questionário com perguntas detalhadas para entender as necessidades dos usuários.|ALTA |
+|RF-003| O sistema deve ser capaz de criar rotinas personalizadas utilizando a api do OpenAi  .| ALTA |
+|RF-004| O sistema deve incluir uma mensagem automática no final do questionário, recomendando que o usuário procure um profissional de saúde, caso identifique que seu problema de pele requer cuidados médicos.| ALTA |
+|RF-005| O sistema deve ajudar o usuário a identificar o seu tipo de pele.|ALTA |
+|RF-006|  A aplicação deve gerar rotinas voltadas para a pele com rugas e linhas de expressão.| MÉDIA |
+|RF-007| O sistema deve fornecer recomendações de rotinas  para tratar os danos na pele decorrentes do consumo de cigarros.| MÉDIA |
+|RF-008|  O sistema deve recomendar uma rotina de cuidados específica para pele com melasma.| MÉDIA |
+|RF-009| A aplicação deve disponibilizar rotinas eficazes para minimizar o desconforto associado ao surgimento de espinhas.| MÉDIA |
+|RF-010| A aplicação deve incluir um guia completo que detalhe as funções e benefícios de cada ativo, fornecendo informações sobre como usá-los de forma eficaz.|ALTA |
+|RF-011| O sistema deve conter um questionário com perguntas detalhadas para entender as necessidades dos usuários.|ALTA |
 
 
 
