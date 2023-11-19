@@ -10,11 +10,9 @@
 | Resultado esperado	|  Login realizado com sucesso.
 |Resultado obtido	|  O usuário conseguiu acessar seus dois tipos de contas (user normal e adm).
 | Avaliação (pegou / não pegou erro) | <br> Sem erros|
-|Evidência (print screen) |  Login conta usuário normal ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/d74463b4-ef91-479d-ac4b-cf6b2cd23f3d) ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/628b7c01-cf1e-424a-8965-eca913b0df36) <br><br>  Login conta administrador  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/c5ebc660-a390-4e12-8c1f-4fd2e486d8a9) ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/4f2d69af-d57e-4f1b-9776-8159f9077c87)
+|Evidência (print screen) |  Ao se logar com conta nromal "Minha conta" aparece na barra de navegação. ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/d74463b4-ef91-479d-ac4b-cf6b2cd23f3d) ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/628b7c01-cf1e-424a-8965-eca913b0df36) <br><br>  Login conta administrador aparece "Administrador na barra de navegação. ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/c5ebc660-a390-4e12-8c1f-4fd2e486d8a9) ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/4f2d69af-d57e-4f1b-9776-8159f9077c87)
 
-
-
-   |
+ 
 
 <br><br>
 
@@ -26,7 +24,7 @@
 |        Passos         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site:  <br> 3) Clicar em ‘Cadastrar’ <br> 4) Preencher os campos obrigatórios  <br> 5)  Clicar em ‘Cadastrar’ <br> |
 | Dados de entrada	|  Nome, sobrenome, data de nascimento, email e senha |
 | Resultado esperado	|  Dados armazenados no banco de dados.
-|Resultado obtido	|   Os campos nome, sobrenome, data nascimento, e-mail e senha, foram armazenados com precisão no banco de dados. 
+|Resultado obtido	|   Os campos nome, sobrenome, data nascimento, e-mail e senha, foram armazenados com precisão no banco de dados, criando o acesso do usuário no sistema. 
 | Avaliação (pegou / não pegou erro)	| Nao possui erros
 |Evidência (print screen) | Lista de usuários cadastrados frontend ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/0c9a34f4-2aed-41c1-a71f-052bec76dd39) <br><br> Tabela usuários cadastrados banco de dados![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/32d3c50b-90e9-4ee4-b61c-a4d6b0171709) |
 
@@ -36,15 +34,15 @@
 
 
 
-|     Caso de teste     | CT-03 – Criar rotina                                                                                                                                                        
+|     Caso de teste     | CT- 03 e 13 – Criar rotina ao responder um questionário                                                                                                                                                       
 | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Requisitos Associados | RF-003	O sistema deve ser capaz de criar rotinas personalizadas utilizando a API do Chat GPT.                                                                                                |
+| Requisitos Associados | RF-003	O sistema deve ser capaz de criar rotinas personalizadas de skincare ao responder um questionário. <br>  RF-013 O sistema deve conter um questionário com perguntas detalhadas para entender as necessidades dos usuários.                                                                                               |
 |   Objetivo do Teste   |                                                                                                                       |
 | Passos 	| 1- Acessar o navegador <br> 2- Informar o endereço do site.<br> 3- Fazer 'login' no site  <br>  4- Clicar em ‘Quiz da pele’  <br>  4- Responder questionário  <br> 5- Clicar em ver minha rotina |
 | Resultado esperado	| Rotina personalizada é mostrada na tela para o usuário
-|Resultado obtido	|  Criada rotina com sucesso. 
+|Resultado obtido	|  Rotina criada com sucesso. 
 | Avaliação (pegou / não pegou erro)	| Não possui erros. 
-|Evidência (print screen) |  ![Captura de tela 2023-10-22 171647](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/e4e4de13-c066-466e-8b20-7305e4d678ee) |
+|Evidência (print screen) |  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/dfd30391-c61c-4b23-9b2e-a96ee7625153)|
 
 
 <br><br>
@@ -113,9 +111,10 @@
 | Objetivo do Teste 	| Verificar e identificar o tipo de pele do usuário pelo questionário. |
 | Passos 	| 1-	Acessar o navegador <br> 2- Informar o endereço do site. <br> 3-Clicar em "Saiba como identificar seu tipo de pele" na ‘Home page’ <br> | 
 | Resultado esperado	|  O usuário conseguirá indetificar o seu tipo de pele com as informações disponibilizadas.
-|Resultado obtido	|  
-| Avaliação (pegou / não pegou erro)	| 
-|Evidência (print screen) |  
+|Resultado obtido	|  Página tipo de pele visualizada com sucesso
+| Avaliação (pegou / não pegou erro)	| Sem erros
+|Evidência (print screen) |  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/35f2946c-024c-463c-af77-6b9f2a5a1c02)
+
 
 <br><br>
 
@@ -140,25 +139,26 @@
 | Objetivo do Teste 	| Garantir que  aplicação disponiblize um guia explicativo sobre ativos de skincare. |
 | Passos 	| 1-	Acessar o navegador <br> 2- Informar o endereço do site. <br> 3-	Clicar em "O que sao os princípios ativos" na Home page |
 | Resultado esperado	| Guia de princípios ativos visualizados com sucesso.
-|Resultado obtido	|  
-| Avaliação (pegou / não pegou erro)	| 
-|Evidência (print screen) |  
+|Resultado obtido	|  Página de ativos visualizada com sucesso.
+| Avaliação (pegou / não pegou erro)	| Sem erros
+|Evidência (print screen) |  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/2dadb75a-8061-4f25-bd83-691273ccb72d)
+
 
 <br><br>
 
 
+# Registro de Testes Regras de negócio
 
 
-|     Caso de teste     |   CT-11 –  Questionário                                                                                                      
+|     Caso de teste     |   CT-01 – Cadastro a partir de 16 anos                                                                                                  
 | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|Requisito Associado | RF-013 - O sistema deve conter um questionário com perguntas detalhadas para entender a necessidade dos usuários. |
-| Objetivo do Teste 	| Verificar se o usuário consegue responder o questinário . |
-| Passos 	| 1-	Acessar o navegador <br> 2- Informar o endereço do site. <br> 3-	Fazer ‘login’ no site. <br> 4-	clicar em "Quiz da pele" na Home page <br> 5- Responder ao Questionário.|
-| Resultado esperado	| Questionário foi respondido com sucesso.
-|Resultado obtido	|  
-| Avaliação (pegou / não pegou erro)	| 
-|Evidência (print screen) |  
+|01 |O cadastro de novos usuários será finalizado somente após o preenchimento de todos os campos obrigatórios, e a confirmação de que o usuário possui no mínimo 16 anos de idade.|
+| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar com idade inferior a 16 anos. |
+| Passos 	| 1-	Acessar o navegador <br> 2- Informar o endereço do site. <br> 3-	Acessar login e clicar em cadastro. <br> 4-	Preencher todos os campos, e na data de nascimento selecionar o ano atual, ou outro de sua escolha, onde a idade  seja inferior a 16 anos. <br> 5- Clicar no botao cadastrar.
+| Resultado esperado	|Um alerta aparece na tela, informando que o usuário deve ter 16 anos ou mais para se cadastrar no site..
+|Resultado obtido	|  Uma mensagem aparece na tela, e o usuário nao consegue efeturar o cadastreo sendo menor de 16 anos.
+| Avaliação (pegou / não pegou erro)	| Sem erros
+|Evidência (print screen) |  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/c61bd744-8ba3-4b79-a78c-662caf059b19)
+
 
 <br><br>
-
-

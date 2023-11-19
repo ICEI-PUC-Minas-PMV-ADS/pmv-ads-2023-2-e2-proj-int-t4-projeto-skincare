@@ -1,0 +1,39 @@
+﻿@model backend_skincare_2023.Models.RoutineText
+
+@{
+    ViewData["Title"] = "Soft Care";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Soft Care</title>
+    <link rel="stylesheet" href="~/css/SkinRoutine.css" asp-append-version="true" />
+</head>
+<body>
+    <hr class="hr" />
+
+
+ <div class="container" id="container-cinza">
+    <div class="row justify-content-center">
+        <div class="col-md-6 rotina">
+            <div class="user-name mt-5 mb-3">
+              <h3 class="h3">@User.Identity.Name.ToLowerInvariant(),</h3>
+            </div>
+            <p id="p">Aqui está o tratamento ideal para a sua pele.</p>
+
+            <div class="text-container">
+                    @Html.DisplayFor(model => model.Text)
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+</div>
+<div>
+</div>
+
+</body>
+</html>

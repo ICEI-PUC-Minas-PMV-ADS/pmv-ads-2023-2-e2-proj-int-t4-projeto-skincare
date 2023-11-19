@@ -1,0 +1,36 @@
+﻿#container-questionario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Define a altura total da viewport */
+    box-sizing: border-box;
+    margin-top: -50px !important;
+    margin-bottom: -30px;
+   
+   
+}
+
+.container-form {
+    max-width: 700px;
+    background-color: #EDE7FE;
+    width: 100%;
+    padding: 20px; /* Adiciona algum espaço interno ao redor do formulário */
+    border-radius: 10px;
+}
+
+#btn-questionario {
+    margin-top: 30px;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+.pergunta {
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+}
+
+label {
+    color: #666666; 
+}
+

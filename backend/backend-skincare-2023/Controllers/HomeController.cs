@@ -1,4 +1,5 @@
 ﻿using backend_skincare_2023.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -13,10 +14,19 @@ namespace backend_skincare_2023.Controllers
             _logger = logger;
         }
 
+
         public IActionResult Index()
         {
             _logger.LogInformation("Main page");
             return View();
+        }
+
+
+        [Authorize]
+        public IActionResult Questionario()
+        {
+            
+            return View(); 
         }
 
         public IActionResult Privacy()
@@ -67,6 +77,22 @@ namespace backend_skincare_2023.Controllers
 
         [Route("Home/privacidade")]
         public IActionResult Privacidade()
+        {
+
+            return View();
+        }
+
+
+
+        [Route("Home/hidratada")]
+        public IActionResult Hidratada()
+        {
+
+            return View();
+        }
+
+        [Route("Home/madura")]
+        public IActionResult Madura()
         {
 
             return View();

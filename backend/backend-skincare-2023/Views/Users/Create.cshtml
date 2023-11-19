@@ -1,14 +1,14 @@
 ﻿@model backend_skincare_2023.Models.User
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Soft Care";
 }
+
+<link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+
+
 <hr class="hr" />
 
-<div class="main-part">
-    <div>
-        <a asp-controller="Home"  asp-action="Index">Voltar</a>
-    </div>
 
     <h1 class="mt-4">Cadastro</h1>
     <p>Utilize seu email para se cadastrar.</p>
@@ -46,10 +46,16 @@
                     <input type="submit" value="Cadastrar" class="btn btn-purple form-control mt-4 mb-4" />
                 </div>
             </form>
+            @if (ViewBag.ShowAgeAlert != null && (bool)ViewBag.ShowAgeAlert)
+            {
+                <script>
+                    alert("Você deve ter 16 anos ou mais para se cadastrar.");
+                </script>
+            }
         </div>
     </div>
 
 
 
 
-</div>
+

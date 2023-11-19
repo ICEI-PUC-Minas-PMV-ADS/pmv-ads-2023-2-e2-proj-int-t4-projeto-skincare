@@ -51,6 +51,12 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 
+//Rota pagina da rotina gerada com api
+app.MapControllerRoute(
+    name: "routines",
+    pattern: "Routines/SkinRoutine",
+    defaults: new { controller = "Routines", action = "SkinRoutine" });
+
 
 //Rota padrao
 app.MapControllerRoute(

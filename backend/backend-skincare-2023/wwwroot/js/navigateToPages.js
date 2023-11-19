@@ -1,4 +1,3 @@
-﻿
 
 function navigateToAtivos() {
     window.location.href = "/Home/ativos";
@@ -11,3 +10,4 @@ function navigateToTipoPele() {
 function navigateToPeleMasculina() {
     window.location.href = "/Home/masculina";
 }
+

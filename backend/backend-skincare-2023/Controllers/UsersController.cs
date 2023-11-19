@@ -63,16 +63,41 @@ namespace backend_skincare_2023.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("UserId,FirstName,LastName,Email,BirthDate,PasswordKey")] User user)
         {
+            //Verifica se o user tem menos de 16 anos
+            var age = DateTime.Today.Year - user.BirthDate.Year;
+            var isLessThan16 = age < 16;
+            var isAdmin = User.Claims.FirstOrDefault(c => c.Type == "isAdmin");
+
+            if (isLessThan16)
+            {
+                ViewBag.ShowAgeAlert = true;
+                return View(user);
+            }
+
+
             if (ModelState.IsValid)
             {
-
-           
                 user.PasswordKey = BCrypt.Net.BCrypt.HashPassword(user.PasswordKey);
 
                 _context.Add(user);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Login));
+
+                
+                var isAdminClaim = User.Claims.FirstOrDefault(c => c.Type == "isAdmin");
+
+                if (isAdminClaim != null && isAdminClaim.Value == "True")
+                {
+                    
+                    return RedirectToAction("Index", "Users");
+                }
+                else
+                {
+                    
+                    return RedirectToAction(nameof(Login));
+                }
             }
+
+
             return View(user);
         }
 
@@ -104,9 +129,10 @@ namespace backend_skincare_2023.Controllers
             {
                 var claims = new List<Claim>
         {
-            new Claim(ClaimTypes.Name, dados.FirstName),
+            new Claim(ClaimTypes.Name, $"{dados.FirstName} {dados.LastName}"),
             new Claim(ClaimTypes.NameIdentifier, dados.UserId.ToString()),
-            new Claim("isAdmin", dados.isAdmin.ToString()) 
+            new Claim("isAdmin", dados.isAdmin.ToString()) ,
+
         };
 
                 var claimsIdentity = new ClaimsIdentity(claims, "login");

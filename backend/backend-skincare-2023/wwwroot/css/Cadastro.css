@@ -1,0 +1,25 @@
+
+
+
+
+.error-message {
+    color: red;
+}
+
+
+.div-login {
+    margin: auto;
+}
+
+
+.div-link-cadastro a {
+    text-decoration: none !important;
+    color: #9781AD;
+}
+
+.div-link-cadastro{
+    display:flex;
+    justify-content: center;
+}
+
+

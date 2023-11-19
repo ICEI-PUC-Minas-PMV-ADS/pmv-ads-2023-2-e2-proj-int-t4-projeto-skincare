@@ -1,0 +1,21 @@
+﻿body {
+}
+h4 , h5, h3, h6 {
+    font-weight: bold;
+}
+
+.img-tipo-pele {
+    max-height: 400px; /* Defina a altura máxima desejada */
+    width: auto; /* A largura será ajustada automaticamente */
+}
+
+.p-madura {
+    margin-bottom: 100px;
+}
+
+#hr-pele {
+
+    color: #9781AD;
+    margin-top: -20px;
+    
+}

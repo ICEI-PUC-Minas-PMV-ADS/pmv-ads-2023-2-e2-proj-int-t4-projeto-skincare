@@ -1,14 +1,18 @@
-﻿
 
-.social {
-    font-size: 24px; /* Tamanho dos ícones */
+
+html, body {
+    height: 100%;
 }
 
-    /* Estilos para os ícones */
- .social i {
-      margin: 0 10px; /* Espaçamento entre os ícones */
+.full-height {
+    height: 100%;
+}
 
- }
+#login-img {
+    height: 1000px;
+    width: 1000px;
+    object-fit: cover;
+}
 
 .error-message {
     color: red;
@@ -20,6 +24,7 @@
 
 .div-login {
     margin: auto;
+    margin-top: 230px;
 }
 
 

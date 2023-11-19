@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<backend_skincare_2023.Models.Routine>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Soft Care";
 }
 
 <hr class="hr" />
@@ -36,9 +36,9 @@
                   <a asp-action="Details" asp-route-id="@item.RoutineId" class="btn btn-custom mr-2" id="btn-rotina">Detalhes</a> 
             </td>
             <td>
-                        <a asp-action="Delete" asp-route-id="@item.RoutineId" class="text-danger" id="trash" style="text-decoration: none;">
-                            <i class="fas fa-trash" style="font-size: 20px;"></i>
-                        </a>
+                 <a asp-action="Delete" asp-route-id="@item.RoutineId" class="text-danger" id="trash" style="text-decoration: none;">
+                       <i class="fas fa-trash" style="font-size: 20px;"></i>
+                 </a>
             </td>
         </tr>
 }
