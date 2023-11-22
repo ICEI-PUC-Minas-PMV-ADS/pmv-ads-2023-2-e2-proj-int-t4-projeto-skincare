@@ -1,17 +1,28 @@
 ﻿@model IEnumerable<backend_skincare_2023.Models.User>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Soft Care";
 }
 
-<hr class="hr"/>
 
-<div class="main-part">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+        <title>Soft Care</title>
+        <link rel="stylesheet" href="~/css/UserCadastrado.css" asp-append-version="true" />
+    </head>
+    <body>
+        <hr class="hr" />
+
+    <div class="main-part" id="table">
     <h1 style="text-align: center;">Usuários cadastrados</h1>
 
 <p>
     <a asp-action="Create" class="btn btn-purple mt-4">Criar usuário</a>
 </p>
+
+
 <table class="table mb-5">
     <thead>
         <tr>
@@ -57,3 +68,7 @@
 </table>
 
 </div>
+
+
+</body>
+</html>

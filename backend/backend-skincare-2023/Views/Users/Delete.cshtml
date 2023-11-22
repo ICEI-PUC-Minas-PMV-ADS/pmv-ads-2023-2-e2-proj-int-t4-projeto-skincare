@@ -1,13 +1,22 @@
 ﻿@model backend_skincare_2023.Models.User
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Soft Care";
 }
 
-<hr class="hr" />
 
-<div class="main-part">
-    <h4>Excluir usuário</h4>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+        <title>Soft Care</title>
+        <link rel="stylesheet" href="~/css/UserDelete.css" asp-append-version="true" />
+    </head>
+    <body>
+        <hr class="hr" />
+
+<div class="main-part" id="delete">
+    <h3>Excluir usuário</h3>
     <dl class="row mt-4">
         <dt class = "col-sm-2">
            Nome
@@ -41,4 +50,5 @@
         <a asp-action="Index" class="btn btn-purple">Voltar</a>
     </form>
 </div>
-
+</body>
+</html>
