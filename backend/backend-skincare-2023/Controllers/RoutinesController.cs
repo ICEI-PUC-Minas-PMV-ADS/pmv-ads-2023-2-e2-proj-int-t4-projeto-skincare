@@ -31,7 +31,7 @@ namespace backend_skincare_2023.Controllers
                 var bot = new ChatGpt(_apiKey, new ChatGptOptions { 
                   Model = "gpt-3.5-turbo"
                 });
-                viewModel.Text = await bot.Ask("Descreva uma rotina para pele oleosa com acne.");
+                viewModel.Text = await bot.Ask("Descreva uma rotina simples para pele oleosa com acne.");
                 return View(viewModel);
 
             }

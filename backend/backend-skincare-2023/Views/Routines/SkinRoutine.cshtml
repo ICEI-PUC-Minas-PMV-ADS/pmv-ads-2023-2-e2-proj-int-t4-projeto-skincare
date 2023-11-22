@@ -29,9 +29,9 @@
                 }
                 else
                 {
-                   <div class="text-container">
-                    @Html.DisplayFor(model => model.Text)
-                   </div>
+                    <div class="text-container" style="font-size: 16px; line-height: 1.5; color: #333; margin-top: 10px; overflow-x: hidden;">
+                            <pre style="white-space: pre-wrap;">@Html.Raw(Model.Text)</pre>
+                     </div>
                 }
             
         </div>

@@ -132,7 +132,8 @@ namespace backend_skincare_2023.Controllers
             new Claim(ClaimTypes.Name, $"{dados.FirstName} {dados.LastName}"),
             new Claim(ClaimTypes.NameIdentifier, dados.UserId.ToString()),
             new Claim("isAdmin", dados.isAdmin.ToString()) ,
-
+            new Claim(ClaimTypes.Email, dados.Email),
+            new Claim(ClaimTypes.DateOfBirth, dados.BirthDate.ToString("dd-MM-yyyy")),
         };
 
                 var claimsIdentity = new ClaimsIdentity(claims, "login");
