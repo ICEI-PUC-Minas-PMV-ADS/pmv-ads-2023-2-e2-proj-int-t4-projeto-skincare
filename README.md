@@ -6,7 +6,7 @@
 
 `2º SEMESTRE`
 
-Nossa aplicação utilizará inteligência artificial GPT para criar rotinas de cuidados com a pele personalizadas. Através de um questionário, a API GPT analisará as respostas e gerará uma rotina adaptada para o usuário. 
+Nossa aplicação  utiliza a inteligência artificial da OpenAI para desenvolver rotinas de cuidados com a pele personalizadas. Por meio de um questionário, as respostas são cuidadosamente analisadas, resultando na criação de uma rotina especialmente adaptada para atender às necessidades individuais do usuário.
 
 
 ## Integrantes
