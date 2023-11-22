@@ -1,48 +1,69 @@
 ﻿@model IEnumerable<backend_skincare_2023.Models.Routine>
+@using System.Security.Claims
+
 
 @{
     ViewData["Title"] = "Soft Care";
 }
 
-<hr class="hr" />
 
-<div class="main-part">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Soft Care</title>
+    <link rel="stylesheet" href="~/css/MinhaConta.css" asp-append-version="true" />
+</head>
+<body>
+    <hr class="hr" />
 
-<h1 class="mb-4">Minhas rotinas</h1>
+    <div class="user-name mt-5 mb-3">
+        <h3 class="h3">Meus dados</h3>
+    </div>
 
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                Data
-            </th>
-            <th>
-               Rotina
-            </th>
-            <th>
-                Excluir
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.CreatedAt)
-            </td>
-            <td>
-                  <a asp-action="Details" asp-route-id="@item.RoutineId" class="btn btn-custom mr-2" id="btn-rotina">Detalhes</a> 
-            </td>
-            <td>
-                 <a asp-action="Delete" asp-route-id="@item.RoutineId" class="text-danger" id="trash" style="text-decoration: none;">
-                       <i class="fas fa-trash" style="font-size: 20px;"></i>
-                 </a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
-</div>
+ <div class="container-fluid" id=container-dados>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Nome
+                    </th>
+                    <th>
+                        Sobrenome
+                    </th>
+                    <th>
+                        Email
+                    </th>
+                    <th>
+                        Data nascimento
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <p>@User.Identity.Name.Split(' ')[0]</p>
+                    </td>
+                    <td>
+                        <p>@User.Identity.Name.Split(' ')[1]</p>
+                    </td>
+                    <td>
+                        <p>@User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value</p>
+                    </td>
+                    <td>
+                        <p>@User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.DateOfBirth)?.Value</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+
+
+</body>
+</html>
+
+
 

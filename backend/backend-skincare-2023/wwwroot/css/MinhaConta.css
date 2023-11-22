@@ -1,0 +1,23 @@
+﻿#container-dados {
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 700px;
+    
+}
+
+
+
+.user-name {
+    font-size: 20px !important;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.h3 {
+    font-size: 25px;
+    background-color: #9F77FF;
+    color: white;
+    padding: 6px;
+}

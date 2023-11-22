@@ -18,9 +18,17 @@ p {
 
 .text-container {
     background-color: whitesmoke !important;
-    padding: 25px;
+    padding: 35px;
     margin-bottom: 70px;
+    width: 100%; 
+    box-sizing: border-box; 
 }
+
+pre {
+    margin: 0 !important;
+    white-space: pre-wrap !important;
+}
+
 
 main{
     background-color: #EFEFEF !important;
