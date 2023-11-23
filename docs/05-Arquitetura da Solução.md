@@ -9,7 +9,8 @@
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-<img width="992" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/375eaa1b-69d1-4f3b-92c5-4ba9a76ff5a0">
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/1db6454c-2dbf-49b1-8ea7-5db8e4d10642)
+
 
 *<span style="font-size: 1px;">Figura 11 - Diagrama de classes</span>*
 
@@ -28,7 +29,8 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/0629d859-6d5b-4a0c-983f-efe96d4e2081)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/3d3308a3-33e1-4c74-a0ca-9cdd2e1ad8d7)
+
 
 *<font size="2"> Figura 13 - Base de dados </font>*
 
@@ -44,30 +46,10 @@ Cada rotina de skincare pertence a apenas um usuário, indicando uma relação d
 <br>
 
 
-**Usuário x  Questionário(perguntas)**
-  
-Cada usuário pode responder a um questionário de perguntas, indicando uma relação de "um para um" (1,1).
-
-
-**Questionário x Usuário**
-  
-O questionário de perguntas  é respondido por vários usuários, indicando uma relação de "um para muitos" (1,N).
-<br>
-
-
-**Rotina de Skincare x Questionário(Perguntas):**
-
-Cada rotina de skincare está ligada a um questionário de perguntas (relação "um para um" - 1,1).
-
-
-**Perguntas do Questionário x Rotina de Skincare**
-
-O questionário de perguntas  pertence a várias rotinas de skincare (relação "um para muitos" - 1,N).
-
 
 ## Modelo físico
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/b35a923f-6a24-4730-9271-cecebe59423d)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/5114d135-b646-4701-9c37-3acab04ca74d)
 
 
 
