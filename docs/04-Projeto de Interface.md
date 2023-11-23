@@ -26,7 +26,7 @@ No Fluxo a seguir, é mostrado passo a passo como é realizada a navegação e u
 
 
 
-![Fluxograma 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/182be7ed-c5c8-4b33-9eb4-421e2e429bc7)
+![Fluxograma 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/182be7ed-c5c8-4b33-9eb4-421e2e429bc7)![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/de5a3535-de4c-47aa-ac79-66fcd7782f85)
 
 *figura 2- Fluxograma*
 
