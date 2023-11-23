@@ -24,8 +24,8 @@ No Fluxo a seguir, é mostrado passo a passo como é realizada a navegação e u
 8- Além disso, o usuário pode acessar diversas dicas sobre skincare clicando nos vários cards de informações na página inicial.
 
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/cd056e63-ccd1-4247-adfd-27e9a3610f02)
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/a9a49d45-bb70-4652-94eb-12382c10cbae)
 
 
 *figura 2- Fluxograma*
@@ -109,12 +109,5 @@ Ao clicar no card de "O que são ativos?', o usuário será direcionado para a p
 *figura 9 - Informação ativos*
 
 
-## Tela - Minha conta 
 
-Ao clicar em "Minha conta" e feito login, é exibida o setor de cadastro do usuário, onde exibe suas rotinas geradas e caso desejar, poderá excluí-las.
-Também é exibido botão de "Sair" onde realiza o Logout da conta. 
-
-![Tela minha conta](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/110791034/d40bcec2-2a79-463f-b7b9-c26b8ea96676)
-
-*figura 10 - Minha conta*
 
