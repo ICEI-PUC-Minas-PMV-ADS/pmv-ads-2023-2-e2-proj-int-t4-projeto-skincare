@@ -36,12 +36,12 @@
 |     Caso de teste     | CT- 03  – Criar rotina ao responder um questionário                                                                                                                                                       
 | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Requisitos Associados | RF-003, RF-011: 	O sistema deve ser capaz de criar rotinas personalizadas de skincare ao responder um questionário, utilizando a api do OpenAI. <br>  RF-013 O sistema deve conter um questionário com perguntas detalhadas para entender as necessidades dos usuários.                                                                                               |
-|   Objetivo do Teste   |                                                                                                                       |
+|   Objetivo do Teste   |  Verificar se o usuário consegue gerar sua rotina personalizado ao responder o questionário.                                                                                                                     |
 | Passos 	| 1- Acessar o navegador <br> 2- Informar o endereço do site.<br> 3- Fazer 'login' no site  <br>  4- Clicar em ‘Quiz da pele’  <br>  4- Responder questionário  <br> 5- Clicar em ver minha rotina |
 | Resultado esperado	| Rotina personalizada é mostrada na tela para o usuário
 |Resultado obtido	|  Rotina criada com sucesso. 
 | Avaliação (pegou / não pegou erro)	| Não possui erros. 
-|Evidência (print screen) | ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/84cb0ab3-d52a-4238-b16f-89b090038c6a)|
+|Evidência (print screen) |  Ao selecionar todas as opcoes, a rotina é gerada com sucesso.  <br>  <br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/e6e7aeaf-af2a-456b-b061-3f13c62e1a91)  <br><br>|
 
 
 <br><br>
@@ -54,9 +54,9 @@
 | Objetivo do Teste 	| Verificar e identificar se o usuário necessita procurar ajuda médica. |
 | Passos 	| 1- Acessar o navegador <br> 2 - Informar o endereço do site.<br> 3 - Clicar em  Quiz da pele na 'Home page'<br>  4 - Responder ao ‘Questionário’ <br>  4 -Responder "Sim" para a pergunta número 3 |
 | Resultado esperado	|  É recomendado que procure ajuda médica. 
-|Resultado obtido	|  
-| Avaliação (pegou / não pegou erro)	| 
-|Evidência (print screen) |  
+|Resultado obtido	|  Ao selecionar a resposta "Sim" para a pergunta 3, a rotina nao é gerada, e o alerta com a mensagem aparece na tela.
+| Avaliação (pegou / não pegou erro)	| Sem erros
+|Evidência (print screen) |A resposta Sim é selecionada na pergunta 3 <br><br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/9c23a06e-a859-495c-be6f-d6408f3cee8b) <br> <br> Alerta do erro <br><br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/956700a9-b886-421f-b0e6-25f1584c0f80)
 
 <br><br>
 
