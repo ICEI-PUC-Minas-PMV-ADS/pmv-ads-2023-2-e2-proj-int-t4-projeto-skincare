@@ -47,6 +47,7 @@ namespace backend_skincare_2023.Controllers
 
 
             bool mensagemErroAdicionada = false;
+           
 
 
             for (int i = 0; i < questionario.Perguntas.Count; i++)
@@ -61,22 +62,25 @@ namespace backend_skincare_2023.Controllers
 
 
                 }
+                
             }
 
             if (!ModelState.IsValid)
             {
-                // Se houver erros de validação, retorne para a página com os erros
+               
                 return View("QuestionForm", questionario);
             }
 
 
+            //acessar valor pergunta 3
+            int indiceDaPergunta3 = 2;
+            int valorDaResposta3 = 0;
 
-            // Verificar se a pergunta 3 o radio button sim foi checked
+            var repostaPergunta3 = Request.Form[$"respostas[{indiceDaPergunta3}]"];
 
-            var respostaPergunta3 = Request.Form[$"respostas[0]"];
-            if (respostaPergunta3 == "Sim")
+            if (!string.IsNullOrEmpty(repostaPergunta3) && int.Parse(repostaPergunta3) == valorDaResposta3)
             {
-                ViewBag.AlertMessage = "Você deve procurar um médico!";
+                ViewBag.AlertMessage = "Recomendamos que procure a ajuda de algum especialista!";
                 return View("QuestionForm", questionario);
             }
 

@@ -4,7 +4,7 @@
     {
         public List<PerguntaResposta> Perguntas { get; set; }
 
-        public bool RespostaPergunta3 { get; set; }
+        public string RespostaPergunta3 { get; set; }
 
         public bool Checked { get; set; }
 
