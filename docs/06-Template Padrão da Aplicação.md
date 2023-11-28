@@ -13,6 +13,16 @@ O template criado está disponível no Canva, e é composto pelos seguintes layo
 - Conteúdo- Apresentará, para cada tela, seu conteúdo personalizado;
 - Rodapé - Contém informações sobre direitos autorais, privacidade e social media.
 
+<br>
+
+#### Paleta de cores
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/6c5313d2-0310-4ebc-9235-ce54852e069e)
+<br><br>
+#### Logotipo
+
+<img width="300" alt="logo" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/bc0696c7-11be-488b-af06-144058e97cdb">
+
 <br><br>
 
 ### Tela- Home-Page
