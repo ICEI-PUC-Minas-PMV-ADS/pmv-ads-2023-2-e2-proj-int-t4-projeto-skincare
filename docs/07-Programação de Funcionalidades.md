@@ -5,7 +5,7 @@
 |RF-001| 	O site deve incluir uma página de login | Login.cshtml, UserController, Program.cs, login.css| 
 |RF-002|  O site deve conter uma área para fazer cadastro de novos usuários. | Create.cshtml,   UserContoller.cs, login.css  |
 |RF-003|	O sistema deve ser capaz de criar rotinas personalizadas utilizando a API do Chat GPT. | appsettings.json, RoutinesController.cs, SkinRoutine.cshtml,  RoutineText.cs   |
-|RF-004|	O sistema deve incluir uma mensagem automática no final do questionário, recomendando que o usuário procure um profissional de saúde, caso identifique que seu problema de pele requer cuidados médicos.|  |
+|RF-004|	O sistema deve incluir uma mensagem automática no final do questionário, recomendando que o usuário procure um profissional de saúde, caso identifique que seu problema de pele requer cuidados médicos.| RoutinesController.cs |
 |RF-005|	O sistema deve ajudar o usuário a identificar o seu tipo de pele.| tipopele.cshtml. tipo-pele.css   |
 |RF-006|	A aplicação deve gerar rotinas voltadas para a pele com rugas e linhas de expressão.|appsettings.json, RoutinesController.cs, SkinRoutine.cshtml, RoutineText.cs   |
 |RF-007|	O sistema deve fornecer recomendações de rotinas para tratar os danos na pele decorrentes do consumo de cigarros.|appsettings.json, RoutinesController.cs, SkinRoutine.cshtml, RoutineText.cs   |
