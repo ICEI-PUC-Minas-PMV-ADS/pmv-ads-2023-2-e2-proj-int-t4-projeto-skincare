@@ -17,7 +17,8 @@ O template criado está disponível no Canva, e é composto pelos seguintes layo
 
 #### Paleta de cores
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/6c5313d2-0310-4ebc-9235-ce54852e069e)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/3cfc9901-8ffe-4390-8fb2-6477cd2ab55f)
+
 <br><br>
 #### Logotipo
 
