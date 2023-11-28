@@ -2,6 +2,7 @@
 using ChatGPT.Net.DTO.ChatGPT;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Diagnostics;
 
 
 namespace backend_skincare_2023.Controllers
@@ -22,17 +23,28 @@ namespace backend_skincare_2023.Controllers
 
 
         [Route("Routines/SkinRoutine")]
-        public async Task<IActionResult> SkinRoutine()
+        public async Task<IActionResult> SkinRoutine(List<string> respostas)
         {
             var viewModel = new RoutineText();
 
             try
             {
-                var bot = new ChatGpt(_apiKey, new ChatGptOptions { 
-                  Model = "gpt-3.5-turbo"
-                });
-                viewModel.Text = await bot.Ask("Descreva uma rotina simples para pele oleosa com acne.");
+                foreach (var resposta in respostas)
+                {
+                    Debug.WriteLine($"Resposta: {resposta}");
+                }
+
+                string respostasString = string.Join(",", respostas);
+
+                var bot = new ChatGpt(_apiKey, new ChatGptOptions
+                {
+                    Model = "gpt-3.5-turbo",
+                    MaxTokens = 1400
+                }); ;
+
+                viewModel.Text = await bot.Ask($"Descreva uma rotina de skincare completa com base nessas respostas: {respostasString}");
                 return View(viewModel);
+                
 
             }
             catch (Exception e)
@@ -42,6 +54,8 @@ namespace backend_skincare_2023.Controllers
             }
 
             return View(viewModel);
+           
+
         }
 
         private void LogError(Exception e, string message)
