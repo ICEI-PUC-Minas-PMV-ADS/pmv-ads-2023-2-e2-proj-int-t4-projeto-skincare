@@ -56,7 +56,12 @@ Cada rotina de skincare pertence a apenas um usuário, indicando uma relação d
 
 ## Tecnologias Utilizadas
 
-IDE Visual Studio, linguagem de programação C#, Frameworks .NET e SQL Server para Banco de Dados.
+IDE Visual Studio <br>
+linguagens de programação C# e JavaScript <br>
+Linguagem de marcação e estilo - HTML e CSS <br>
+Framework .NET e Bootstrap <br>
+MySQL para Banco de Dados <br>
+Dbeaver - ferramenta de administração de banco de dados <br>
 
 ## Hospedagem
 
