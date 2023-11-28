@@ -4,15 +4,15 @@
     {
         public List<PerguntaResposta> Perguntas { get; set; }
 
-        public string RespostaPergunta3 { get; set; }
+        public List<string> Respostas { get; set; }
 
-        public bool Checked { get; set; }
 
 
 
         public Questionario()
         {
             Perguntas = new List<PerguntaResposta>();
+            Respostas = new List<string>();
 
 
             Perguntas.Add(new PerguntaResposta(1, "Como você descreveria a sua pele? ", new List<string> { "Pele Mista", "Pele oleosa", "Pele normal", "Pele seca" }));
