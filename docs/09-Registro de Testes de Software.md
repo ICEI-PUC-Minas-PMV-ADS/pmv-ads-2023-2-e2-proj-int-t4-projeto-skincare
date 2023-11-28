@@ -41,7 +41,7 @@
 | Resultado esperado	| Rotina personalizada é mostrada na tela para o usuário
 |Resultado obtido	|  Rotina criada com sucesso. 
 | Avaliação (pegou / não pegou erro)	| Não possui erros. 
-|Evidência (print screen) |  Ao selecionar todas as opcoes, a rotina é gerada com sucesso.  <br>  <br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/e6e7aeaf-af2a-456b-b061-3f13c62e1a91)  <br><br>|
+|Evidência (print screen) |  Ao responder o questionário, a rotina é gerada com sucesso.  <br>  <br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/df266584-e049-4f38-916d-2dcc99da7c21)  <br><br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/8b4890ef-73ac-4340-bb14-ce4a58810f67)|
 
 
 <br><br>
