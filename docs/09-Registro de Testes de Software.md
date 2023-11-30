@@ -13,7 +13,7 @@
 
 
 <br>  
-Evidência: Ao fazer login com uma conta de usuário padrão, a opção "Minha Conta" é exibida na barra de navegação.
+Evidência (vídeo): Ao fazer login com uma conta de usuário padrão, a opção "Minha Conta" é exibida na barra de navegação.
 <br> <br>
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/97e18a65-b2b9-406e-8b51-116dad20a62d 
