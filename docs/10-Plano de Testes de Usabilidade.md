@@ -7,23 +7,18 @@ Os participantes realizarão uma série de tarefas que incluem identificar probl
 
 ### 01 – Criar e Acessar uma Conta                                                                   
 
-Avaliar a eficiência e a usabilidade do processo de criação e acesso a uma conta no sistema.
-
 **Criação de Conta:**
 
 a. Acesse a página de cadastro. <br>
 b. Tente criar uma conta, inserindo as informações solicitadas.<br>
-c. Verifique se o processo é intuitivo e se as orientações são claras.<br>
-d. Avalie a facilidade de preenchimento dos campos e a fluidez da criação de conta.<br>
-e. Verifique se os campos obrigatórios e opcionais são corretamente sinalizados. <br>
+c. Verifique se os campos obrigatórios e opcionais são corretamente sinalizados. <br>
 
 
 **Acesso à Conta:**
 
-a. Acesse a página de login.
+a. Acesse a página de login. <br>
 b. Tente fazer o login na conta que acabou de criar. <br>
-c. Verifique se o processo de login é direto e claro. <br>
-d. Avalie a facilidade de inserção de credenciais (e-mail/senha). <br>
+c. Avalie a facilidade de inserção de credenciais (e-mail/senha). <br>
 
 
 
@@ -31,67 +26,42 @@ d. Avalie a facilidade de inserção de credenciais (e-mail/senha). <br>
 
 a. Após estar logado, encontre a opção de logout. <br>
 b. Tente fazer o logout da conta. <br>
-c. Verifique se o processo de logout é claro e de fácil acesso. <br>
-d. Avalie a eficiência e fluidez do processo de logout. <br>
 
 
-**Critérios de Avaliação:**
 
-A eficiência e fluidez dos processos de criação, acesso e logout da conta. <br>
-A clareza das orientações e a facilidade de encontrar as opções necessárias. <br>
+**Critérios de Avaliação:** <br>
+Avaliar a eficiência e a usabilidade do processo de criação e acesso a uma conta no sistema.
 
 
 <br><br>
 
 
-###  02 – Responder ao questionário
+###  02 – Responder ao questionário e gerar rotina de skincare
  
-Avaliar a usabilidade e a eficiência do processo de responder ao questionário.
 
 **Acesso ao Questionário:**
 
 a. Acesse a página onde o questionário de skincare está disponível. <br>
-b. Verifique se a navegação até o questionário é clara e intuitiva. <br>
-c. Avalie a forma como o usuário é direcionado para iniciar o questionário. <br>
+
 
 **Resposta ao Questionário:**
 
 a. Inicie o questionário e responda as perguntas apresentadas. <br>
-b. Observe a clareza das perguntas e a facilidade de seleção das respostas. <br>
-c. Avalie se as opções de resposta são claras e compreensíveis. <br>
+c. Avalie se as opções de resposta são  compreensíveis. <br>
 
 
 **Submissão do Questionário:**
 
 a. Após responder todas as perguntas, tente submeter suas respostas. <br>
-b. Verifique se o processo de submissão é claro e fácil de encontrar. <br>
+b. Verifique se o processo de submissão é  fácil de encontrar. <br>
+
+**Visualizar rotina:**
+a. Verifique se a rotina de skincare personalizada é mostrada em sua tela.  <br>
 
 
 **Critérios de Avaliação:**
 
-A clareza e a facilidade de responder às perguntas do questionário. <br>
-A eficiência do processo, incluindo a navegação até o questionário e a submissão das respostas. <br>
-
-<br><br>
-
-
-
-###  03 – Criar rotina de skincare
-
-Avaliar a eficiência e a usabilidade do processo de criação da rotina de skincare gerada pelo sistema.
-
-**Criação da Rotina:**
-
-a. Acesse a funcionalidade para criar uma rotina de skincare. <br>
-b. Preencha as informações necessárias para a criação da rotina. <br>
-c. Verifique a clareza das opções e a facilidade de inserção das informações. <br>
-
-
-
-**Critérios de Avaliação:**
-
-A eficiência e a fluidez do processo de criação da rotina gerada. <br>
-A clareza das opções e a facilidade de inserção e apresentação das informações. <br>
+Avaliar a usabilidade e a eficiência do processo de responder ao questionário e visualizar rotina de skincare.
 
 <br><br>
 
