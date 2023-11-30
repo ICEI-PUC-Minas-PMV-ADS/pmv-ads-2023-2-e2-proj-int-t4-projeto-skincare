@@ -10,11 +10,25 @@
 | Resultado esperado	|  Login realizado com sucesso.
 |Resultado obtido	|  O usuário conseguiu acessar seus dois tipos de contas (user normal e adm).
 | Avaliação (pegou / não pegou erro) | Sem erros|
-|Evidência (print screen) |  Ao se logar com conta usuário normal "Minha conta" aparece na barra de navegação.  <br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/67f072f0-a618-4934-8a59-aa83c7fa23e8)  <br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/628b7c01-cf1e-424a-8965-eca913b0df36) <br><br>  Login conta administrador aparece "Administrador na barra de navegação.  <br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/d8514ee8-fe01-4062-bc92-2808fd58482c)  <br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/4f2d69af-d57e-4f1b-9776-8159f9077c87)
 
+
+<br>  
+Evidência: Ao fazer login com uma conta de usuário padrão, a opção "Minha Conta" é exibida na barra de navegação.
+<br> <br>
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/97e18a65-b2b9-406e-8b51-116dad20a62d 
+
+ <br><br>  
  
+Evidência: Ao fazer login com uma conta de administrador, a opção "Administrador" é exibida na barra de navegação.
+ <br>  <br>  
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/eb867270-2c12-47e6-9b03-6336c81ea2bb
+
+
 
 <br><br>
+
 
 
 |     Caso de teste     | CT-02 – Efetuar cadastro                                                                                                                                                          
@@ -26,7 +40,12 @@
 | Resultado esperado	|  Dados armazenados no banco de dados.
 |Resultado obtido	|   Os campos nome, sobrenome, data nascimento, e-mail e senha, foram armazenados com precisão no banco de dados, criando o acesso do usuário no sistema. 
 | Avaliação (pegou / não pegou erro)	| Nao possui erros
-|Evidência (print screen) |![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/8ce457b7-f3ae-45bc-89a7-4932781ab35f) <br><br> Lista de usuários cadastrados frontend ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/942d4c58-366e-42d2-8010-8943a679267d) <br><br> Tabela usuários cadastrados banco de dados ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/602089d4-2295-47b1-8af6-8bb010d706a6)|
+
+<br>
+Evidência: Teste cadastro do usuário
+ <br><br>
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/a636ab9b-c9fb-477e-b3a5-f08274eb86e3
 
 
 
@@ -40,13 +59,17 @@
 | Passos 	| 1- Acessar o navegador <br> 2- Informar o endereço do site.<br> 3- Fazer 'login' no site  <br>  4- Clicar em ‘Quiz da pele’  <br>  4- Responder questionário  <br> 5- Clicar em ver minha rotina |
 | Resultado esperado	| Rotina personalizada é mostrada na tela para o usuário
 |Resultado obtido	|  Rotina criada com sucesso. 
-| Avaliação (pegou / não pegou erro)	| Não possui erros. 
-|Evidência (print screen) |  Ao responder o questionário, a rotina é gerada com sucesso.  <br>  <br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/df266584-e049-4f38-916d-2dcc99da7c21)  <br><br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/8b4890ef-73ac-4340-bb14-ce4a58810f67)|
-
-
+| Avaliação (pegou / não pegou erro)	| Não possui erros. 	| 
+<br><br>
+  
+ Evidência: Teste responder o questionário e visualizar rotina personalizada.
+ 
+**Observação: A rotina é gerada por meio de uma requisição à API do Chat GPT, sendo assim, ela pode levar alguns segundos. Recomendamos que avance o vídeo durante esse processo.**
 <br><br>
 
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/f53fae15-ca2a-4c98-b5a5-2fc64db7d0f6
 
+<br><br>
 
 |     Caso de teste     | CT-04 – Recomendação médica	                                                                                                                                                 
 | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -56,9 +79,14 @@
 | Resultado esperado	|  É recomendado que procure ajuda médica. 
 |Resultado obtido	|  Ao selecionar a resposta "Sim" para a pergunta 3, a rotina nao é gerada, e o alerta com a mensagem aparece na tela.
 | Avaliação (pegou / não pegou erro)	| Sem erros
-|Evidência (print screen) |A resposta Sim é selecionada na pergunta 3 <br><br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/9c23a06e-a859-495c-be6f-d6408f3cee8b) <br> <br> Alerta do erro <br><br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/956700a9-b886-421f-b0e6-25f1584c0f80)
+
+Evidência - Teste ao responder "Sim" para a pergunta número 3 do questionário.
+<br><br>
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/7b8ae294-6c40-42e2-aba0-a9e0d8579bb8
 
 <br><br>
+
 
 
 
@@ -117,7 +145,13 @@
 | Resultado esperado	|Um alerta aparece na tela, informando que o usuário deve ter 16 anos ou mais para se cadastrar no site..
 |Resultado obtido	|  Uma mensagem aparece na tela, e o usuário nao consegue efeturar o cadastreo sendo menor de 16 anos.
 | Avaliação (pegou / não pegou erro)	| Sem erros
-|Evidência (print screen) | Tentativa de cadastro utilizando o ano atual no campo data de nascimento  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/6333b275-5405-4a1f-8286-d4f3bdbc1573)  <br> <br> Ao clicar em cadastrar, o alerta aparece na tela, e o cadastro não é efetuado. ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/9a8ab76f-fd20-45f4-b8fb-b693a33751c3)
-
-
 <br><br>
+
+
+Evidência: Teste efetuado ao cadastrar uma idade inferior a 16 anos.
+<br><br>
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/4e5ee9b1-1f43-4390-a209-babd14ad10b2
+
+
+
