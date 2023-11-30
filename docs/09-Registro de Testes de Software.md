@@ -80,11 +80,14 @@
 | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |Requisito Associado | RF-006, RF-007, RF-008, RF-009 - O sistema deve gerar rotinas voltadas para peles com rugas, marcas de expressoes, danos por consumo de cigarro e pele com melasma. |
 | Objetivo do Teste 	| Verificar se a aplicação fornece rotinas para problemas especificos de pele. |
-| Passos 	| 1-	Acessar o navegador <br> 2- Informar o endereço do site. <br> 3-Clicar em "Quiz da pele" na ‘Home page’ <br> 4- Responder questionário |
+| Passos 	| 1-	Acessar o navegador <br> 2- Informar o endereço do site. <br> 3- Fazer o login no sistema <br> 4- Clicar em "Quiz da pele" na ‘Home page’ <br> 5- Responder questionário |
 | Resultado esperado	|  A rotina para cada problema específico de pele será gerada com sucesso. 
 |Resultado obtido	|  
 | Avaliação (pegou / não pegou erro)	| 
-|Evidência (print screen) |  
+|Evidência (print screen) |  Rotina pele fumante  <br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/851fe092-49cd-4c3c-a8e6-1e05739f4c3f) <br> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/ebac47cb-b32b-4dff-9f5e-32efc3df1066) <br><br> Pele com rugas ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/e685ad7f-1eb5-4a18-b3a1-56eec4458fd2) ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/bf8e044b-297a-4bc2-a4da-caf9108ce410) <br> <br>  Pele com melasma ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/164fecbd-6154-43d8-a4c7-9d9e00578712) ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/5fba2d0c-2dee-48e6-9591-bdf8a6700a15)
+
+
+
 
 <br><br>
 
@@ -98,8 +101,7 @@
 | Resultado esperado	| Guia de princípios ativos visualizados com sucesso.
 |Resultado obtido	|  Página de ativos visualizada com sucesso.
 | Avaliação (pegou / não pegou erro)	| Sem erros
-|Evidência (print screen) |  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/2dadb75a-8061-4f25-bd83-691273ccb72d)
-
+|Evidência (print screen) |  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/2dadb75a-8061-4f25-bd83-691273ccb72d) 
 
 <br><br>
 
