@@ -76,9 +76,9 @@ A eficiência do processo, incluindo a navegação até o questionário e a subm
 
 
 
-###  03 – Criar, visualizar e deletar a rotina gerada
+###  03 – Criar rotina de skincare
 
-Avaliar a eficiência e a usabilidade dos processos de criação, visualização e exclusão da rotina de skincare gerada pelo sistema.
+Avaliar a eficiência e a usabilidade do processo de criação da rotina de skincare gerada pelo sistema.
 
 **Criação da Rotina:**
 
@@ -87,23 +87,10 @@ b. Preencha as informações necessárias para a criação da rotina. <br>
 c. Verifique a clareza das opções e a facilidade de inserção das informações. <br>
 
 
-**Visualização da Rotina:**
-
-a. Após criar a rotina, acesse a área do usuário para visualizá-la. <br>
-b. Verifique se o botão para visualizar a rotina funciona corretamente. <br>
-c. Avalie a apresentação das informações da rotina, e a facilidade de compreensão dos termos utilizados. <br>
-
-
-**Deleção da Rotina:**
-
-a. Acesse a área do usuário para deletar a rotina gerada. <br>
-b. Tente deletar a rotina. <br>
-c. Verifique se o processo de exclusão é claro e se há confirmação para a ação. <br>
-
 
 **Critérios de Avaliação:**
 
-A eficiência e a fluidez dos processos de criação, visualização e deleção da rotina gerada. <br>
+A eficiência e a fluidez do processo de criação da rotina gerada. <br>
 A clareza das opções e a facilidade de inserção e apresentação das informações. <br>
 
 <br><br>
