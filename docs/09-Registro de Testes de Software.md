@@ -20,7 +20,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-
 
  <br><br>  
  
-Evidência: Ao fazer login com uma conta de administrador, a opção "Administrador" é exibida na barra de navegação.
+Evidência (vídeo): Ao fazer login com uma conta de administrador, a opção "Administrador" é exibida na barra de navegação.
  <br>  <br>  
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/eb867270-2c12-47e6-9b03-6336c81ea2bb
@@ -42,7 +42,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-
 | Avaliação (pegou / não pegou erro)	| Nao possui erros
 
 <br>
-Evidência: Teste cadastro do usuário
+Evidência (vídeo): Teste cadastro do usuário
  <br><br>
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/a636ab9b-c9fb-477e-b3a5-f08274eb86e3
@@ -62,7 +62,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-
 | Avaliação (pegou / não pegou erro)	| Não possui erros. 	| 
 <br><br>
   
- Evidência: Teste responder o questionário e visualizar rotina personalizada.
+ Evidência (vídeo): Teste responder o questionário e visualizar rotina personalizada.
  
 **Observação: A rotina é gerada por meio de uma requisição à API do Chat GPT, sendo assim, ela pode levar alguns segundos. Recomendamos que avance o vídeo durante esse processo.**
 <br><br>
@@ -80,7 +80,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-
 |Resultado obtido	|  Ao selecionar a resposta "Sim" para a pergunta 3, a rotina nao é gerada, e o alerta com a mensagem aparece na tela.
 | Avaliação (pegou / não pegou erro)	| Sem erros
 
-Evidência - Teste ao responder "Sim" para a pergunta número 3 do questionário.
+Evidência (vídeo) - Teste ao responder "Sim" para a pergunta número 3 do questionário.
 <br><br>
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/7b8ae294-6c40-42e2-aba0-a9e0d8579bb8
@@ -148,7 +148,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-
 <br><br>
 
 
-Evidência: Teste efetuado ao cadastrar uma idade inferior a 16 anos.
+Evidência (vídeo): Teste efetuado ao cadastrar uma idade inferior a 16 anos.
 <br><br>
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/4e5ee9b1-1f43-4390-a209-babd14ad10b2
