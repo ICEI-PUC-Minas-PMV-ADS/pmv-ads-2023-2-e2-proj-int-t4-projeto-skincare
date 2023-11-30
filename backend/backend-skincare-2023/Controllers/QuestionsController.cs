@@ -1,18 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using backend_skincare_2023.Data;
-using backend_skincare_2023.Models;
-using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
-using Azure;
-using System.Collections.Immutable;
-using Microsoft.AspNetCore.Authorization;
+using ChatGPT.Net;
+using ChatGPT.Net.DTO.ChatGPT;
 
 
 
@@ -22,10 +13,15 @@ namespace backend_skincare_2023.Controllers
     public class QuestionsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly ILogger<RoutinesController> _logger;
+        private readonly string _apiKey;
 
-        public QuestionsController(ApplicationDbContext context)
+
+        public QuestionsController(ApplicationDbContext context, ILogger<RoutinesController> logger, IConfiguration configuration)
         {
             _context = context;
+            _logger = logger;
+            _apiKey = configuration.GetSection("ApiSettings:ApiKey").Value;
         }
 
 
@@ -72,26 +68,71 @@ namespace backend_skincare_2023.Controllers
             }
 
 
-            //acessar valor pergunta 3
+            // Acessar valor pergunta 3
             int indiceDaPergunta3 = 2;
-            int valorDaResposta3 = 0;
+            string valorDaResposta3 = "Sim"; 
 
-            var repostaPergunta3 = Request.Form[$"respostas[{indiceDaPergunta3}]"];
+            var respostaPergunta3 = Request.Form[$"respostas[{indiceDaPergunta3}]"];
 
-            if (!string.IsNullOrEmpty(repostaPergunta3) && int.Parse(repostaPergunta3) == valorDaResposta3)
+            if (!string.IsNullOrEmpty(respostaPergunta3) && respostaPergunta3 == valorDaResposta3)
             {
                 ViewBag.AlertMessage = "Recomendamos que procure a ajuda de algum especialista!";
                 return View("QuestionForm", questionario);
             }
 
 
-            return RedirectToAction("SkinRoutine", "Routines");
+            // valores respostas selecionadas no form
+            List<string> respostasPerguntas1e4 = new List<string>();
+            for (int i = 0; i < questionario.Perguntas.Count; i++)
+            {
+                if (i == 0 || i == 3)
+                {
+                    string resposta = questionario.Respostas[i];
+                    System.Diagnostics.Trace.WriteLine($"Resposta da pergunta {i + 1}: {resposta}");
+                    respostasPerguntas1e4.Add(resposta);
+                }
+            }
+
+           
+            //envia os valores clicados na url
+            return RedirectToAction("Rotina", "Questions", new { respostas = string.Join(",", respostasPerguntas1e4) });
 
         }
 
 
 
+        //api rotina 
+        [Route("Questions/Rotina")]
+        public async Task<IActionResult> Rotina(string respostas)
+        {
+            var viewModel = new RoutineText();
 
+            try
+            {
+
+                var bot = new ChatGpt(_apiKey, new ChatGptOptions
+                {
+                    Model = "gpt-3.5-turbo",
+                    MaxTokens = 1400
+                }); ;
+
+                viewModel.Text = await bot.Ask($"Descreva uma rotina de skincare completa com base nessas respostas: {respostas}");
+
+
+                return View(viewModel);
+
+
+            }
+            catch (Exception e)
+            {
+                
+                viewModel.ErrorMessage = "Ocorreu um erro ao obter a rotina. Por favor, tente novamente mais tarde.";
+            }
+
+            return View(viewModel);
+
+
+        }
 
 
         // GET: Questions

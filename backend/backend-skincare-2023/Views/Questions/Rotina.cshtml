@@ -1,0 +1,47 @@
+﻿@model backend_skincare_2023.Models.RoutineText
+
+@{
+    ViewData["Title"] = "Soft Care";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Soft Care</title>
+    <link rel="stylesheet" href="~/css/SkinRoutine.css" asp-append-version="true" />
+</head>
+<body>
+    <hr class="hr" />
+
+
+    <div class="container" id="container-cinza">
+        <div class="row justify-content-center">
+            <div class="col-md-6 rotina">
+                <div class="user-name mt-5 mb-3">
+                    <h3 class="h3">@User.Identity.Name.ToLowerInvariant(),</h3>
+                </div>
+                <p id="p">Aqui está o tratamento ideal para a sua pele.</p>
+
+                @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+                {
+                    <p style="color: red;">@Model.ErrorMessage</p>
+                }
+                else
+                {
+                    <div class="text-container" style="font-size: 16px; line-height: 1.5; color: #333; margin-top: 10px; overflow-x: hidden;">
+                        <pre style="white-space: pre-wrap;">@Html.Raw(Model.Text)</pre>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+    </div>
+    <div>
+    </div>
+
+</body>
+</html>
