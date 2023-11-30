@@ -24,7 +24,8 @@
                     @for (int j = 0; j < Model.Perguntas[i].Respostas.Count; j++)
                     {
                         <div class="mb-3 form-check">
-                            <input class="form-check-input" type="radio" id="resposta-@i-@j" name="respostas[@i]" value="@j">
+          
+                            <input class="form-check-input" type="radio" id="resposta-@i-@j" name="respostas[@i]" value="@Model.Perguntas[i].Respostas[j]">
                             <label class="form-check-label" for="resposta-@i-@j">@Model.Perguntas[i].Respostas[j]</label>
                         </div>
                     }
