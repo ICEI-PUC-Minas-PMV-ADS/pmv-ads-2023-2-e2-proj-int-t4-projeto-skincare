@@ -56,12 +56,21 @@ Cada rotina de skincare pertence a apenas um usuário, indicando uma relação d
 
 ## Tecnologias Utilizadas
 
-IDE Visual Studio <br>
-linguagens de programação C# e JavaScript <br>
-Linguagem de marcação e estilo - HTML e CSS <br>
-Framework .NET e Bootstrap <br>
-MySQL para Banco de Dados <br>
-Dbeaver - ferramenta de administração de banco de dados <br>
+Backend:  <br>
+ASP.NET MVC para o desenvolvimento do backend. <br>
+Razor View para a criação de vistas e apresentação dinâmica no lado do servidor. <br>
+linguagem de programação: C# <br>
+
+Frontend: <br>
+HTML e CSS para estrutura e estilo da interface do usuário. <br>
+JavaScript para interatividade no lado do cliente. <br>
+Bootstrap - Para a criação de interfaces web responsivas.   <br>
+
+Ferramentas: <br>
+Visual Studio, Git <br>
+
+
+Banco de dados - MySQL <br>
 
 ## Hospedagem
 
