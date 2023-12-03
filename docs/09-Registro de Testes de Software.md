@@ -14,7 +14,7 @@
 
 <br>  
 Evidência (vídeo): Ao fazer login com uma conta de usuário padrão, a opção "Minha Conta" é exibida na barra de navegação.
-<br> <br>
+<br> 
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/97e18a65-b2b9-406e-8b51-116dad20a62d 
 
@@ -43,7 +43,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-
 
 <br>
 Evidência (vídeo): Teste cadastro do usuário
- <br><br>
+ <br>
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/a636ab9b-c9fb-477e-b3a5-f08274eb86e3
 
@@ -65,7 +65,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-
  Evidência (vídeo): Teste responder o questionário e visualizar rotina personalizada.
  
 **Observação: A rotina é gerada por meio de uma requisição à API do Chat GPT, sendo assim, ela pode levar alguns segundos. Recomendamos que avance o vídeo durante esse processo.**
-<br><br>
+<br>
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/f53fae15-ca2a-4c98-b5a5-2fc64db7d0f6
 
@@ -81,7 +81,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-
 | Avaliação (pegou / não pegou erro)	| Sem erros
 
 Evidência (vídeo) - Teste ao responder "Sim" para a pergunta número 3 do questionário.
-<br><br>
+<br>
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/7b8ae294-6c40-42e2-aba0-a9e0d8579bb8
 
@@ -142,14 +142,14 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-
 |01 |O cadastro de novos usuários será finalizado somente após o preenchimento de todos os campos obrigatórios, e a confirmação de que o usuário possui no mínimo 16 anos de idade.|
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar com idade inferior a 16 anos. |
 | Passos 	| 1-	Acessar o navegador <br> 2- Informar o endereço do site. <br> 3-	Acessar login e clicar em cadastro. <br> 4-	Preencher todos os campos, e na data de nascimento selecionar o ano atual, ou outro de sua escolha, onde a idade  seja inferior a 16 anos. <br> 5- Clicar no botao cadastrar.
-| Resultado esperado	|Um alerta aparece na tela, informando que o usuário deve ter 16 anos ou mais para se cadastrar no site..
-|Resultado obtido	|  Uma mensagem aparece na tela, e o usuário nao consegue efeturar o cadastreo sendo menor de 16 anos.
+| Resultado esperado	|O cadastro nao é efetuado, e um alerta aparece na tela, informando que o usuário deve ter 16 anos ou mais.
+|Resultado obtido	|  Uma mensagem aparece na tela, e o usuário nao consegue efeturar o cadastro sendo menor de 16 anos.
 | Avaliação (pegou / não pegou erro)	| Sem erros
 <br><br>
 
 
-Evidência (vídeo): Teste efetuado ao cadastrar uma idade inferior a 16 anos.
-<br><br>
+Evidência (vídeo): Teste efetuado ao cadastrar com uma idade inferior a 16 anos.
+<br>
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/assets/93337008/4e5ee9b1-1f43-4390-a209-babd14ad10b2
 
