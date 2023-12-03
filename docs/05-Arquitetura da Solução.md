@@ -56,21 +56,30 @@ Cada rotina de skincare pertence a apenas um usuário, indicando uma relação d
 
 ## Tecnologias Utilizadas
 
-Backend:  <br>
-ASP.NET MVC para o desenvolvimento do backend. <br>
-Razor View para a criação de vistas e apresentação dinâmica no lado do servidor. <br>
-linguagem de programação: C# <br>
+#### Backend: 
 
-Frontend: <br>
-HTML e CSS para estrutura e estilo da interface do usuário. <br>
-JavaScript para interatividade no lado do cliente. <br>
-Bootstrap - Para a criação de interfaces web responsivas.   <br>
-
-Ferramentas: <br>
-Visual Studio, Git <br>
+Framework: ASP.NET MVC <br>
+View Engine: Razor View <br>
+Linguagem de Programação: C# <br>
 
 
-Banco de dados - MySQL <br>
+#### Frontend:
+
+Estrutura e Estilo: HTML e CSS <br>
+Interatividade: JavaScript <br>
+Framework de Interface: Bootstrap <br>
+
+
+#### Ferramentas:
+
+IDE: Visual Studio <br>
+Controle de Versão: Git <br>
+
+
+#### Banco de Dados:
+
+Sistema de Gerenciamento de Banco de Dados: MySQL <br>
+
 
 ## Hospedagem
 
