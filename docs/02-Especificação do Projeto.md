@@ -48,7 +48,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|ANNE   | Guardar as minhas rotinas de cuidados com a pele         | Para acessá-las a qualquer momento e facilitar a minha rotina.  |
 ANNE        |Cuidados com a pele recomendados para fumantes      | Para tratar os danos decorrentes do consumo de cigarros. |
 Chris        | Sugestões de cuidados eficazes para o melasma  | Para minimizar essas machas e tomar os devidos cuidados no dia a dia. |
 |Jéssica Pereira  | Rotinas de cuidados para a pele com rugas e linhas de expressão       | Para reduzir os primeiros sinais do envelhecimento. |
@@ -70,7 +69,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| O site deve incluir uma página de login.| ALTA | 
 |RF-002| O site deve conter uma área para fazer cadastro de novos usuários a partir de 16 anos.   | ALTA |
-|RF-003| O sistema deve ser capaz de criar rotinas personalizadas utilizando a api do OpenAi  .| ALTA |
+|RF-003| O sistema deve ser capaz de criar rotinas personalizadas utilizando a api do ChatGPT  .| ALTA |
 |RF-004| O sistema deve incluir uma mensagem automática no final do questionário, recomendando que o usuário procure um profissional de saúde, caso identifique que seu problema de pele requer cuidados médicos.| ALTA |
 |RF-005| O sistema deve ajudar o usuário a identificar o seu tipo de pele.|ALTA |
 |RF-006|  A aplicação deve gerar rotinas voltadas para a pele com rugas e linhas de expressão.| MÉDIA |
@@ -92,7 +91,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). |  ALTA | 
 |RNF-004| O sistema deve funcionar 24h por dia, todos os dias da semana. |  MÉDIA | 
 |RNF-005| A aplicação deve implementar protocolos de segurança para proteger os dados pessoais dos usuários. |  ALTA | 
-|RNF-006| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-007| A interface do usuário deve ser intuitiva e de fácil navegação, que permita aos usuários encontrarem facilmente os tópicos de interesse. |  ALTA | 
 
 
