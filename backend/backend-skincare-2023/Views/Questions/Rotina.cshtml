@@ -14,6 +14,9 @@
 <body>
     <hr class="hr" />
 
+     <div id="loadingMessage" style="display: none;">
+                Aguarde, estamos criando a sua rotina...
+      </div>
 
     <div class="container" id="container-cinza">
         <div class="row justify-content-center">
@@ -38,10 +41,16 @@
         </div>
     </div>
 
-    <div>
-    </div>
-    <div>
-    </div>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            if (@ViewBag.ShowLoadingMessage) {
+                $("#loadingMessage").show();
+            } else {
+                $("#loadingMessage").hide();
+            }
+        });
+    </script>
 
 </body>
 </html>
