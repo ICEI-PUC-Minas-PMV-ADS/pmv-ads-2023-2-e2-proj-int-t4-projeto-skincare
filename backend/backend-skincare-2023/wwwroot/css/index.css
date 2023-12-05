@@ -85,9 +85,6 @@ div.col {
 
 
 @media (min-width: 700px) {
-    body {
-        background-color: pink !important;
-    }
 
     #retinol-img {
         width: 100% !important;
