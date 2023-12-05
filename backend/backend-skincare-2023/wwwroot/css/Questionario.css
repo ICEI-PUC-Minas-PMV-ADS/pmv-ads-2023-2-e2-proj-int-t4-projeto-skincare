@@ -2,10 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Define a altura total da viewport */
-    box-sizing: border-box;
-    margin-top: -50px !important;
-    margin-bottom: -30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
    
    
 }

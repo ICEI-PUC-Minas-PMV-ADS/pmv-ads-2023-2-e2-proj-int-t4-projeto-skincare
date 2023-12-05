@@ -109,12 +109,16 @@ namespace backend_skincare_2023.Controllers
 
             try
             {
+                // Mostra msg de espera
+                ViewBag.ShowLoadingMessage = true;
 
                 var bot = new ChatGpt(_apiKey, new ChatGptOptions
                 {
                     Model = "gpt-3.5-turbo",
                     MaxTokens = 1400
-                }); ;
+                });
+
+             
 
                 viewModel.Text = await bot.Ask($"Descreva uma rotina de skincare completa com base nessas respostas: {respostas}");
 
@@ -128,6 +132,9 @@ namespace backend_skincare_2023.Controllers
                 
                 viewModel.ErrorMessage = "Ocorreu um erro ao obter a rotina. Por favor, tente novamente mais tarde.";
             }
+
+            // Ocultar a mensagem de espera em caso de erro
+            ViewBag.ShowLoadingMessage = false;
 
             return View(viewModel);
 
