@@ -22,7 +22,7 @@ Nossa aplicação  utiliza a inteligência artificial da OpenAI para desenvolver
 
 ## Instruções de utilização
 
-
+Link da hospedagem: https://backend-skincare.azurewebsites.net/
 
 # Documentação
 
