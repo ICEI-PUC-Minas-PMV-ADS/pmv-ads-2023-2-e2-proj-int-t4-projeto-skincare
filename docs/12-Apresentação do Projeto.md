@@ -14,3 +14,5 @@ Soft Care
 
 ## Conjunto de Slides (Estrutura)
 
+[slides.pptx](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare/files/13590567/slides.pptx)
+
