@@ -82,7 +82,7 @@ Sistema de Gerenciamento de Banco de Dados: MySQL <br>
 
 
 ## Hospedagem
-
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+A  hospedagem do site foi feita na Microsoft Azure.
+Link de acesso: https://backend-skincare.azurewebsites.net/
 
 
