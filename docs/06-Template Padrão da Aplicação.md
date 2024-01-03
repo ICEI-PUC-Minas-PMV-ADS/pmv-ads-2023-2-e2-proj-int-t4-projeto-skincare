@@ -7,7 +7,7 @@ O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de
 
 <br>
 
-O template criado está disponível no Canva, e é composto pelos seguintes layouts:
+O template criado está disponível no [Figma](https://www.figma.com/file/dGmH0L3NjxdVOVR9PdTH7J/Projeto-SkinCare?type=design&mode=design&t=zwCT7KRvZkEj1TF1-1), e é composto pelos seguintes layouts:
 
 - Cabeçalho- Local onde são dispostos elementos fixos de identidade como o nome do site,  navegação principal (menu da aplicação) e login; 
 - Conteúdo- Apresentará, para cada tela, seu conteúdo personalizado;
