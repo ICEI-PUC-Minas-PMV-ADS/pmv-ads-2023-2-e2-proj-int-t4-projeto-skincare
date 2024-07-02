@@ -1,0 +1,24 @@
+message: Please cite this software using these metadata.
+title:
+authors:
+  - family-names: Nishihara
+    given-names: Alissa
+  - family-names: Bandeira
+    given-names: Fernanda
+  - family-names: Abreu
+    given-names: Maria Teresa
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Marques Pietrobon
+    given-names: CarlosAlberto
+keywords:
+  - Skincare
+  - Pele
+  - Beleza
+  - Rotina de cuidados
+  - Produtos para a pele
+  - Acne
+  - Dicas de beleza
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare
+version: 1.0.0
+date-released: 2023-10-31
