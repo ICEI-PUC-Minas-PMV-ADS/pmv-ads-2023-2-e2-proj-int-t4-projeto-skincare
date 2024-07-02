@@ -1,5 +1,5 @@
 message: Please cite this software using these metadata.
-title:
+title: SoftCare
 authors:
   - family-names: Nishihara
     given-names: Alissa
@@ -21,4 +21,4 @@ keywords:
   - Dicas de beleza
 repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-projeto-skincare
 version: 1.0.0
-date-released: 2023-10-31
+date-released: 2023-12-07
